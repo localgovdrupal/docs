@@ -1,0 +1,20 @@
+{
+  "name": "localgovdrupal-docs",
+  "version": "0.0.1",
+  "description": "Documentation for all of LocalGovDrupal",
+  "main": "index.js",
+  "authors": {
+    "name": "Paul Popus",
+    "email": "paul@agile.coop"
+  },
+  "repository": "https://github.com/localgovdrupal/docs",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-bar": "^0.3.1"
+  }
+}
