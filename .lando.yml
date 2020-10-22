@@ -1,0 +1,23 @@
+# Documentation: https://dev.docs.agile.coop/docs/environment/intro
+
+name: localgovdocs # Insert the project name here in the format [client][project], i.e. ethimain.
+services:
+  node:
+    type: 'node:14'
+    overrides:
+      ports:
+        - '49728:49728'
+tooling:
+  npm:
+    service: node
+  yarn:
+    service: node
+  node:
+    service: node
+  npx:
+    service: node
+  gulp:
+    service: node
+  backstop:
+    service: node
+
