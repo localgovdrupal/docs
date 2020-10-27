@@ -18,5 +18,4 @@ There have been some difficulties with automatically testing that some Gulp comm
 
 ## Extending
 
-You can create your own tests by adding files to the tests folder. The naming convention is generally `name.test.js` but any JS file should work. You can then add your own script in the package.json to run the file using Mocha.
-
+You can create your own tests by adding files to the tests folder. The naming convention is generally `xyz.test.js` but any JS file should work. You can then add your own script in the package.json to run the file using Mocha.

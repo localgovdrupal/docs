@@ -63,7 +63,10 @@ module.exports = {
 
       '/theme/': [
         '',
-        'automated-tests'
+        'styling',
+        'regions',
+        'automated-tests',
+        'admin-theme', // keep at the end
       ],
     }
   },
