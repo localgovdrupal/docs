@@ -1,3 +1,10 @@
+---
+tags:
+  - local development
+  - lando
+  - docker
+---
+
 # Working with Lando
 
 [Lando documentation](https://docs.lando.dev/)
