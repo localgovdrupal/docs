@@ -55,6 +55,7 @@ module.exports = {
       '/getting-started/': [
         '',
         'using-vue',
+        'working-with-lando',
       ],
 
       '/config/': [
