@@ -1,5 +1,13 @@
 # Getting started
 
+## Prerequisites
+
+To run a local development version of LocalGov Drupal following our recommended
+setup, you will need the following.
+
+* Composer: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
+* Lando: https://docs.lando.dev/basics/installation.html
+
 ## Installing LocalGov Drupal
 
 To install LocalGov Drupal use the
