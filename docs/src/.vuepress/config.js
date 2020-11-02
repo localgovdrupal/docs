@@ -65,8 +65,10 @@ module.exports = {
       '/theme/': [
         '',
         'styling',
+        'javascript',
         'regions',
         'automated-tests',
+        'skeleton-theme',
         'admin-theme', // keep at the end
       ],
     }

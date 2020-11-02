@@ -1,6 +1,10 @@
 # Styling
 
-The theme is using SASS with 
+The theme is using SASS with [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/) and is compiled to CSS with Gulp. All source files can be found in `/assets/scss`, each file will be compiled into a file with the same name and folder structure into `/assets/css` that you can then include in your Drupal libraries. Files with names beginning with an underscore `_` will be ignored by the compiler, but they can still be imported into other SASS files.
+
+## Bootstrap
+
+tbd...
 
 ## Utilities
 
