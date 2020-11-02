@@ -4,7 +4,10 @@ We welcome anybody to report issues with any projects in the [LocalGovDrupal](ht
 
 ## Contribution ideas
 
-There's lots of areas of testing you can help out with, some ideas are below:
+There's lots of areas of testing you can help out with, many of which are not
+too technical. Some ideas are below:
+
+* Test the etting started documentation, does it make sense?
 
 * Accessibility testing the admin and frontend themes
 
