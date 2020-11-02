@@ -60,6 +60,7 @@ module.exports = {
       '/getting-started/': [
         '',
         'using-vue',
+        'working-with-lando',
       ],
 
       '/config/': [
@@ -68,7 +69,12 @@ module.exports = {
 
       '/theme/': [
         '',
-        'automated-tests'
+        'styling',
+        'javascript',
+        'regions',
+        'automated-tests',
+        'skeleton-theme',
+        'admin-theme', // keep at the end
       ],
 
       '/contributing/': [
