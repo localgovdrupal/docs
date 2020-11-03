@@ -5,8 +5,8 @@
 To run a local development version of LocalGov Drupal following our recommended
 setup, you will need the following.
 
-* Composer: https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos
-* Lando: https://docs.lando.dev/basics/installation.html
+* Composer: [getcomposer.org](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
+* Lando: [docs.lando.dev](https://docs.lando.dev/basics/installation.html)
 
 ## Installing LocalGov Drupal
 
@@ -55,7 +55,9 @@ COMPOSER_MEMORY_LIMIT=-1 composer create-project --stability dev localgovdrupal/
 
 ## Contributing
 
-tbd...
+We accept contributions from anybody and any level of involvement is greatly appreciated, even things like reporting issues.
+
+You can explore more about how to get involved in the [Contributing](/contributing) section.
 
 ## Issue tracking
 
@@ -72,7 +74,7 @@ The main development environment in use is currently
 [Lando](https://docs.lando.dev/) – a Docker based development environment that
 works on Linux, MacOS and Windows.
 
-tbd lando documentation...
+Jump to [Working with Lando](/getting-started/working-with-lando) for more information.
 
 ## Coding standards
 
