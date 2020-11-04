@@ -34,6 +34,7 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last updated',
+    docsDir: 'docs/src',
     displayAllHeaders: true,
     sidebarDepth: 1,
     smoothScroll: false,
@@ -49,6 +50,10 @@ module.exports = {
       {
         text: 'Theme',
         link: '/theme/'
+      },
+      {
+        text: 'Contributing',
+        link: '/contributing/'
       },
     ],
     sidebar: {
@@ -70,6 +75,14 @@ module.exports = {
         'automated-tests',
         'skeleton-theme',
         'admin-theme', // keep at the end
+      ],
+
+      '/contributing/': [
+        '',
+        'development',
+        'design',
+        'research',
+        'testing',
       ],
     }
   },
