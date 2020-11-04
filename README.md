@@ -1,6 +1,6 @@
 # LocalGovDrupal Docs
 
-The repository for the documentation sitting at https://trusting-noyce-aebebc.netlify.app/
+The repository for the documentation sitting at https://localgovdrupal.org/
 
 ## Local development
 
