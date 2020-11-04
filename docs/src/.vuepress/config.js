@@ -50,6 +50,10 @@ module.exports = {
         text: 'Theme',
         link: '/theme/'
       },
+      {
+        text: 'Blog',
+        link: '/blog/'
+      },
     ],
     sidebar: {
       '/getting-started/': [
@@ -81,6 +85,5 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     '@vuepress/plugin-nprogress',
-    '@vuepress/blog',
   ]
 }
