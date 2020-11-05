@@ -1,6 +1,123 @@
 # Content types
 
-## Test
+A full list of content types.
+
+Contents:
+
+[[toc]]
+
+## Service landing page
+
+Name:  
+`Service landing page`  
+
+Machine name:  
+`localgov_services_landing`
+
+Description:  
+`Top level section page for each service.`
+
+::: details Menu settings
+Available menus: 
+
+* `Main navigation`
+
+Default menu: `<main>`
+:::
+
+::: details Simple XML Sitemap
+Included: `true`
+
+Priority: `0.5`
+
+Change frequency: `Not specified`
+
+Include images: `No`
+:::
 
 
-## Test 2
+### Fields
+
+| Field name  | Machine name  | Field type              |
+| ----------- |:-------------:| -----------------------:|
+| Address     | field_address | Text (formatted, long)  |
+| Body | body | Text (formatted, long, with summary) |
+|Child pages | field_destinations | Entity reference |
+| Contact us online URL | field_contact_us_online | Text (plain) |
+| Email address | field_email_address | Text (plain) |
+| Facebook | field_facebook | Text (plain) |
+| First line of address | field_address_first_line | Text (plain) |
+| Hearing or speech difficulties phone number | field_hearing_difficulties_phone | Text (plain) |
+| Link to map | field_link_to_map | Link |
+| Opening hours | field_opening_hours | Text (formatted, long) |
+| Other team contacts URL | field_other_team_contacts | Text (plain) |
+| Phone | field_phone | Text (plain) |
+| Popular topics | field_popular_topics | Entity reference |
+| Task buttons | field_common_tasks | Link |
+| Twitter | field_twitter | Text (plain) |
+
+## Service page
+
+Name:  
+`Service landing page`  
+
+Machine name:  
+`localgov_services_landing`
+
+Description:  
+`Basic page that can be placed in a service and on a service sub landing page.`
+
+::: details Menu settings
+Available menus: 
+
+* `Main navigation`
+
+Default menu: `<main>`
+:::
+
+::: details Simple XML Sitemap
+Included: `true`
+
+Priority: `0.5`
+
+Change frequency: `Not specified`
+
+Include images: `No`
+:::
+
+### Fields
+
+tbd
+
+## Service sub-landing page
+
+Name:  
+`Service landing page`  
+
+Machine name:  
+`localgov_services_landing`
+
+Description:  
+`Pages for detail and links to specific pages within a service.`
+
+::: details Menu settings
+Available menus: 
+
+* `Main navigation`
+
+Default menu: `<main>`
+:::
+
+::: details Simple XML Sitemap
+Included: `true`
+
+Priority: `0.5`
+
+Change frequency: `Not specified`
+
+Include images: `No`
+:::
+
+### Fields
+
+tbd
