@@ -34,6 +34,7 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last updated',
+    docsDir: 'docs/src',
     displayAllHeaders: true,
     sidebarDepth: 1,
     smoothScroll: false,
@@ -51,9 +52,13 @@ module.exports = {
         link: '/theme/'
       },
       {
+        text: 'Contributing',
+        link: '/contributing/'
+      },
+      {
         text: 'Blog',
         link: '/blog/'
-      },
+      }
     ],
     sidebar: {
       '/getting-started/': [
@@ -74,6 +79,14 @@ module.exports = {
         'automated-tests',
         'skeleton-theme',
         'admin-theme', // keep at the end
+      ],
+
+      '/contributing/': [
+        '',
+        'development',
+        'design',
+        'research',
+        'testing',
       ],
     }
   },
