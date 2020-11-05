@@ -65,6 +65,11 @@ module.exports = {
 
       '/config/': [
         '',
+        'content-types',
+        'paragraph-types',
+        'taxonomies',
+        'modules',
+        'user-roles',
       ],
 
       '/theme/': [
