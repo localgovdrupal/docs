@@ -35,8 +35,7 @@ Change frequency: `Not specified`
 Include images: `No`
 :::
 
-
-### Fields
+::: details Fields
 
 | Field name  | Machine name  | Field type              |
 | ----------- |:-------------:| -----------------------:|
@@ -56,13 +55,15 @@ Include images: `No`
 | Task buttons | field_common_tasks | Link |
 | Twitter | field_twitter | Text (plain) |
 
+:::
+
 ## Service page
 
 Name:  
-`Service landing page`  
+`Service page`  
 
 Machine name:  
-`localgov_services_landing`
+`localgov_services_page`
 
 Description:  
 `Basic page that can be placed in a service and on a service sub landing page.`
@@ -85,17 +86,29 @@ Change frequency: `Not specified`
 Include images: `No`
 :::
 
-### Fields
+::: details Fields
 
-tbd
+| Field name  | Machine name  | Field type              |
+| ----------- |:-------------:| -----------------------:|
+|Body	|body	|Text (formatted, long, with summary)|
+|Download links |	field_download_links | Link|
+|Hide the related topics panel | field_hide_related_topics | Boolean	|
+|Page components | field_page_components | Entity reference|
+|Parent | localgov_services_parent | Entity reference|
+|Related links | field_related_links | Link|
+|Replace automatically generated links | field_override_related_links |	Boolean|
+|Task buttons |field_common_tasks | Link|
+|Topic terms | localgov_topic_classified |Entity reference|
+
+:::
 
 ## Service sub-landing page
 
 Name:  
-`Service landing page`  
+`Service sub-landing page`  
 
 Machine name:  
-`localgov_services_landing`
+`localgov_services_sublanding`
 
 Description:  
 `Pages for detail and links to specific pages within a service.`
@@ -118,6 +131,12 @@ Change frequency: `Not specified`
 Include images: `No`
 :::
 
-### Fields
+::: details Fields
 
-tbd
+| Field name  | Machine name  | Field type              |
+| ----------- |:-------------:| -----------------------:|
+|Body |	body | Text (formatted, long, with summary)|
+|Child pages |	field_topics | Entity reference revisions|
+|Services: Parent |	localgov_services_parent | Entity reference|
+
+:::

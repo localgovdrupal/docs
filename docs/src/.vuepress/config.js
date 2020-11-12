@@ -67,8 +67,10 @@ module.exports = {
         '',
         'content-types',
         'paragraph-types',
+        'media-types',
         'taxonomies',
         'modules',
+        'image-styles',
         'user-roles',
       ],
 
