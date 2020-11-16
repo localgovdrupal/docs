@@ -55,6 +55,10 @@ module.exports = {
         text: 'Contributing',
         link: '/contributing/'
       },
+      {
+        text: 'Blog',
+        link: '/blog/'
+      }
     ],
     sidebar: {
       '/getting-started/': [
