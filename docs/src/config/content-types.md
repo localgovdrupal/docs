@@ -90,13 +90,13 @@ Include images: `No`
 
 | Field name  | Machine name  | Field type              |
 | ----------- |:-------------:| -----------------------:|
-|Body	|body	|Text (formatted, long, with summary)|
-|Download links |	field_download_links | Link|
-|Hide the related topics panel | field_hide_related_topics | Boolean	|
+|Body |body |Text (formatted, long, with summary)|
+|Download links | field_download_links | Link|
+|Hide the related topics panel | field_hide_related_topics | Boolean |
 |Page components | field_page_components | Entity reference|
 |Parent | localgov_services_parent | Entity reference|
 |Related links | field_related_links | Link|
-|Replace automatically generated links | field_override_related_links |	Boolean|
+|Replace automatically generated links | field_override_related_links | Boolean|
 |Task buttons |field_common_tasks | Link|
 |Topic terms | localgov_topic_classified |Entity reference|
 
@@ -135,8 +135,8 @@ Include images: `No`
 
 | Field name  | Machine name  | Field type              |
 | ----------- |:-------------:| -----------------------:|
-|Body |	body | Text (formatted, long, with summary)|
-|Child pages |	field_topics | Entity reference revisions|
-|Services: Parent |	localgov_services_parent | Entity reference|
+|Body | body | Text (formatted, long, with summary)|
+|Child pages | field_topics | Entity reference revisions|
+|Services: Parent | localgov_services_parent | Entity reference|
 
 :::
