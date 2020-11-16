@@ -35,7 +35,7 @@ module.exports = {
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last updated',
     docsDir: 'docs/src',
-    displayAllHeaders: true,
+    displayAllHeaders: false,
     sidebarDepth: 1,
     smoothScroll: false,
     nav: [
@@ -59,12 +59,18 @@ module.exports = {
     sidebar: {
       '/getting-started/': [
         '',
-        'using-vue',
         'working-with-lando',
       ],
 
       '/config/': [
         '',
+        'content-types',
+        'paragraph-types',
+        'media-types',
+        'taxonomies',
+        'custom-modules',
+        'image-styles',
+        'user-roles',
       ],
 
       '/theme/': [
