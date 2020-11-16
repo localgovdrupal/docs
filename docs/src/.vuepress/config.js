@@ -59,7 +59,6 @@ module.exports = {
     sidebar: {
       '/getting-started/': [
         '',
-        'using-vue',
         'working-with-lando',
       ],
 
@@ -69,7 +68,7 @@ module.exports = {
         'paragraph-types',
         'media-types',
         'taxonomies',
-        'modules',
+        'custom-modules',
         'image-styles',
         'user-roles',
       ],

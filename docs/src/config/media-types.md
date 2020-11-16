@@ -103,7 +103,6 @@ Thumbnails location:
 Allowed providers:  
 
 - YouTube
-
 - Vimeo
 
 :::
