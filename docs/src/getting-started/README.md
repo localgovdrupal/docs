@@ -15,7 +15,7 @@ To install LocalGov Drupal use the
 Change `MY_PROJECT` to whatever you'd like your folder to be called.
 
 ```bash
-composer create-project --stability dev localgovdrupal/localgov-project MY_PROJECT
+composer create-project --stability dev localgovdrupal/localgov-project MY_PROJECT --remove-vcs 
 ```
 
 **Note**: If developing locally and you want to force composer to clone again
@@ -55,7 +55,7 @@ COMPOSER_MEMORY_LIMIT=-1 composer create-project --stability dev localgovdrupal/
 
 ## Contributing
 
-We accept contributions from anybody and any level of involvement is greatly appreciated, even things like reporting issues.
+We accept contributions from anybody and any level of involvement is greatly appreciated, even small things like reporting issues.
 
 You can explore more about how to get involved in the [Contributing](/contributing) section.
 
