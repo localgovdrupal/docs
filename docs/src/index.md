@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: logo.png
+heroImage: localgov_drupal_alpha_patch.png
 tagline: Helping UK councils publish better content with Drupal.
 actionText: Quick Start →
 actionLink: /getting-started/
