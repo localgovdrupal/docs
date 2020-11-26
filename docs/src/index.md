@@ -1,15 +1,15 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: Documentation for all of LocalGovDrupal
+heroImage: logo.png
+tagline: Helping UK councils publish better content with Drupal.
 actionText: Quick Start →
 actionLink: /getting-started/
 features:
-- title: Open source?
-  details: Maybe
-- title: Get involved!
-  details: We're very excited for people to contribute.
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Stop...
+  details: ... re-inventing wheels.
+- title: Collaborate
+  details: ...with other councils.
+- title: Listen
+  details: ... and learn from each other.
 footer: Some footer text
 ---
