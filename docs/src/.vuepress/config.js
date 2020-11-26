@@ -29,11 +29,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: 'https://github.com/localgovdrupal/docs',
+    repo: 'https://github.com/localgovdrupal/localgov',
     docsDir: '',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last updated',
+    docsRepo: 'https://github.com/localgovdrupal/docs',
     docsDir: 'docs/src',
     displayAllHeaders: false,
     sidebarDepth: 1,

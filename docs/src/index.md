@@ -7,9 +7,20 @@ actionLink: /getting-started/
 features:
 - title: Stop...
   details: ... re-inventing wheels.
-- title: Collaborate
+- title: Collaborate...
   details: ...with other councils.
-- title: Listen
+- title: Listen...
   details: ... and learn from each other.
-footer: Some footer text
+footer: 'LocalGov Drupal is an open source project.'
 ---
+
+LocalGov Drupal is an open source collaboration between UK councils and Drupal developers.
+
+Our aim is to provide a better publishing platform built on Drupal to save time,
+save money and to generate mutual benefit from pooling our knowledge and resources.
+
+Please join us on GitHub: [https://github.com/localgovdrupal/](https://github.com/localgovdrupal/)
+
+Follow us on Twitter: https://twitter.com/localgovdrupal
+
+Follow us on YouTube: https://www.youtube.com/channel/UCgOTBrkZvJwCuODRpHxZIIA
