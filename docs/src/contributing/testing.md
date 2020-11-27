@@ -6,7 +6,7 @@ There are a number of project repositories in the [LocalGovDrupal](https://githu
 
 If your issue is clearly with a specific project, feel free to create a new issue in the relevant issue queue. 
 
-If in doubt, please feel free to create a new issue on the main [LocalGov Drupal install profile repository] (https://github.com/localgovdrupal/localgov/issues) 
+If in doubt, please feel free to create a new issue on the main [LocalGov Drupal install profile repository](https://github.com/localgovdrupal/localgov/issues) 
 
 ## Manual testing 
 
