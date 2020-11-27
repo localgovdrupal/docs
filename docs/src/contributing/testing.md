@@ -1,13 +1,31 @@
 # Testing
 
-We welcome anybody to report issues with any projects in the [LocalGovDrupal](https://github.com/localgovdrupal) space, each repository might have its own rules for submitting issues.
+If you have some time, please do test any aspect of LocalGov Drupal and feedback any problems,  questions or suggestions via the issue queues on Github. 
 
-## Contribution ideas
+There are a number of project repositories in the [LocalGovDrupal](https://github.com/localgovdrupal) organisation.
 
-There's lots of areas of testing you can help out with, many of which are not
-too technical. Some ideas are below:
+If your issue is clearly with a specific project, feel free to create a new issue in the relevant issue queue. 
 
-* Test the written documentation
+If in doubt, please feel free to create a new issue on the main [LocalGov Drupal install profile repository] (https://github.com/localgovdrupal/localgov/issues) 
+
+## Manual testing 
+
+Both manual testing and automated testing have a part to play. If you can install LocalGov Drupal locally and test any aspect of the project, that will generate valuable contributions. 
+
+## Automated testing
+
+We aim to have at least partial automated test coverage for all features in LocalGov Drupal. 
+You can run individual tests locally and help to increase test coverage by improving existing tests or
+writing new tests. 
+
+A guide to running, writing and debugging tests will follow.
+
+## Ideas for areas to test
+
+There are many areas of testing you can help out with, some of which are not
+necessarily too technical. Some ideas are below:
+
+* Testing the written documentation
 
 * Accessibility testing the admin and frontend themes
 
@@ -21,4 +39,4 @@ too technical. Some ideas are below:
 
 * Performance and compatibility testing
 
-Watch this space!
+If you have any other ideas, please dive in! 
