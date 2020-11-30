@@ -57,6 +57,10 @@ module.exports = {
         link: '/contributing/'
       },
       {
+        text: 'Accessibility',
+        link: '/accessibility/'
+      },
+      {
         text: 'Blog',
         link: '/blog/'
       }
@@ -94,6 +98,13 @@ module.exports = {
         'design',
         'research',
         'testing',
+      ],
+
+      '/accessibility/': [
+        '',
+        'tools',
+        'testing',
+        'tests',
       ],
     }
   },
