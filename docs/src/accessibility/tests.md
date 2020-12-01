@@ -11,7 +11,7 @@ Test annotations:
 | Test | Success criteria | Level | Method |
 |--|:-:|:-:|--|
 | Resize text [M] | [1.4.4](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html) | AA | Zoom to 200%. Confirm no loss of information or functionality |
-| Reflow [M] | [1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) | AA | Confirm no loss of information or functionality, and without scrolling in two dimensions at 320px height equivalent, 256px width equivalent.<br><br>For desktop testing, simulate this with Responsive Design Mode in Mozilla or Device Viewport Mode in Chromium browsers. |
+| Reflow [M] | [1.4.10](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) | AA | Confirm no loss of information or functionality, and without scrolling in two dimensions at 320px width equivalent (assuming vertical scrolling content).<br><br>For desktop testing, simulate this with Responsive Design Mode in Mozilla or Device Viewport Mode in Chromium browsers. |
 | Text spacing [M] | [1.4.12](https://www.w3.org/WAI/WCAG21/Understanding/text-spacing.html) | AA | Increase:<ul><li>line-height to 1.5x font size</li><li>Letter spacing to 0.12x font size</li><li>Word spacing to 0.16x font size</li></ul>Confirm no loss of content or functionality.<br><br>Embed the following CSS snippet for a proximate test:<br><br>`* {line-height: 1.5em !important; letter-spacing: 0.12em !important; word-spacing: 0.16em !important;}`|
 
 
