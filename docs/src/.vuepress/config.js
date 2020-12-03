@@ -57,6 +57,10 @@ module.exports = {
         link: '/contributing/'
       },
       {
+        text: 'Testing',
+        link: '/testing/'
+      },
+      {
         text: 'Blog',
         link: '/blog/'
       }
