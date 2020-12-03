@@ -57,13 +57,13 @@ module.exports = {
         link: '/contributing/'
       },
       {
+        text: 'Accessibility',
+        link: '/accessibility/'
+      },
+      {
         text: 'Testing',
         link: '/testing/'
       },
-      {
-        text: 'Blog',
-        link: '/blog/'
-      }
     ],
     sidebar: {
       '/getting-started/': [
@@ -98,6 +98,13 @@ module.exports = {
         'design',
         'research',
         'testing',
+      ],
+
+      '/accessibility/': [
+        '',
+        'tools',
+        'testing',
+        'tests',
       ],
     }
   },
