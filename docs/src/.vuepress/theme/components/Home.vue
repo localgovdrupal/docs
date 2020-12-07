@@ -129,6 +129,30 @@ export default {
 </script>
 
 <style lang="stylus">
+@keyframes fadein-left {
+  from {
+    transform translate3d(10px, 0, 0)
+    opacity 0
+  }
+
+  to {
+    transform translate3d(0, 0, 0)
+    opacity 1
+  }
+}
+
+@keyframes fadein-top {
+  from {
+    transform translate3d(0, 10px, 0)
+    opacity 0
+  }
+
+  to {
+    transform translate3d(0, 0, 0)
+    opacity 1
+  }
+}
+
 .home
   margin 0px auto
   display block
@@ -148,6 +172,14 @@ export default {
       overflow hidden
       .hero-image
         margin-right 18px
+        opacity 0
+        animation fadein-left 0.4s ease
+        animation-delay 0s
+        animation-fill-mode forwards
+        &:nth-of-type(2)
+          animation-delay 0.1s
+        &:nth-of-type(3)
+          animation-delay 0.2s
         img
           width: 250px
           height: 250px
@@ -170,6 +202,11 @@ export default {
         height: 250px
         position relative
         box-sizing border-box
+        opacity 0
+        animation fadein-left 0.4s ease
+        animation-delay 0s
+        animation-fill-mode forwards
+        animation-delay 0.3s
         &::after
           content ''
           width 100%
@@ -185,6 +222,11 @@ export default {
       font-size 3.125rem
       line-height 1.3
       font-weight 700
+      opacity 0
+      animation fadein-top 0.4s ease
+      animation-delay 0s
+      animation-fill-mode forwards
+      animation-delay 0.3s
     .action-button
       display inline-block
       font-size 2rem
@@ -195,6 +237,11 @@ export default {
       transition background-color .1s ease
       box-sizing border-box
       border 4px solid white
+      opacity 0
+      animation fadein-top 0.4s ease
+      animation-delay 0s
+      animation-fill-mode forwards
+      animation-delay 0.35s
   .features
     max-width 820px
     margin 0 auto
@@ -207,6 +254,15 @@ export default {
     font-weight 700
   .feature
     margin-bottom 16px
+    opacity 0
+    animation fadein-top 0.4s ease
+    animation-delay 0s
+    animation-fill-mode forwards
+    animation-delay 0.2s
+    &:nth-of-type(2)
+      animation-delay 0.25s
+    &:nth-of-type(3)
+      animation-delay 0.3s
     .end
       color: #0762B5
   .social-block
