@@ -204,10 +204,8 @@ $light-blue = #0762B5
         .text
           max-width 160px
       .hero-image-placeholder
-        border 2px dashed white
-        border-radius 100%
-        min-width: 200px
-        max-width: 200px
+        min-width: 100px
+        max-width: 100px
         height: 200px
         position relative
         box-sizing border-box
@@ -216,11 +214,20 @@ $light-blue = #0762B5
         animation-delay 0s
         animation-fill-mode forwards
         animation-delay 0.3s
+        overflow hidden
         scroll-snap-align none
-        margin-right -100px
+        &::before
+          content ''
+          width calc(200% + 8px)
+          height calc(100% + 4px)
+          position absolute
+          top -2px
+          left 0
+          border 2px dashed white
+          border-radius 100%
         &::after
           content ''
-          width calc(100% + 8px)
+          width calc(80% + 8px)
           height calc(100% + 4px)
           position absolute
           top -2px
@@ -360,6 +367,7 @@ $light-blue = #0762B5
       padding-right 0px
       .hero-images
         overflow-x hidden
+        scroll-snap-type none
         .hero-image
           margin-right 18px
           img
@@ -374,8 +382,20 @@ $light-blue = #0762B5
           min-width: 250px
           max-width: 250px
           height: 250px
-          &::after
+          &::before
+            content ''
+            width calc(100% + 8px)
+            height calc(100% + 4px)
+            position absolute
             top -2px
+            left 0
+            border 2px dashed white
+            border-radius 100%
+          &::after
+            width calc(100% + 8px)
+            height calc(100% + 4px)
+            top -2px
+            right -2px
     .description
       padding-left 0
       padding-right 0
