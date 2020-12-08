@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'LocalGov Drupal Docs',
+  title: 'LocalGovDrupal Docs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -29,6 +29,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: '/logo.svg',
     repo: 'https://github.com/localgovdrupal/localgov',
     docsDir: '',
     editLinks: true,
