@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'LocalGovDrupal Docs',
+  title: 'LocalGov Drupal Docs',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */

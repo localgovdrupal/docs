@@ -7,7 +7,7 @@
       :to="$localePath"
       class="home-link"
     >
-      <span class="brand">LocalGovDrupal</span>
+      <span class="brand">LocalGov Drupal</span>
       <span class="site">docs</span>
     </RouterLink>
 
