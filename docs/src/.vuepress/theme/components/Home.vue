@@ -288,7 +288,7 @@ $light-blue = #0762B5
     margin-bottom 3rem
     display flex
     flex-direction column
-    align-items center
+    align-items flex-start
     font-size 2rem
     font-weight 700
     letter-spacing -0.03em
@@ -408,6 +408,7 @@ $light-blue = #0762B5
       font-size 2.875rem
       padding-left 0
       padding-right 0
+      align-items center
     .theme-content
       padding-left 0
       padding-right 0
