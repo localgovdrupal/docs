@@ -167,15 +167,24 @@ $light-blue = #0762B5
     padding-top 130px
     padding-bottom 80px
   .hero
-    text-align center
+    padding-left 24px
+    padding-right 24px
+    text-align left
     .hero-images
       display flex
       font-size 18px
       max-width 960px
       margin 0 auto
       overflow hidden
+      //flex-wrap wrap
+      //display grid
+      //grid-template-columns 1fr 1fr
+      overflow-x auto
+      scroll-snap-type x mandatory
       .hero-image
-        margin-right 18px
+        //margin-right 18px
+        //margin-bottom 18px
+        scroll-snap-align center
         opacity 0
         animation fadein-left 0.4s ease
         animation-delay 0s
@@ -185,25 +194,25 @@ $light-blue = #0762B5
         &:nth-of-type(3)
           animation-delay 0.2s
         img
-          width: 250px
-          height: 250px
+          width: 200px
+          height: 200px
       .hero-image-empty
         display flex
         align-items center
         justify-content center
         border 2px dashed white
         border-radius 100%
-        width: 250px
-        height: 250px
+        width: 200px
+        height: 200px
         text-align center
         .text
-          max-width 180px
+          max-width 160px
       .hero-image-placeholder
         border 2px dashed white
         border-radius 100%
-        min-width: 250px
-        max-width: 250px
-        height: 250px
+        min-width: 200px
+        max-width: 200px
+        height: 200px
         position relative
         box-sizing border-box
         opacity 0
@@ -213,11 +222,11 @@ $light-blue = #0762B5
         animation-delay 0.3s
         &::after
           content ''
-          width 100%
+          width calc(100% + 8px)
           height calc(100% + 4px)
           position absolute
           top -2px
-          left 0
+          right -2px
           background linear-gradient(to right, transparent, $dark-blue 48%)
     h1, .description, .action
       margin 1.8rem auto
@@ -334,7 +343,31 @@ $light-blue = #0762B5
     padding 2.5rem
     text-align center
     font-weight 700
-//@media (max-width: $MQMobile)
+@media (min-width: $MQMobile)
+  .home
+    .hero
+      text-align center
+      padding-left 0px
+      padding-right 0px
+      .hero-images
+        //display flex
+        flex-wrap nowrap
+        .hero-image
+          margin-right 18px
+          img
+            width: 250px
+            height: 250px
+        .hero-image-empty
+          width: 250px
+          height: 250px
+          .text
+            max-width 180px
+        .hero-image-placeholder
+          min-width: 250px
+          max-width: 250px
+          height: 250px
+          &::after
+            top -2px
 
 //@media (max-width: $MQMobileNarrow)
 </style>
