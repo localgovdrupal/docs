@@ -301,10 +301,20 @@ export default {
       font-weight 700
       color black
       text-align center
+      opacity 0
+      animation fadein-top 0.4s ease
+      animation-delay 0s
+      animation-fill-mode forwards
+      animation-delay 0.2s
+      &:nth-of-type(2)
+        animation-delay 0.25s
+      &:nth-of-type(3)
+        animation-delay 0.3s
       &:hover
         color #0762B5
       svg
         margin-bottom 20px
+        width 100px
   .theme-content
     max-width 820px
     margin 0 auto
