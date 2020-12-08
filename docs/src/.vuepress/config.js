@@ -26,6 +26,7 @@ module.exports = {
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicons/favicon-16x16.png"}],
     ['link', { rel: "manifest", href: "/favicons/site.webmanifest"}],
     ['link', { rel: "shortcut icon", href: "/favicons/favicon.ico"}],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
   ],
 
   /**

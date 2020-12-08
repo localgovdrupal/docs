@@ -350,8 +350,7 @@ $light-blue = #0762B5
       padding-left 0px
       padding-right 0px
       .hero-images
-        //display flex
-        flex-wrap nowrap
+        overflow-x hidden
         .hero-image
           margin-right 18px
           img
