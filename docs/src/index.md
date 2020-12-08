@@ -1,26 +1,30 @@
 ---
 home: true
-heroImage: /localgov_drupal_alpha_patch.png
+heroImages:
+- image: /drupalgov-mission-discovery_400x400.png
+  altText: LocalGovDrupal Discovery Phase logo
+- image: /drupalgov-mission-alpha-v2_400x400.png
+  altText: LocalGovDrupal Alpha Phase logo
+- altText: Beta phase starts early 2021
 tagline: Helping UK councils publish better content with Drupal.
 actionText: Quick Start →
 actionLink: /getting-started/
 features:
-- title: Stop...
-  details: ... re-inventing wheels.
-- title: Collaborate...
-  details: ...with other councils.
-- title: Listen...
-  details: ... and learn from each other.
+- start: Stop
+  end: re-inventing wheels
+- start: Collaborate
+  end: with other councils
+- start: Listen
+  end: and learn from each other
+githubLink: https://github.com/localgovdrupal/
+githubText: Join us on GitHub
+twitterLink: https://twitter.com/localgovdrupal
+twitterText: Follow us on Twitter
+youtubeLink: https://www.youtube.com/channel/UCgOTBrkZvJwCuODRpHxZIIA
+youtubeText: Follow us on YouTube
 footer: 'LocalGov Drupal is an open source project. GPL-2.0'
 ---
 
 LocalGov Drupal is an open source collaboration between UK councils and Drupal developers.
 
-Our aim is to provide a better publishing platform built on Drupal to save time,
-save money and to generate mutual benefit from pooling our knowledge and resources.
-
-* Join us on GitHub: [https://github.com/localgovdrupal/](https://github.com/localgovdrupal/)
-
-* Follow us on Twitter: [https://twitter.com/localgovdrupal](https://twitter.com/localgovdrupal)
-
-* Follow us on YouTube: [https://www.youtube.com/channel/UCgOTBrkZvJwCuODRpHxZIIA](https://www.youtube.com/channel/UCgOTBrkZvJwCuODRpHxZIIA)
+Our aim is to provide a better publishing platform built on Drupal to save time, save money and to generate mutual benefit from pooling our knowledge and resources.

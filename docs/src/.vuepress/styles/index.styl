@@ -4,33 +4,169 @@
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
 
+/* Inter Font family */
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/inter-font/Inter-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+*
+  box-sizing border-box
+
+body
+  font-family 'Inter', sans-serif
+  letter-spacing -0.02em
+
 .home .hero img
   max-width 450px!important
 
 .sidebar-heading
-  text-transform: capitalize
+  text-transform capitalize
 
 .published
-  opacity: 0.8
-  margin-bottom: 24px
+  opacity 0.8
+  margin-bottom 24px
 
 .blog-card
-  margin-bottom: 80px
+  margin-bottom 80px
 
 .custom-block.details
-  background-color: white
-  border: 2px solid #a5b0ca
-  padding: 1em 1.6em
+  background-color white
+  border 2px solid #a5b0ca
+  padding 1em 1.6em
 
   &:hover, &[open]
-    border-color: #415074
+    border-color #415074
 
   summary
     padding: 0.6em 0
 
 .custom-block.details summary
   &:focus
-    outline: auto
+    outline auto
 
 .theme-default-content code
-  background-color: #f7f7f7
+  background-color #f7f7f7
+
+body .navbar
+  .home-link
+    font-size 20px
+    position relative
+    white-space nowrap
+    .brand
+      font-weight 700
+    .site
+      font-weight 400
+  .nav-link
+    font-size 16px
+    font-weight bold
+  .repo-link
+    font-size 16px
+    font-weight bold
+  .links
+      padding-left 0
+
+@media (min-width: 780px)
+  body .navbar
+    .home-link
+      font-size 28px
+    .nav-link
+      font-size 16px
+      font-weight bold
+    .repo-link
+      font-size 16px
+      font-weight bold
+    .links
+      padding-left 1.5rem
