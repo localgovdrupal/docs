@@ -247,6 +247,8 @@ $light-blue = #0762B5
       animation-delay 0.3s
       margin-top 2.4rem
       margin-bottom 2.4rem
+    .action
+      margin-bottom 0
     .action-button
       display inline-block
       box-sizing border-box
@@ -288,12 +290,13 @@ $light-blue = #0762B5
     margin-bottom 3rem
     display flex
     flex-direction column
-    align-items flex-start
+    align-items center
     font-size 2rem
     font-weight 700
     letter-spacing -0.03em
     padding-left 20px
     padding-right 20px
+    text-align center
   .feature
     margin-bottom 16px
     opacity 0
@@ -356,7 +359,7 @@ $light-blue = #0762B5
     padding-right 20px
     text-align left
     font-weight 700
-@media (min-width: $MQMobile)
+@media (min-width: 780px)
   .home
     header
       padding-top 130px
@@ -429,6 +432,4 @@ $light-blue = #0762B5
           width 100px
     .footer
       text-align center
-
-//@media (max-width: $MQMobileNarrow)
 </style>

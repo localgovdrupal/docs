@@ -60,7 +60,7 @@ export default {
   },
 
   mounted () {
-    const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
+    const MOBILE_DESKTOP_BREAKPOINT = 1220 // refer to config.styl
     const NAVBAR_VERTICAL_PADDING = parseInt(css(this.$el, 'paddingLeft')) + parseInt(css(this.$el, 'paddingRight'))
     const handleLinksWrapWidth = () => {
       if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
