@@ -8,7 +8,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'LocalGov Drupal is an open source collaboration between UK councils and Drupal developers.',
 
   port: 49728,
 
@@ -29,7 +29,6 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    logo: '/logo.svg',
     repo: 'https://github.com/localgovdrupal/localgov',
     docsDir: '',
     editLinks: true,

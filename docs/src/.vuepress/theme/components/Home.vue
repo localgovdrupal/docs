@@ -160,7 +160,7 @@ export default {
   header
     background #1E1D6B
     color white
-    padding-top (98px + $navbarHeight)
+    padding-top 130px
     padding-bottom 80px
   .hero
     text-align center
@@ -229,6 +229,7 @@ export default {
       animation-delay 0.3s
     .action-button
       display inline-block
+      box-sizing border-box
       font-size 2rem
       font-weight: 700
       color #fff
@@ -242,6 +243,25 @@ export default {
       animation-delay 0s
       animation-fill-mode forwards
       animation-delay 0.35s
+      position relative
+      overflow hidden
+      &::before
+        content ''
+        width 100%
+        height calc(100% + 4px)
+        position absolute
+        top -4px
+        left 0
+        background #0762B5
+        z-index -1
+        transform translate3d(-100%, 0, 0)
+        transition 0.4s
+        transition-timing-function ease
+      &:hover
+        &::before
+          transform translate3d(0, 0, 0)
+          transition 0.12s
+          transition-timing-function ease-in
   .features
     max-width 820px
     margin 0 auto
@@ -252,6 +272,7 @@ export default {
     align-items center
     font-size 2.875rem
     font-weight 700
+    letter-spacing -0.03em
   .feature
     margin-bottom 16px
     opacity 0
@@ -290,6 +311,11 @@ export default {
     font-size 24px
     font-weight 500
     text-align center
+    opacity 0
+    animation fadein-top 0.4s ease
+    animation-delay 0s
+    animation-fill-mode forwards
+    animation-delay 0.25s
   .footer
     padding 2.5rem
     text-align center
