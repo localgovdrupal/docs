@@ -164,8 +164,8 @@ $light-blue = #0762B5
   header
     background $dark-blue
     color white
-    padding-top 130px
-    padding-bottom 80px
+    padding-top 100px
+    padding-bottom 50px
   .hero
     padding-left 24px
     padding-right 24px
@@ -176,14 +176,10 @@ $light-blue = #0762B5
       max-width 960px
       margin 0 auto
       overflow hidden
-      //flex-wrap wrap
-      //display grid
-      //grid-template-columns 1fr 1fr
       overflow-x auto
       scroll-snap-type x mandatory
       .hero-image
-        //margin-right 18px
-        //margin-bottom 18px
+        margin-right 18px
         scroll-snap-align center
         opacity 0
         animation fadein-left 0.4s ease
@@ -220,6 +216,8 @@ $light-blue = #0762B5
         animation-delay 0s
         animation-fill-mode forwards
         animation-delay 0.3s
+        scroll-snap-align none
+        margin-right -100px
         &::after
           content ''
           width calc(100% + 8px)
@@ -232,7 +230,7 @@ $light-blue = #0762B5
       margin 1.8rem auto
     .description
       max-width 960px
-      font-size 3.125rem
+      font-size 2.6rem
       line-height 1.3
       font-weight 700
       opacity 0
@@ -240,15 +238,16 @@ $light-blue = #0762B5
       animation-delay 0s
       animation-fill-mode forwards
       animation-delay 0.3s
+      margin-top 2.4rem
+      margin-bottom 2.4rem
     .action-button
       display inline-block
       box-sizing border-box
-      font-size 2rem
+      font-size 1.6rem
       font-weight: 700
       color #fff
-      background-color none
+      background none
       padding 1.2rem 2rem
-      transition background-color .1s ease
       box-sizing border-box
       border 4px solid white
       opacity 0
@@ -283,9 +282,11 @@ $light-blue = #0762B5
     display flex
     flex-direction column
     align-items center
-    font-size 2.875rem
+    font-size 2rem
     font-weight 700
     letter-spacing -0.03em
+    padding-left 20px
+    padding-right 20px
   .feature
     margin-bottom 16px
     opacity 0
@@ -301,15 +302,16 @@ $light-blue = #0762B5
       color: $light-blue
   .social-block
     max-width 820px
-    margin 0 auto
     display flex
-    justify-content space-evenly
+    flex-direction column
     margin-top 98px
     padding-bottom 32px
+    margin-left 20px
+    margin-right 20px
     border-bottom 4px solid black
     a
       display flex
-      flex-direction column
+      flex-direction row
       align-items center
       font-weight 700
       color black
@@ -326,25 +328,32 @@ $light-blue = #0762B5
       &:hover
         color $light-blue
       svg
-        margin-bottom 20px
-        width 100px
+        margin-right 20px
+        width 70px
   .theme-content
     max-width 820px
     margin 0 auto
-    font-size 24px
+    font-size 22px
     font-weight 500
-    text-align center
+    text-align left
     opacity 0
     animation fadein-top 0.4s ease
     animation-delay 0s
     animation-fill-mode forwards
     animation-delay 0.25s
+    padding-left 20px
+    padding-right 20px
   .footer
     padding 2.5rem
-    text-align center
+    padding-left 20px
+    padding-right 20px
+    text-align left
     font-weight 700
 @media (min-width: $MQMobile)
   .home
+    header
+      padding-top 130px
+      padding-bottom 80px
     .hero
       text-align center
       padding-left 0px
@@ -367,6 +376,38 @@ $light-blue = #0762B5
           height: 250px
           &::after
             top -2px
+    .description
+      padding-left 0
+      padding-right 0
+      font-size 3.125rem
+      margin-top 1.8rem
+      margin-bottom 1.8rem
+    .action-button
+      font-size 2rem
+    .features
+      font-size 2.875rem
+      padding-left 0
+      padding-right 0
+    .theme-content
+      padding-left 0
+      padding-right 0
+      font-size 24px
+      text-align center
+    .social-block
+      flex-direction row
+      justify-content space-evenly
+      margin 0 auto
+      margin-top 98px
+      padding-bottom 32px
+      border-bottom 4px solid black
+      a
+        flex-direction column
+        svg
+          margin-bottom 20px
+          margin-right 0
+          width 100px
+    .footer
+      text-align center
 
 //@media (max-width: $MQMobileNarrow)
 </style>
