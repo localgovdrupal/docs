@@ -129,6 +129,10 @@ export default {
 </script>
 
 <style lang="stylus">
+$dark-blue = #1E1D6B
+$light-blue = #0762B5
+// $MQMobile
+
 @keyframes fadein-left {
   from {
     transform translate3d(10px, 0, 0)
@@ -158,7 +162,7 @@ export default {
   display block
   color black
   header
-    background #1E1D6B
+    background $dark-blue
     color white
     padding-top 130px
     padding-bottom 80px
@@ -214,7 +218,7 @@ export default {
           position absolute
           top -2px
           left 0
-          background linear-gradient(to right, transparent, #1E1D6B 48%)
+          background linear-gradient(to right, transparent, $dark-blue 48%)
     h1, .description, .action
       margin 1.8rem auto
     .description
@@ -252,7 +256,7 @@ export default {
         position absolute
         top -4px
         left 0
-        background #0762B5
+        background $light-blue
         z-index -1
         transform translate3d(-100%, 0, 0)
         transition 0.4s
@@ -285,7 +289,7 @@ export default {
     &:nth-of-type(3)
       animation-delay 0.3s
     .end
-      color: #0762B5
+      color: $light-blue
   .social-block
     max-width 820px
     margin 0 auto
@@ -311,7 +315,7 @@ export default {
       &:nth-of-type(3)
         animation-delay 0.3s
       &:hover
-        color #0762B5
+        color $light-blue
       svg
         margin-bottom 20px
         width 100px
