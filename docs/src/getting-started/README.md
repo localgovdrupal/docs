@@ -18,7 +18,21 @@ Change `MY_PROJECT` to whatever you'd like your folder to be called.
 composer create-project --stability dev localgovdrupal/localgov-project MY_PROJECT --remove-vcs 
 ```
 
-**Note**: If developing locally and you want to force composer to clone again
+Change directory into the MY_PROJECT directory and run lando start.
+
+```bash
+cd MY_PROJECT
+lando start
+````
+Once lando has finished building, run the site installer with the localgov install profile.
+
+```bash
+lando drush si localgov -y
+````
+
+## Composer notes
+
+If developing locally and you want to force composer to clone again
 from source rather than use composer cache, you can add the `--no-cache` flag.
 
 ```bash
