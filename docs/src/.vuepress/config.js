@@ -70,6 +70,10 @@ module.exports = {
         text: 'Testing',
         link: '/testing/'
       },
+      {
+        text: 'Blog',
+        link: '/blog/'
+      },
     ],
     sidebar: {
       '/getting-started/': [
