@@ -23,6 +23,7 @@ description: An example description.
 date: 25-03-18 (dd-mm-yy)
 ---
 ```
+Posts will be displayed on the listing page in reverse chronological order based on the `date` key within the front matter.
 
 ## Known issues
 
