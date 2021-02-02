@@ -12,6 +12,18 @@ The repository for the documentation sitting at https://localgovdrupal.org/
 
 4. `lando yarn dev` to start a dev server
 
+## Blog
+
+`*.md` files within `src/blog` will be parsed to generate blog posts which are listed at http://localgovdrupal.org/blog. Blog markdown files are required to have the following front matter.
+
+```
+---
+title: Example title
+description: An example description.
+date: 25-03-18 (dd-mm-yy)
+---
+```
+
 ## Known issues
 
 When making config changes in development mode vuepress will not reload, so you have to restart the compiler, this is currently being [worked on](https://github.com/vuejs/vuepress/issues/2254).
