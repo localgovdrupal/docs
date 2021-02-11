@@ -5,9 +5,9 @@
 
     <Content class="theme-default-content" />
 
-    <div v-if="isBlog" class="author-info">Written by <a v-if="this.$frontmatter.author_url" :href="this.$frontmatter.author_url">{{ author }}</a><span v-else>{{ author }}</span><span> on <time :datetime="this.$frontmatter.date">{{ this.$frontmatter.date | prettyDate }}</time></span></div>
+    <div v-if="isBlogPost" class="author-info">Written by <a v-if="this.$frontmatter.author_url" :href="this.$frontmatter.author_url">{{ author }}</a><span v-else>{{ author }}</span><span> on <time :datetime="this.$frontmatter.date">{{ this.$frontmatter.date | prettyDate }}</time></span></div>
 
-    <PageEdit />
+    <PageEdit v-if="!isBlogSection" />
 
     <PageNav v-bind="{ sidebarItems }" />
 
@@ -25,10 +25,15 @@ export default {
     author() {
       return this.$frontmatter.author;
     },
-    isBlog() {
+    isBlogPost() {
       let currentPath = this.$route.path;
-      console.log(this.$route.path)
+
       return currentPath.startsWith('/blog') && currentPath != '/blog/' ? true : false;
+    },
+    isBlogSection() {
+      let currentPath = this.$route.path;
+
+      return currentPath.startsWith('/blog') ? true : false;
     }
   },
   filters: {
