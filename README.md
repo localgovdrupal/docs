@@ -23,6 +23,7 @@ description: An example description.
 date: 25-03-18 (dd-mm-yy)
 author: J. Smith
 author_url: '#' (optional)
+cannonicalUrl: '' (optional - for blog posts present on other sites)
 ---
 ```
 Posts will be displayed on the listing page in reverse chronological order based on the `date` key within the front matter.
