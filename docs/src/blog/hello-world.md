@@ -2,6 +2,8 @@
 title: Example title
 description: This is the example description for our first post.
 date: 2018-03-25
+author: 'Jane Smith'
+author_url: '#'
 ---
 
 # Hello world
