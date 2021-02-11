@@ -4,7 +4,12 @@
       <router-link :to="post.path">
         <h2>{{ post.frontmatter.title }}</h2>
       </router-link>
-      <time :datetime="post.frontmatter.date">{{ post.frontmatter.date }}</time>
+
+      <div class="">
+        <span v-if="post.frontmatter.author">{{ post.frontmatter.author }} - </span>
+        <time :datetime="post.frontmatter.date">{{ post.frontmatter.date | prettyDate }}</time>
+      </div>
+
       <p>{{ post.frontmatter.description }}</p>
     </div>
   </div>
@@ -26,5 +31,14 @@ export default {
       return posts
     },
   },
+  filters: {
+    prettyDate: function (value) {
+      if (!value) return '';
+      const date = new Date(value);
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+
+      return date.toLocaleDateString('en-GB', options)
+    }
+  }
 }
 </script>

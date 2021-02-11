@@ -1,7 +1,7 @@
 ---
 title: Example title
 description: This is the example description for our first post.
-date: 25-03-18
+date: 2018-03-25
 ---
 
 # Hello world
