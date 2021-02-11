@@ -26,8 +26,9 @@ export default {
       return this.$frontmatter.author;
     },
     isBlog() {
-      let route = true;
-      return this.$route.path.startsWith('/blog') ? true : false;
+      let currentPath = this.$route.path;
+      console.log(this.$route.path)
+      return currentPath.startsWith('/blog') && currentPath != '/blog/' ? true : false;
     }
   },
   filters: {
