@@ -4,6 +4,7 @@
       <router-link :to="post.path">
         <h2>{{ post.frontmatter.title }}</h2>
       </router-link>
+      <time :datetime="post.frontmatter.date">{{ post.frontmatter.date }}</time>
       <p>{{ post.frontmatter.description }}</p>
     </div>
   </div>
