@@ -1,4 +1,4 @@
-const { description } = require('../../package')
+const path = require('path');
 
 module.exports = {
   /**
@@ -70,6 +70,10 @@ module.exports = {
         text: 'Testing',
         link: '/testing/'
       },
+      {
+        text: 'Blog',
+        link: '/blog/'
+      },
     ],
     sidebar: {
       '/getting-started/': [
@@ -122,5 +126,13 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     '@vuepress/plugin-nprogress',
-  ]
+  ],
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@images': path.resolve(__dirname, '../images')
+      }
+    }
+  }
 }
