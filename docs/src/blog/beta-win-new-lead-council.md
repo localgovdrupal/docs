@@ -1,9 +1,9 @@
 ---
 title: "Multi-council Drupal code sharing: Beta win and new lead council"
-description: "The voice of Croydon's tech community - Croydon Digital is a shared space bringing together voices from Croydon businesses, community groups, residents, the council and wider public sector to foster collaboration and promote Croydon’s digital scene."
+description: "We're now in Beta: find out what's new and watch the team's presentation to DrupalCon Europe."
 date: "2021-01-20"
 author: "Will Callaghan"
-author_url: "https://croydon.digital/author/willcallaghan/"
+author_url: "https://twitter.com/willguv"
 canonicalUrl: "https://croydon.digital/2021/01/20/multi-council-drupal-code-sharing-beta-win-and-new-lead-council/"
 ---
 
