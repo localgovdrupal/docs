@@ -23,12 +23,27 @@ Change directory into the MY_PROJECT directory and run lando start.
 ```bash
 cd MY_PROJECT
 lando start
-````
-Once lando has finished building, run the site installer with the localgov install profile.
+```
+
+Once lando has finished building, run the site installer with the `localgov` install profile.
 
 ```bash
 lando drush si localgov -y
-````
+```
+
+## Installing from the UI (alternative)
+
+Assuming that your settings.local.php can connect to the datbase and your file permissions are as expected you can visit your local URL which by default in the Lando setup is `http://localgov.lndo.site/` and you will encounter the Drupal site installation form.
+
+When you reach the profile selection screen make sure you choose 'LocalGovDrupal' before continuing, otherwise you might have to restart the entire process.
+
+![Screenshot of Drupal site installation screen when choosing the installation profile for localgov](~@images/install-from-ui--choose-profile.png)
+
+Next Drupal will install all the default configuration and modules for the profile before reaching the site configuration form where you can setup your site name and user 1 details, you can always change these later.
+
+![Screenshot of Drupal site installation screen when entering the site configuration details](~@images/install-from-ui--enter-site-config.png)
+
+And that's it! You should now be redirected to your site and logged in as user 1.
 
 ## Composer notes
 
