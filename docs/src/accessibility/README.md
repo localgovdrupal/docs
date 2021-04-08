@@ -18,3 +18,6 @@ Accessibility is the responsibility of all contributors:
 - All development should be carried out with accessibility in mind.
 - An accessibility review should be carried out for any release featuring new or amended functionality.
 - If you need help please raise an issue on Github in the relevant issue queue.
+
+## Contact us for help
+Feel free to contact us on Twitter: [@localgovdrupal](https://twitter.com/LocalGovDrupal)
