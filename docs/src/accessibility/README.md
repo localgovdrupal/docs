@@ -20,4 +20,4 @@ Accessibility is the responsibility of all contributors:
 - If you need help please raise an issue on Github in the relevant issue queue.
 
 ## Contact us for help
-Feel free to contact us on Twitter: @localgovdrupal
+Feel free to contact us on Twitter: [@localgovdrupal](https://twitter.com/LocalGovDrupal)
