@@ -13,13 +13,13 @@ I started writing this an hour before our first Beta sprint planning session, an
 
 That's been the story as we've ramped up to Beta. There's so much to consider, and new ideas are coming thick and fast. It's exhilarating, but also slightly exhausting. My gym has just reopened so that's a welcome break from the screen.
 
-## What we've done
+## What we've been doing
 
 We've been building up to today's kick off since late January. Regular readers will know we have a new lead council - [Cumbria](https://www.cumbria.gov.uk) - and we're delighted to be here. We're also very grateful to [Croydon](https://www.croydon.gov.uk) for help in our move.
 
-Our work started by meeting new colleagues. By meeting I mean seeing them on a video call. It's been over a year since any of the partner councills met in person, and it'd be great if we could get together before the end of the Beta. Fingers crossed.
+First off, we started by meeting new colleagues. By meeting I mean seeing them on a video call. It's been over a year since any of the partner councills met in person, and it'd be great if we could get together before the end of the Beta. Fingers crossed.
 
-Next we needed to find a new supplier. We chose the [Digital Outcomes and Services procurement framework](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/14015) which is a first for me and Cumbria. A lot has been written about the pros and cons of DOS, and I need to catch up on my reading. The response was great though - 25 councils, 4 shortlisted and 1 winner: [Agile Collective](https://agile.coop). There were many great submissions and it was tough to pick between them. Yes, it sounds like a cliche, but it's also true. Thank you to everyone who took part. If we haven't fed back on your submission, we will very soon.
+Next, we needed to find a new supplier. We chose the [Digital Outcomes and Services procurement framework](https://www.digitalmarketplace.service.gov.uk/digital-outcomes-and-specialists/opportunities/14015) which is a first for me and Cumbria. A lot has been written about the pros and cons of DOS, and I need to catch up on my reading. The response was great though - 25 councils, 4 shortlisted and 1 winner: [Agile Collective](https://agile.coop). There were many great submissions and it was tough to pick between them. Yes, it sounds like a cliche, but it's also true. Thank you to everyone who took part. If we haven't fed back on your submission, we will very soon.
 
 Over the last fortnight we've been working out a plan for the first few sprints - more below. There's a lot in this Beta, and it's not just feature development.
 
