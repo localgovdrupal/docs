@@ -1,5 +1,5 @@
 ---
-title: "Multi-council Drupal code sharing: Beta win and new lead council"
+title: "Beta win and new lead council"
 description: "We're now in Beta: find out what's new and watch the team's presentation to DrupalCon Europe."
 date: "2021-01-20"
 author: "Will Callaghan"
@@ -7,7 +7,7 @@ author_url: "https://twitter.com/willguv"
 canonicalUrl: "https://localgovdrupal.org/blog/beta-win-new-lead-council.html"
 ---
 
-# Multi-council Drupal code sharing: Beta win and new lead council
+# Beta win and new lead council
 
 ![Code sharing illustration](~@images/codesharing.jpg)
 
