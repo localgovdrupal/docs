@@ -9,7 +9,7 @@ canonicalUrl: "https://localgovdrupal.org/blog/beta-starts-today"
 
 # Our Beta starts today
 
-I started writing this an hour before our first Beta sprint planning session. I'm quite expecting some of it to be out of date by the time it's finished!
+I started writing this an hour before our first Beta sprint planning session, and I'm quite expecting some of it to be out of date by the time it's finished!
 
 That's been the story as we've ramped up to Beta. There's so much to consider, and new ideas are coming thick and fast. It's exhilarating, but also slightly exhausting. My gym has just reopened so that's a welcome break from the screen.
 
