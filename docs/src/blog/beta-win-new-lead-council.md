@@ -4,7 +4,7 @@ description: "We're now in Beta: find out what's new and watch the team's presen
 date: "2021-01-20"
 author: "Will Callaghan"
 author_url: "https://twitter.com/willguv"
-canonicalUrl: "https://croydon.digital/2021/01/20/multi-council-drupal-code-sharing-beta-win-and-new-lead-council/"
+canonicalUrl: "https://localgovdrupal.org/blog/beta-win-new-lead-council.html"
 ---
 
 # Multi-council Drupal code sharing: Beta win and new lead council
