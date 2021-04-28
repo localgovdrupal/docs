@@ -27,7 +27,7 @@ We're starting to gather older posts here to create a complete history. In the m
 
 [More blog posts at Croydon Digital](https://croydon.digital/tag/code-sharing/)
 
-## Before discovery
+## Before Discovery
 
 [LocalGov Drupal finally happened!](https://medium.com/miggle/localgov-drupal-finally-happened-80bf0d7f895b)\
 8 September 2020\
