@@ -4,7 +4,7 @@ description: "It's been a long time coming, but we're finally here. Beta work st
 date: "2021-04-28"
 author: "Will Callaghan"
 author_url: "https://twitter.com/willguv"
-canonicalUrl: "https://localgovdrupal.org/blog/beta-starts-today"
+canonicalUrl: "https://localgovdrupal.org/blog/beta-starts-today.html"
 ---
 
 # Our Beta starts today

@@ -4,7 +4,7 @@ description: "You can now take LocalGovDrupal on a test drive on AWS thanks to t
 date: "2021-04-20"
 author: "Greg Harvey"
 author_url: "https://twitter.com/greg_harvey"
-canonicalUrl: "https://croydon.digital/2021/04/20/localgovdrupal-with-aws-cloudformation/"
+canonicalUrl: "https://localgovdrupal.org/blog/localgovdrupal-with-aws-cloudformation.html"
 ---
 
 # Try LocalGovDrupal on AWS
