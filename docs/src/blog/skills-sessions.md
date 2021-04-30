@@ -19,7 +19,7 @@ Our latest session explains Github and why it helps councils work together.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/68UkSWN2el8?t=0m0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The LocalGov Drupal YouTube channel has this [not very friendly URL](https://www.youtube.com/channel/UCgOTBrkZvJwCuODRpHxZIIA) so please like and subscribe so we can get a nice one. We need 100 subscribers and are almost half way there. Thanks.
+The LocalGov Drupal YouTube channel has this [not very friendly URL](https://www.youtube.com/channel/UCgOTBrkZvJwCuODRpHxZIIA) so please like and subscribe so we can get a nice one. We need 100 subscribers to qualify and are almost half way there. Thanks.
 
 ## Future sessions
 
