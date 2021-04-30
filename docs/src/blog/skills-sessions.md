@@ -1,7 +1,7 @@
 ---
 title: "Check out our Skills Sessions"
 description: "As a group of 10 (and counting) councils we're learning so much together. So we've launched a YouTube series to show the best stuff."
-date: "2021-04-28"
+date: "2021-04-30"
 author: "Will Callaghan"
 author_url: "https://twitter.com/willguv"
 canonicalUrl: "https://localgovdrupal.org/blog/skills-sessions.html"
