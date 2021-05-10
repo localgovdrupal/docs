@@ -42,7 +42,7 @@ Waltham Forest has been welcomed warmly into the fold. We have been given opport
  
 We’ve also recently been able to put our user needs, stories, and requirements straight into the next stage of the build. Something that every council has the opportunity to do too.
  
-Control over our code base and ability to follow a continuous improvement model 
+### Control over our code base and ability to follow a continuous improvement model 
  
 For Waltham Forest, while Drupal is in our technology stack, we haven’t always had the control over our codebase, being reliant on third parties for changes to our website. 
  
