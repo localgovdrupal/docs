@@ -1,9 +1,9 @@
 ---
 title: "Why Waltham Forest is joining LocalGov Drupal"
-description: "David Siddall from Waltham Forest explains why they joined LocalGov Drupal and their experience to date."
+description: "Waltham Forest UX and Content Manager, David Siddall, explains why they joined LocalGov Drupal and their experience to date."
 date: "2021-05-10"
 author: "David Siddall"
-author_url: "https://twitter.com/willguv"
+author_url: "https://www.linkedin.com/in/davidsiddall"
 canonicalUrl: "https://localgovdrupal.org/blog/waltham-forest.html"
 ---
 
