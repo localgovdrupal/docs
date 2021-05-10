@@ -15,7 +15,7 @@ Our council has joined the LocalGov Drupal code sharing collaboration. It is a k
  
 LocalGovDrupal is funded by the Ministry of Housing, Communities, and Local Government. It is an open-source collaboration between UK councils and Drupal developers. Its aim is to provide better publishing platforms by pooling knowledge, expertise, and research.  
  
-The aim is to create a shared codebase that would otherwise be costly, resource intensive and time consuming for most councils. As councils, we fundamentally have the same responsibilities and deliver the same core services. And digital councils broadly prescribe to the GDS design principles set out in the Service Standard on gov.uk.   
+The aim is to create a shared codebase that would otherwise be costly, resource intensive and time consuming for most councils. As councils, we fundamentally have the same responsibilities and deliver the same core services. And digital councils broadly prescribe to the GDS design principles set out in the [Service Standard on gov.uk](https://www.gov.uk/service-manual/service-standard).   
  
 With Drupal being open source and pervasive across government, LocalGov Drupal is a compelling idea. 
  
@@ -25,7 +25,8 @@ In its first year, Croydon, Brighton, Bracknell Forest and Lambeth councils all 
  
 ### LocalGov Drupal theme and installation 
  
-Our developers were able to install the theme with ease. The process is clearly documented.  
+Our developers were able to [install the theme with ease](https://localgovdrupal.org/getting-started/). The process is clearly documented.  
+
 As content and UX designers, we have been impressed with the out of the box theme. The service landing page and service sub-landing pages content types meet our user needs. Feedback from our service teams has been positive and we will be user testing with residents and local businesses in the coming months. 
  
 ### Monthly product group meetings, slack channels, roadmaps and more collaboration  
