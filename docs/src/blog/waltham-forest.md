@@ -29,11 +29,11 @@ Our developers were able to [install the theme with ease](https://localgovdrupal
 
 As content and UX designers, we have been impressed with the out of the box theme. The service landing page and service sub-landing pages content types meet our user needs. Feedback from our service teams has been positive and we will be user testing with residents and local businesses in the coming months. 
  
-### Monthly product group meetings, slack channels, roadmaps and more collaboration  
+### Product group meetings, slack channels, roadmaps and more collaboration  
  
 The group is supported by: 
  
-* fortnightly product meetings (to review the next phases of the project)  
+* product meetings (to review the next phases of the project)  
 * lively and responsive slack channels 
 * a [public roadmap](https://trello.com/b/byzQv686/localgov-drupal-beta)
 * that sense of community of councils working together. 
