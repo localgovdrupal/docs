@@ -33,7 +33,7 @@ lando drush si localgov -y
 
 ## Installing from the UI (alternative)
 
-Assuming that your settings.local.php can connect to the datbase and your file permissions are as expected you can visit your local URL which by default in the Lando setup is `http://localgov.lndo.site/` and you will encounter the Drupal site installation form.
+Assuming that your settings.local.php can connect to the database and your file permissions are as expected you can visit your local URL which by default in the Lando setup is `http://localgov.lndo.site/` and you will encounter the Drupal site installation form.
 
 When you reach the profile selection screen make sure you choose 'LocalGovDrupal' before continuing, otherwise you might have to restart the entire process.
 
