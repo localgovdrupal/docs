@@ -1,7 +1,7 @@
 ---
 title: "Skills Sessions - GDPR and Sociocracy"
 description: "We've been busy sharing knowledge with each other. Check out our two latest sessions on making GDPR work for your users, and exploring how Sociocracy could empower people to make better decisions."
-date: "2021-04-28"
+date: "2021-05-21"
 author: "Will Callaghan"
 author_url: "https://twitter.com/willguv"
 canonicalUrl: "https://localgovdrupal.org/blog/two-more-skills-sessions.html"
