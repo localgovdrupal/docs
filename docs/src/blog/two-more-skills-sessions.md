@@ -17,7 +17,7 @@ We figured this might be useful for others, so are adding recordings of the sess
 
 ## GDPR
 
-Mike King and Mark Conroy from Annertech have in depth knowledge of GDPR issues, and how to provide the best solution for citizens. We really liked how they walked through the important issues, and provided best practice examples. Thanks both!
+[Mike King](https://twitter.com/emkay) and [Mark Conroy](https://twitter.com/markconroy) from Annertech have in depth knowledge of GDPR issues, and how to provide the best solution for citizens. We really liked how they walked through the important issues, and provided best practice examples. Thanks both!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_7I-weGujus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -25,7 +25,7 @@ Mike King and Mark Conroy from Annertech have in depth knowledge of GDPR issues,
 
 What is Sociocracy? you ask. Well, it's a great way of organising a large team into smaller groups that are empowered to make good decisions. As LocalGov Drupal grows, it's something we need to better understand and do. 
 
-Finn Lewis from Agile Collective and Abi Handley from Outlandish explain more. Like our other videos, it's well worth a watch. Thanks Finn and Abi for your talk!
+[Finn Lewis](https://twitter.com/finnlewis) from Agile Collective and [Abi Handley](https://twitter.com/choccybic) from Outlandish explain more. Like our other videos, it's well worth a watch. Thanks Finn and Abi for your talk!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qEdUr91660U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
