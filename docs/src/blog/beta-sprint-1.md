@@ -1,7 +1,7 @@
 ---
 title: "Beta sprint 1 notes"
 description: "Our core team is up and running, with ambitious goals for sprint 1. Read about what we've done, and where we're heading."
-date: "2021-04-28"
+date: "2021-05-13"
 author: "Finn Lewis"
 author_url: "https://twitter.com/finnlewis"
 canonicalUrl: "https://localgovdrupal.org/blog/beta-sprint-1.html"
