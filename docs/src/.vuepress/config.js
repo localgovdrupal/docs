@@ -89,6 +89,7 @@ module.exports = {
         'taxonomies',
         'custom-modules',
         'image-styles',
+        'news-feature',
         'user-roles',
       ],
 

@@ -140,3 +140,72 @@ Include images: `No`
 |Services: Parent | localgov_services_parent | Entity reference|
 
 :::
+
+## News article
+
+Name:  
+`News article`  
+
+Machine name:  
+`localgov_news_article`
+
+Description:  
+`A stand-alone news article that may also appear in a news listing page.`
+
+::: details Menu settings
+Available menus: 
+
+* `Main navigation`
+
+Default menu: `none`
+:::
+
+::: details Simple XML Sitemap
+Included: `false`
+
+:::
+
+::: details Fields
+
+| Field name  | Machine name  | Field type              |
+| ----------- |:-------------:| -----------------------:|
+|Body | body | Text (formatted, long, with summary)|
+|Categories | localgov_news_categories | Entity reference|
+|Date | localgov_news_date | Date|
+|Image | field_media_image | Entity reference|
+|Newsroom | localgov_newsroom | Entity reference|
+|Related articles | localgov_news_related | Entity reference|
+
+:::
+
+## Newsroom
+
+Name:  
+`Newsroom`  
+
+Machine name:  
+`localgov_newsroom`
+
+Description:  
+`A page for listing and featuring news articles.`
+
+::: details Menu settings
+Available menus: 
+
+* `Main navigation`
+
+Default menu: `<main>`
+:::
+
+::: details Simple XML Sitemap
+Included: `false`
+
+:::
+
+::: details Fields
+
+| Field name  | Machine name  | Field type              |
+| ----------- |:-------------:| -----------------------:|
+|Title | title | Text|
+
+:::
