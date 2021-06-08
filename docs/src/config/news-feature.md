@@ -23,8 +23,8 @@ By default a person with the news_editor role can publish and unpublish news art
 Custom permissions will need to be set up to define which roles can feature News, and create, edit and delete content of the type “Newsroom”.
 
 ### Technical spec
-- [News item content type](http://localhost:49728/config/content-types.html#news-article)
-- [Newsroom content type](http://localhost:49728/config/content-types.html#newsroom)
+- [News item content type](/config/content-types.html#news-article)
+- [Newsroom content type](/config/content-types.html#newsroom)
 
 ## Useful links
 - [Git repo](https://github.com/localgovdrupal/localgov_news)
