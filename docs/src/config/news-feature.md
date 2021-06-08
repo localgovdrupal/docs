@@ -31,6 +31,7 @@ Custom permissions will need to be set up to define which roles can feature News
 - [Readme](https://github.com/localgovdrupal/localgov_news/blob/master/README.md)
 - [Wireframes](https://design.penpot.app/#/view/54c29d80-c3a6-11eb-8557-f55ab9adbb41/54c29d81-c3a6-11eb-8557-f55ab9adbb41?index=0)
 - [Design notes](https://miro.com/app/board/o9J_lHm9M2s=/?moveToWidget=3074457359569856449&cot=14)
+- [Research](https://drive.google.com/drive/folders/1QbL2KrKNBbEkBGwEmKtDyEUxgYsgNZsS)
 - Feature backlog
 - [Issue Queue](https://github.com/localgovdrupal/localgov_news/issues)
 
