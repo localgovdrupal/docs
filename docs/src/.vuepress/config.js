@@ -84,17 +84,6 @@ module.exports = {
       '/features/': [
         '',
         {
-          title: 'Services',
-          path: '/features/services/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
-          children: [
-            '/features/services/content-design',
-            '/features/services/technical',
-            '/features/services/background',
-          ]
-        },
-        {
           title: 'General',
           path: '/features/general/',
           collapsable: true,
@@ -107,6 +96,17 @@ module.exports = {
             '/features/general/paragraph-types',
             '/features/general/taxonomies',
             '/features/general/user-roles',
+          ]
+        },
+        {
+          title: 'Services',
+          path: '/features/services/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/features/services/content-design',
+            '/features/services/technical',
+            '/features/services/background',
           ]
         },
         {

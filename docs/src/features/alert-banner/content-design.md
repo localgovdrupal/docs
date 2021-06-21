@@ -1,3 +1,3 @@
-# Content design
+# Alert banners: Content design
 
 Todo
