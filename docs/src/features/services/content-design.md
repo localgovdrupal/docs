@@ -13,7 +13,8 @@ Use a service landing page for the homepage of a section. For example:
 <!-- Where shall we link to? -->
 <!-- Todo: add screenshots -->
 
-![iScreenshot of Croydon's Children, young people and families Service Landing page (fully description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
+![iScreenshot of Croydon's Children, young people and families Service Landing page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
+Image caption: A screenshot of Croydon's Children, young people and families service landing page, showing the title, an introductory paragraph, two call-to-actions and a list of links to subpages, displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
 
 
 The service landing page will be linked to from the homepage of the website.
