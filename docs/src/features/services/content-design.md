@@ -10,8 +10,6 @@ Use a service landing page for the homepage of a section. For example:
 
 * [Adult social care (on LGD demo site)](https://localgovdrupal.agile.coop/adult-health-and-social-care)
 * [Children, young people and families (on Croydon)](https://www.croydon.gov.uk/children-young-people-and-families)
-<!-- Where shall we link to? -->
-<!-- Todo: add screenshots -->
 
 ![iScreenshot of Croydon's Children, young people and families Service Landing page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
 Image caption: A screenshot of Croydon's Children, young people and families service landing page, showing the title, an introductory paragraph, two call-to-actions and a list of links to subpages, displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
@@ -58,9 +56,8 @@ They automatically pull in the title and the summary of the page they're linking
 
 *Examples include:*
 
-- *marriages and civil partnerships*
-- *travel support*
-- *births*
+- *[Cycling and walking (Lambeth)](https://beta.lambeth.gov.uk/streets-roads-transport/cycling-walking)*
+- *[Bins (Brighton & Hove)](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/rubbish)*
 
 ![Screenshot of Lambeth Councils Births Sub-landing page - description below](https://user-images.githubusercontent.com/3852805/123276043-bea0fa00-d4fc-11eb-80fb-0cf85b4e86da.png)
 Image description: Lambeth Council's Births Sub-landing page. They show the title, summary and the subpages, without a summary.
@@ -101,7 +98,7 @@ You can add a task button at the top of the service page by adding a link to the
 
 *These include:*
 * *[Find a school near you (Croydon)](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you)*
-* *Find support for families, children and young people*
+* *[Apply to join the housing register(Brighton & Hove)](https://www.brighton-hove.gov.uk/housing/council-housing/apply-join-housing-register)*
 
 ### Related links and Related Topics
 The sidebar can show Related links which you can add in the page editor. 
@@ -111,9 +108,12 @@ THe related links (or Topic terms) can be supressed by checking the Hide the rel
 Service status allow you to give updates about the status of the relevant service. These appear on the Service landing page. 
 
 ![Screenshot of Brighton's Rubbish & Waste Service landing page, with 2 status shown below a title Service updates](https://user-images.githubusercontent.com/3852805/123281746-d75fde80-d501-11eb-8408-232d35a98c40.png)
+Source: [Brighton](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
 
-A list of service statuses also appears on the URL service-path/update
+A list of service statuses also appears on the URL service-path/update :
+
 ![Screenshot of Brighton's Rubbish & Waste Service status updates, showing 4 updates with the most recent first](https://user-images.githubusercontent.com/3852805/123282093-1d1ca700-d502-11eb-8077-f820eba2fb30.png)
+source: [Brighton](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/update)
 
 ### When to use a service status
 
