@@ -14,9 +14,10 @@ Content types:
 Other content types in the LocalGovDrupal distribution can also optionally be linked into service sections and referenced from sub-landing pages.
 
 ## Examples in the wild
-
+* [LocalGov Drupal demo: Adult health and social care](https://localgovdrupal.agile.coop/adult-health-and-social-care)
 * [Croydon: Adult health and social care ](https://www.croydon.gov.uk/adult-health-and-social-care)
 * [Lambeth: Bins and recycling](https://beta.lambeth.gov.uk/rubbish-recycling)
+* [Brighton & Hove: Rubbish, recycling and streets](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
 
 ## How to log issues
 * [Github Repo](https://github.com/localgovdrupal/localgov_services)
