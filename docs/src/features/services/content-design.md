@@ -5,10 +5,11 @@ Contents:
 
 ## Service landing page
 
+### When to use a service landing page
 Use a service landing page for the homepage of a section. For example:
 
-* Adult social care
-* Children, young people and families
+* [Adult social care (on LGD demo site)](https://localgovdrupal.agile.coop/adult-health-and-social-care)
+* [Children, young people and families (on Croydon)](https://www.croydon.gov.uk/children-young-people-and-families)
 <!-- Where shall we link to? -->
 <!-- Todo: add screenshots -->
 
