@@ -1,8 +1,119 @@
 # Services: Technical
 ## Tech Introduction
+Provides the pages and navigation for presenting the Services provided by Local Government. A part of the LocalGovDrupal distribution.
+
+Content types:
+
+* Landing page - the top level section for each service.
+* Sub-landing page - detail and links to specific pages within a service.
+* Page - the basic page that can be placed in a service, and on a service sub-landing page.
+* Status - an optional additional type for providing updates about a the status of a service.
+Other content types in the LocalGovDrupal distribution can also optionally be linked into service sections and referenced from sub-landing pages.
+
+There are five submodules
+- localgov_services_landing
+- localgov_services_navigation
+- localgov_services_page
+- localgov_services_sublanding
+- localgov_services_status (optional)
+
+
 ## Requirements
+`core_version_requirement: ^8.9 || ^9`
+```
+dependencies:
+  - drupal:field
+  - drupal:link
+  - drupal:node
+  - pathauto:pathauto
+  - localgov_core:localgov_core
+  ```
+
+### Service landing page
+```
+dependencies:
+  - drupal:field
+  - drupal:link
+  - drupal:menu_ui
+  - drupal:node
+  - drupal:text
+  - drupal:user
+  - drupal:views
+  - localgov_services:localgov_services
+  - localgov_services:localgov_services_sublanding
+  - localgov_services:localgov_services_page
+  ```
+### Service sub-landing page
+```
+dependencies:
+  - drupal:content_moderation
+  - drupal:field
+  - drupal:menu_ui
+  - drupal:node
+  - drupal:path
+  - drupal:text
+  - drupal:user
+  - field_group:field_group
+  - localgov_paragraphs:localgov_paragraphs
+  - localgov_services:localgov_services
+  - localgov_services:localgov_services_landing
+  - localgov_services:localgov_services_navigation
+  - localgov_services:localgov_services_page
+  - localgov_topics:localgov_topics
+  - pathauto:pathauto
+
+```
+### Service page
+```
+dependencies:
+  - drupal:content_moderation
+  - drupal:field
+  - drupal:link
+  - drupal:menu_ui
+  - drupal:node
+  - drupal:path
+  - drupal:taxonomy
+  - drupal:text
+  - drupal:user
+  - entity_browser:entity_browser
+  - field_group:field_group
+  - link_attributes:link_attributes
+  - localgov_services:localgov_services
+  - localgov_services:localgov_services_sublanding
+  - localgov_services:localgov_services_landing
+  - localgov_services:localgov_services_navigation
+  - localgov_page_components:localgov_page_components
+  - pathauto:pathauto
+  ```
+### Service Status
+```
+dependencies:
+  - drupal:options
+  - drupal:path
+  - drupal:text
+  - drupal:user
+  - condition_field:condition_field
+  - localgov_services:localgov_services_landing
+  - localgov_services:localgov_services_navigation
+  ```
+### Service Navigation
+```
+dependencies:
+  - drupal:link
+  - drupal:node
+  - drupal:pathauto
+  - localgov_services:localgov_services
+
+```
 ## Recommended modules
+n/a
+
 ## Installation
+The 4 main sub-modules are a core part of the LGD install profile, and will be installed as part of that. 
+The Service Status module can be optionally enabled.
+
+To install it as a feature outside of LGD [TODO]
+
 ## Basic Configuration
 ### General
 ### Service landing page
@@ -38,21 +149,21 @@ Include images: `No`
 
 | Field name  | Machine name  | Field type              |
 | ----------- |:-------------:| -----------------------:|
-| Address     | field_address | Text (formatted, long)  |
+| Address     | localgov_address | Text (formatted, long)  |
 | Body | body | Text (formatted, long, with summary) |
-|Child pages | field_destinations | Entity reference |
-| Contact us online URL | field_contact_us_online | Text (plain) |
-| Email address | field_email_address | Text (plain) |
-| Facebook | field_facebook | Text (plain) |
-| First line of address | field_address_first_line | Text (plain) |
-| Hearing or speech difficulties phone number | field_hearing_difficulties_phone | Text (plain) |
-| Link to map | field_link_to_map | Link |
-| Opening hours | field_opening_hours | Text (formatted, long) |
-| Other team contacts URL | field_other_team_contacts | Text (plain) |
-| Phone | field_phone | Text (plain) |
-| Popular topics | field_popular_topics | Entity reference |
-| Task buttons | field_common_tasks | Link |
-| Twitter | field_twitter | Text (plain) |
+|Child pages | localgov_destinations | Entity reference |
+| Contact us online URL | localgov_contact_us_online | Text (plain) |
+| Email address | localgov_email_address | Text (plain) |
+| Facebook | localgov_facebook | Text (plain) |
+| First line of address | localgov_address_first_line | Text (plain) |
+| Hearing or speech difficulties phone number | localgov_hearing_difficulties_ph | Text (plain) |
+| Link to map | localgov_link_to_map | Link |
+| Opening hours | localgov_opening_hours | Text (formatted, long) |
+| Other team contacts URL | localgov_other_team_contacts | Text (plain) |
+| Phone | localgov_phone | Text (plain) |
+| Popular topics | localgov_popular_topics | Entity reference |
+| Task buttons | localgov_common_tasks | Link |
+| Twitter | localgov_twitter | Text (plain) |
 
 :::
 
@@ -90,13 +201,13 @@ Include images: `No`
 | Field name  | Machine name  | Field type              |
 | ----------- |:-------------:| -----------------------:|
 |Body |body |Text (formatted, long, with summary)|
-|Download links | field_download_links | Link|
-|Hide the related topics panel | field_hide_related_topics | Boolean |
-|Page components | field_page_components | Entity reference|
+|Download links | localgov_download_links | Link|
+|Hide the related topics panel | localgov_hide_related_topics | Boolean |
+|Page components | localgov_page_components | Entity reference|
 |Parent | localgov_services_parent | Entity reference|
-|Related links | field_related_links | Link|
-|Replace automatically generated links | field_override_related_links | Boolean|
-|Task buttons |field_common_tasks | Link|
+|Related links | localgov_related_links | Link|
+|Replace automatically generated links | localgov_override_related_links | Boolean|
+|Task buttons |localgov_common_tasks | Link|
 |Topic terms | localgov_topic_classified |Entity reference|
 
 :::
@@ -135,19 +246,54 @@ Include images: `No`
 | Field name  | Machine name  | Field type              |
 | ----------- |:-------------:| -----------------------:|
 |Body | body | Text (formatted, long, with summary)|
-|Child pages | field_topics | Entity reference revisions|
+|Child pages | localgov_topics | Entity reference revisions|
 |Services: Parent | localgov_services_parent | Entity reference|
 
 :::
 
 ## Roles / permissions
-### … Other relevant stuff
+This feature does not define any permissions itself, but if the localgov_workflowand localgov_roles modules are enabled then they will apply to the content defined in this feature.
+
 ## Advanced configuration
-### … More relevant stuff
+
 ## Theming
- todo
+
+The following templates are (currently) defined within the modules. 
+
+- [services-cta-block.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/templates/services-cta-block.html.twig )
+- [node--localgov-services-landing--full.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_landing/templates/node--localgov-services-landing--full.html.twig)
+- [taxonomy-vertical-list.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_landing/templates/taxonomy-vertical-list.html.twig)
+- [localgov-services-navigation-child.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_navigation/templates/localgov-services-navigation-child.html.twig)
+- [localgov-services-navigation-children.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_navigation/templates/localgov-services-navigation-children.html.twig)
+- [services-related-links-block.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_page/templates/services-related-links-block.html.twig)
+- [services-related-topics-block.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_page/templates/services-related-topics-block.html.twig)
+- [node--localgov-services-status--message.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_status/templates/node--localgov-services-status--message.html.twig)
+- [service-status-block.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_status/templates/service-status-block.html.twig)
+- [service-status-message.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_status/templates/service-status-message.html.twig)
+- [service-status-page.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_status/templates/service-status-page.html.twig)
+- [views-view-localgov-services-status.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_status/templates/views-view-localgov-services-status.html.twig)
+- [dummy-teaser.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_sublanding/templates/dummy-teaser.html.twig)
+- [field--paragraph--topic-list-links--topic-list-builder.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_sublanding/templates/field--paragraph--topic-list-links--topic-list-builder.html.twig)
+- [paragraph--topic-list-builder.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_sublanding/templates/paragraph--topic-list-builder.html.twig)
+
+### Localgov Base Theme (localgov_base)
+The following templates are defined within localgov_base theme, and if you are not using this as your base theme you might like to steal these templates: 
+- https://github.com/localgovdrupal/localgov_base/blob/1.x/templates/paragraphs/paragraph--topic-list-builder.html.twig
+- https://github.com/localgovdrupal/localgov_base/blob/1.x/templates/field/field--paragraph--topic-list-links--topic-list-builder.html.twig
+- https://github.com/localgovdrupal/localgov_base/blob/1.x/templates/content/node--localgov-services-landing--full.html.twig
+- https://github.com/localgovdrupal/localgov_base/blob/1.x/templates/block/services-cta-block.html.twig
+
+CSS
+- https://github.com/localgovdrupal/localgov_base/blob/1.x/css/components/topic-list-builder.css
+- https://github.com/localgovdrupal/localgov_base/blob/1.x/css/components/service-landing-page.css
+- https://github.com/localgovdrupal/localgov_base/blob/1.x/css/components/service-cta-block.css
+
+And their IE11 counterparts.
+
+
 ## Troubleshooting
- todo
+todo
+
 ## Useful links
 - [Git repo](https://github.com/localgovdrupal/localgov_services)
 - [Readme](https://github.com/localgovdrupal/localgov_services/blob/2.x/README.md)
