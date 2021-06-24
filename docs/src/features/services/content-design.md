@@ -28,30 +28,17 @@ Your summary should provide more information than what the title suggests. It sh
 
 *Summary: Household recycling and rubbish collection service and collection times, what you can recycle, how to report a problem, and street cleaning.*
 
-<!-- Is this general advice we want to give?  -->
-### Grouping sections
-You should only display no more than 9 sections on a landing page. This is because more than 9 is hard to navigate on mobile, as the sections stack on top of each other.
+### Using Common Tasks on landing page
 
-You should group content by topics.
-
-***Example:*** 
-*See how the sections are grouped in the business section.*
-
-### Using call to action buttons on landing page
-
-Call to action (CTA) buttons allow quick access to high priority tasks within a section.
+Common task links allow quick access to high priority tasks within a section.
 
 Engage with the service to understand what the top task are within a section and use analytics to see what pages users engage with most. Monitor this over time and change it according to users' needs.
 
-***Example:*** 
-*See the 'Report a concern about a child' CTA in the Children, young people and families section.*
-<!-- todo: add a screenshot -->
+Tasks can be tagged as either "Action" or "Information" - these may display differently depending on how your theme is set up
 
-### Number of CTAs per landing page
-<!-- Is this general advice? -->
-You should only have 3 call to action buttons at a maximum on a landing page – having more than this pushes the sections further down the page on mobile.
+![Screenshot of the LGD demo site "Adult and social care" service landing page, showing three common task links - 2 blue information links and 1 green action link](https://user-images.githubusercontent.com/3852805/123274826-c2804c80-d4fb-11eb-844b-d4c09a5a00f8.png)
+Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a green background.
 
-If there's a user need to temporarily give quick access to important content, for example coronavirus information, you could add another in this situation, or remove one of the existing CTAs.
 
 ## Service sub-landing pages
 
@@ -75,9 +62,8 @@ They automatically pull in the title and the summary of the page they're linking
 - *travel support*
 - *births*
 
-Sub-landing pages can be grouped by topic. The list of links will have subheadings. If you want to use topics that are used in other services you can add this, the subheaded section will include a more link to another page with a list of all content in those topics from all services.
-
-<!-- Add links to examples or demo site -->
+![Screenshot of Lambeth Councils Births Sub-landing page - description below](https://user-images.githubusercontent.com/3852805/123276043-bea0fa00-d4fc-11eb-80fb-0cf85b4e86da.png)
+Image description: Lambeth Council's Births Sub-landing page. They show the title, summary and the subpages, without a summary.
 
 ## Service pages
 
@@ -101,26 +87,39 @@ You will need to consider using either:
 
 *Examples include:*
 
-* *correcting a death registration*
-* *the London taxicard*
-* *Shopmobility*
+* *[correcting a death registration (Croydon)](https://www.croydon.gov.uk/births-deaths-marriages-and-citizenship/death-and-bereavement/correcting-death-registration-certificate)*
+* *[Claim a refund (Lambeth)](https://beta.lambeth.gov.uk/council-tax/claim-refund)*
+* *[How to use a wheelie bin (Brighton & Hove)](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/rubbish/how-use-wheelie-bins)*
 
-### Adding a call to action button to a Service page
-<!-- todo: test this -->
-Service pages can be used for start now pages. These are pages where users start their journey to completing a task.
+![Brighton and Hove's How to use a wheelie bin Service page, description below ](https://user-images.githubusercontent.com/3852805/123277011-9fef3300-d4fd-11eb-8fc2-f67c65227bac.png)
+Image description: Brighton and Hove Council's How to use a wheelie bin Service page, showing a title, summary, a common task link, then text with headings and relation links and topics in the sidebar. 
 
-You can add a call to action button at the top of the service page by adding a link to the 'Task' tab on the righthand side menu of the page editor.
-
-You should also call the button 'Start now', unless there's more than one task button.
-
-See the start now pattern for more details.
+### Adding a Task button to a Service page
+You can add a task button at the top of the service page by adding a link to the 'Task' tab on the righthand side menu of the page editor.
 
 ***Examples***
 
 *These include:*
-* *Find a school near you*
+* *[Find a school near you (Croydon)](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you)*
 * *Find support for families, children and young people*
 
+### Related links and Related Topics
+The sidebar can show Related links which you can add in the page editor. 
+THe related links (or Topic terms) can be supressed by checking the Hide the related topics panel
+
 ## Service status
+Service status allow you to give updates about the status of the relevant service. These appear on the Service landing page. 
+
+![Screenshot of Brighton's Rubbish & Waste Service landing page, with 2 status shown below a title Service updates](https://user-images.githubusercontent.com/3852805/123281746-d75fde80-d501-11eb-8408-232d35a98c40.png)
+
+A list of service statuses also appears on the URL service-path/update
+![Screenshot of Brighton's Rubbish & Waste Service status updates, showing 4 updates with the most recent first](https://user-images.githubusercontent.com/3852805/123282093-1d1ca700-d502-11eb-8077-f820eba2fb30.png)
+
 ### When to use a service status
-todo
+
+Publish a service status when you want to tell your citizens about a significant impact to the service. 
+
+You can choose one of 3 categories to assign to a Service status
+* Limited service
+* Revised service
+* Normal service
