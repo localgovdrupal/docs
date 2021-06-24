@@ -1,5 +1,8 @@
 # Services: Technical
-## Tech Introduction
+
+[[toc]]
+
+## Introduction
 Provides the pages and navigation for presenting the Services provided by Local Government. A part of the LocalGovDrupal distribution.
 
 Content types:
@@ -107,6 +110,9 @@ dependencies:
 ```
 ## Recommended modules
 n/a
+
+## Roles / permissions
+This feature does not define any permissions itself, but if the localgov_workflow and localgov_roles modules are enabled then they will apply to the content defined in this feature.
 
 ## Installation
 The 4 main sub-modules are a core part of the LGD install profile, and will be installed as part of that. 
@@ -251,14 +257,11 @@ Include images: `No`
 
 :::
 
-## Roles / permissions
-This feature does not define any permissions itself, but if the localgov_workflow and localgov_roles modules are enabled then they will apply to the content defined in this feature.
-
 ## Advanced configuration
 todo
 
 ## Theming
-
+### Twig templates
 The following templates are (currently) defined within the modules. 
 
 - [services-cta-block.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/templates/services-cta-block.html.twig )
@@ -276,6 +279,9 @@ The following templates are (currently) defined within the modules.
 - [dummy-teaser.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_sublanding/templates/dummy-teaser.html.twig)
 - [field--paragraph--topic-list-links--topic-list-builder.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_sublanding/templates/field--paragraph--topic-list-links--topic-list-builder.html.twig)
 - [paragraph--topic-list-builder.html.twig](https://github.com/localgovdrupal/localgov_services/blob/2.x/modules/localgov_services_sublanding/templates/paragraph--topic-list-builder.html.twig)
+
+### Theme suggestions
+todo
 
 ### Localgov Base Theme (localgov_base)
 The following templates are defined within localgov_base theme, and if you are not using this as your base theme you might like to steal these templates: 
@@ -300,4 +306,19 @@ todo
 - [Readme](https://github.com/localgovdrupal/localgov_services/blob/2.x/README.md)
 - [Issue Queue](https://github.com/localgovdrupal/localgov_services/issues)
 
-### Maintainers
+## Contributing
+Contribution guidelines go here
+
+## Maintainers, contributors, and supporters
+Maintainers
+Name
+Name
+
+## Contributors
+Name
+Name
+
+## Supporters
+Org x provided y
+Org x sponsored y
+
