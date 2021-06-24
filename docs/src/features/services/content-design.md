@@ -12,7 +12,7 @@ Use a service landing page for the homepage of a section. For example:
 * [Children, young people and families (on Croydon)](https://www.croydon.gov.uk/children-young-people-and-families)
 
 ![iScreenshot of Croydon's Children, young people and families Service Landing page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
-Image caption: A screenshot of Croydon's Children, young people and families service landing page, showing the title, an introductory paragraph, two call-to-actions and a list of links to subpages, displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
+Image caption: A screenshot of Croydon's Children, young people and families service landing page, showing the title, an introductory paragraph, two common task links and a list of links to subpages, displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
 
 
 The service landing page will be linked to from the homepage of the website.
@@ -30,9 +30,9 @@ Your summary should provide more information than what the title suggests. It sh
 
 Common task links allow quick access to high priority tasks within a section.
 
-Engage with the service to understand what the top task are within a section and use analytics to see what pages users engage with most. Monitor this over time and change it according to users' needs.
+Engage with the service team to understand what the top task are within a section and use analytics to see what pages users engage with most. Monitor this over time and change it according to users' needs.
 
-Tasks can be tagged as either "Action" or "Information" - these may display differently depending on how your theme is set up
+Tasks can be tagged as either "Action" or "Information" - these may display differently depending on how your theme is set up.
 
 ![Screenshot of the LGD demo site "Adult and social care" service landing page, showing three common task links - 2 blue information links and 1 green action link](https://user-images.githubusercontent.com/3852805/123274826-c2804c80-d4fb-11eb-844b-d4c09a5a00f8.png)
 Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a green background.
@@ -52,10 +52,7 @@ You can use them to link to:
 
 They automatically pull in the title and the summary of the page they're linking to.
 
-***Example:*** 
-
-*Examples include:*
-
+***Examples:*** 
 - *[Cycling and walking (Lambeth)](https://beta.lambeth.gov.uk/streets-roads-transport/cycling-walking)*
 - *[Bins (Brighton & Hove)](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/rubbish)*
 
@@ -81,9 +78,6 @@ You will need to consider using either:
 <!-- Todo: update links once there's documentation for guides etc -->
 
 ***Examples***
-
-*Examples include:*
-
 * *[correcting a death registration (Croydon)](https://www.croydon.gov.uk/births-deaths-marriages-and-citizenship/death-and-bereavement/correcting-death-registration-certificate)*
 * *[Claim a refund (Lambeth)](https://beta.lambeth.gov.uk/council-tax/claim-refund)*
 * *[How to use a wheelie bin (Brighton & Hove)](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/rubbish/how-use-wheelie-bins)*
@@ -95,8 +89,6 @@ Image description: Brighton and Hove Council's How to use a wheelie bin Service 
 You can add a task button at the top of the service page by adding a link to the 'Task' tab on the righthand side menu of the page editor.
 
 ***Examples***
-
-*These include:*
 * *[Find a school near you (Croydon)](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you)*
 * *[Apply to join the housing register(Brighton & Hove)](https://www.brighton-hove.gov.uk/housing/council-housing/apply-join-housing-register)*
 
