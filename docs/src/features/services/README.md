@@ -19,6 +19,9 @@ Other content types in the LocalGovDrupal distribution can also optionally be li
 * [Lambeth: Bins and recycling](https://beta.lambeth.gov.uk/rubbish-recycling)
 * [Brighton & Hove: Rubbish, recycling and streets](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
 
+![Brighton's Rubbish service page - see link above](https://user-images.githubusercontent.com/3852805/123297371-6b847280-d50f-11eb-8ac0-275c17103d4a.png)
+![Croydon's Adult Health service page - see link above](https://user-images.githubusercontent.com/3852805/123297547-8fe04f00-d50f-11eb-8441-c14c62548d3b.png)
+
 ## How to log issues
 * [Github Repo](https://github.com/localgovdrupal/localgov_services)
 * [Issue Queue](https://github.com/localgovdrupal/localgov_services/issues)
