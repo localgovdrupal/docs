@@ -116,7 +116,7 @@ To install it as a feature outside of LGD [TODO]
 
 ## Basic Configuration
 ### General
-### Service landing page
+#### Service landing page
 
 Name:  
 `Service landing page`  
@@ -167,7 +167,7 @@ Include images: `No`
 
 :::
 
-### Service page
+#### Service page
 
 Name:  
 `Service page`  
@@ -212,7 +212,7 @@ Include images: `No`
 
 :::
 
-### Service sub-landing page
+#### Service sub-landing page
 
 Name:  
 `Service sub-landing page`  
@@ -252,9 +252,10 @@ Include images: `No`
 :::
 
 ## Roles / permissions
-This feature does not define any permissions itself, but if the localgov_workflowand localgov_roles modules are enabled then they will apply to the content defined in this feature.
+This feature does not define any permissions itself, but if the localgov_workflow and localgov_roles modules are enabled then they will apply to the content defined in this feature.
 
 ## Advanced configuration
+todo
 
 ## Theming
 
