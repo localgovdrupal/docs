@@ -51,8 +51,8 @@ module.exports = {
         link: '/getting-started/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Features',
+        link: '/features/'
       },
       {
         text: 'Theme',
@@ -81,17 +81,47 @@ module.exports = {
         'working-with-lando',
       ],
 
-      '/config/': [
+      '/features/': [
         '',
-        'content-types',
-        'paragraph-types',
-        'media-types',
-        'taxonomies',
-        'custom-modules',
-        'image-styles',
-        'news-feature',
-        'user-roles',
+        {
+          title: 'General',
+          path: '/features/general/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/features/general/content-types',
+            '/features/general/custom-modules',
+            '/features/general/image-styles',
+            '/features/general/media-types',
+            '/features/general/paragraph-types',
+            '/features/general/taxonomies',
+            '/features/general/user-roles',
+          ]
+        },
+        {
+          title: 'Services',
+          path: '/features/services/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/features/services/content-design',
+            '/features/services/technical',
+            '/features/services/background',
+          ]
+        },
+        {
+          title: 'Alert Banners',
+          path: '/features/alert-banner/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/features/alert-banner/content-design',
+            '/features/alert-banner/technical',
+            '/features/alert-banner/background',
+          ]
+        },
       ],
+
 
       '/theme/': [
         '',
