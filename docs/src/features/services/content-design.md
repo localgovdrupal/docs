@@ -12,7 +12,7 @@ Use a service landing page for the homepage of a section. For example:
 * [Children, young people and families (on Croydon)](https://www.croydon.gov.uk/children-young-people-and-families)
 
 ![iScreenshot of Croydon's Children, young people and families Service Landing page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
-Image caption: A screenshot of Croydon's Children, young people and families service landing page, showing the title, an introductory paragraph, two common task links and a list of links to subpages, displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
+Image caption: A screenshot of Croydon's Children, young people and families service landing page, showing the title, an introductory paragraph, two common task links and a list of links to service pages and sub-landing pages, each displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
 
 
 The service landing page will be linked to from the homepage of the website.
@@ -30,7 +30,7 @@ Your summary should provide more information than what the title suggests. It sh
 
 Common task links allow quick access to high priority tasks within a section.
 
-Engage with the service team to understand what the top task are within a section and use analytics to see what pages users engage with most. Monitor this over time and change it according to users' needs.
+Engage with the service team to understand what the top tasks are within a section and use analytics to see what pages users engage with most. Monitor this over time and change it according to users' needs.
 
 Tasks can be tagged as either "Action" or "Information" - these may display differently depending on how your theme is set up.
 
@@ -40,8 +40,8 @@ Image caption: in the screenshot from the LGD demo site, the action links have a
 
 ## Service sub-landing pages
 
-### When to use a service sub landing page
-Service sub landing pages are index pages that link out to other pages. They usually sit a level below the main service page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
+### When to use a service sub-landing page
+Service sub-landing pages are index pages that link out to other pages. They usually sit a level below a service landing page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
 
 You can use them to link to:
 
@@ -69,43 +69,42 @@ Service pages are the most commonly used type of page, they're useful if you're 
 * can fit on one single page
 * links out to an online form
 
-If the page requires more guidance or information
-You will need to consider using either:
+If the page requires more guidance or information you will need to consider using either:
 
-* guidance pages – if there's more content that's relative to the user completing the task, but it doesn't follow a strict process, for example types of animal welfare licences
-* step by step pages – if the guidance follows a sequential process, for example registering a death: step by step
+* guide pages – if there's more content that's relevant to the user completing the task, but it doesn't follow a strict process, for example types of animal welfare licences
+* step-by-step pages – if the guidance follows a sequential process, for example registering a death: step by step
 
 <!-- Todo: update links once there's documentation for guides etc -->
 
 ***Examples***
-* *[correcting a death registration (Croydon)](https://www.croydon.gov.uk/births-deaths-marriages-and-citizenship/death-and-bereavement/correcting-death-registration-certificate)*
+* *[Correcting a death registration (Croydon)](https://www.croydon.gov.uk/births-deaths-marriages-and-citizenship/death-and-bereavement/correcting-death-registration-certificate)*
 * *[Claim a refund (Lambeth)](https://beta.lambeth.gov.uk/council-tax/claim-refund)*
 * *[How to use a wheelie bin (Brighton & Hove)](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/rubbish/how-use-wheelie-bins)*
 
 ![Brighton and Hove's How to use a wheelie bin Service page, description below ](https://user-images.githubusercontent.com/3852805/123277011-9fef3300-d4fd-11eb-8fc2-f67c65227bac.png)
-Image description: Brighton and Hove Council's How to use a wheelie bin Service page, showing a title, summary, a common task link, then text with headings and relation links and topics in the sidebar. 
+Image description: Brighton and Hove Council's How to use a wheelie bin Service page, showing a title, summary, a common task link, then text with headings and related links in the sidebar. 
 
 ### Adding a Task button to a Service page
-You can add a task button at the top of the service page by adding a link to the 'Task' tab on the righthand side menu of the page editor.
+You can add a task button at the top of a service page by adding a link to the 'Task buttons' section of the service page editor.
 
 ***Examples***
 * *[Find a school near you (Croydon)](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you)*
 * *[Apply to join the housing register(Brighton & Hove)](https://www.brighton-hove.gov.uk/housing/council-housing/apply-join-housing-register)*
 
-### Related links and Related Topics
-The sidebar can show Related links which you can add in the page editor. 
-THe related links (or Topic terms) can be supressed by checking the Hide the related topics panel
+### Related links and Related topics
+The sidebar can show Related links and Related topics, which you can add in the 'Related content' section of the service page editor. 
+The related topics can be supressed by checking the 'Hide the related topics panel' checkbox in the same section.
 
 ## Service status
-Service status allow you to give updates about the status of the relevant service. These appear on the Service landing page. 
+Service status allow you to give updates about the status of the relevant service. These appear on the Service landing page if the 'Show on landing page' checkbox is checked in the service status editor. 
 
 ![Screenshot of Brighton's Rubbish & Waste Service landing page, with 2 status shown below a title Service updates](https://user-images.githubusercontent.com/3852805/123281746-d75fde80-d501-11eb-8408-232d35a98c40.png)
 Source: [Brighton](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
 
-A list of service statuses also appears on the URL service-path/update :
+A list of service statuses also appears on the URL service-path/update:
 
 ![Screenshot of Brighton's Rubbish & Waste Service status updates, showing 4 updates with the most recent first](https://user-images.githubusercontent.com/3852805/123282093-1d1ca700-d502-11eb-8077-f820eba2fb30.png)
-source: [Brighton](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/update)
+Source: [Brighton](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/update)
 
 ### When to use a service status
 
