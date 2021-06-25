@@ -12,7 +12,7 @@ Use a Service Landing Page for the homepage of a section. For example:
 * [Children, young people and families (on Croydon)](https://www.croydon.gov.uk/children-young-people-and-families)
 
 ![iScreenshot of Croydon's Children, young people and families Service Landing Page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
-Image caption: A screenshot of Croydon's Children, young people and families Service Landing Page, showing the title, an introductory paragraph, two common task links and a list of links to Service Pages and Service Sub-landing Pages, each displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
+Image caption: A screenshot of Croydon's Children, young people and families Service Landing Page, showing the title, an introductory paragraph, two common task links and a list of links to Service Pages and Service Sub-Landing Pages, each displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
 
 
 The Service Landing Page will be linked to from the homepage of the website.
@@ -38,10 +38,10 @@ Tasks can be tagged as either "Action" or "Information" - these may display diff
 Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a green background.
 
 
-## Service Sub-landing Pages
+## Service Sub-Landing Pages
 
-### When to use a Service Sub-landing Page
-Service Sub-landing Pages are index pages that link out to other pages. They usually sit a level below a Service Landing Page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
+### When to use a Service Sub-Landing Page
+Service Sub-Landing Pages are index pages that link out to other pages. They usually sit a level below a Service Landing Page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
 
 You can use them to link to:
 
@@ -56,8 +56,8 @@ They automatically pull in the title and the summary of the page they're linking
 - *[Cycling and walking (Lambeth)](https://beta.lambeth.gov.uk/streets-roads-transport/cycling-walking)*
 - *[Bins (Brighton & Hove)](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/rubbish)*
 
-![Screenshot of Lambeth Councils Births Service Sub-landing Page - description below](https://user-images.githubusercontent.com/3852805/123276043-bea0fa00-d4fc-11eb-80fb-0cf85b4e86da.png)
-Image description: Lambeth Council's Births Service Sub-landing page. They show the title, summary and the sub-pages, without a summary.
+![Screenshot of Lambeth Councils Births Service Sub-Landing Page - description below](https://user-images.githubusercontent.com/3852805/123276043-bea0fa00-d4fc-11eb-80fb-0cf85b4e86da.png)
+Image description: Lambeth Council's Births Service Sub-Landing page. They show the title, summary and the sub-pages, without a summary.
 
 ## Service Pages
 
