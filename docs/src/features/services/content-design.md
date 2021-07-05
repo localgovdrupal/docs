@@ -115,7 +115,7 @@ You can choose one of 3 categories to assign to a Service Status
 * Revised service
 * Normal service
 
-### Display of Service Statuses
+### Options for where the Service Status may be displayed
 
 You can choose to display Service Statuses on the relevant Service Landing Page, and / or the overall Status list by checking / unchecking the appropriate checkbox. 
 
