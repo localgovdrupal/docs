@@ -114,3 +114,10 @@ You can choose one of 3 categories to assign to a Service Status
 * Limited service
 * Revised service
 * Normal service
+
+### Display of Service Statuses
+
+You can choose to display Service Statuses on the relevant Service Landing Page, and / or the overall Status list by checking / unchecking the appropriate checkbox. 
+
+This Status list exists on the URL /service-status. 
+
