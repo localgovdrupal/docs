@@ -119,5 +119,11 @@ You can choose one of 3 categories to assign to a Service Status
 
 You can choose to display Service Statuses on the relevant Service Landing Page, and / or the overall Status list by checking / unchecking the appropriate checkbox. 
 
+![Screenshot of the Edit screen, showing two checkboxes labeled "Show on landing page" and "Show on status list"](https://user-images.githubusercontent.com/3852805/124510816-8cc94680-ddcc-11eb-9bf2-6096ec370a54.png)
+
+
 This Status list exists on the URL /service-status. 
+
+![Screenshot of Croydon's Service status page, showing all the Council's Service's Statuses grouped by Service](https://user-images.githubusercontent.com/3852805/124510908-bb472180-ddcc-11eb-9e4b-7127d0273209.png)
+
 
