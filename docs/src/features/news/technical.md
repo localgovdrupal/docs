@@ -1,4 +1,4 @@
-# News: Technicala
+# News: Technical
 [toc]
 
 ## Introduction
@@ -189,30 +189,15 @@ Facets for Category and Date are provided by default.
 ### Markup and CSS
 Css is defined in the css directory: https://github.com/localgovdrupal/localgov_news/tree/2.x/css 
 
-## Troubleshooting
-todo
-
 ## Useful links
 - [Git repo](https://github.com/localgovdrupal/localgov_news)
 - [Readme](https://github.com/localgovdrupal/localgov_news/blob/master/README.md)
 - [Issue Queue](https://github.com/localgovdrupal/localgov_news/issues)
 
 
-## Contributing
-Contribution guidelines go here
-
-## Maintainers, contributors, and supporters
-### Maintainers
-Name
-Name
-
-### Contributors
+## Contributors
 * @danchamp
 * @ekes
 * @finnlewis
 * @stephen-cox
-
-### Supporters
-Org x provided y
-Org x sponsored y
 
