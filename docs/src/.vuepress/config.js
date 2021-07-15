@@ -120,6 +120,17 @@ module.exports = {
             '/features/alert-banner/background',
           ]
         },
+        {
+          title: 'News',
+          path: '/features/news/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/features/news/content-design',
+            '/features/news/technical',
+            '/features/news/background',
+          ]
+        },
       ],
 
 
