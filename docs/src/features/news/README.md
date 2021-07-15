@@ -21,7 +21,6 @@ If multiple Newsrooms are created the News Editor will be given the option to ch
 ## Examples in the wild
 * [Brighton & Hove: News](https://www.brighton-hove.gov.uk/news)
 * [London Councils: Press Releases](https://beta.londoncouncils.gov.uk/)
-* [Croydon News](https://news.croydon.gov.uk/)
 
 ![Screenshot from Brighton and Hove, showing th B&H Newsroom, description below](https://user-images.githubusercontent.com/3852805/124795643-2701c980-df48-11eb-9100-2aa1fb241673.png)
 
