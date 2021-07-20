@@ -1,5 +1,5 @@
 ---
-title: "Open Referral and LocalGov Drupal"
+title: "Open Referral UK and LocalGov Drupal"
 description: "Directories sharing their services information using the Open Referral standard."
 date: "2021-07-20"
 author: "ekes"
