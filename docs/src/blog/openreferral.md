@@ -7,7 +7,7 @@ author_url: "https://drupal.org/u/ekes"
 canonicalUrl: "https://localgovdrupal.org/blog/localgovdrupal-openreferraluk"
 ---
 
-# Open Referral and LocalGov Drupal
+# Open Referral UK and LocalGov Drupal
 ## Collaborating and Sharing resources
 LocalGov Drupal facilitates councils working together to share the best practice for building a platform to communicate content. Open Referral is an agreed standard for sharing content about community services. Combining Open Referral in LocalGov Drupal is an obvious win.
 
@@ -30,7 +30,7 @@ The standard does largely match up with the LocalGov Drupal data model, there ar
 
 Taxonomies in LocalGov Drupal directories can also be flexible. We can now offer Open Active and the LGA's Circumstances, Needs and Services lists, these are fixed and externally defined. In addition content designers want ways of creating dynamic categorisation to fit their particular needs, so Directories offers this and the data should be made available in the Open Referral output.
 
-Any implementation of Open Referral in LocalGov Drupal therefore needs to be flexible, extendible and configurable to match any Directory people build with it. At the same time exposing data in machine readable formats on an API is often not top of the priority list, with limited time and high complexity it's often been something that doesn't get implemented. The flexibility and extensibility can't come at the cost of to much work for who ever is implementing the Directory.
+Any implementation of Open Referral in LocalGov Drupal therefore needs to be flexible, extendible and configurable to match any Directory people build with it. At the same time exposing data in machine readable formats on an API is often not top of the priority list, with limited time and high complexity it's often been something that doesn't get implemented. The flexibility and extensibility can't come at the cost of too much work for who ever is implementing the Directory.
 
 ## Getting technical
 This is where this post will start delving into some of the implementation details. If you're not interested in the internals of Drupal and building sites feel free to skip to the end. If you are interested in some of the challenges, and possible alternatives that you could use in Drupal for your APIs, here we go.
