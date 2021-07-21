@@ -1,5 +1,11 @@
 # Styling
 
+## Deprecated
+
+<span style="color:#B30000;">**This documentation is for the original localgov_theme and the associated localgov_skeleton theme, which have been superceded by the [localgov_base theme](https://github.com/localgovdrupal/localgov_base) documentation for which is in production.**</span>
+
+***
+
 The theme is using SASS with [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/) and is compiled to CSS with Gulp. All source files can be found in `/assets/scss`, each file will be compiled into a file with the same name and folder structure into `/assets/css` that you can then include in your Drupal libraries. Files with names beginning with an underscore `_` will be ignored by the compiler, but they can still be imported into other SASS files.
 
 ## Bootstrap

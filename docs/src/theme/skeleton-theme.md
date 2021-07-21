@@ -1,10 +1,16 @@
 # Skeleton theme
 
+## Deprecated
+
+<span style="color:#B30000;">**This documentation is for the original localgov_theme and the associated localgov_skeleton theme, which have been superceded by the [localgov_base theme](https://github.com/localgovdrupal/localgov_base) documentation for which is in production.**</span>
+
+***
+
 [GitHub Repository](https://github.com/localgovdrupal/localgov_skeleton)
 
 The base theme we encourage you to use to build upon. The theme offers no styling or javascript functionality whatsoever and only contains twig templates.
 
-The base theme it's based on is `classy` and it sets up several regions you might need and are used in our frontend theme. 
+The base theme it's based on is `classy` and it sets up several regions you might need and are used in our frontend theme.
 
 There are currently no preprocess hooks written.
 

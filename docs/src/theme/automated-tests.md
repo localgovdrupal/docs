@@ -1,5 +1,11 @@
 # Automated tests
 
+## Deprecated
+
+<span style="color:#B30000;">**This documentation is for the original localgov_theme and the associated localgov_skeleton theme, which have been superceded by the [localgov_base theme](https://github.com/localgovdrupal/localgov_base) documentation for which is in production.**</span>
+
+***
+
 The theme features some automated tests written with [Mocha.js](https://mochajs.org/) localed in `tests/`. The purpose of these tests is to ensure consistency between versions and deployments and to highlight any regression issues, particularly regarding Gulp.
 
 Mocha.js doesn't make assumptions about your assertion library of choice, in this project we opted for [Chai](https://www.chaijs.com/).
