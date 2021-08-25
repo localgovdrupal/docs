@@ -47,12 +47,12 @@ module.exports = {
     smoothScroll: false,
     nav: [
       {
-        text: 'Getting started',
-        link: '/getting-started/',
+        text: 'Developers',
+        link: '/devs/'
       },
       {
-        text: 'Features',
-        link: '/features/'
+        text: 'Content designers',
+        link: '/content-designers/'
       },
       {
         text: 'Theme',
@@ -67,72 +67,70 @@ module.exports = {
         link: '/accessibility/'
       },
       {
-        text: 'Testing',
-        link: '/testing/'
-      },
-      {
         text: 'Blog',
         link: '/blog/'
       },
     ],
     sidebar: {
-      '/getting-started/': [
-        '',
-        'working-with-lando',
-      ],
 
-      '/features/': [
+      '/devs/': [
         '',
         {
-          title: 'General',
-          path: '/features/general/',
+          title: 'Getting started',
+          path: '/devs/getting-started/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/general/content-types',
-            '/features/general/custom-modules',
-            '/features/general/image-styles',
-            '/features/general/media-types',
-            '/features/general/paragraph-types',
-            '/features/general/taxonomies',
-            '/features/general/user-roles',
+            '/devs/getting-started/working-with-lando',
           ]
         },
         {
-          title: 'Services',
-          path: '/features/services/',
+          title: 'General configuration',
+          path: '/devs/general/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/services/content-design',
-            '/features/services/technical',
-            '/features/services/background',
+            '/devs/general/content-types',
+            '/devs/general/custom-modules',
+            '/devs/general/image-styles',
+            '/devs/general/media-types',
+            '/devs/general/paragraph-types',
+            '/devs/general/taxonomies',
+            '/devs/general/user-roles',
           ]
         },
         {
-          title: 'Alert Banners',
-          path: '/features/alert-banner/',
+          title: 'Features',
+          path: '/devs/features/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/alert-banner/content-design',
-            '/features/alert-banner/technical',
-            '/features/alert-banner/background',
+            '/devs/features/services-technical',
+            '/devs/features/alert-banner-technical',
+            '/devs/features/news-technical',
           ]
         },
         {
-          title: 'News',
-          path: '/features/news/',
+          title: 'Testing',
+          path: '/devs/testing/',
+        },
+        'issues',
+      ],
+
+      '/content-designers/': [
+        '',
+        {
+          title: 'Features',
+          path: '/content-designers/features/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/news/content-design',
-            '/features/news/technical',
-            '/features/news/background',
+            '/content-designers/features/services',
+            '/content-designers/features/alert-banner',
+            '/content-designers/features/news',
           ]
         },
       ],
-
 
       '/theme/': [
         '',
