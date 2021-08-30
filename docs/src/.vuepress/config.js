@@ -136,11 +136,9 @@ module.exports = {
 
       '/theme/': [
         '',
-        'styling',
-        'javascript',
         'regions',
-        'automated-tests',
-        'skeleton-theme',
+        'old-localgov-theme',
+        'old-skeleton-theme',
         'admin-theme', // keep at the end
       ],
 
