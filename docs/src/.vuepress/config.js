@@ -52,7 +52,7 @@ module.exports = {
       },
       {
         text: 'Content designers',
-        link: '/content-designers/'
+        link: '/content/'
       },
       {
         text: 'Theme',
@@ -117,17 +117,20 @@ module.exports = {
         'issues',
       ],
 
-      '/content-designers/': [
+      '/content/': [
         '',
         {
           title: 'Features',
-          path: '/content-designers/features/',
+          path: '/content/features/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/content-designers/features/services',
-            '/content-designers/features/alert-banner',
-            '/content-designers/features/news',
+            '/content/features/services',
+            '/content/features/alert-banner',
+            '/content/features/news',
+            '/content/features/step-by-step',
+            '/content/features/guide',
+            '/content/features/subsites',
           ]
         },
       ],

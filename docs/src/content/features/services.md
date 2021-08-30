@@ -1,7 +1,34 @@
-# Services: Content design
+# Services
 Contents:
 
 [[toc]]
+
+## Introduction
+
+Provides the pages and navigation for presenting the Services provided by Local Government. A part of the LocalGovDrupal distribution.
+
+Content types:
+
+* **Service Landing Page** - the top level section for each service.
+* **Service Sub-landing Page** - detail and links to specific pages within a service.
+* **Service Page** - the basic page that can be placed in a service, and on a Service Sub-landing Page.
+* **Service Status** - an optional additional type for providing updates about a the status of a service.
+
+Other content types in the LocalGovDrupal distribution can also optionally be linked into service sections and referenced from Sub-landing Pages.
+
+## Examples in the wild
+* [LocalGov Drupal demo: Adult health and social care](https://localgovdrupal.agile.coop/adult-health-and-social-care)
+* [Croydon: Adult health and social care ](https://www.croydon.gov.uk/adult-health-and-social-care)
+* [Lambeth: Bins and recycling](https://beta.lambeth.gov.uk/rubbish-recycling)
+* [Brighton & Hove: Rubbish, recycling and streets](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
+
+![Brighton's Rubbish service page - see link above](https://user-images.githubusercontent.com/3852805/123297371-6b847280-d50f-11eb-8ac0-275c17103d4a.png)
+![Croydon's Adult Health service page - see link above](https://user-images.githubusercontent.com/3852805/123297547-8fe04f00-d50f-11eb-8441-c14c62548d3b.png)
+
+## How to log issues
+* [Github Repo](https://github.com/localgovdrupal/localgov_services)
+* [Issue Queue](https://github.com/localgovdrupal/localgov_services/issues)
+
 
 ## Service Landing Page
 
@@ -12,7 +39,7 @@ Use a Service Landing Page for the homepage of a section. For example:
 * [Children, young people and families (on Croydon)](https://www.croydon.gov.uk/children-young-people-and-families)
 
 ![iScreenshot of Croydon's Children, young people and families Service Landing Page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
-Image caption: A screenshot of Croydon's Children, young people and families Service Landing Page, showing the title, an introductory paragraph, two common task links and a list of links to Service Pages and Service Sub-Landing Pages, each displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
+Image caption: A screenshot of Croydon's Children, young people and families Service Landing Page, showing the title, an introductory paragraph, two common task links and a list of links to Service Pages and Service Sub-landing Pages, each displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
 
 
 The Service Landing Page will be linked to from the homepage of the website.
@@ -38,10 +65,10 @@ Tasks can be tagged as either "Action" or "Information" - these may display diff
 Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a green background.
 
 
-## Service Sub-Landing Pages
+## Service Sub-landing Pages
 
-### When to use a Service Sub-Landing Page
-Service Sub-Landing Pages are index pages that link out to other pages. They usually sit a level below a Service Landing Page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
+### When to use a Service Sub-landing Page
+Service Sub-landing Pages are index pages that link out to other pages. They usually sit a level below a Service Landing Page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
 
 You can use them to link to:
 
@@ -56,8 +83,8 @@ They automatically pull in the title and the summary of the page they're linking
 - *[Cycling and walking (Lambeth)](https://beta.lambeth.gov.uk/streets-roads-transport/cycling-walking)*
 - *[Bins (Brighton & Hove)](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/rubbish)*
 
-![Screenshot of Lambeth Councils Births Service Sub-Landing Page - description below](https://user-images.githubusercontent.com/3852805/123276043-bea0fa00-d4fc-11eb-80fb-0cf85b4e86da.png)
-Image description: Lambeth Council's Births Service Sub-Landing page. They show the title, summary and the sub-pages, without a summary.
+![Screenshot of Lambeth Councils Births Service Sub-landing Page - description below](https://user-images.githubusercontent.com/3852805/123276043-bea0fa00-d4fc-11eb-80fb-0cf85b4e86da.png)
+Image description: Lambeth Council's Births Service Sub-landing Page. They show the title, summary and the sub-pages, without a summary.
 
 ## Service Pages
 
