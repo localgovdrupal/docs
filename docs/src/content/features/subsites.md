@@ -12,10 +12,13 @@ You can create a subsite landing page, with links through to connecting pages, a
 
 ## Examples in the wild
 - [Bereavement services at Croyon](https://www.croydon.gov.uk/bereavement-services)
-![picture 1](../../images/12879aa4d19da6c08bc8af4596c8c39664cacac2cbdb22552b935100d38fd7c8.png)  
+![Screenshot of Bereavement services subsite, with yellow banner and images of Croyon crematorium and cemetery](https://user-images.githubusercontent.com/3852805/131334898-ba09acc1-dd98-4975-82dc-198df0f7d991.png)
+
+
 
 - [Fostering at Lambeth](https://beta.lambeth.gov.uk/fostering) 
-![picture 3](../../images/1a86df1bab7a4561dbdf4b4ef1af7914a1449340ffabcf9ef877f4a6b174724b.png)  
+![Screenshot of Fostering Subsite, with pink and purple banner with stylised words "Be the difference" and multicolumn layout](https://user-images.githubusercontent.com/3852805/131335090-a7b782c6-6cbd-4976-ade3-1b3033a14fa8.png)
+
 
 
 ## How to log issues
