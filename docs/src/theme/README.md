@@ -22,9 +22,18 @@ The theme should automatically be installed through composer if you're getting s
 
 ### Sub-theme
 
-Create a sub-them by running the sub-theme creation script in the `/scripts` directory. 
+Create a sub-them by running the sub-theme creation script in the `/scripts` directory, like so:
+```
+  cd web/themes/contrib/localgov_base/
+  bash scripts/create_subtheme.sh
+```
 
-You'll need to specify the name and the machine name of the theme. 
+You need to enter two items when creating a sub-theme:
+
+1. The name of the theme, this can be anything and can include spaces, e.g. `Super Council`
+2. The machine name for the theme, this must start with a letter and use only lowercase letters and underscores, e.g. `super_council`
+
+#### Create a sub-theme demo:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/41Y-Dd4aJFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
