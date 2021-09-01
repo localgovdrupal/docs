@@ -1,4 +1,4 @@
-# Guide
+# Guide Pages
 
 ## When to use a guide page
 Guide pages are useful when you want to group together a collection of connected pages. If there's content that's relative to the user completing a task, but it doesn't follow a strict process, you should use the guide format. 
