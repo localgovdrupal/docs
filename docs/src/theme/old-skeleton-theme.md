@@ -1,4 +1,4 @@
-# Skeleton theme
+# Skeleton theme (Deprecated)
 
 ## Deprecated
 
