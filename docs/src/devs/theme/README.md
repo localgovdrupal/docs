@@ -5,17 +5,14 @@ tags:
   - frontend
 ---
 
-# Frontend theme
+# LocalGov Base
 
-## Deprecated
+[GitHub Repository](https://github.com/localgovdrupal/localgov_base)
 
-<span style="color:#B30000;">**This documentation is for the original localgov_theme and the associated localgov_skeleton theme, which have been superceded by the [localgov_base theme](https://github.com/localgovdrupal/localgov_base) documentation for which is in production.**</span>
+This theme was developed with scalability and easy of use in mind. That means, the theme should be a very good starting point for any website using the LocalGov Drupal distribution, and it provides an easy way to be customised out of the box.
 
-***
-
-[GitHub Repository](https://github.com/localgovdrupal/localgov_theme)
-
-The theme uses Bootstrap 4 and uses Gulp for compiling SASS to CSS. We aim for each library to be included and compiled separately so that child themes can selectively override each library they don't wish to inherit.
+## Inline Documentation
+Instead of creating documentation for the theme and storing it in a wiki or something else that is unlikely to be updated, we have written detailed comments inline with the code. This should make it easier to know exactly what code block any specific documentation item refers to.
 
 ## Installation
 
@@ -23,22 +20,51 @@ The theme should automatically be installed through composer if you're getting s
 
 ## Getting started
 
-Install dependencies using `npm install`.
+### Sub-theme
 
-If you want to start development then `npm run-script dev` will run compilers, with watchers for file changes and BrowserSync.
+Create a sub-them by running the sub-theme creation script in the `/scripts` directory, like so:
+```
+  cd web/themes/contrib/localgov_base/
+  bash scripts/create_subtheme.sh
+```
 
-You can compile the theme for production using `npm run-script generate`. This will run all the compilers once with the 'production' environment variable _without_ any watchers or BrowserSync.
+You need to enter two items when creating a sub-theme:
 
-An alternative to `dev` is the `build` script, this will run the same function with the 'production' environment variable instead. This can be useful for debugging production compilations.
+1. The name of the theme, this can be anything and can include spaces, e.g. `Super Council`
+2. The machine name for the theme, this must start with a letter and use only lowercase letters and underscores, e.g. `super_council`
 
-The main difference between 'production' and 'development' compilations are how some internal plugins work and in some cases if particular plugins such as PurgeCSS are run.
+#### Create a sub-theme demo:
 
-The `node_modules` folder will be, and should be, gitignored. You can replace `npm` with `yarn` if you prefer it, just note that the lock file will be different and that may have issues.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/41Y-Dd4aJFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Skeleton theme
+### Custom styles
 
-Our front end theme uses the localgov_skeleton theme as its base, this allows to share generic templates with other themes if you wanted to build a custom child theme not related to the localgov_theme. Jump to [documentation](/theme/skeleton-theme).
+The theme relies on css custom properties (aka css variables). You can set these in the `css/variables.css` file in your subtheme.
 
-## Admin theme
+This is where you set your colours, fonts, spacing, etc. Then you "apply" these variables where needed, like so:
+```
+  :root {
+    /* Set/Override Variables */
+    --color-accent: red;
+    --spacing-largest: 5rem;
 
-We also have an admin theme that comes with some enhancements to the Claro theme found in core. You can read more about it in its [documentation](/theme/admin-theme).
+    /* Apply Variables */
+    --color-link: var(--color-accent);
+    --breadcrumbs-background-color: var(--color-accent);
+    --section-spacing-vertical-header: var(--spacing-largest);
+  }
+```
+If you need to add any CSS overides, you can create custom CSS files for these and then a library/libraries to attach them to your components.
+
+## Automated CSS Coding Standards
+To make sure we follow Drupal's CSS coding standards (without having to think about it), there is a handy `npm` script to automatically scan and fix any CSS coding standards violations.
+
+Simply run `npm install` to get the necessary packages, then run `npm start` to scan the files and fix any issues.
+
+## IE11 Fallbacks
+
+Within the [css directories](https://github.com/localgovdrupal/localgov_base/tree/1.x/css/components) there are files with the naming convention of .ie11.css . These define the fallback for IE11 (which does not support css variables). This means that by default all sites using this theme will look the same in IE11.
+
+If you wish to support IE11 in a sub-theme, you can simply copy these files and add your own overrides.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tcEjNBvQFiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

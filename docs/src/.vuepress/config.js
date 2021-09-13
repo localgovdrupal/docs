@@ -24,9 +24,11 @@ module.exports = {
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/favicons/apple-touch-icon.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicons/favicon-32x32.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicons/favicon-16x16.png"}],
+
     ['link', { rel: "manifest", href: "/favicons/site.webmanifest"}],
     ['link', { rel: "shortcut icon", href: "/favicons/favicon.ico"}],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+
   ],
 
   /**
@@ -113,16 +115,15 @@ module.exports = {
         },
         {
           title: 'Theme',
+
           path: '/devs/theme/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '',
-            '/devs/theme/styling',
-            '/devs/theme/javascript',
+            '/devs/theme/',
             '/devs/theme/regions',
-            '/devs/theme/automated-tests',
-            '/devs/theme/skeleton-theme',
+            '/devs/theme/old-localgov-theme',
+            '/devs/theme/old-skeleton-theme',
             '/devs/theme/admin-theme', // keep at the end
           ]
         },
@@ -155,6 +156,10 @@ module.exports = {
         '',
         'wireframes',
         'research',
+        'regions',
+        'old-localgov-theme',
+        'old-skeleton-theme',
+        'admin-theme', // keep at the end
       ],
       '/contributing/': [
         '',
