@@ -108,6 +108,7 @@ module.exports = {
             '/devs/features/services-technical',
             '/devs/features/alert-banner-technical',
             '/devs/features/news-technical',
+            '/devs/features/subsites'
           ]
         },
         {
