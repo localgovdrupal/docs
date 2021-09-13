@@ -156,10 +156,6 @@ module.exports = {
         '',
         'wireframes',
         'research',
-        'regions',
-        'old-localgov-theme',
-        'old-skeleton-theme',
-        'admin-theme', // keep at the end
       ],
       '/contributing/': [
         '',
