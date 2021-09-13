@@ -49,6 +49,10 @@ module.exports = {
     smoothScroll: false,
     nav: [
       {
+        text: 'Overview',
+        link: '/overview'
+      },
+      {
         text: 'Developers',
         link: '/devs/'
       },
@@ -74,7 +78,6 @@ module.exports = {
       },
     ],
     sidebar: {
-
       '/devs/': [
         '',
         {
