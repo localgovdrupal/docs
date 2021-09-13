@@ -55,8 +55,8 @@ module.exports = {
         link: '/content/'
       },
       {
-        text: 'Theme',
-        link: '/theme/'
+        text: 'Designers',
+        link: '/design/'
       },
       {
         text: 'Contributing',
@@ -112,10 +112,26 @@ module.exports = {
           ]
         },
         {
+          title: 'Theme',
+          path: '/devs/theme/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '',
+            '/devs/theme/styling',
+            '/devs/theme/javascript',
+            '/devs/theme/regions',
+            '/devs/theme/automated-tests',
+            '/devs/theme/skeleton-theme',
+            '/devs/theme/admin-theme', // keep at the end
+          ]
+        },
+        {
           title: 'Testing',
           path: '/devs/testing/',
         },
         'issues',
+        'development-workflow',
       ],
 
       '/content/': [
@@ -135,17 +151,11 @@ module.exports = {
           ]
         },
       ],
-
-      '/theme/': [
+      '/design/': [
         '',
-        'styling',
-        'javascript',
-        'regions',
-        'automated-tests',
-        'skeleton-theme',
-        'admin-theme', // keep at the end
+        'wireframes',
+        'research',
       ],
-
       '/contributing/': [
         '',
         'development',
