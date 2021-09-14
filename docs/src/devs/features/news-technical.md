@@ -156,7 +156,7 @@ Add News articles. By default:
 ## Advanced **Configuration**
 
 ### Structured data
-The Schema.org Metatag module is used to generate structured data for individual News Articles. This is rendered as JSON LD in the <head> element.
+The Schema.org Metatag module is used to generate structured data for individual News Articles. This is rendered as JSON LD in the `<head>` element.
 
 eg. creating new entity_types etc etc 
 

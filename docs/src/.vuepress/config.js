@@ -24,9 +24,11 @@ module.exports = {
     ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/favicons/apple-touch-icon.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicons/favicon-32x32.png"}],
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/favicons/favicon-16x16.png"}],
+
     ['link', { rel: "manifest", href: "/favicons/site.webmanifest"}],
     ['link', { rel: "shortcut icon", href: "/favicons/favicon.ico"}],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
+
   ],
 
   /**
@@ -47,16 +49,20 @@ module.exports = {
     smoothScroll: false,
     nav: [
       {
-        text: 'Getting started',
-        link: '/getting-started/',
+        text: 'Overview',
+        link: '/overview'
       },
       {
-        text: 'Features',
-        link: '/features/'
+        text: 'Developers',
+        link: '/devs/'
       },
       {
-        text: 'Theme',
-        link: '/theme/'
+        text: 'Content designers',
+        link: '/content/'
+      },
+      {
+        text: 'Designers',
+        link: '/design/'
       },
       {
         text: 'Contributing',
@@ -67,81 +73,93 @@ module.exports = {
         link: '/accessibility/'
       },
       {
-        text: 'Testing',
-        link: '/testing/'
-      },
-      {
         text: 'Blog',
         link: '/blog/'
       },
     ],
     sidebar: {
-      '/getting-started/': [
-        '',
-        'working-with-lando',
-      ],
-
-      '/features/': [
+      '/devs/': [
         '',
         {
-          title: 'General',
-          path: '/features/general/',
+          title: 'Getting started',
+          path: '/devs/getting-started/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/general/content-types',
-            '/features/general/custom-modules',
-            '/features/general/image-styles',
-            '/features/general/media-types',
-            '/features/general/paragraph-types',
-            '/features/general/taxonomies',
-            '/features/general/user-roles',
+            '/devs/getting-started/working-with-lando',
           ]
         },
         {
-          title: 'Services',
-          path: '/features/services/',
+          title: 'General configuration',
+          path: '/devs/general/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/services/content-design',
-            '/features/services/technical',
-            '/features/services/background',
+            '/devs/general/content-types',
+            '/devs/general/custom-modules',
+            '/devs/general/image-styles',
+            '/devs/general/media-types',
+            '/devs/general/paragraph-types',
+            '/devs/general/taxonomies',
+            '/devs/general/user-roles',
           ]
         },
         {
-          title: 'Alert Banners',
-          path: '/features/alert-banner/',
+          title: 'Features',
+          path: '/devs/features/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/alert-banner/content-design',
-            '/features/alert-banner/technical',
-            '/features/alert-banner/background',
+            '/devs/features/services-technical',
+            '/devs/features/alert-banner-technical',
+            '/devs/features/news-technical',
+            '/devs/features/subsites'
           ]
         },
         {
-          title: 'News',
-          path: '/features/news/',
+          title: 'Theme',
+
+          path: '/devs/theme/',
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/features/news/content-design',
-            '/features/news/technical',
-            '/features/news/background',
+            '/devs/theme/',
+            '/devs/theme/regions',
+            '/devs/theme/old-localgov-theme',
+            '/devs/theme/old-skeleton-theme',
+            '/devs/theme/admin-theme', // keep at the end
           ]
         },
+        {
+          title: 'Testing',
+          path: '/devs/testing/',
+        },
+        'issues',
+        'development-workflow',
       ],
 
-
-      '/theme/': [
+      '/content/': [
         '',
-        'regions',
-        'old-localgov-theme',
-        'old-skeleton-theme',
-        'admin-theme', // keep at the end
+        {
+          title: 'Features',
+          path: '/content/features/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/content/features/services',
+            '/content/features/alert-banner',
+            '/content/features/news',
+            '/content/features/step-by-step',
+            '/content/features/guide',
+            '/content/features/subsites',
+          ]
+        },
       ],
-
+      '/design/': [
+        '',
+        'wireframes',
+        'research',
+      ],
       '/contributing/': [
         '',
         'development',
