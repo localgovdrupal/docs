@@ -8,7 +8,7 @@ heroImages:
 - altText: Beta phase starts early 2021
 tagline: Helping UK councils publish better content with Drupal.
 actionText: Quick Start →
-actionLink: /getting-started/
+actionLink: /devs/getting-started/
 features:
 - start: Stop
   end: re-inventing wheels
