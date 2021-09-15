@@ -2,7 +2,7 @@
 
 Todo - this page will give a brief introduction to LocalGov Drupal and its features. 
 
-[toc]
+[[toc]]
 
 ## Services introduction
 
