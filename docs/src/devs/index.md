@@ -1,7 +1,5 @@
 # For Developers
 
-This section is developer focused documentation. 
-
 LocalGov Drupal is a distribution that has been developed collaboratively by Councils and suppliers for Councils. It comes with functionality that most local councils need for web publishing.
 
 It will need some development resource to get it set up, configured for an individual councils needs, ready for launch and hosted and maintained going forward.
