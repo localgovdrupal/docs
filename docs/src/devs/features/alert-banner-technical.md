@@ -1,5 +1,7 @@
 # Alert banners: Technical
 
+[[toc]]
+
 ## Introduction
 The LGD Alert Banner module provides alert banners that can be placed sitewide or on selected pages. The modules provides one predefined banner type named Alert banner, with four alert types: **Announcement, Minor Alert, Major Alert**, and **Death of a notable person**. 
 
@@ -139,7 +141,4 @@ Name
 Name
 Name
 
-## Supporters
-Org x provided y
-Org x sponsored y
 
