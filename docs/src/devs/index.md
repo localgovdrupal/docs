@@ -9,9 +9,9 @@ Many councils develop custom functionality for their sites, and we encourage the
 
 ## Quick links
 
-- Get **set up locally**: "[Getting started](/devs/getting-started)" 
-- Look at the code: [Github](https://github.com/localgovdrupal). 
-- **Technical overviews** features [Features](/devs/features)
+- Get **set up locally**: [Getting started](/devs/getting-started)
+- Look at the code: [Github](https://github.com/localgovdrupal)
+- Read about the [Features](/devs/features)
 - **Frontend Developers** : [Theme](/devs/theme) 
 
 ## Get involved
