@@ -1,5 +1,5 @@
 # Subsites: Technical
-[toc]
+[[toc]]
 
 ## Introduction
 When you enable this feature you will get:
