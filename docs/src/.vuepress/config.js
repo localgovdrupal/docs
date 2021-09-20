@@ -157,8 +157,9 @@ module.exports = {
       ],
       '/design/': [
         '',
-        'wireframes',
+        'documentation',
         'research',
+        'feature-design',
       ],
       '/contributing/': [
         '',
