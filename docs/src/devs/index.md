@@ -2,7 +2,7 @@
 
 LocalGov Drupal is a [Drupal distribution](https://www.drupal.org/docs/drupal-distributions) that has been developed collaboratively by councils and their suppliers. It aims to deliver default functionality that most local councils need for web publishing.
 
-It will need some development resource to get it installed, configured for an individual council's needs, ready for launch. It will also need appropriate hosting and security updates going forward.
+It will need some development resource to get it installed, configured for an individual council's needs and ready for launch. It will also need appropriate hosting and security updates going forward.
 
 Many councils extend the default functionality with custom development for their sites. We encourage all councils and developmetn teams to extend with re-use in mind and to contibute code and experience back to the project to allow other councils to benefit.
 
