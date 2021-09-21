@@ -1,0 +1,117 @@
+# Patterns & Components
+
+Below are some components available through the WYSIWYG editor. 
+
+## Stand out content
+
+### Alerts
+
+There are 4 types of alert boxes:
+
+* Alert info 
+* Alert warning
+* Alert failure
+* Alert success 
+
+#### Alert info
+Only use the alert danger box when you need to warn users about something important, such as legal consequences of an action, or lack of action, or if someone is in danger. It can also be used when a user has not completed an action correctly – make sure you explain how they can rectify the issue.
+
+todo - example
+
+#### Alert warning
+Only use the alert danger box when you need to warn users about something important, such as legal consequences of an action, or lack of action, or if someone is in danger. It can also be used when a user has not completed an action correctly – make sure you explain how they can rectify the issue.
+
+#### Alert failure
+Use the alert success box to give feedback to a user when they have completed an action or a transaction.
+
+
+#### Alert success
+Use the alert success box to give feedback to a user when they have completed an action or a transaction.
+
+todo - example
+
+### Callouts
+
+There are six varieties of callout available in the default text format. Most Councils will create a set of in-house rules about when they will be applied. 
+
+- Callout primary
+- Callout success
+- Callout danger
+- Callout teal
+- Callout carbon
+- Callout yellow
+
+Remember that these provide visual styling only and the information provided by the visual styles should also be available in text to make this information available to all users.
+
+### Inline styles
+
+#### Highlight
+
+A style component used to highlight a piece of text or a link on a page so it stands out.
+
+todo - example
+
+See [How to add WYSIWYG styles](/content/how-to/how-to-wysiwyg-styles)
+
+
+## Contact details
+
+When displaying contact details, such as a phone number, address or email, you will need to determine if they should be inserted:
+
+1. inline – this means, the contact details appear when they are needed around a task
+2. at the bottom of the page using the contact component – if details are not required to complete a task, you should insert them at the bottom of the page by using the contact component
+
+### Repeating contact details
+
+Repeat the contact details if the user might read the section of the page on its own.
+
+If they have to read the whole page, only put the details once.
+
+### Writing out contact details
+Limit contact information to service name, email address, telephone number and postal address.
+
+Use generic email addresses where possible – for example: parking@council.gov.uk rather than the email address of a named member of staff.
+
+Always write out the email address instead of writing 'Contact the parking team' and making that the email link. By writing out the email address, you are making it easier for the user by letting them know the full email address. 
+
+### Contact details in emergencies
+Use a callout paragraph for contact details in emergencies. Use this when you need to bring it to the user's attention as the first action they should take if someone is in danger or is breaking the law. Use these sparingly.
+
+
+### Contact component
+
+When to use the contact component
+You should use the contact component, if:
+
+* the contact details are not required to complete a task – if they are needed to complete as task, you should insert the details inline with the content
+* the contact details are there for secondary information
+
+If the contact details are integral to the content you are writing, you should add contact details inline.
+
+#### Adding in a contact component to a page
+You can only a the component in a standard page.
+
+To add the component in a standard page, you should select 'Add/Select component' below the text editor in the backend the site. You will then be able to search and insert, or create a new contact component, into the page.
+
+#### Referring to contact details on a page
+Do not use phases like 'Use the contact details at the bottom of the page'. This is not accessible for screen readers and people who have reading difficulties, for example dyslexia. Instead, you should insert the contact details inline and where it is needed on the page.
+
+Example of contact components in use
+
+
+
+## Images, Documents and Videos
+
+You can insert images, documents and remote videos to content within the WYSWYG editor. Each of these can be uploaded or chosen from the Media Library.
+
+### Images
+Images can be uploaded remotely or chosen from the Media Library. 
+
+Once an image is added to the Wysiwyg you will be able to click the "Edit media" button which will allow you to edit the alt text, set the alignment of the image or choose from a predefined list of aspect ratios. 
+
+- Medium 8:7
+- Responsive 3:2
+- Scale crop 7:3 large
+- Square
+
+See [How to crop images](/content/how-to/how-to-crop-images)
