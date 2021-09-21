@@ -39,9 +39,6 @@ See [Drupal's glossary](https://www.drupal.org/docs/user_guide/en/glossary.html)
 - 
 
 
-## How to request new features
-
-
 ## How to get involved
 
 ### Working Groups
