@@ -16,21 +16,17 @@ There are 4 types of alert boxes:
 ![Screenshot from 2021-09-21 17-14-43](https://user-images.githubusercontent.com/3852805/134211774-0089e383-9790-44c1-a2de-dff7b0fe9754.png)
 
 #### Alert info
-Only use the alert danger box when you need to warn users about something important, such as legal consequences of an action, or lack of action, or if someone is in danger. It can also be used when a user has not completed an action correctly – make sure you explain how they can rectify the issue.
-
-todo - example
+todo
 
 #### Alert warning
 Only use the alert danger box when you need to warn users about something important, such as legal consequences of an action, or lack of action, or if someone is in danger. It can also be used when a user has not completed an action correctly – make sure you explain how they can rectify the issue.
 
 #### Alert failure
-Use the alert success box to give feedback to a user when they have completed an action or a transaction.
-
+Use the alert success box to give feedback to a user when they have failed to complete an action or a transaction.
 
 #### Alert success
 Use the alert success box to give feedback to a user when they have completed an action or a transaction.
 
-todo - example
 
 ### Callouts
 
