@@ -10,7 +10,7 @@ The LocalGov Directories sub-modules provide a variety of defaults so if you're 
 
 You'll need to have access to a Drupal installation based on the LocalGov install profile and be logged as User 1 or any other user with the rights to install modules.
 
-### 1 Install modules
+### 1 Install the Directories modules
 
 LocalGov directories is included in the LocalGov installation profile but it is not enabled by default so the first job is to install the `LocalGov directories` module. Installing this module will also install, if not already, a number of other modules such as Search API and Facets.
 
@@ -18,7 +18,7 @@ Once the core module is installed then we can choose to enable one or more of th
 
 With all these modules successfully installed you will see 3 new content types, Directory channel; Directory page and Directory venue, as well as `Directory Facet type` within the structure menu. 
 
-### 2 Directory Facets
+### 2 Create some Directory Facets
 
 Directory Facets types and Diretory Facets can be thought of like Taxonomies and Taxonomy Terms respectively with the difference that they are ignored by Configuration Synchronisation. 
 
@@ -28,7 +28,7 @@ Navigate to the Directory Facets type overview page (admin/structure/localgov_di
 
 Next we'll need to add some Directory Facets. Navigate to the Directory Facets overview page (/admin/content/directories/facets) and hit the `Add directory facets`, choose one of the previously created types, fill in the `Title` and save. Repeat this so we have a few Directory Facets in each Directory Facets type.
 
-### 3 Channels
+### 3 Creat some Channels
 
 OK we're getting somewhere. Next up let's create a 'Channel'. Channels provide the page where your users will be able to browse all of the Directory Items belonging to the Channel and filter by the applicable Directory Facet types; both of which are configurable by editors.
 
@@ -36,10 +36,12 @@ Navigate to the Create Directory channel page (/node/add/localgov_directory). Th
 
 You may have noticed that these pages aren't up much; that's because we don't have any Directory Items yet.
 
-### 4 Page Driectory Items
+### 4 Directory Items
 
 Now we have some Channels we can create some Directory Items and assign them to their channels. As things are set up currently we have one Channel which will list our `Directory Page` items and allow users to filter by either Facet Type and another channels with the same filters by instead listing `Directory Venues`.
 
 Create a `Directory Page` (/node/add/localgov_directories_page). Populate the `Title` field and then move onto the `Channels and facets` tab. Notice that there is only one channel available within the `Directory channels` fieldset; this is because we have only created one Directory Channel which applies to Directory pages. Select the only Directory Channel amd you will be presented with Directory Facet types allowed by our Channel. Choose some Facets and save. Repeat this process a few times choosing various Facets.
 
+### 5 Use the Channels
 
+Now we have some Directory Items, view the Channel and you'll see the fruits of your labour.  
