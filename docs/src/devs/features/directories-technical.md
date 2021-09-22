@@ -28,7 +28,7 @@ Navigate to the Directory Facets type overview page (admin/structure/localgov_di
 
 Next we'll need to add some Directory Facets. Navigate to the Directory Facets overview page (/admin/content/directories/facets) and hit the `Add directory facets`, choose one of the previously created types, fill in the `Title` and save. Repeat this so we have a few Directory Facets in each Directory Facets type.
 
-### 3 Creat some Channels
+### 3 Create some Channels
 
 OK we're getting somewhere. Next up let's create a 'Channel'. Channels provide the page where your users will be able to browse all of the Directory Items belonging to the Channel and filter by the applicable Directory Facet types; both of which are configurable by editors.
 
