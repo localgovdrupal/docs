@@ -2,6 +2,9 @@
 home: true
 tagline: LocalGov Drupal documentation 
 
+actionText: back to main site
+actionLink: https://localgovdrupal.org
+
 githubLink: https://github.com/localgovdrupal/
 githubText: Join us on GitHub
 twitterLink: https://twitter.com/localgovdrupal
