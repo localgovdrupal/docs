@@ -33,28 +33,21 @@ The following pages explain how the features work out-of-the-box, from a content
 
 See [Drupal's glossary](https://www.drupal.org/docs/user_guide/en/glossary.html) for more. 
 
-## General Drupal how to
-- How to log in? 
-- How to change your password
-- How to find content
-- How to manage menus
-- How to update taxonomy terms
 
 ## Quick links
 - Workflow
-- ...
-- ...
+- 
 
-## How to request new features
-Slack channel. 
 
 ## How to get involved
-Slack channel/s
-Content editor meetup
 
-## How to report bugs
-Slack channel ? 
-Git repo (link to how to use git session)
+### Working Groups
+We're keen to have content designers represented in the design and specification of new features. Please get in touch if you want to be involved. 
 
-## What new features are on the horizon? 
-Roadmap link.  
+### Slack channels
+Join the LocalGov Drupal Slack channel if you would like to get involved. 
+
+There's even a channel for #content and occassional meetups of content designers. These are really good places to get help, share learnings ot request new features. 
+
+### Report bugs and issues
+We encourage people to report bugs and issues in the Git repo. See the how-to. 

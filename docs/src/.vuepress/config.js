@@ -154,6 +154,19 @@ module.exports = {
             '/content/features/subsites',
           ]
         },
+        'patterns',
+        {
+          title: 'How-tos',
+          path: '/content/how-to/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/content/how-to/how-to-log-in',
+            '/content/how-to/how-to-github',
+            '/content/how-to/how-to-wysiwyg-styles',
+            '/content/how-to/how-to-crop-images',
+          ]
+        },
       ],
       '/design/': [
         '',
