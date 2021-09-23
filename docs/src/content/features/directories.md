@@ -38,13 +38,23 @@ Directories are made up from a collection of concepts. It's helpful to understan
 
 A described in Termiology, Facets are groups of attributes users will filter by when searching for the Directory Facet most relevant to them. Each Facet type should be made up of at least 2 Facets each of which can apply to 1 or more Directory Items. As an example, when searching for a sports facility, users may want to know if a particular sport is catered for. In this case the following might make sense:
 
-**Sports**
-- Swimming
-- Football
-- Tennis
-- Gym
+**Sports (Directory Facet type)**
+- Swimming (Directory facet)
+- Football (Directory facet)
+- Tennis (Directory facet)
+- Gym (Directory facet)
 
-## Managing Directory Channels
+Or for car parks:
+
+**Maximum stay (Directory Facet type)**
+- 1 hr (Directory facet)
+- 2 hrs (Directory facet)
+- 4 hrs (Directory facet)
+- 6 hrs (Directory facet)
+
+## Directory Channels
+
+Directory Channels 
 
 ## Managing Directory Items
 
