@@ -28,3 +28,5 @@ footer: 'LocalGov Drupal is an open source project. GPL-2.0'
 LocalGov Drupal is an open source collaboration between UK councils and Drupal developers.
 
 Our aim is to provide a better publishing platform built on Drupal to save time, save money and to generate mutual benefit from pooling our knowledge and resources.
+
+Add text here
