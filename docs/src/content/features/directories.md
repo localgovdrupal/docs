@@ -60,7 +60,9 @@ But there is often cases where Facets will be mutually exclusive such the maxium
 
 ## Directory Channels
 
+Directory Channels can be thought of as the Directory itself; it's the page where users will be presented with a list of Directory Items and have the option to filter by Facets or perform a free text search. Additionally, Channels automatically provide a logic information archicture. For example, consider a Directory Channel with a URL of `/schools/find-a-school/secondary-schools` and a breadcrumb of `Schools > Find a school > Secondary schools`; each Directory Item will then have a URL and breadcrumb based on it's _Primary Channel_, e.g.  _St. Example High School_ would have the URL `/schools/find-a-school/secondary-schools/st-example-high-school` and breadcrumb `Schools > Find a school > Secondary schools > St. Example High School`.
 
+As an editor, Channels give you the flexibility to compose a Directory made up of 1 or more types of Directory Item which can be filtered by 1 or more Directory Facet types.
 
 ## Managing Directory Items
 
