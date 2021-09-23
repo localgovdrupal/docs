@@ -24,20 +24,25 @@ Directories are made up from a collection of concepts. It's helpful to understan
 
 **Diretory Facets types**: Directory Facets types are collections of Directory Facets. Taking the example above the Type would be _Maximum stay_ which collects together all of the available durations, e.g. 3,4,5 hours.
 
-**Directory Channel**:
+**Directory Channel**: A Directory Channel is the page where end-users can view and filter the Directory Items.
 
-A Directory Channel is the page where end-users can view and filter the Directory Items.
-
-**Directory Item**:
-
-An Directory Item is an individual piece of content which is available in a Directory Channel and thus can be filtered\searched.
-
+**Directory Item**: An Directory Item is an individual piece of content which is available in a Directory Channel and thus can be filtered\searched.
 
 ## When to use Directories
 
+- You have content with a large volume of variations. Car parks, sports facilities or parks are good examples.
+- Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
+- Your content related to a specific geographical location which is relevant to users.
 
+## Directory Facets
 
-## Managing Directory Facets
+A described in Termiology, Facets are groups of attributes users will filter by when searching for the Directory Facet most relevant to them. Each Facet type should be made up of at least 2 Facets each of which can apply to 1 or more Directory Items. As an example, when searching for a sports facility, users may want to know if a particular sport is catered for. In this case the following might make sense:
+
+**Sports**
+- Swimming
+- Football
+- Tennis
+- Gym
 
 ## Managing Directory Channels
 
