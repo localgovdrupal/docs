@@ -1,21 +1,7 @@
 ---
 home: true
-heroImages:
-- image: /drupalgov-mission-discovery_400x400.png
-  altText: LocalGovDrupal Discovery Phase logo
-- image: /drupalgov-mission-alpha-v2_400x400.png
-  altText: LocalGovDrupal Alpha Phase logo
-- altText: Beta phase starts early 2021
-tagline: Helping UK councils publish better content with Drupal.
-actionText: Quick Start →
-actionLink: /devs/getting-started/
-features:
-- start: Stop
-  end: re-inventing wheels
-- start: Collaborate
-  end: with other councils
-- start: Listen
-  end: and learn from each other
+tagline: LocalGov Drupal documentation 
+
 githubLink: https://github.com/localgovdrupal/
 githubText: Join us on GitHub
 twitterLink: https://twitter.com/localgovdrupal
@@ -25,8 +11,21 @@ youtubeText: Follow us on YouTube
 footer: 'LocalGov Drupal is an open source project. GPL-2.0'
 ---
 
-LocalGov Drupal is an open source collaboration between UK councils and Drupal developers.
+Here you can find all the documentation for LocalGov Drupal, from installtion to configuration, theming and using the content types. 
 
-Our aim is to provide a better publishing platform built on Drupal to save time, save money and to generate mutual benefit from pooling our knowledge and resources.
+We try to keep it completely up to date but if you find something missing, or have some documentation that you think should be added, let us know at hello@localgovdrupal.org
 
-Add text here
+actionText: overview of features →
+actionLink: /overview.html
+
+actionText: docs for developers →
+actionLink: /devs/
+
+actionText: docs for content designers →
+actionLink: /content/
+
+actionText: docs for designers →
+actionLink: /design/
+
+actionText: how to contribute →
+actionLink: /contributing/
