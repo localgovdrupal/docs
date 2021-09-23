@@ -6,6 +6,7 @@ Guide pages are useful when you want to group together a collection of connected
 They are useful if you want to give someone a range of information on one subject. The user can use the 'Next' button to move through the guide. However, they do not need to read every page in order, like in a step-by-step.
 
 **Examples**
+
 Examples include:
 
 * types of animal welfare licences.
