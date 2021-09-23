@@ -36,7 +36,13 @@ Directories are made up from a collection of concepts. It's helpful to understan
 
 ## Directory Facets
 
-A described in Termiology, Facets are groups of attributes users will filter by when searching for the Directory Facet most relevant to them. Each Facet type should be made up of at least 2 Facets each of which can apply to 1 or more Directory Items. As an example, when searching for a sports facility, users may want to know if a particular sport is catered for. In this case the following might make sense:
+Facets are groups of attributes users will filter by when searching for a Directory Item(s) most relevant to them. Each Facet type should be made up of at least 2 Facets each of which can apply to 1 or more Directory Items. As an example, when searching for a school, there are a variety of attributes which users will obviously be interested in when looking for a schools that fits their needs. This is illustrated well by [Croydon's Secondary school Directory](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools):
+
+![school-facets](https://user-images.githubusercontent.com/11015602/134496028-5d424f43-da4c-455d-af28-03479d06c0e8.png)
+
+Note that not all Facet types are made up of mutually-exclusive Facets; in the case of gender Facets most schools are applicable to both _Girls_ and _Boys_ where as other shcools are only applicable to one gender.
+
+Another example of Facets which aren't mutually exclusive would be releavant to sports facilities:
 
 **Sports (Directory Facet type)**
 - Swimming (Directory facet)
@@ -44,7 +50,7 @@ A described in Termiology, Facets are groups of attributes users will filter by 
 - Tennis (Directory facet)
 - Gym (Directory facet)
 
-Or for car parks:
+But there is often cases where Facets will be mutually exclusive such the maxiumum lenght of stay for car parks: 
 
 **Maximum stay (Directory Facet type)**
 - 1 hr (Directory facet)
@@ -54,7 +60,7 @@ Or for car parks:
 
 ## Directory Channels
 
-Directory Channels 
+
 
 ## Managing Directory Items
 
