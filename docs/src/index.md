@@ -14,21 +14,15 @@ youtubeText: Follow us on YouTube
 footer: 'LocalGov Drupal is an open source project. GPL-2.0'
 ---
 
-Here you can find all the documentation for LocalGov Drupal, from installtion to configuration, theming and using the content types. 
+Here you can find all the documentation for LocalGov Drupal, from installation to configuration, theming and using the content types. 
 
-We try to keep it completely up to date but if you find something missing, or have some documentation that you think should be added, let us know at hello@localgovdrupal.org
+We try to keep it completely up to date but if you find something missing, or have some documentation that you think should be added, let us know at [hello@localgovdrupal.org]  (mailto:hello@localgovdrupal.org)
 
-actionText: overview of features →
-actionLink: /overview.html
+[overview of features →] (/overview.html)
 
-actionText: docs for developers →
-actionLink: /devs/
+[docs for developers →] (/devs/)
 
-actionText: docs for content designers →
-actionLink: /content/
+[docs for content designers →] (/design/)
 
-actionText: docs for designers →
-actionLink: /design/
+[how to contribute →] (/contributing/)
 
-actionText: how to contribute →
-actionLink: /contributing/
