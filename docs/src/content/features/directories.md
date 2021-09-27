@@ -75,9 +75,85 @@ When creating\editing _Sports venue_ Directory Items _Sports_ and _Location_ fac
 
 ## Guides
 
-### Creating Facets
+### Create a Directory of schools
 
-### Creating
+In this guide we'll step through the process to create a Directory of secondary schools using features which come out-of-the-box with LocalGov Drupal.
+
+#### Pre-requisites 
+
+- You'll need to have access to a Drupal installation based on the LocalGov install profile.
+- The following Drupal modules will need to be installed: LocalGov Directories, LocalGov Directories Location and LocalGov Directories Venue.
+- You'll need to be able to log in with a user which has editorial rights.
+
+#### Creating the Facet types
+
+We'll create two Facets types which allow users to filter secondary schools by the type of school and the age range.
+
+Once you've logged in navigate to the Facets types overview page via the menu items _Content_ > _Directory Facets_ > _Add directory facet type_ 
+
+![Add facet type menu](https://user-images.githubusercontent.com/11015602/134885404-81984346-2db0-4a61-86b8-41c9d778091d.png)
+
+From this screen, enter 'Age' into the _Label_ field and click _Save directory facets type_. You'll be taken to the types ovweview page where you can see your new type. 
+
+![Screenshot at 10-50-45](https://user-images.githubusercontent.com/11015602/134886415-d784e54a-01de-4f43-ac40-bcb10c418a80.png)
+
+From here, click _Add directory facets type_ button to create another. This time, enter 'Location' into the _Label_ field and click the save button.
+
+
+#### Creating the Facets
+
+With our Types in place, it's time to create the Facets which users can use to filter our list of schools. Using the admin menu, choose _Content_ > _Directory Facets_ > _Add directory facet_ 
+
+![Screenshot at 10-50-45](https://user-images.githubusercontent.com/11015602/134886950-0f1a1c03-7068-4bc9-97d3-759ba4ec1391.png)
+
+From the next screen choose the previously created _Age_ Type and, finally, enter '11 to 16 years' into the _Title_ field and click the _Save_ button. You'll be taken to the Facet overview screen.
+
+![Screenshot at 10-57-04](https://user-images.githubusercontent.com/11015602/134887389-1a196aa0-bc79-451d-b66e-953aaf97a918.png)
+
+From here, click the _Add directory facets_ button and repeat the process until you have the following:
+
+| Age      | Location |
+| ----------- | ----------- |
+| 11-16 years      | North Somewhere       |
+| 11-18 year   | South Somewhere        |
+
+
+#### The Channel
+
+OK we're getting somewhere. Next up let's create a 'Channel'. Remember, the purpose of this channel is to allow users to filter a list of secondary schools by age and location so they can find a school which meets their criteria. Here we're going to make use of the _Directory venue_ content type, that comes out-of-the-box with LocalGov Drupal, to represent a school.
+
+Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory channel_:
+
+![Screenshot at 11-04-03](https://user-images.githubusercontent.com/11015602/134888409-ad6a4066-cbdf-49a4-8186-334bb802424b.png)
+
+From this screen, enter 'Secondary schools' into the _Title_ field and then scroll down the page and check all the boxes under _Enabled Content types_ and _Enabled facets_.
+
+![Screenshot at 11-05-46](https://user-images.githubusercontent.com/11015602/134888679-0c71d500-2e5a-4a92-9185-a06b75d10bf1.png)
+
+Finally, click _Save_ to create your new Channel. 
+
+#### Directory Items
+
+With the Channel and Facets in place we are ready to start creating some Directory Items, in this case secondary schools.
+
+Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory venue:
+
+![Screenshot at 11-08-35](https://user-images.githubusercontent.com/11015602/134889091-ec4ac81d-1f26-40a9-8787-edd3f88c0610.png)
+
+From here, enter 'Example high school' into the _Title_ field then select the _Channels and facets_ tab. After selecting 'Secondary schools' as the _Primary_ Channel you will be presented with some Facets for selection. Choose some Facts, in this case it probably doesn't make sense to have more than one Facet per Type:
+
+![Screenshot at 11-16-56](https://user-images.githubusercontent.com/11015602/134890324-a4f58d4e-d572-4553-bbf3-5537d7c8e9d2.png)
+
+Finally, we can harness the power of the LocalGov location intergration so users can browse the schools by using a map interface. Open the _Venue_ tab and click the _Select location_ button. From the popup, choose the _Create new address_ tab. Populate the fields with an address familiar to you:
+
+![image](https://user-images.githubusercontent.com/11015602/134891269-220a1873-2732-4539-b60a-e8806fd9d43d.png)
+
+
+
+
+
+
+
 
 
 
