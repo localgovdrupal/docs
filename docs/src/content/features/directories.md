@@ -144,9 +144,13 @@ From here, enter 'Example high school' into the _Title_ field then select the _C
 
 ![Screenshot at 11-16-56](https://user-images.githubusercontent.com/11015602/134890324-a4f58d4e-d572-4553-bbf3-5537d7c8e9d2.png)
 
-Finally, we can harness the power of the LocalGov location intergration so users can browse the schools by using a map interface. Open the _Venue_ tab and click the _Select location_ button. From the popup, choose the _Create new address_ tab. Populate the fields with an address familiar to you:
+Finally, we can harness the power of the LocalGov location intergration so users can browse the schools by using a map interface. Open the _Venue_ tab and click the _Select location_ button. From the popup, choose the _Create new address_ tab. Populate the fields within the _Address_ tab with an address familiar to you:
 
 ![image](https://user-images.githubusercontent.com/11015602/134891269-220a1873-2732-4539-b60a-e8806fd9d43d.png)
+
+Next, use the map to choose a point on the globe relevant to the venue. In this case you would be placing a pin on the school building.
+
+Finally, scroll to the bottom fo the popup and click the _Save adddress_ button and then save the venue.
 
 
 
