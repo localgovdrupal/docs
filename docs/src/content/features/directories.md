@@ -6,7 +6,7 @@ Contents:
 
 ## Introduction
 
-Directories provide a way for editors go present content as a list which can be searched\filtered by end-users. A part of the LocalGovDrupal distribution.
+Directories provide a way for editors to present content as a list which can be searched\filtered by end-users. A part of the LocalGovDrupal distribution.
 
 ## Examples in the wild
 * [Croydon: Secondary schools ](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools)
@@ -17,15 +17,15 @@ Directories provide a way for editors go present content as a list which can be 
 
 ## When to use Directories
 
-- You have content with a large volume of variations. Car parks, sports facilities or parks are good examples.
+- You have a type content with a large volume of variations. Car parks, sports facilities or parks are good examples.
 - Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
-- Your content related to a specific geographical location which is relevant to users.
+- Your content is related to a specific geographical location which is relevant to users.
 
 ## Concepts
 
 ### Directory Facets
 
-Facets are groups of attributes users will filter by when searching for a Directory Item(s) most relevant to them. Each Facet type should be made up of at least 2 Facets each of which can apply to 1 or more Directory Items. As an example, when searching for a school, there are a variety of attributes which users will obviously be interested in when looking for a schools that fits their needs. This is illustrated well by [Croydon's Secondary school Directory](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools):
+Facets are groups of attributes users will filter by when searching for a Directory Item(s). Each Facet type should be made up of at least 2 Facets each of which can apply to 1 or more Directory Items. As an example, when searching for a school, there are a variety of attributes which users will obviously be interested in when looking for one that fits their needs. This is illustrated well by [Croydon's Secondary school Directory](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools):
 
 ![school-facets](https://user-images.githubusercontent.com/11015602/134496028-5d424f43-da4c-455d-af28-03479d06c0e8.png)
 
@@ -49,7 +49,7 @@ But there is often cases where Facets will be mutually exclusive such the maxium
 
 ### Directory Channels
 
-Directory Channels can be thought of as the Directory itself; it's the page where users will be presented with a list of Directory Items and have the option to filter by Facets or perform a free text search. Additionally, Channels automatically provide a logic information archicture. For example, consider a Directory Channel with a URL of `/schools/find-a-school/secondary-schools` and a breadcrumb of `Schools > Find a school > Secondary schools`; each Directory Item will then have a URL and breadcrumb based on it's _Primary Channel_, e.g.  _St. Example High School_ would have the URL `/schools/find-a-school/secondary-schools/st-example-high-school` and breadcrumb `Schools > Find a school > Secondary schools > St. Example High School`.
+Directory Channels can be thought of as the Directory itself; it's the page where users will be presented with a list of Directory Items the the UI to filter by Facets or perform a free text search. Additionally, Channels automatically provide a logical information archicture. For example, consider a Directory Channel with a URL of `/schools/find-a-school/secondary-schools` and a breadcrumb of `Schools > Find a school > Secondary schools`; each Directory Item will then have a URL and breadcrumb based on it's _Primary Channel_, e.g.  _St. Example High School_ would have the URL `/schools/find-a-school/secondary-schools/st-example-high-school` and breadcrumb `Schools > Find a school > Secondary schools > St. Example High School`.
 
 As an editor, Channels give you the flexibility to compose a Directory made up of 1 or more types of Directory Item which can be filtered by 1 or more Directory Facet types.
 
@@ -57,7 +57,7 @@ As an editor, Channels give you the flexibility to compose a Directory made up o
 
 Directory Items are pieces of content, and pages, in their own right but also a member of 1 or more Directory Channels. For example, a _School_ content type could allow editors to publish detailed information on individual schools and belong to the _Secondary schools_ Channel.
 
-As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb as described above. Items may also, optionally, belong  multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but do still impact the available Facets (as described below).
+As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb (as described above). Items may also belong to multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but will include the Item in it's list and do still impact the available Facets (as described below).
 
 In order to allow users to filter Directory Items by Directory Facets, Items must be 'tagged' with the appropriate Facets. When creating\editing an Item, the available Facets is determined by the Channels it belongs to. For example, consider the following Channels:
 
@@ -150,8 +150,17 @@ Finally, we can harness the power of the LocalGov location intergration so users
 
 Next, use the map to choose a point on the globe relevant to the venue. In this case you would be placing a pin on the school building.
 
-Finally, scroll to the bottom fo the popup and click the _Save adddress_ button and then save the venue.
+Finally, scroll to the bottom fo the popup and click the _Save adddress_ button and then save the venue. 
 
+You'll probably want to repeat this process a few times, choosing different combinations of Facets and different addresses, in order to better understand how Directories work.
+
+#### Using the Channel
+
+With your newly entered Directory Items it's time to experiment with the Channel to see what it can do. Navigate to the content overview page via the admin menu. From here, you'll be able to see your Channel and Items. Click on the Channel name to view the Channel page:
+
+![Screenshot at 11-16-56](https://user-images.githubusercontent.com/11015602/134898253-c129736e-9306-4f5e-8efa-13eceb1a7ec1.png)
+
+As you'll see, by choosing Facets and entering a location the Directories module has automatically generated the filters and map visualisation. Try selecting different facets to see how it effects the listed schools. 
 
 
 
