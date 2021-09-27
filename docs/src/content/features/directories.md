@@ -13,7 +13,7 @@ Directories provide a way for editors go present content as a list which can be 
 * [Lambeth: Libraries](https://beta.lambeth.gov.uk/libraries-0)
 
 ## How to log issues
-* [Issue Queue](https://github.com/localgovdrupal/localgov_directories/issues)
+* [Github issue queue](https://github.com/localgovdrupal/localgov_directories/issues)
 
 ## When to use Directories
 
@@ -55,11 +55,23 @@ As an editor, Channels give you the flexibility to compose a Directory made up o
 
 ### Directory Items
 
-Directory Items are pieces of content, and pages, in their own right but also part of 1 or more Directory Channels. For example, a _School_ content type could allow editors to publish detailed information on individual schools but could also belong to the _Secondary schools_ Channel.
+Directory Items are pieces of content, and pages, in their own right but also a member of 1 or more Directory Channels. For example, a _School_ content type could allow editors to publish detailed information on individual schools and belong to the _Secondary schools_ Channel.
 
-As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb as described above. Items may also belong 1 or more _Other_ Channels, these additional Channels do not influence but do still impact the available Facets (as described below).
+As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb as described above. Items may also, optionally, belong  multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but do still impact the available Facets (as described below).
 
-...
+In order to allow users to filter Directory Items by Directory Facets, Items must be 'tagged' with the appropriate Facets. When creating\editing an Item, the available Facets is determined by the Channels it belongs to. For example, consider the following Channels:
+
+**Sports facilities**
+
+- Facet types: Sports, Location
+- Content types: Sports venue
+
+**Secondary shools**
+
+- Facet types: Age, Location
+- Content types: School
+
+When creating\editing _Sports venue_ Directory Items _Sports_ and _Location_ facets can be selected while with _Schools_ the _Age_ and _Location_ facets will be available.  
 
 ## Guides
 
