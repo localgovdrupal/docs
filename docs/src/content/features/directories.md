@@ -9,7 +9,7 @@ Contents:
 Directories provide a way for editors to present content as a list which can be searched\filtered by end-users. A part of the LocalGovDrupal distribution.
 
 ## Examples in the wild
-* [Croydon: Secondary schools ](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools)
+* [Croydon: Secondary schools ](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/-schools)
 * [Lambeth: Libraries](https://beta.lambeth.gov.uk/libraries-0)
 
 ## How to log issues
@@ -128,7 +128,7 @@ Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory chann
 
 From this screen, enter 'Secondary schools' into the _Title_ field and then scroll down the page and check all the boxes under _Enabled Content types_ and _Enabled facets_.
 
-![Screenshot at 11-05-46](https://user-images.githubusercontent.com/11015602/134888679-0c71d500-2e5a-4a92-9185-a06b75d10bf1.png)
+![Screenshot at 10-48-47](https://user-images.githubusercontent.com/11015602/135064740-03acece4-9de7-42b2-b71b-f365e1c58cf3.png)
 
 Finally, click _Save_ to create your new Channel. 
 
@@ -138,7 +138,8 @@ With the Channel and Facets in place we are ready to start creating some Directo
 
 Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory organisation:
 
-![Screenshot at 11-08-35](https://user-images.githubusercontent.com/11015602/134889091-ec4ac81d-1f26-40a9-8787-edd3f88c0610.png)
+![Screenshot at 10-51-13](https://user-images.githubusercontent.com/11015602/135064949-87980e95-ba06-4fde-a93d-0a55263089a5.png)
+
 
 From here, enter 'Example high school' into the _Title_ field then select the _Channels and facets_ tab. After selecting 'Secondary schools' as the _Primary_ Channel you will be presented with some Facets for selection. Choose some Facets, in this case it probably doesn't make sense to have more than one Facet per Type:
 
