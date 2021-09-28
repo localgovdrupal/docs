@@ -47,7 +47,15 @@ As an editor, Channels give you the flexibility to compose a Directory made up o
 
 ### Directory Items
 
-Directory Items are pieces of content, and pages, in their own right but also a member of 1 or more Directory Channels. For example, a _School_ content type could allow editors to publish detailed information on individual schools and belong to the _Secondary schools_ Channel.
+Directory Items are pieces of content, and pages, in their own right but also a member of 1 or more Directory Channels. For example, a _School_ content type could allow editors to publish detailed information on individual schools and belong to the _Secondary schools_ Channel. LocalGov Drupal comes with some generic Directory Item types which can be used as-is or can be extended to meet your needs:
+
+| Type      | Uses |
+| ----------- | ----------- |
+| Page      | General purpose.        |
+| Venue  | Sports facilities; parks. Provides location integration. |
+| Organisation | Libraries; Schools; Provides location integration.  |
+
+Alternatively, LocalGov Directories provides site-builders with a toolkit to create bespoke Directory Item types without having to write any code.
 
 As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb (as described above). Items may also belong to multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but will include the Item in it's list and do still impact the available Facets (as described below).
 
@@ -74,7 +82,7 @@ In this guide we'll step through the process to create a Directory of secondary 
 #### Pre-requisites 
 
 - You'll need to have access to a Drupal installation based on the LocalGov install profile.
-- The following Drupal modules will need to be installed: LocalGov Directories, LocalGov Directories Location and LocalGov Directories Venue.
+- The following Drupal modules will need to be installed: LocalGov Directories, LocalGov Directories Location and LocalGov Directories Organisation.
 - You'll need to be able to log in with a user which has editorial rights.
 
 #### Creating the Facet types
@@ -112,7 +120,7 @@ From here, click the _Add directory facets_ button and repeat the process until 
 
 #### The Channel
 
-OK we're getting somewhere. Next up let's create a 'Channel'. Remember, the purpose of this channel is to allow users to filter a list of secondary schools by age and location so they can find a school which meets their criteria. Here we're going to make use of the _Directory venue_ content type, that comes out-of-the-box with LocalGov Drupal, to represent a school.
+OK we're getting somewhere. Next up let's create a 'Channel'. Remember, the purpose of this channel is to allow users to filter a list of secondary schools by age and location so they can find a school which meets their criteria. Here we're going to make use of the _Directory organisation_ content type, that comes out-of-the-box with LocalGov Drupal, to represent a school.
 
 Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory channel_:
 
@@ -128,7 +136,7 @@ Finally, click _Save_ to create your new Channel.
 
 With the Channel and Facets in place we are ready to start creating some Directory Items, in this case secondary schools.
 
-Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory venue:
+Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory organisation:
 
 ![Screenshot at 11-08-35](https://user-images.githubusercontent.com/11015602/134889091-ec4ac81d-1f26-40a9-8787-edd3f88c0610.png)
 
@@ -140,7 +148,7 @@ Finally, we can harness the power of the LocalGov Drupal location integration so
 
 ![image](https://user-images.githubusercontent.com/11015602/134891269-220a1873-2732-4539-b60a-e8806fd9d43d.png)
 
-Next, use the map to choose a point on the globe relevant to the venue. In this case you would be placing a pin on the school building.
+Next, use the map to choose a point on the globe relevant to the school. In this case you would be placing a pin on the school building.
 
 Finally, scroll to the bottom fo the popup and click the _Save address_ button and then save the venue. 
 
