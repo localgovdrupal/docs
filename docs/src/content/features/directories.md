@@ -25,13 +25,13 @@ Directories provide a way for editors to present content as a list which can be 
 
 ### Directory Facets
 
-Facets are groups of attributes users will filter by when searching for a Directory Item(s). Each Facet type should be made up of at least 2 Facets each of which can apply to 1 or more Directory Items. As an example, when searching for a school, there are a variety of attributes which users will obviously be interested in when looking for one that fits their needs. This is illustrated well by [Croydon's Secondary school Directory](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools):
+Facets are groups of attributes users will filter by when searching for a Directory Item(s). Each Facet type should be made up of at least 2 Facets, each of which can apply to 1 or more Directory Items. As an example, when searching for a school, there are a variety of attributes which users will be interested in when looking for one that fits their needs. This is illustrated well by [Croydon's Secondary school Directory](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools):
 
 ![school-facets](https://user-images.githubusercontent.com/11015602/134496028-5d424f43-da4c-455d-af28-03479d06c0e8.png)
 
-Note that not all Facet types are made up of mutually-exclusive Facets; in the case of gender Facets most schools are applicable to both _Girls_ and _Boys_ where as other shcools are only applicable to one gender.
+Note that not all Facet types are made up of mutually-exclusive Facets; in the case of gender most schools are applicable to both _Girls_ and _Boys_ where as other schools are only applicable to one gender.
 
-Another example of Facets which aren't mutually exclusive would be releavant to sports facilities:
+Another example of Facets which aren't mutually exclusive would be relevant to sports facilities:
 
 **Sports (Directory Facet type)**
 - Swimming (Directory facet)
@@ -39,7 +39,7 @@ Another example of Facets which aren't mutually exclusive would be releavant to 
 - Tennis (Directory facet)
 - Gym (Directory facet)
 
-But there is often cases where Facets will be mutually exclusive such the maxiumum lenght of stay for car parks: 
+But there is often cases where Facets will be mutually exclusive such the maximum length of stay for car parks: 
 
 **Maximum stay (Directory Facet type)**
 - 1 hr (Directory facet)
@@ -73,7 +73,7 @@ In order to allow users to filter Directory Items by Directory Facets, Items mus
 
 When creating\editing _Sports venue_ Directory Items _Sports_ and _Location_ facets can be selected while with _Schools_ the _Age_ and _Location_ facets will be available.  
 
-## Guides
+## How-to
 
 ### Create a Directory of schools
 
@@ -140,11 +140,11 @@ Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory venue
 
 ![Screenshot at 11-08-35](https://user-images.githubusercontent.com/11015602/134889091-ec4ac81d-1f26-40a9-8787-edd3f88c0610.png)
 
-From here, enter 'Example high school' into the _Title_ field then select the _Channels and facets_ tab. After selecting 'Secondary schools' as the _Primary_ Channel you will be presented with some Facets for selection. Choose some Facts, in this case it probably doesn't make sense to have more than one Facet per Type:
+From here, enter 'Example high school' into the _Title_ field then select the _Channels and facets_ tab. After selecting 'Secondary schools' as the _Primary_ Channel you will be presented with some Facets for selection. Choose some Facets, in this case it probably doesn't make sense to have more than one Facet per Type:
 
 ![Screenshot at 11-16-56](https://user-images.githubusercontent.com/11015602/134890324-a4f58d4e-d572-4553-bbf3-5537d7c8e9d2.png)
 
-Finally, we can harness the power of the LocalGov location intergration so users can browse the schools by using a map interface. Open the _Venue_ tab and click the _Select location_ button. From the popup, choose the _Create new address_ tab. Populate the fields within the _Address_ tab with an address familiar to you:
+Finally, we can harness the power of the LocalGov Drupal location integration so users can browse the schools by using a map interface. Open the _Venue_ tab and click the _Select location_ button. From the popup, choose the _Create new address_ tab. Populate the fields within the _Address_ tab with an address familiar to you:
 
 ![image](https://user-images.githubusercontent.com/11015602/134891269-220a1873-2732-4539-b60a-e8806fd9d43d.png)
 
