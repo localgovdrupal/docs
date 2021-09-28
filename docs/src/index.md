@@ -16,13 +16,13 @@ footer: 'LocalGov Drupal is an open source project. GPL-2.0'
 
 Here you can find all the documentation for LocalGov Drupal, from installation to configuration, theming and using the content types. 
 
-We try to keep it completely up to date but if you find something missing, or have some documentation that you think should be added, let us know at [hello@localgovdrupal.org]  (mailto:hello@localgovdrupal.org)
+We try to keep it completely up to date but if you find something missing, or have some documentation that you think should be added, let us know at [hello@localgovdrupal.org](mailto:hello@localgovdrupal.org)
 
-[overview of features →] (/overview.html)
+[overview of features →](/overview.html)
 
-[docs for developers →] (/devs/)
+[docs for developers →](/devs/)
 
-[docs for content designers →] (/design/)
+[docs for content designers →](/design/)
 
-[how to contribute →] (/contributing/)
+[how to contribute →](/contributing/)
 
