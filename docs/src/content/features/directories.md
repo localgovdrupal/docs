@@ -31,14 +31,6 @@ Facets are groups of attributes users will filter by when searching for a Direct
 
 Note that not all Facet types are made up of mutually-exclusive Facets; in the case of gender most schools are applicable to both _Girls_ and _Boys_ where as other schools are only applicable to one gender.
 
-Another example of Facets which aren't mutually exclusive would be relevant to sports facilities:
-
-**Sports (Directory Facet type)**
-- Swimming (Directory facet)
-- Football (Directory facet)
-- Tennis (Directory facet)
-- Gym (Directory facet)
-
 But there is often cases where Facets will be mutually exclusive such the maximum length of stay for car parks: 
 
 **Maximum stay (Directory Facet type)**
