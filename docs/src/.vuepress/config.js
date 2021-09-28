@@ -151,7 +151,8 @@ module.exports = {
             '/content/features/news',
             '/content/features/step-by-step',
             '/content/features/guide',
-            '/content/features/subsites'
+            '/content/features/subsites',
+            '/content/features/directories',
           ]
         },
         'patterns',
