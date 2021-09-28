@@ -41,7 +41,7 @@ But there is often cases where Facets will be mutually exclusive such the maximu
 
 ### Directory Channels
 
-Directory Channels can be thought of as the Directory itself; it's the page where users will be presented with a list of Directory Items the the UI to filter by Facets or perform a free text search. Additionally, Channels automatically provide a logical information archicture. For example, consider a Directory Channel with a URL of `/schools/find-a-school/secondary-schools` and a breadcrumb of `Schools > Find a school > Secondary schools`; each Directory Item will then have a URL and breadcrumb based on it's _Primary Channel_, e.g.  _St. Example High School_ would have the URL `/schools/find-a-school/secondary-schools/st-example-high-school` and breadcrumb `Schools > Find a school > Secondary schools > St. Example High School`.
+Directory Channels can be thought of as the Directory itself; it's the page where users will be presented with a list of Directory Items the the UI to filter by Facets or perform a free text search. Additionally, Channels automatically provide a logical information architecture. For example, consider a Directory Channel with a URL of `/schools/find-a-school/secondary-schools` and a breadcrumb of `Schools > Find a school > Secondary schools`; each Directory Item will then have a URL and breadcrumb based on it's _Primary Channel_, e.g.  _St. Example High School_ would have the URL `/schools/find-a-school/secondary-schools/st-example-high-school` and breadcrumb `Schools > Find a school > Secondary schools > St. Example High School`.
 
 As an editor, Channels give you the flexibility to compose a Directory made up of 1 or more types of Directory Item which can be filtered by 1 or more Directory Facet types.
 
@@ -58,7 +58,7 @@ In order to allow users to filter Directory Items by Directory Facets, Items mus
 - Facet types: Sports, Location
 - Content types: Sports venue
 
-**Secondary shools**
+**Secondary schools**
 
 - Facet types: Age, Location
 - Content types: School
@@ -85,7 +85,7 @@ Once you've logged in navigate to the Facets types overview page via the menu it
 
 ![Add facet type menu](https://user-images.githubusercontent.com/11015602/134885404-81984346-2db0-4a61-86b8-41c9d778091d.png)
 
-From this screen, enter 'Age' into the _Label_ field and click _Save directory facets type_. You'll be taken to the types ovweview page where you can see your new type. 
+From this screen, enter 'Age' into the _Label_ field and click _Save directory facets type_. You'll be taken to the types overview page where you can see your new type. 
 
 ![Screenshot at 10-50-45](https://user-images.githubusercontent.com/11015602/134886415-d784e54a-01de-4f43-ac40-bcb10c418a80.png)
 
@@ -142,7 +142,7 @@ Finally, we can harness the power of the LocalGov Drupal location integration so
 
 Next, use the map to choose a point on the globe relevant to the venue. In this case you would be placing a pin on the school building.
 
-Finally, scroll to the bottom fo the popup and click the _Save adddress_ button and then save the venue. 
+Finally, scroll to the bottom fo the popup and click the _Save address_ button and then save the venue. 
 
 You'll probably want to repeat this process a few times, choosing different combinations of Facets and different addresses, in order to better understand how Directories work.
 
