@@ -37,7 +37,7 @@ The `node_modules` folder will be, and should be, gitignored. You can replace `n
 
 ## Skeleton theme
 
-Our front end theme uses the localgov_skeleton theme as its base, this allows to share generic templates with other themes if you wanted to build a custom child theme not related to the localgov_theme. Jump to [documentation](/theme/skeleton-theme).
+Our front end theme uses the localgov_skeleton theme as its base, this allows to share generic templates with other themes if you wanted to build a custom child theme not related to the localgov_theme. Jump to [documentation](/devs/theme/old-skeleton-theme).
 
 
 ## Styling
