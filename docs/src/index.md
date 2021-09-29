@@ -1,8 +1,6 @@
 ---
 home: true
 tagline: LocalGov Drupal documentation 
-actionText: Find out more
-actionLink: https://localgovdrupal.org
 githubLink: https://github.com/localgovdrupal/
 githubText: Join us on GitHub
 twitterLink: https://twitter.com/localgovdrupal
@@ -12,14 +10,9 @@ youtubeText: Follow us on YouTube
 footer: 'LocalGov Drupal is an open source project. GPL-2.0'
 ---
 
-LocalGov Drupal is an open source collaboration between UK councils and Drupal developers.
-
-Our aim is to provide a better publishing platform built on Drupal to save time, save money and to generate mutual benefit from pooling our knowledge and resources. 
-[Read more](https://localgovdrupal.org).
+LocalGov Drupal is an open source publishing platform that delivers a better digital experience for citizens, improves service outcomes, and saves money. [Read more (opens new window)](localgovdrupal.org).
 
 <hr /> 
-
-# Documentation
 
 Here you can find all the documentation for LocalGov Drupal, from installation to configuration, theming and using the content types.
 
