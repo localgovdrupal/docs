@@ -10,7 +10,7 @@ youtubeText: Follow us on YouTube
 footer: 'LocalGov Drupal is an open source project. GPL-2.0'
 ---
 
-LocalGov Drupal is an open source publishing platform that delivers a better digital experience for citizens, improves service outcomes, and saves money. [Read more (opens new window)](localgovdrupal.org).
+LocalGov Drupal is an open source publishing platform that delivers a better digital experience for citizens, improves service outcomes, and saves money. [Read more (opens new window)](https://localgovdrupal.org).
 
 <hr /> 
 
