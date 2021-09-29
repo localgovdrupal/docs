@@ -72,6 +72,10 @@ module.exports = {
         text: 'Accessibility',
         link: '/accessibility/'
       },
+      {
+        text: 'Main site',
+        link: 'localgovdrupal.org'
+      },
     ],
     sidebar: {
       '/devs/': [
