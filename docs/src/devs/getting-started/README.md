@@ -103,7 +103,7 @@ The main development environment in use is currently
 [Lando](https://docs.lando.dev/) – a Docker based development environment that
 works on Linux, MacOS and Windows.
 
-Jump to [Working with Lando](/getting-started/working-with-lando) for more information.
+Jump to [Working with Lando](/devs/getting-started/working-with-lando) for more information.
 
 ## Coding standards
 
