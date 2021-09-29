@@ -74,7 +74,7 @@ module.exports = {
       },
       {
         text: 'Main site',
-        link: 'localgovdrupal.org'
+        link: 'https://localgovdrupal.org'
       },
     ],
     sidebar: {
