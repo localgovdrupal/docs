@@ -72,10 +72,6 @@ module.exports = {
         text: 'Accessibility',
         link: '/accessibility/'
       },
-      {
-        text: 'Blog',
-        link: '/blog/'
-      },
     ],
     sidebar: {
       '/devs/': [
