@@ -6,7 +6,7 @@ Contents:
 
 ## Introduction
 
-Directories provide a way for editors to present content as a list which can be searched\filtered by end-users. A part of the LocalGovDrupal distribution.
+Directories provide a way for editors to present content as a list which can be searched and filtered by end-users. They are a part of the LocalGovDrupal distribution.
 
 ## Examples in the wild
 * [Croydon: Secondary schools ](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/-schools)
@@ -17,7 +17,7 @@ Directories provide a way for editors to present content as a list which can be 
 
 ## When to use Directories
 
-- You have a type content with a large volume of variations. Car parks, sports facilities or parks are good examples.
+- You have a type of content with a large volume of variations. Car parks, sports facilities or parks are good examples.
 - Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
 - Your content is related to a specific geographical location which is relevant to users.
 
@@ -31,7 +31,7 @@ Facets are groups of attributes users will filter by when searching for a Direct
 
 Note that not all Facet types are made up of mutually-exclusive Facets; in the case of gender most schools are applicable to both _Girls_ and _Boys_ where as other schools are only applicable to one gender.
 
-But there is often cases where Facets will be mutually exclusive such the maximum length of stay for car parks: 
+There are also often cases where Facets will be mutually exclusive such the maximum length of stay for car parks: 
 
 **Maximum stay (Directory Facet type)**
 - 1 hr (Directory facet)
@@ -55,7 +55,7 @@ Directory Items are pieces of content, and pages, in their own right but also a 
 | Venue  | Sports facilities; parks. Provides location integration. |
 | Organisation | Libraries; Schools; Provides location integration.  |
 
-Alternatively, LocalGov Directories provides site-builders with a toolkit to create bespoke Directory Item types without having to write any code.
+Alternatively, LocalGov Directories provides site-builders with a toolkit to create bespoke Directory Item types without having to write any code. More information about customizing Directory Items can be found in the [Directories Technical documentation](/devs/features/directories-technical).
 
 As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb (as described above). Items may also belong to multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but will include the Item in it's list and do still impact the available Facets (as described below).
 
@@ -136,7 +136,7 @@ Finally, click _Save_ to create your new Channel.
 
 With the Channel and Facets in place we are ready to start creating some Directory Items, in this case secondary schools.
 
-Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory organisation:
+Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory organisation_:
 
 ![Screenshot at 10-51-13](https://user-images.githubusercontent.com/11015602/135064949-87980e95-ba06-4fde-a93d-0a55263089a5.png)
 
