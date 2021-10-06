@@ -1,5 +1,12 @@
 ---
 home: true
+heroImages:
+- image: /drupalgov-mission-discovery_400x400.png
+  altText: LocalGovDrupal Discovery Phase logo
+- image: /drupalgov-mission-alpha-v2_400x400.png
+  altText: LocalGovDrupal Alpha Phase logo
+- image: /drupalgov-mission-beta_400x400.png
+- altText: LocalGovDrupal Beta Phase logo
 tagline: LocalGov Drupal documentation 
 githubLink: https://github.com/localgovdrupal/
 githubText: Join us on GitHub
