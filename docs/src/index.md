@@ -7,16 +7,6 @@ heroImages:
   altText: LocalGovDrupal Alpha Phase logo
 - image: /drupalgov-mission-beta_400x400.png
 - altText: LocalGovDrupal Beta Phase logo
-tagline: Helping UK councils publish better content with Drupal.
-actionText: Quick Start →
-actionLink: /devs/getting-started/
-features:
-- start: Stop
-  end: re-inventing wheels
-- start: Collaborate
-  end: with other councils
-- start: Listen
-  end: and learn from each other
 tagline: LocalGov Drupal documentation 
 githubLink: https://github.com/localgovdrupal/
 githubText: Join us on GitHub
