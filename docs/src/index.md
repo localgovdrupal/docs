@@ -5,7 +5,8 @@ heroImages:
   altText: LocalGovDrupal Discovery Phase logo
 - image: /drupalgov-mission-alpha-v2_400x400.png
   altText: LocalGovDrupal Alpha Phase logo
-- altText: Beta phase starts early 2021
+- image: /drupalgov-mission-beta_400x400.png
+- altText: LocalGovDrupal Beta Phase logo
 tagline: Helping UK councils publish better content with Drupal.
 actionText: Quick Start →
 actionLink: /devs/getting-started/
