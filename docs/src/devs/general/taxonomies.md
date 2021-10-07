@@ -19,3 +19,36 @@ Description:
 
 Default terms:  
 `None`
+
+## Event category
+
+Name:  
+`Event category`
+
+Description:  
+`	Category used for filtering events.`
+
+Default terms:  
+`None`
+
+## Event neighbourhood
+
+Name:  
+`Event category`
+
+Description:  
+`Locality used for event filtering.`
+
+Default terms:  
+`None`
+
+## Event price
+
+Name:  
+`Event price`
+
+Description:  
+`Price used for filtering events.`
+
+Default terms:  
+`None`

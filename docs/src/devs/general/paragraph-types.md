@@ -6,111 +6,47 @@ Contents:
 
 [[toc]]
 
-## Contact
+## All paragraphs
 
-Name:  
-`Contact`  
+| Paragraph name | machine name | Available on |
+| --- | --- | --- |
+|Accordion | localgov_accordion | Accordion pane paragraph |
+| Accordion pane | localgov_accordion_pane | Subsite page |
+| Banner primary | localgov_banner_primary | Subsite |
+| Banner secondary | localgov_banner_secondary | Subsite |
+| Block view | localgov_block_view | Subsite page|
+| Box link | localgov_box_link | Subsite , Box links listing paragraph |
+| Box links listing | localgov_box_links_listing | Subsite page |
+| Call out box | localgov_call_out_box | Subsite |
+| Contact | localgov_contact| ??|
+| Documents | localgov_documents | Subsite |
+| Fact box | localgov_fact_box | Subsite |
+| Featured campaign | localgov_featured_campaign ||
+| Featured subsite | localgov_featured_subsite | Subsite overview|
+| Featured teaser | localgov_featured_teaser | featured teasers paragraph |
+| Featured teasers | localgov_featured_teasers | Subsite |
+| From library | from_library ||
+| IA block | localgov_ia_block| Subsite overview|
+| Image | localgov_image | Subsite |
+| Key contact item | localgov_key_contact_item | Key contacts paragraph |
+| Key contacts | localgov_key_contacts|Subsite |
+| Key fact | localgov_key_fact | Key facts paragraph|
+| Key facts | localgov_key_facts | Subsite |
+| Labelled icon | localgov_labelled_icon | Subsite overview |
+| Link|localgov_link | |
+| Link and summary | localgov_link_and_summary | Subsite |
+| Media with text | localgov_media_with_text | Subsite|
+| Newsroom teaser | localgov_newsroom_teaser | Subsite overview |
+| Page section | page_section | Subsite |
+| Quote | localgov_quote | Subsite |
+| Subscribe panel | localgov_subscribe_panel | Subsite overview|
+| Table | localgov_table | Subsite |
+| Tab panel | localgov_tab_panel | Tabs paragraph |
+| Tabs | localgov_tabs | Subsite |
+| Text | localgov_text | Subsite |
+| Topic list builder | topic_list_builder | ?? |
+| Video | localgov_video | Subsite |
 
-Machine name:  
-`localgov_contact`
+## Reuseable paragraphs
 
-::: details Fields
-
-| Field name  | Machine name  | Field type              |
-| ----------- |:-------------:| -----------------------:|
-|Address | localgov_contact_address| Address|
-|Contact us online URL |localgov_contact_url |Link|
-|Email |localgov_contact_email| Email|
-|Facebook |localgov_contact_facebook| Link|
-|Heading |localgov_contact_heading |Text (plain)|
-|Instagram |localgov_contact_instagram| Link|
-|Location |localgov_contact_location| Geolocation |
-|Minicom |localgov_contact_minicom|Telephone number|
-|Mobile |localgov_contact_mobile| Telephone number|
-|Office hours |localgov_contact_office_hours| Office hours|
-|Other social media URLs |localgov_contact_other_social| Link|
-|Other team.localgov_contact.URL |localgov_contact_other_url| Link|
-|Out of hours |localgov_contact_out_of_hours| Telephone number|
-|Phone |localgov_contact_phone |Telephone number|
-|Subheading |localgov_contact_subheading| Text (plain)|
-|Twitter|localgov_contact_twitter| Link|
-:::
-
-## From library
-
-Name:  
-`From library`  
-
-Machine name:  
-`from_library`
-
-::: details Fields
-
-| Field name  | Machine name  | Field type              |
-| ----------- |:-------------:| -----------------------:|
-|Reusable paragraph|field_reusable_paragraph|Entity reference|
-:::
-
-## Image
-
-Name:  
-`Image`  
-
-Machine name:  
-`localgov_image`
-
-::: details Fields
-
-| Field name  | Machine name  | Field type              |
-| ----------- |:-------------:| -----------------------:|
-|Caption|localgov_caption|Text (formatted, long)|
-Image|localgov_image|Entity reference|
-:::
-
-## Link
-
-Name:  
-`Link`  
-
-Machine name:  
-`localgov_link`
-
-::: details Fields
-
-| Field name  | Machine name  | Field type              |
-| ----------- |:-------------:| -----------------------:|
-|Title|localgov_title|Text (plain)|
-|URL|localgov_url|Text (plain)|
-:::
-
-## Text
-
-Name:  
-`Text`  
-
-Machine name:  
-`localgov_text`
-
-::: details Fields
-
-| Field name  | Machine name  | Field type              |
-| ----------- |:-------------:| -----------------------:|
-|Text|localgov_text|Text (formatted, long)|
-:::
-
-## Topic list builder
-
-Name:  
-`Topic list builder`  
-
-Machine name:  
-`topic_list_builder`
-
-::: details Fields
-
-| Field name  | Machine name  | Field type              |
-| ----------- |:-------------:| -----------------------:|
-|Header|topic_list_header|Text (plain)|
-|Links|topic_list_links|Link|
-|Topic term|topic_list_term|Entity reference|
-:::
+There is a paragraph library available, in which paragraph items can be created and reused on the site. This has been intially set up for Service Pages, but could be extended for Subsites too.
