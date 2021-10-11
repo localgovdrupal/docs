@@ -111,7 +111,7 @@ Depending on your permissions, you may also be able to generate a Preview link. 
 
 The preview can be viewed by anyone with the link, so caution should be taken when sharing unpublished content.
 
-## Scheduling content (additional feature)*
+## Scheduling content*
 
 If you want to publish or unpublish content on a particular date you can use Scheduled transitions to line them up in advance. 
 
@@ -164,7 +164,7 @@ Visit **Admin > Content > Scheduled Transitions**
 
 Here you can review, delete or reschedule any of the transitions.
 
-## Review date (optional feature)*
+## Review date*
 
 Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the **Review Date** feature.
 
@@ -193,3 +193,4 @@ Visit **Admin > Content > Needs review**
 ![image](https://user-images.githubusercontent.com/3852805/136771578-c8e8927f-b355-456f-b9e0-0176a589aca8.png)
 
 
+* Review date and Scheduled transitions are part of the LocalGov Workflows submodule LocalGov Review Date. If these features are not available talk to your site administrator.
