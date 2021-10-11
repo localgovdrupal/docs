@@ -10,9 +10,13 @@ When you upload a new image (either through an image field or via the WYSIWYG) y
 
 **Step 2**: Add appropriate alternative text
 
-**Step 3**: Click the Crop image heading to expose the croping interface.
+**Step 3**: Click the Crop image heading to expose the cropping interface.
+
+![Screenshot from 2021-09-21 17-20-48](https://user-images.githubusercontent.com/3852805/134211259-3592f224-ecd2-4e76-b44d-2daf30916615.png)
+
 
 **Step 4**: Set crops
+
 You'll see six cropping options
 
 * 16:9 - todo - where is this used? 
@@ -25,6 +29,8 @@ You'll see six cropping options
 Click and drag the blue square to position the crop area over the part of the image you would like to keep. 
 
 You can rezise the crop area by dragging the corners of the blue square outline. 
+
+![image](https://user-images.githubusercontent.com/3852805/134211460-fc1ee2f6-7808-4389-a59a-085c8310fb4c.png)
 
 You will see the words "Cropping applied" next to the crop stlye names once a crop has been set. 
 
