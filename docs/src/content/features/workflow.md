@@ -78,6 +78,8 @@ An administrator can make the revision log required on a sitewide basis.
 
 ## Scheduling content
 
+-- Coming soon --
+
 Content can prepared in advance, and set to publish (or unpublish) at a particular time.
 
 To see / manage the list of currently scheduled to change state visit
@@ -85,6 +87,8 @@ To see / manage the list of currently scheduled to change state visit
 Visit **Admin > Content > Scheduled Transitions**
 
 ## Content lifecycle / Review date
+
+-- Coming soon --
 
 Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the **Review Date** feature.
 
