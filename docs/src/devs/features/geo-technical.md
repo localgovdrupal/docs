@@ -7,13 +7,13 @@ The _LocalGov Geo_ module provides an Geo Entity type, for storing descriptive a
 
 ## Permissions
 
-There are premissions to administer Geo Entities; and permissions to view, add, edit and remove them. At this time there aren't per bundle permissions.
+There are permissions to administer Geo Entities; and permissions to view, add, edit and remove them. At this time there aren't per bundle permissions.
 
-If installed as part of LGD distribution editors have permission to view, add, edit and remove them.
+If installed as part of LocalGov Drupal distribution editors have permission to view, add, edit and remove them.
 
 ## Installation
 
-The module is included in the LGD distribution. It is a depenency, and used with, modules such as Directories and Events. You can add it to other content types by configuring an entity reference field, see below.
+The module is included in the LocalGov Drupal distribution. It is a depenency, and used with, modules such as Directories and Events. You can add it to other content types by configuring an entity reference field, see below.
 
 ## Configuration
 
