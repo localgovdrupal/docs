@@ -2,11 +2,18 @@
 
 [[toc]]
 
+## Essential concepts
+
+**Role**: Drupal allows us to bundle permissions up in to a role, which is given to an individual user. Depending on your role and your site's custom configuration, you may not be able to do all the actions on this page.
+**Revision**: Drupal lets you create a new revision every time a node is updated. This allows you to track how the node has changed over time on your site. [Read more on drupal.org](https://www.drupal.org/docs/administering-a-drupal-site/node-revisions). One version will be the **current revision**, indicating which version is available to logged out users.
+**State**: A revision can exist in one of a number of states (Draft, Needs review, Published, Archived). If the current revision is Published it is available to logged out users.
+**Transitions**: Moving the current revision from one state to another is called a transitition. We can do this manaully by setting the state when we save a piece of content, or we can schedule a time for it to happen automatically. 
+
 ## Roles
 
 ### Editor
 
-A Editor may publish all content, and is responsible for moderating content by Editors.
+A Editor may publish all content, and is responsible for moderating content written by Contributors. 
 
 * Can move content between all transitions
 * Can create, edit, delete media
@@ -44,7 +51,7 @@ Content can exist in one of the following states:
 
 Not all roles have the permission to move content between all states.
 
-A common workflow would be:
+A common workflow may be:
 
 1. A Contributor creates a new piece of content and saves it as _Draft_
 2. They return to the content and finish it and save it as _Needs review_
@@ -84,19 +91,31 @@ You can leave a comment in the Revision log to describe what is being changed in
 
 ![image](https://user-images.githubusercontent.com/3852805/136771305-195cef7c-e2d6-415f-86a0-04abffa5391e.png)
 
-You can view all revisions of the content by visiting the Revisions log. You can compare versions, and restore a previous version if necessary. 
+You can view all revisions of the content by visiting the Revisions log. You can compare versions, and restore a previous version if necessary.
 
-### Required revision log
+## Previews
 
-An administrator can make leaveing a comment in the revision log required on a sitewide basis.
+### Responsive layout preview
+
+At the top of the edit page, next to your account settings there is a button ("Layout preview") which allows you to preview how the content will look across a number of devices.
+
+![image](https://user-images.githubusercontent.com/3852805/136771397-660c4ec2-7d7d-4a9d-9aea-cd837a0d65a1.png)
+
+If you don't see this button talk to the site administrator.
+
+### Preview Link
+
+Depending on your permissions, you may also be able to generate a Preview link. This allows you to share a draft of a piece of content with another person for 1 week.
+
+![image](https://user-images.githubusercontent.com/3852805/136771480-9d863bf0-f0a5-4a39-9582-a5c8d8292860.png)
+
+The preview can be viewed by anyone with the link, so caution should be taken when sharing unpublished content.
 
 ## Scheduling content (additional feature)*
 
-If you want to publish or unpublish on a particular date you can use Scheduled transitions to line them up in advance. 
+If you want to publish or unpublish content on a particular date you can use Scheduled transitions to line them up in advance. 
 
 ### How to schedule transitions
-
-If you want to publish or unpublish on a particular date you can use Scheduled transitions to line them up in advance. 
 
 #### How to publish content on a specific date
 
@@ -137,7 +156,7 @@ If you want to publish or unpublish on a particular date you can use Scheduled t
     6. Set the date and time that you change the state
     7. Press the Schedule transition button
 
-### See all scheduled transitions
+### Manage all scheduled transitions
 
 To see / manage the list of currently scheduled to change state
 
@@ -145,19 +164,17 @@ Visit **Admin > Content > Scheduled Transitions**
 
 Here you can review, delete or reschedule any of the transitions.
 
-
-## Content lifecycle / Review date (optional feature)*
+## Review date (optional feature)*
 
 Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the **Review Date** feature.
 
 ### An example workflow for Review date
 
 1. On publishing a piece of content we set a default review date of 1 year
-2. A minor edit is made later and the review date is not changed
-3. A major edit is made and the content is marked as Reviewed, and the new review date is set 
 4. A year passes and the review due date passes
-5. a revision of the content appears in the "Needs Review" dashboard
-6. An editor does a thorough review and publishes the reviewed content, with a new review date set.
+5. A revision of the content appears in the "Needs Review" dashboard
+6. An editor does a thorough review and publishes the reviewed content, with a new review date of 1 year.
+
 
 ### Managing the Review date
 
@@ -175,20 +192,4 @@ Visit **Admin > Content > Needs review**
 
 ![image](https://user-images.githubusercontent.com/3852805/136771578-c8e8927f-b355-456f-b9e0-0176a589aca8.png)
 
-## Previews
 
-### Responsive layout preview
-
-At the top of the edit page, next to your account settings there is a button ("Layout preview") which allows you to preview how the content will look across a number of devices.
-
-![image](https://user-images.githubusercontent.com/3852805/136771397-660c4ec2-7d7d-4a9d-9aea-cd837a0d65a1.png)
-
-If you don't see this button talk to the site administrator.
-
-### Preview Link
-
-Depending on your permissions, you may also be able to generate a Preview link. This allows you to share a draft of a piece of content with another person for 1 week.
-
-![image](https://user-images.githubusercontent.com/3852805/136771480-9d863bf0-f0a5-4a39-9582-a5c8d8292860.png)
-
-The preview can be viewed by anyone with the link, so caution should be taken when sharing unpublished content.
