@@ -4,10 +4,10 @@
 
 ## Essential concepts
 
-**Role**: Drupal allows us to bundle permissions up in to a role, which is given to an individual user. Depending on your role and your site's custom configuration, you may not be able to do all the actions on this page.
-**Revision**: Drupal lets you create a new revision every time a node is updated. This allows you to track how the node has changed over time on your site. [Read more on drupal.org](https://www.drupal.org/docs/administering-a-drupal-site/node-revisions). One version will be the **current revision**, indicating which version is available to logged out users.
-**State**: A revision can exist in one of a number of states (Draft, Needs review, Published, Archived). If the current revision is Published it is available to logged out users.
-**Transitions**: Moving the current revision from one state to another is called a transitition. We can do this manaully by setting the state when we save a piece of content, or we can schedule a time for it to happen automatically. 
+* **Role**: A named set of permissions that can be applied to a user account. Depending on your role and your site's custom configuration, you may not be able to do all the actions on this page.
+* **Revision**: Drupal lets you create a new revision every time a node is updated. This allows you to track how the node has changed over time on your site. [Read more on drupal.org](https://www.drupal.org/docs/administering-a-drupal-site/node-revisions). One version will be the **current revision**, indicating which version is available to logged out users.
+* **State**: A revision can exist in one of a number of states (Draft, Needs review, Published, Archived). If the current revision is Published it is available to logged out users.
+* **Transitions**: Moving the current revision from one state to another is called a transitition. We can do this manaully by setting the state when we save a piece of content, or we can schedule a time for it to happen automatically. 
 
 ## Roles
 
