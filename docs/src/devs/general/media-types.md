@@ -25,12 +25,6 @@ Media source:
 Name:  
 `Name`
 
-MIME type:  
-`- Skip field -`
-
-File size:  
-`- Skip field -`
-
 :::
 
 ::: details Fields
@@ -40,6 +34,9 @@ File size:
 |Document|field_media_document|File|
 :::
 
+### Display modes
+
+Default - Generic file - use description as link text
 
 ## Image
 
@@ -55,31 +52,29 @@ Description:
 Media source:  
 `Image`
 
-::: details Field mapping
-
-Name:  
-`- Skip field -`
-
-MIME type:  
-`- Skip field -`
-
-File size:  
-`- Skip field -`
-
-Width:  
-`- Skip field -`
-
-Height:  
-`- Skip field -`
-
-:::
-
 ::: details Fields
 
 | Field name  | Machine name  | Field type              |
 | ----------- |:-------------:| -----------------------:|
 |Image|field_media_image|Image|
+
 :::
+### Display modes
+
+| Display mode name| Format | Style name |
+| ---- | ---- | ---- |
+| Default | Responsive image | 3:2 Image |
+| Event thumbnail | Image | Square small |
+| Featured | Image | LocalGov 248x181 |
+| Featured large | Responsive image | LocalGov Newsroom featured |
+| Newsroom teaser | Image | LocalGov Newsroom teaser |
+| Medium 8:7 | Image | Medium 8:7 |
+| Responsive 3x2 | Responsive image | 3:2 image |
+| Responsive banner | Responsive image | Banner (28:9) |
+| Scale crop 7:3 large | Image | Scale crop 7:3 large |
+| Square | Responsive image | Square |
+
+to do - Full content view mode available for media types and used by Localgov call out box http://localgov.lndo.site/admin/structure/paragraphs_type/localgov_call_out_box/display - but doesn't exist
 
 ## Remote video
 
@@ -109,51 +104,11 @@ Allowed providers:
 
 ::: details Field mapping
 
-Resource type:  
-`- Skip field -`
-
 Resource title:  
 `Name`
 
 The name of the author/owner:  
 `- Skip field -`
-
-The URL of the author/owner:  
-`- Skip field -`
-
-The name of the provider:  
-`- Skip field -`
-
-The URL of the provider:  
-`- Skip field -`
-
-Suggested cache lifetime:  
-`- Skip field -`
-
-Default name of the media item:  
-`- Skip field -`
-
-Local URI of the thumbnail:  
-`- Skip field -`
-
-Thumbnail width:  
-`- Skip field -`
-
-Thumbnail height:  
-`- Skip field -`
-
-The source URL of the resource:  
-`- Skip field -`
-
-The width of the resource:  
-`- Skip field -`
-
-The height of the resource:  
-`- Skip field -`
-
-The HTML representation of the resource:  
-`- Skip field -`
-
 :::
 
 ::: details Fields
@@ -162,3 +117,8 @@ The HTML representation of the resource:
 | ----------- |:-------------:| -----------------------:|
 |Video URL|field_media_oembed_video|Text (plain)|
 :::
+
+
+### Display modes
+
+Default - Format settings oEmbed content
