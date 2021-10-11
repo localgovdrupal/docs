@@ -38,7 +38,7 @@ A contributor can draft content and it will be reviewed by an Editor
 Content can exist in one of the following states:
 
 * Draft
-* Needs review
+* Needs Review
 * Published
 * Archived
 
@@ -46,21 +46,21 @@ Not all roles have the permission to move content between all states.
 
 A common workflow would be:
 
-1. A Contributor creates a new piece of content and saves it as Draft
-2. They return to the content and finish it and save it as Ready for Review
+1. A Contributor creates a new piece of content and saves it as _Draft_
+2. They return to the content and finish it and save it as _Needs review_
 3. An Editor reviews the content and either:
-    1. Publishes it,
-    2. Suggests some amendments and returns it to Draft. 
+    1. _Publishes_ it,
+    2. Suggests some amendments and returns it to _Draft_.
 
 ### Draft
 
-When content is in the Draft state it will appear in the "Moderated content" admin screen.
+When content is in the _Draft_ state it will appear in the "Moderated content" admin screen.
 
 Visit **Admin > Content > Moderated content**
 
 ### Needs Review
 
-When content is in the Needs Review state it will appear in the "Approvals dashboard".
+When content is in the _Needs Review_ state it will appear in the "Approvals dashboard".
 
 Visit **Admin > Content > Approvals dashboard**
 
@@ -72,9 +72,9 @@ If you have the permission to edit the content you will see the Edit button.
 
 ### Creating a new draft of Published content
 
-When we edit a piece of published content and save it as Draft or Ready for Review, the content remains published and creates a new revision.
+When we edit a piece of published content and save it as _Draft_ or _Needs Review_, the content remains published and creates a new revision.
 
-The **Latest version** tab will show the new revision, whereas the View tab will allow you to see the Published version.
+The **Latest version** tab will show the new revision, whereas the View tab will allow you to see the _Published_ version.
 
 ![image](https://user-images.githubusercontent.com/3852805/136771107-70ed6ed6-c79a-45bb-b41e-ee4adbb2177c.png)
 
@@ -90,20 +90,63 @@ You can view all revisions of the content by visiting the Revisions log. You can
 
 An administrator can make leaveing a comment in the revision log required on a sitewide basis.
 
-## Scheduling content
+## Scheduling content (additional feature)*
 
-Content can prepared in advance, and set to publish (or unpublish) at a particular time.
+If you want to publish or unpublish on a particular date you can use Scheduled transitions to line them up in advance. 
 
-### Example
+### How to schedule transitions
 
-To see / manage the list of currently scheduled to change state visit
+If you want to publish or unpublish on a particular date you can use Scheduled transitions to line them up in advance. 
+
+#### How to publish content on a specific date
+
+1. Create a piece of content and leave it in either "Draft" or "Needs review"
+3. Click the Scheduled transition tab
+1. Click "Add Scheduled transition" button
+4. Leave the "latest revision" revision selected
+5. Select Publish option from the Execute transition dropdown
+6. Set the date and time that you change the state
+7. Press the Schedule transition button
+
+#### How to unpublish content on a specific date
+
+1. Create a piece of content and Publish it
+3. Click the Scheduled transition tab
+1. Click "Add Scheduled transition" button
+4. Leave the "latest revision" revision selected
+5. Select Archive option from the Execute transition dropdown
+6. Set the date and time that you change the state
+7. Press the Schedule transition button
+
+#### How to publish a new version of a piece of published content on a specific date
+
+1. Create the two versions
+    1. Create a piece of content and Publish it 
+    1. Edit the content to create the new version and save it as Draft or Needs Review
+3. Create a transtion to unpublish the first version
+    1. Click the Scheduled transition tab
+    1. Click "Add Scheduled transition" button
+    4. Select the currently published revision
+    5. Select Archive option from the Execute transition dropdown
+    6. Set the date and time that you change the state
+    7. Press the Schedule transition button
+3. Create a transtion to publish the second version
+    1. Click "Add Scheduled transition" button
+    4. Select the version that you want pulished in the future
+    5. Select Publish option from the Execute transition dropdown
+    6. Set the date and time that you change the state
+    7. Press the Schedule transition button
+
+### See all scheduled transitions
+
+To see / manage the list of currently scheduled to change state
 
 Visit **Admin > Content > Scheduled Transitions**
 
-### How to add a new scheduled transition
-todo
+Here you can review, delete or reschedule any of the transitions.
 
-## Content lifecycle / Review date
+
+## Content lifecycle / Review date (optional feature)*
 
 Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the **Review Date** feature.
 
@@ -131,7 +174,6 @@ When the next review is due, a revision of the content will appear in the "Needs
 Visit **Admin > Content > Needs review**
 
 ![image](https://user-images.githubusercontent.com/3852805/136771578-c8e8927f-b355-456f-b9e0-0176a589aca8.png)
-
 
 ## Previews
 
