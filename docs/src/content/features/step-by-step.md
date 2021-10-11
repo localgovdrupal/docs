@@ -19,6 +19,10 @@ Examples include:
 
 to-do link to examples.
 
+## How-to add a Step by Step
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IhmC2BjHdps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Step-by-step landing page
 
 Before the steps on a landing page, you should avoid having too much copy as it pushes the steps further down the page making them hard to find, especially on mobile devices.

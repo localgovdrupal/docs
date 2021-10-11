@@ -27,8 +27,7 @@ When you need to cancel your account, visit your profile page by clicking "My ac
 
 ## How to find content
 
-In the 
-
+Todo:
 
 - How to change your password
 - How to find content

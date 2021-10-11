@@ -154,3 +154,6 @@ This Status list exists on the URL /service-status.
 ![Screenshot of Croydon's Service status page, showing all the Council's Service's Statuses grouped by Service](https://user-images.githubusercontent.com/3852805/124510908-bb472180-ddcc-11eb-9e4b-7127d0273209.png)
 
 
+## How to: Creating Service pages
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIe74boCjII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

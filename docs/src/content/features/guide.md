@@ -18,3 +18,6 @@ Examples include:
 
 A guide page is similar to a service sub page. A service sub page however is used to group things together more broadly in an index. A guide creates section navigation and is used for more specific groupings of information.
 
+## How-to: Creating Guides
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nwk-hXkDanc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
