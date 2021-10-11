@@ -163,8 +163,12 @@ module.exports = {
           children: [
             '/content/how-to/how-to-log-in',
             '/content/how-to/how-to-github',
+            '/content/how-to/how-to-manage-content',
             '/content/how-to/how-to-wysiwyg-styles',
             '/content/how-to/how-to-crop-images',
+            '/content/how-to/how-to-media-library',
+            '/content/how-to/how-to-manage-menus',
+            '/content/how-to/how-to-tag-content',
           ]
         },
       ],
