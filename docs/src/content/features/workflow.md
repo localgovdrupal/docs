@@ -92,8 +92,6 @@ An administrator can make leaveing a comment in the revision log required on a s
 
 ## Scheduling content
 
--- Coming soon --
-
 Content can prepared in advance, and set to publish (or unpublish) at a particular time.
 
 ### Example
@@ -106,8 +104,6 @@ Visit **Admin > Content > Scheduled Transitions**
 todo
 
 ## Content lifecycle / Review date
-
--- Coming soon --
 
 Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the **Review Date** feature.
 
