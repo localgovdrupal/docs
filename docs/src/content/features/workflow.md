@@ -44,6 +44,14 @@ Content can exist in one of the following states:
 
 Not all roles have the permission to move content between all states.
 
+A common workflow would be:
+
+1. A Contributor creates a new piece of content and saves it as Draft
+2. They return to the content and finish it and save it as Ready for Review
+3. An Editor reviews the content and either:
+    1. Publishes it,
+    2. Suggests some amendments and returns it to Draft. 
+
 ### Draft
 
 When content is in the Draft state it will appear in the "Moderated content" admin screen.
@@ -56,9 +64,11 @@ When content is in the Needs Review state it will appear in the "Approvals dashb
 
 Visit **Admin > Content > Approvals dashboard**
 
+![image](https://user-images.githubusercontent.com/3852805/136770538-e216ef58-d9e0-43ac-a1df-b18d35e07745.png)
+
 If you have the permission to edit the content you will see the Edit button.
 
-Insert screenshot of the revision
+![image](https://user-images.githubusercontent.com/3852805/136771222-66460351-f23c-4d86-a37d-27d4adfea4e7.png)
 
 ### Creating a new draft of Published content
 
@@ -66,15 +76,19 @@ When we edit a piece of published content and save it as Draft or Ready for Revi
 
 The **Latest version** tab will show the new revision, whereas the View tab will allow you to see the Published version.
 
-Insert screenshot of the revision
+![image](https://user-images.githubusercontent.com/3852805/136771107-70ed6ed6-c79a-45bb-b41e-ee4adbb2177c.png)
 
 ## Revision log
 
 You can leave a comment in the Revision log to describe what is being changed in any given edit.
 
+![image](https://user-images.githubusercontent.com/3852805/136771305-195cef7c-e2d6-415f-86a0-04abffa5391e.png)
+
+You can view all revisions of the content by visiting the Revisions log. You can compare versions, and restore a previous version if necessary. 
+
 ### Required revision log
 
-An administrator can make the revision log required on a sitewide basis.
+An administrator can make leaveing a comment in the revision log required on a sitewide basis.
 
 ## Scheduling content
 
@@ -82,9 +96,14 @@ An administrator can make the revision log required on a sitewide basis.
 
 Content can prepared in advance, and set to publish (or unpublish) at a particular time.
 
+### Example
+
 To see / manage the list of currently scheduled to change state visit
 
 Visit **Admin > Content > Scheduled Transitions**
+
+### How to add a new scheduled transition
+todo
 
 ## Content lifecycle / Review date
 
@@ -92,16 +111,31 @@ Visit **Admin > Content > Scheduled Transitions**
 
 Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the **Review Date** feature.
 
+### An example workflow for Review date
+
+1. On publishing a piece of content we set a default review date of 1 year
+2. A minor edit is made later and the review date is not changed
+3. A major edit is made and the content is marked as Reviewed, and the new review date is set 
+4. A year passes and the review due date passes
+5. a revision of the content appears in the "Needs Review" dashboard
+6. An editor does a thorough review and publishes the reviewed content, with a new review date set.
+
+### Managing the Review date
+
 When you create or edit a piece of content you will see the Review date panel in the sidebar.
 
 When you make an edit you can choose whether to classify it as a "Content review" or not. By default this is set to false.
 
-If it is a content review, you can set the date that the next review date is due.
+If you toggle this button to true you can set the date that the next review is due.
 
-When the next review is due, a revision of the content will appear in the "Needs Review" dashboard. The content will remain published.
+![image](https://user-images.githubusercontent.com/3852805/136772751-cfc3a0d6-cb19-4149-9630-895058390024.png)
+
+When the next review is due, a revision of the content will appear in the "Needs Review" dashboard. The (unreviewed) content will remain published.
 
 Visit **Admin > Content > Needs review**
-(insert screenshot)
+
+![image](https://user-images.githubusercontent.com/3852805/136771578-c8e8927f-b355-456f-b9e0-0176a589aca8.png)
+
 
 ## Previews
 
@@ -109,10 +143,14 @@ Visit **Admin > Content > Needs review**
 
 At the top of the edit page, next to your account settings there is a button ("Layout preview") which allows you to preview how the content will look across a number of devices.
 
+![image](https://user-images.githubusercontent.com/3852805/136771397-660c4ec2-7d7d-4a9d-9aea-cd837a0d65a1.png)
+
 If you don't see this button talk to the site administrator.
 
 ### Preview Link
 
 Depending on your permissions, you may also be able to generate a Preview link. This allows you to share a draft of a piece of content with another person for 1 week.
+
+![image](https://user-images.githubusercontent.com/3852805/136771480-9d863bf0-f0a5-4a39-9582-a5c8d8292860.png)
 
 The preview can be viewed by anyone with the link, so caution should be taken when sharing unpublished content.
