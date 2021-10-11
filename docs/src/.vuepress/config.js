@@ -73,8 +73,8 @@ module.exports = {
         link: '/accessibility/'
       },
       {
-        text: 'Blog',
-        link: '/blog/'
+        text: 'Main site',
+        link: 'https://localgovdrupal.org'
       },
     ],
     sidebar: {
@@ -113,6 +113,8 @@ module.exports = {
             '/devs/features/services-technical',
             '/devs/features/alert-banner-technical',
             '/devs/features/news-technical',
+            '/devs/features/directories-technical',
+            '/devs/features/geo-technical',
             '/devs/features/subsites'
           ]
         },
@@ -152,6 +154,7 @@ module.exports = {
             '/content/features/step-by-step',
             '/content/features/guide',
             '/content/features/subsites',
+            '/content/features/directories',
           ]
         },
         'patterns',
