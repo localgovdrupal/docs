@@ -153,6 +153,7 @@ module.exports = {
             '/content/features/guide',
             '/content/features/subsites',
             '/content/features/directories',
+            '/content/features/workflow',
           ]
         },
         'patterns',
