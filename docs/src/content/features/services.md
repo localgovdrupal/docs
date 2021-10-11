@@ -17,6 +17,7 @@ Content types:
 Other content types in the LocalGovDrupal distribution can also optionally be linked into service sections and referenced from Sub-landing Pages.
 
 ## Examples in the wild
+
 * [LocalGov Drupal demo: Adult health and social care](https://localgovdrupal.agile.coop/adult-health-and-social-care)
 * [Croydon: Adult health and social care ](https://www.croydon.gov.uk/adult-health-and-social-care)
 * [Lambeth: Bins and recycling](https://beta.lambeth.gov.uk/rubbish-recycling)
@@ -25,14 +26,14 @@ Other content types in the LocalGovDrupal distribution can also optionally be li
 ![Brighton's Rubbish service page - see link above](https://user-images.githubusercontent.com/3852805/123297371-6b847280-d50f-11eb-8ac0-275c17103d4a.png)
 ![Croydon's Adult Health service page - see link above](https://user-images.githubusercontent.com/3852805/123297547-8fe04f00-d50f-11eb-8441-c14c62548d3b.png)
 
-## How to log issues
-* [Github Repo](https://github.com/localgovdrupal/localgov_services)
-* [Issue Queue](https://github.com/localgovdrupal/localgov_services/issues)
+## How to: Creating Service pages
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIe74boCjII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Service Landing Page
 
 ### When to use a Service Landing Page
+
 Use a Service Landing Page for the homepage of a section. For example:
 
 * [Adult social care (on LGD demo site)](https://localgovdrupal.agile.coop/adult-health-and-social-care)
@@ -41,10 +42,10 @@ Use a Service Landing Page for the homepage of a section. For example:
 ![iScreenshot of Croydon's Children, young people and families Service Landing Page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
 Image caption: A screenshot of Croydon's Children, young people and families Service Landing Page, showing the title, an introductory paragraph, two common task links and a list of links to Service Pages and Service Sub-landing Pages, each displayed with a title and summary. Source: [Croydon](https://www.croydon.gov.uk/children-young-people-and-families).
 
-
 The Service Landing Page will be linked to from the homepage of the website.
 
 ### Provide a summary
+
 Your summary should provide more information than what the title suggests. It should include what a user can do and find out in the section. Read the [guidance on summaries](https://www.gov.uk/guidance/content-design/writing-for-gov-uk#summaries).
 
 ***Example:*** 
@@ -64,10 +65,10 @@ Tasks can be tagged as either "Action" or "Information" - these may display diff
 ![Screenshot of the LGD demo site "Adult and social care" Service Landing Page, showing three common task links - 2 blue information links and 1 green action link](https://user-images.githubusercontent.com/3852805/123274826-c2804c80-d4fb-11eb-844b-d4c09a5a00f8.png)
 Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a green background.
 
-
 ## Service Sub-landing Pages
 
 ### When to use a Service Sub-landing Page
+
 Service Sub-landing Pages are index pages that link out to other pages. They usually sit a level below a Service Landing Page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
 
 You can use them to link to:
@@ -89,6 +90,7 @@ Image description: Lambeth Council's Births Service Sub-landing Page. They show 
 ## Service Pages
 
 ### When to use a Service Page
+
 Service Pages are the most commonly used type of page, they're useful if you're creating content that:
 
 * addresses one user need or task
@@ -112,6 +114,7 @@ If the page requires more guidance or information you will need to consider usin
 Image description: Brighton and Hove Council's How to use a wheelie bin Service Page, showing a title, summary, a common task link, then text with headings and related links in the sidebar. 
 
 ### Adding a Task button to a Service Page
+
 You can add a task button at the top of a Service Page by adding a link to the 'Task buttons' section of the Service Page editor.
 
 ***Examples***
@@ -119,10 +122,13 @@ You can add a task button at the top of a Service Page by adding a link to the '
 * *[Apply to join the housing register(Brighton & Hove)](https://www.brighton-hove.gov.uk/housing/council-housing/apply-join-housing-register)*
 
 ### Related links and Related topics
-The sidebar can show Related links and Related topics, which you can add in the 'Related content' section of the Service Page editor. 
+
+The sidebar can show Related links and Related topics, which you can add in the 'Related content' section of the Service Page editor.
+
 The related topics can be suppressed by checking the 'Hide the related topics panel' checkbox in the same section.
 
 ## Service Status
+
 Service Status allow you to give updates about the status of the relevant service. These appear on the Service Landing Page if the 'Show on landing page' checkbox is checked in the Service Status editor. 
 
 ![Screenshot of Brighton's Rubbish & Waste Service Landing Page, with 2 status shown below a title Service updates](https://user-images.githubusercontent.com/3852805/123281746-d75fde80-d501-11eb-8408-232d35a98c40.png)
@@ -153,7 +159,7 @@ This Status list exists on the URL /service-status.
 
 ![Screenshot of Croydon's Service status page, showing all the Council's Service's Statuses grouped by Service](https://user-images.githubusercontent.com/3852805/124510908-bb472180-ddcc-11eb-9e4b-7127d0273209.png)
 
+## How to log issues
 
-## How to: Creating Service pages
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iIe74boCjII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* [Github Repo](https://github.com/localgovdrupal/localgov_services)
+* [Issue Queue](https://github.com/localgovdrupal/localgov_services/issues)
