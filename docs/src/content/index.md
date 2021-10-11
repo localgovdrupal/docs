@@ -35,7 +35,6 @@ See [Drupal's glossary](https://www.drupal.org/docs/user_guide/en/glossary.html)
 
 
 ## Quick links
-- Workflow
 - 
 
 

@@ -73,8 +73,8 @@ module.exports = {
         link: '/accessibility/'
       },
       {
-        text: 'Blog',
-        link: '/blog/'
+        text: 'Main site',
+        link: 'https://localgovdrupal.org'
       },
     ],
     sidebar: {
@@ -113,7 +113,9 @@ module.exports = {
             '/devs/features/services-technical',
             '/devs/features/alert-banner-technical',
             '/devs/features/news-technical',
-            '/devs/features/subsites',
+            '/devs/features/directories-technical',
+            '/devs/features/geo-technical',
+            '/devs/features/subsites'
             '/devs/features/workflows',
           ]
         },
