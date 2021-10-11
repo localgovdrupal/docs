@@ -145,11 +145,13 @@ From here, enter 'Example high school' into the _Title_ field then select the _C
 
 ![Screenshot at 11-16-56](https://user-images.githubusercontent.com/11015602/134890324-a4f58d4e-d572-4553-bbf3-5537d7c8e9d2.png)
 
+#### Item location
+
 Finally, we can harness the power of the LocalGov Drupal location integration so users can browse the schools by using a map interface. Open the _Venue_ tab and click the _Select location_ button. From the popup, choose the _Create new address_ tab. Populate the fields within the _Address_ tab with an address familiar to you:
 
-![image](https://user-images.githubusercontent.com/11015602/134891269-220a1873-2732-4539-b60a-e8806fd9d43d.png)
+![image](~@images/directories--geo-create-address.gif)
 
-Next, use the map to choose a point on the globe relevant to the school. In this case you would be placing a pin on the school building.
+The address should autocomplete if your site is configured to do so, and it will place the point on the map. If this is incorrect, or not found, you can place the point manually.
 
 Finally, scroll to the bottom fo the popup and click the _Save address_ button and then save the venue. 
 

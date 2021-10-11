@@ -114,6 +114,7 @@ module.exports = {
             '/devs/features/alert-banner-technical',
             '/devs/features/news-technical',
             '/devs/features/directories-technical',
+            '/devs/features/geo-technical',
             '/devs/features/subsites'
           ]
         },
