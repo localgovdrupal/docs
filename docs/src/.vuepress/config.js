@@ -115,7 +115,8 @@ module.exports = {
             '/devs/features/news-technical',
             '/devs/features/directories-technical',
             '/devs/features/geo-technical',
-            '/devs/features/subsites'
+            '/devs/features/subsites',
+            '/devs/features/workflows',
           ]
         },
         {
@@ -155,6 +156,7 @@ module.exports = {
             '/content/features/guide',
             '/content/features/subsites',
             '/content/features/directories',
+            '/content/features/workflow',
           ]
         },
         'patterns',
