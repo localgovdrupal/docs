@@ -1,6 +1,7 @@
 # Step by step
 
 ## When to use a step-by-step page
+
 Step-by-step pages are useful if you're creating content where the user has to follow a process.
 
 This could include
@@ -17,7 +18,9 @@ Examples include:
 * registering a death
 * help signing in to My Account
 
-to-do link to examples.
+## How-to: add a Step by Step
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IhmC2BjHdps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Step-by-step landing page
 
@@ -25,13 +28,5 @@ Before the steps on a landing page, you should avoid having too much copy as it 
 
 You should only include no more than 3 to 4 sentences, or an alert box – if there is something you need to warn users about or there's information that is out of the usual way of doing things.
 
-**Example**
-Losing a loved one can be a very traumatic time. We will ensure that the process of registering the death is as easy as possible and you and your family get the support you need.
-
-Follow the step by step process for registering death in Croydon.
-
 ## Step-by-step titles
 You should include 'step by step' in the title of your page. This makes it clear to the user that this is a process to follow.
-
-to-do check the above is true
-to-do add some screenshots

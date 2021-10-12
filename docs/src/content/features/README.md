@@ -2,7 +2,7 @@
 
 We are aiming for full documentation of all the LocalGov Drupal features.
 
-Each section contains background information about the feature, guidance for content designers and editors, and technical information for developers.
+This section describes the features of LocalGov Drupal that we think are useful for content editors and content designers. We've given some guidance on what the feature is designed for, and how it was intended to be used. Have a look through the how-to section to find out how to manage individual tasks. 
 
 Please help us keep this useful, accurate and up-to-date.
 
