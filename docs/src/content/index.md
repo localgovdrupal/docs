@@ -1,11 +1,10 @@
 # Content designers
 
-This section is specifically to help content designers get up and running with a LocalGov Drupal site. 
+This section is specifically to help content designers get up and running with a LocalGov Drupal site.
 
-We've consulted Content Designers along the way as we've designed features, so we hope that once you've got up and running that you'll find it easy and intuitive. 
+We've consulted Content Designers along the way as we've designed features, so we hope that once you've got up and running that you'll find it easy and intuitive.
 
-The following pages explain how the features work out-of-the-box, from a content designer or editor point of view. We recommend that you copy and extend them with your own in-house styles to make a full styleguide. 
-
+The following pages explain how the features work out-of-the-box, from a content designer or editor point of view. We recommend that you copy and extend them with your own in-house styles to make a full styleguide.
 
 ## Drupal terminology
 
@@ -27,26 +26,30 @@ The following pages explain how the features work out-of-the-box, from a content
 
 **Role**: A named set of permissions that can be applied to a user account.
 
-**Permission**: The ability to perform some action on the site, such as editing a particular type of content, or viewing user profiles. 
+**Permission**: The ability to perform some action on the site, such as editing a particular type of content, or viewing user profiles.
 
 **User**: A person interacting with the site, either logged-in or anonymous.
 
-See [Drupal's glossary](https://www.drupal.org/docs/user_guide/en/glossary.html) for more. 
+See [Drupal's glossary](https://www.drupal.org/docs/user_guide/en/glossary.html) for more.
 
+## Video series
 
-## Quick links
-- 
+We're putting together a series of How-to videos.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to get involved
 
 ### Working Groups
-We're keen to have content designers represented in the design and specification of new features. Please get in touch if you want to be involved. 
+
+We're keen to have content designers represented in the design and specification of new features. Please get in touch if you want to be involved.
 
 ### Slack channels
-Join the LocalGov Drupal Slack channel if you would like to get involved. 
 
-There's even a channel for #content and occassional meetups of content designers. These are really good places to get help, share learnings ot request new features. 
+Join the LocalGov Drupal Slack channel if you would like to get involved.
+
+There's even a channel for #content and occassional meetups of content designers. These are really good places to get help, share learnings ot request new features.
 
 ### Report bugs and issues
-We encourage people to report bugs and issues in the Git repo. See the how-to. 
+
+We encourage people to report bugs and issues in the Git repo. See the how-to.

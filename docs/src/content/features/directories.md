@@ -9,17 +9,23 @@ Contents:
 Directories provide a way for editors to present content as a list which can be searched and filtered by end-users. They are a part of the LocalGovDrupal distribution.
 
 ## Examples in the wild
-* [Croydon: Secondary schools ](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/-schools)
+
+* [Croydon: Secondary schools](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/-schools)
 * [Lambeth: Libraries](https://beta.lambeth.gov.uk/libraries-0)
 
 ## How to log issues
+
 * [Github issue queue](https://github.com/localgovdrupal/localgov_directories/issues)
 
 ## When to use Directories
 
-- You have a type of content with a large volume of variations. Car parks, sports facilities or parks are good examples.
-- Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
-- Your content is related to a specific geographical location which is relevant to users.
+* You have a type of content with a large volume of variations. Car parks, sports facilities or parks are good examples.
+* Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
+* Your content is related to a specific geographical location which is relevant to users.
+
+## Video: Creating Directories
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FnpFlQyYdO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Concepts
 
@@ -31,13 +37,13 @@ Facets are groups of attributes users will filter by when searching for a Direct
 
 Note that not all Facet types are made up of mutually-exclusive Facets; in the case of gender most schools are applicable to both _Girls_ and _Boys_ where as other schools are only applicable to one gender.
 
-There are also often cases where Facets will be mutually exclusive such the maximum length of stay for car parks: 
+There are also often cases where Facets will be mutually exclusive such the maximum length of stay for car parks:
 
 **Maximum stay (Directory Facet type)**
-- 1 hr (Directory facet)
-- 2 hrs (Directory facet)
-- 4 hrs (Directory facet)
-- 6 hrs (Directory facet)
+* 1 hr (Directory facet)
+* 2 hrs (Directory facet)
+* 4 hrs (Directory facet)
+* 6 hrs (Directory facet)
 
 ### Directory Channels
 
@@ -63,13 +69,13 @@ In order to allow users to filter Directory Items by Directory Facets, Items mus
 
 **Sports facilities**
 
-- Facet types: Sports, Location
-- Content types: Sports venue
+* Facet types: Sports, Location
+* Content types: Sports venue
 
 **Secondary schools**
 
-- Facet types: Age, Location
-- Content types: School
+* Facet types: Age, Location
+* Content types: School
 
 When creating\editing _Sports venue_ Directory Items _Sports_ and _Location_ facets can be selected while with _Schools_ the _Age_ and _Location_ facets will be available.  
 
@@ -79,30 +85,29 @@ When creating\editing _Sports venue_ Directory Items _Sports_ and _Location_ fac
 
 In this guide we'll step through the process to create a Directory of secondary schools using features which come out-of-the-box with LocalGov Drupal.
 
-#### Pre-requisites 
+#### Pre-requisites
 
-- You'll need to have access to a Drupal installation based on the LocalGov install profile.
-- The following Drupal modules will need to be installed: LocalGov Directories, LocalGov Directories Location and LocalGov Directories Organisation.
-- You'll need to be able to log in with a user which has editorial rights.
+* You'll need to have access to a Drupal installation based on the LocalGov install profile.
+* The following Drupal modules will need to be installed: LocalGov Directories, LocalGov Directories Location and LocalGov Directories Organisation.
+* You'll need to be able to log in with a user which has editorial rights.
 
 #### Creating the Facet types
 
 We'll create two Facets types which allow users to filter secondary schools by the type of school and the age range.
 
-Once you've logged in navigate to the Facets types overview page via the menu items _Content_ > _Directory Facets_ > _Add directory facet type_ 
+Once you've logged in navigate to the Facets types overview page via the menu items _Content_ > _Directory Facets_ > _Add directory facet type_
 
 ![Add facet type menu](https://user-images.githubusercontent.com/11015602/134885404-81984346-2db0-4a61-86b8-41c9d778091d.png)
 
-From this screen, enter 'Age' into the _Label_ field and click _Save directory facets type_. You'll be taken to the types overview page where you can see your new type. 
+From this screen, enter 'Age' into the _Label_ field and click _Save directory facets type_. You'll be taken to the types overview page where you can see your new type.
 
 ![Screenshot at 10-50-45](https://user-images.githubusercontent.com/11015602/134886415-d784e54a-01de-4f43-ac40-bcb10c418a80.png)
 
 From here, click _Add directory facets type_ button to create another. This time, enter 'Location' into the _Label_ field and click the save button.
 
-
 #### Creating the Facets
 
-With our Types in place, it's time to create the Facets which users can use to filter our list of schools. Using the admin menu, choose _Content_ > _Directory Facets_ > _Add directory facet_ 
+With our Types in place, it's time to create the Facets which users can use to filter our list of schools. Using the admin menu, choose _Content_ > _Directory Facets_ > _Add directory facet_
 
 ![Screenshot at 10-50-45](https://user-images.githubusercontent.com/11015602/134886950-0f1a1c03-7068-4bc9-97d3-759ba4ec1391.png)
 
@@ -117,7 +122,6 @@ From here, click the _Add directory facets_ button and repeat the process until 
 | 11-16 years      | North Somewhere       |
 | 11-18 year   | South Somewhere        |
 
-
 #### The Channel
 
 OK we're getting somewhere. Next up let's create a 'Channel'. Remember, the purpose of this channel is to allow users to filter a list of secondary schools by age and location so they can find a school which meets their criteria. Here we're going to make use of the _Directory organisation_ content type, that comes out-of-the-box with LocalGov Drupal, to represent a school.
@@ -130,7 +134,7 @@ From this screen, enter 'Secondary schools' into the _Title_ field and then scro
 
 ![Screenshot at 10-48-47](https://user-images.githubusercontent.com/11015602/135064740-03acece4-9de7-42b2-b71b-f365e1c58cf3.png)
 
-Finally, click _Save_ to create your new Channel. 
+Finally, click _Save_ to create your new Channel.
 
 #### Directory Items
 
@@ -139,7 +143,6 @@ With the Channel and Facets in place we are ready to start creating some Directo
 Using the admin menu, navigate to _Add content_ > _Directory_ > _Directory organisation_:
 
 ![Screenshot at 10-51-13](https://user-images.githubusercontent.com/11015602/135064949-87980e95-ba06-4fde-a93d-0a55263089a5.png)
-
 
 From here, enter 'Example high school' into the _Title_ field then select the _Channels and facets_ tab. After selecting 'Secondary schools' as the _Primary_ Channel you will be presented with some Facets for selection. Choose some Facets, in this case it probably doesn't make sense to have more than one Facet per Type:
 
@@ -153,7 +156,7 @@ Finally, we can harness the power of the LocalGov Drupal location integration so
 
 The address should autocomplete if your site is configured to do so, and it will place the point on the map. If this is incorrect, or not found, you can place the point manually.
 
-Finally, scroll to the bottom fo the popup and click the _Save address_ button and then save the venue. 
+Finally, scroll to the bottom fo the popup and click the _Save address_ button and then save the venue.
 
 You'll probably want to repeat this process a few times, choosing different combinations of Facets and different addresses, in order to better understand how Directories work.
 
@@ -163,16 +166,4 @@ With your newly entered Directory Items it's time to experiment with the Channel
 
 ![Screenshot at 11-16-56](https://user-images.githubusercontent.com/11015602/134898253-c129736e-9306-4f5e-8efa-13eceb1a7ec1.png)
 
-As you'll see, by choosing Facets and entering a location the Directories module has automatically generated the filters and map visualisation. Try selecting different facets to see how it effects the listed schools. 
-
-
-
-
-
-
-
-
-
-
-
-
+As you'll see, by choosing Facets and entering a location the Directories module has automatically generated the filters and map visualisation. Try selecting different facets to see how it effects the listed schools.
