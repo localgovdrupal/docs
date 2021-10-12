@@ -5,9 +5,9 @@
 ## Essential concepts
 
 * **Role**: A named set of permissions that can be applied to a user account. Depending on your role and your site's custom configuration, you may not be able to do all the actions on this page.
-* **Revision**: Drupal lets you create a new revision every time a node is updated. This allows you to track how the node has changed over time on your site. [Read more on drupal.org](https://www.drupal.org/docs/administering-a-drupal-site/node-revisions). One version will be the **current revision**, indicating which version is available to logged out users.
+* **Revision**: Drupal lets you create a new revision every time a piece of content is updated. This allows you to track how the piece of content has changed over time on your site. [Read more on drupal.org](https://www.drupal.org/docs/administering-a-drupal-site/node-revisions). One version will be the **current revision**, indicating which version is available to logged out users.
 * **State**: A revision can exist in one of a number of states (Draft, Needs review, Published, Archived). If the current revision is Published it is available to logged out users.
-* **Transitions**: Moving the current revision from one state to another is called a transitition. We can do this manaully by setting the state when we save a piece of content, or we can schedule a time for it to happen automatically. 
+* **Transitions**: Moving the current revision from one state to another is called a transitition. We can do this manaully by setting the state when we save a piece of content, or we can schedule a time for it to happen automatically.
 
 ## Roles
 
@@ -75,13 +75,15 @@ Visit **Admin > Content > Approvals dashboard**
 
 If you have the permission to edit the content you will see the Edit button.
 
+When viewing a new (unpublished) revision of a piece of content, you will see a form at the top of the content which allows you to publish (or not).
+
 ![image](https://user-images.githubusercontent.com/3852805/136771222-66460351-f23c-4d86-a37d-27d4adfea4e7.png)
 
 ### Creating a new draft of Published content
 
 When we edit a piece of published content and save it as _Draft_ or _Needs Review_, the content remains published and creates a new revision.
 
-The **Latest version** tab will show the new revision, whereas the View tab will allow you to see the _Published_ version.
+The **Latest version** tab will show the new revision, whereas the View tab will allow you to see the current _Published_ version.
 
 ![image](https://user-images.githubusercontent.com/3852805/136771107-70ed6ed6-c79a-45bb-b41e-ee4adbb2177c.png)
 
@@ -175,7 +177,6 @@ Content should be reviewed regularly to ensure that it is relevant and up to dat
 5. A revision of the content appears in the "Needs Review" dashboard
 6. An editor does a thorough review and publishes the reviewed content, with a new review date of 1 year.
 
-
 ### Managing the Review date
 
 When you create or edit a piece of content you will see the Review date panel in the sidebar.
@@ -191,6 +192,5 @@ When the next review is due, a revision of the content will appear in the "Needs
 Visit **Admin > Content > Needs review**
 
 ![image](https://user-images.githubusercontent.com/3852805/136771578-c8e8927f-b355-456f-b9e0-0176a589aca8.png)
-
 
 * Review date and Scheduled transitions are part of the LocalGov Workflows submodule LocalGov Review Date. If these features are not available talk to your site administrator.
