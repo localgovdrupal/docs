@@ -12,12 +12,6 @@ We've put together a series of How-to videos which are here in the documentation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-## Starter pack 
-
-If you'd like something to download and keep handy, there is also a ['Starter pack for content designers' Google doc](https://docs.google.com/document/d/1VL3EHizQMujGPoDjGPq_-FYcCl44vYqmKM9bVV1OQPM/edit?usp=sharing)  that covers most of the basics of creating and managing content. 
-
-
 ## Drupal terminology
 
 If you are not familiar with Drupal CMS, here as are some of the most common terms explained. 
