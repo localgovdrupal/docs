@@ -6,7 +6,15 @@ We've consulted Content Designers along the way as we've designed features, so w
 
 The following pages explain how the features work out-of-the-box, from a content designer or editor point of view. We recommend that you copy and extend them with your own in-house styles to make a full styleguide.
 
+## Video series
+
+We've put together a series of How-to videos which are here in the documentation or can be seen on the [LocalGov Drupal YouTube channel](https://www.youtube.com/playlist?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Drupal terminology
+
+If you are not familiar with Drupal CMS, here as are some of the most common terms explained. 
 
 **Content types**: content types are one of the main building blocks within a Drupal site; as the name suggests, content types hold content. However, different content types can hold different kinds of content; an event can hold information that is specific to a time, where a discussion can be used for people to talk. Most sites have multiple different content types.
 
@@ -32,11 +40,7 @@ The following pages explain how the features work out-of-the-box, from a content
 
 See [Drupal's glossary](https://www.drupal.org/docs/user_guide/en/glossary.html) for more.
 
-## Video series
 
-We're putting together a series of How-to videos.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How to get involved
 
