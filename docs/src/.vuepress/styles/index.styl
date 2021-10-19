@@ -143,7 +143,8 @@ body
 body .navbar
   .home-link
     font-size 20px
-    position relative
+    position absolute
+    left: 1rem
     white-space nowrap
     .brand
       font-weight 700
@@ -157,6 +158,7 @@ body .navbar
     font-weight bold
   .links
       padding-left 0
+      right 2.5rem
 
 @media (min-width: 780px)
   body .navbar
@@ -194,3 +196,6 @@ main.page
     box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.1), 0px 2px 6px 0 rgba(0, 0, 0, 0.2)
     border-radius: 3px
 
+.sidebar-button 
+  right 1rem
+  left initial !important

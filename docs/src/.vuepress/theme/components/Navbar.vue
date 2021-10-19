@@ -1,7 +1,6 @@
 /* This is a template override from https://github.com/vuejs/vuepress/blob/master/packages/%40vuepress/theme-default/components/Navbar.vue */
 <template>
   <header class="navbar">
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
 
     <RouterLink
       :to="$localePath"
@@ -24,6 +23,7 @@
       <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false" />
       <NavLinks class="can-hide" />
     </div>
+    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
   </header>
 </template>
 
