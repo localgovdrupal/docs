@@ -6,6 +6,9 @@ We've consulted Content Designers along the way as we've designed features, so w
 
 The following pages explain how the features work out-of-the-box, from a content designer or editor point of view. We recommend that you copy and extend them with your own in-house styles to make a full styleguide.
 
+## Content Design Starter Pack
+There is a starter pack [which you can download here](https://docs.google.com/document/d/1VL3EHizQMujGPoDjGPq_-FYcCl44vYqmKM9bVV1OQPM/edit) use a reference guide to basic tasks. 
+
 ## Video series
 
 We've put together a series of How-to videos which are here in the documentation or can be seen on the [LocalGov Drupal YouTube channel](https://www.youtube.com/playlist?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn).
