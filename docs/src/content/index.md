@@ -15,6 +15,17 @@ We've put together a series of How-to videos which are here in the documentation
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+## Features
+
+Descriptions of the [features of LocalGov Drupal](https://docs.localgovdrupal.org/content/features/) that are useful for content editors and content designers, with guidance on what the feature is designed for, and how it was intended to be used. 
+
+
+## Patterns & Components
+
+Descriptions of some [components available through the WYSIWYG editor](https://docs.localgovdrupal.org/content/patterns.html)
+
+
 ## Drupal terminology
 
 If you are not familiar with Drupal CMS, here as are some of the most common terms explained. 
@@ -55,8 +66,8 @@ We're keen to have content designers represented in the design and specification
 
 Join the LocalGov Drupal Slack channel if you would like to get involved.
 
-There's even a channel for #content and occassional meetups of content designers. These are really good places to get help, share learnings ot request new features.
+There's a channel for #content and occassional meetups of content designers. These are really good places to get help, share learnings or request new features.
 
 ### Report bugs and issues
 
-We encourage people to report bugs and issues in the Git repo. See the how-to.
+We encourage people to report bugs and issues in the Git repo - [see the how-to guide](https://docs.localgovdrupal.org/content/how-to/how-to-github.html)
