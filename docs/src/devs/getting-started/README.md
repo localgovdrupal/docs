@@ -12,10 +12,11 @@ setup, you will need the following.
 
 To install LocalGov Drupal use the
 [Composer-based project template](https://github.com/localgovdrupal/localgov_project).
+
 Change `MY_PROJECT` to whatever you'd like your folder to be called.
 
 ```bash
-composer create-project --stability dev localgovdrupal/localgov-project MY_PROJECT --remove-vcs 
+composer create-project localgovdrupal/localgov-project MY_PROJECT --no-install 
 ```
 
 Change directory into the MY_PROJECT directory and run lando start.
@@ -25,11 +26,14 @@ cd MY_PROJECT
 lando start
 ```
 
-Once lando has finished building, run the site installer with the `localgov` install profile.
+Once lando has finished building, use lando to run composer install and the site installer.
 
 ```bash
+lando composer install
 lando drush si localgov -y
 ```
+
+Note: As you might be running a different version of PHP on your host machine from the version that Lando runs, it is advisable to run composer install from within Lando. This ensures dependencies reflect the PHP version that the webserver is actually running.
 
 ## Installing from the UI (alternative)
 
