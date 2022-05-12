@@ -1,19 +1,48 @@
 # Getting started
 
-## Prerequisites
+## Requirements for installing LocalGov Drupal locally for testing and development
 
-To run a local development version of LocalGov Drupal following our recommended
-setup, you will need the following.
+To install LocalGov Drupal locally you will need an appropriate versions of:
 
-* Composer: [getcomposer.org](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-macos)
-* Lando: [docs.lando.dev](https://docs.lando.dev/basics/installation.html)
+ - PHP (see https://www.drupal.org/docs/system-requirements/php-requirements)
+ - A database server like MySQL (see https://www.drupal.org/docs/system-requirements/database-server-requirements)
+ - A web server like APache2 (see https://www.drupal.org/docs/system-requirements/web-server-requirements) 
 
-## Installing LocalGov Drupal
+Many of us use the Lando file included to run a local docker environmnent for testing and development, but seom people prefer to run the web servers natively on their host machine.
 
-To install LocalGov Drupal use the
+### PHP requirements
+
+We folllow Drupal's PHP recomendations: https://www.drupal.org/docs/system-requirements/php-requirements#versions
+
+We currently recomend PHP 8.1 or 8.0 but also aim to support PHP 7.4.
+
+You will also need to have certain PHP extensions enabled (see https://www.drupal.org/docs/system-requirements/php-requirements#extensions) including: 
+
+ - PHP mbstring
+ - PHP cURL
+ - GD library
+ - XML 
+
+If you see errors when running composer require, double check your PHP extensions.
+
+## Composer and Lando
+
+To install locally, you will need Composer and we recommend using Lando for a consistent developer environment.
+
+ - https://getcomposer.org/
+ - https://lando.dev/
+
+Please also see the Lando requirements section for details of Docker
+requirements for different operating systems.
+
+https://docs.lando.dev/basics/installation.html#system-requirements
+
+## Installing LocalGov Drupal locally with composer
+
+To install LocalGov Drupal locally for testing or development, use the
 [Composer-based project template](https://github.com/localgovdrupal/localgov_project).
 
-Change `MY_PROJECT` to whatever you'd like your folder to be called.
+Change `MY_PROJECT` to whatever you'd like your project directory to be called.
 
 ```bash
 composer create-project localgovdrupal/localgov-project MY_PROJECT --no-install 
@@ -33,21 +62,9 @@ lando composer install
 lando drush si localgov -y
 ```
 
-Note: As you might be running a different version of PHP on your host machine from the version that Lando runs, it is advisable to run composer install from within Lando. This ensures dependencies reflect the PHP version that the webserver is actually running.
-
-## Installing from the UI (alternative)
-
-Assuming that your settings.local.php can connect to the database and your file permissions are as expected you can visit your local URL which by default in the Lando setup is `http://localgov.lndo.site/` and you will encounter the Drupal site installation form.
-
-When you reach the profile selection screen make sure you choose 'LocalGovDrupal' before continuing, otherwise you might have to restart the entire process.
-
-![Screenshot of Drupal site installation screen when choosing the installation profile for localgov](~@images/install-from-ui--choose-profile.png)
-
-Next Drupal will install all the default configuration and modules for the profile before reaching the site configuration form where you can setup your site name and user 1 details, you can always change these later.
-
-![Screenshot of Drupal site installation screen when entering the site configuration details](~@images/install-from-ui--enter-site-config.png)
-
-And that's it! You should now be redirected to your site and logged in as user 1.
+Note: As you might be running a different version of PHP on your host machine from the 
+version that Lando runs, it is advisable to run composer install from within Lando. 
+This ensures dependencies reflect the PHP version that the webserver is actually running. 
 
 ## Composer notes
 
@@ -55,14 +72,14 @@ If developing locally and you want to force composer to clone again
 from source rather than use composer cache, you can add the `--no-cache` flag.
 
 ```bash
-composer create-project localgovdrupal/localgov-project MY_PROJECT --stability dev --no-cache
+lando composer create-project localgovdrupal/localgov-project MY_PROJECT --stability dev --no-cache  --no-install 
 ```
 
 If you just want to pull in the latest changes to LocalGov Drupal run composer
 update with the `--no-cache` flag.
 
 ```bash
-composer update --no-cache
+lando composer update --no-cache
 ```
 
 If you want to be sure you are getting the latest commits when developing,
@@ -88,9 +105,7 @@ COMPOSER_MEMORY_LIMIT=-1 composer create-project --stability dev localgovdrupal/
 
 ## Contributing
 
-We accept contributions from anybody and any level of involvement is greatly appreciated, even small things like reporting issues.
-
-You can explore more about how to get involved in the [Contributing](/contributing) section.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for current contribution guidelines.
 
 ## Issue tracking
 
@@ -107,7 +122,7 @@ The main development environment in use is currently
 [Lando](https://docs.lando.dev/) – a Docker based development environment that
 works on Linux, MacOS and Windows.
 
-Jump to [Working with Lando](/devs/getting-started/working-with-lando) for more information.
+@todo Document Lando setup.
 
 ## Coding standards
 
@@ -155,3 +170,10 @@ use:
 ```bash
 lando phpunit --filter=myTestName
 ```
+
+### Testing resources
+
+* [PHPUnit documentation](https://phpunit.readthedocs.io/en/7.5/)
+* [Drupal 8 PHPUnit documentation](https://www.drupal.org/docs/8/testing/phpunit-in-drupal-8)
+* [Drupal 8 testing documentation](https://www.drupal.org/docs/8/testing)
+* [Workshop: Automated Testing and Test Driven Development in Drupal 8](https://github.com/opdavies/workshop-drupal-automated-testing)
