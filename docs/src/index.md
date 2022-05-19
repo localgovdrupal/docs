@@ -29,7 +29,7 @@ Here you can find all the documentation for LocalGov Drupal, from installation t
 
 [docs for developers →](/devs/)
 
-[docs for content designers →](/design/)
+[docs for content designers & editors →](/design/)
 
 [how to contribute →](/contributing/)
 
