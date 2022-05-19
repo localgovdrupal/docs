@@ -1,6 +1,6 @@
 # Content designers
 
-This section is specifically to help content designers, editors and site managers to get up and running with a LocalGov Drupal site.
+This section is specifically to help content designers, content managers and editors to get up and running with a LocalGov Drupal site.
 
 We've consulted content designers and site editors along the way as we've designed features, so we hope that once you've got up and running that you'll find it easy and intuitive.
 
