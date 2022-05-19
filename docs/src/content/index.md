@@ -1,12 +1,12 @@
 # Content designers
 
-This section is specifically to help content designers get up and running with a LocalGov Drupal site.
+This section is specifically to help content designers, editors and site managers to get up and running with a LocalGov Drupal site.
 
-We've consulted Content Designers along the way as we've designed features, so we hope that once you've got up and running that you'll find it easy and intuitive.
+We've consulted content designers and site editors along the way as we've designed features, so we hope that once you've got up and running that you'll find it easy and intuitive.
 
 The following pages explain how the features work out-of-the-box, from a content designer or editor point of view. We recommend that you copy and extend them with your own in-house styles to make a full styleguide.
 
-## Content Design Starter Pack
+## Content Design / Editor Starter Pack
 There is a starter pack [which you can download here](https://docs.google.com/document/d/1VL3EHizQMujGPoDjGPq_-FYcCl44vYqmKM9bVV1OQPM/edit) use a reference guide to basic tasks. 
 
 ## Video series
