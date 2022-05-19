@@ -1,4 +1,4 @@
-# Content designers
+# Content designers, editors & content managers
 
 This section is specifically to help content designers, content managers and editors to get up and running with a LocalGov Drupal site.
 
