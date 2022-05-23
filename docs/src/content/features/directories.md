@@ -10,7 +10,7 @@ Directories provide a way for editors to present content as a list which can be 
 
 ## Examples in the wild
 
-* [Croydon: Secondary schools](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/-schools)
+* [Croydon: Secondary schools](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools)
 * [Lambeth: Libraries](https://beta.lambeth.gov.uk/libraries-0)
 
 ## How to log issues
