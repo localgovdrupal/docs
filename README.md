@@ -1,6 +1,6 @@
 # LocalGovDrupal Docs
 
-The repository for the documentation sitting at https://localgovdrupal.org/
+The repository for the documentation sitting at https://docs.localgovdrupal.org/
 
 ## Local development
 
