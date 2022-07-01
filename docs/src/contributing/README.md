@@ -5,7 +5,7 @@ tags:
 
 # Getting involved!
 
-We're very excited to have you interested in this project and there are many venues of involvement you can have. Make sure you read the [contribution guidelines](https://github.com/localgovdrupal/docs/blob/master/README.md).
+We are very excited to have you interested in this project and there are many venues of involvement you can have. Make sure you read the [contribution guidelines](https://github.com/localgovdrupal/docs/blob/master/README.md).
 
 1. Share our project with your colleagues and your social media
 
