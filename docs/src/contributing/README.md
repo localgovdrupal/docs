@@ -23,6 +23,6 @@ Code of conduct coming soon...
 
 ## Documentation
 
-Writing and testing our documentation is very helpful to maintainers. On every page you will find a link to "Help us improve this page" that takes you to an editable page in markdown, so you can quickly open a pull request (PR) on GitHub to make any changes.
+Writing and testing our documentation is very helpful to everyone. On every page you will find a link to "Help us improve this page" that takes you to an editable page in markdown, so you can quickly open a pull request (PR) on GitHub to make any changes.
 
 If you want to get setup locally, the [README](https://github.com/localgovdrupal/docs/blob/master/README.md) is the best place to start. Then you can just open a PR with your changes, every PR will get tested and show you a preview automatically.
