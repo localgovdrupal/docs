@@ -4,40 +4,42 @@
 
 To install LocalGov Drupal locally you will need an appropriate versions of:
 
- - PHP (see https://www.drupal.org/docs/system-requirements/php-requirements)
- - A database server like MySQL (see https://www.drupal.org/docs/system-requirements/database-server-requirements)
- - A web server like APache2 (see https://www.drupal.org/docs/system-requirements/web-server-requirements) 
+- PHP (see https://www.drupal.org/docs/system-requirements/php-requirements)
+- A database server like MySQL (see https://www.drupal.org/docs/system-requirements/database-server-requirements)
+- A web server like Apache2 (see https://www.drupal.org/docs/system-requirements/web-server-requirements)
 
-Many of us use the Lando file included to run a local docker environmnent for testing and development, but seom people prefer to run the web servers natively on their host machine.
+Many of us use the Lando file included to run a local docker environment for testing and development, but some people prefer to run the web servers natively on their host machine.
 
 ### PHP requirements
 
-We folllow Drupal's PHP recomendations: https://www.drupal.org/docs/system-requirements/php-requirements#versions
+We follow Drupal's PHP recommendations: https://www.drupal.org/docs/system-requirements/php-requirements#versions
 
-We currently recomend PHP 8.1 or 8.0 but also aim to support PHP 7.4.
+We currently recommend PHP 8.1 or 8.0 but also aim to support PHP 7.4.
 
-You will also need to have certain PHP extensions enabled (see https://www.drupal.org/docs/system-requirements/php-requirements#extensions) including: 
+You will also need to have certain PHP extensions enabled (see https://www.drupal.org/docs/system-requirements/php-requirements#extensions) including:
 
- - PHP mbstring
- - PHP cURL
- - GD library
- - XML 
+- PHP mbstring
+- PHP cURL
+- GD library
+- XML
 
-If you see errors when running composer require, double check your PHP extensions.
+If you see errors when running composer require, double-check your PHP extensions.
 
 ## Composer and Lando
 
-To install locally, you will need Composer and we recommend using Lando for a consistent developer environment.
+To install locally, you will need Composer, and we recommend using Lando for a consistent developer environment.
 
- - https://getcomposer.org/
- - https://lando.dev/
+- https://getcomposer.org/
+- https://lando.dev/
 
 Please also see the Lando requirements section for details of Docker
 requirements for different operating systems.
 
 https://docs.lando.dev/basics/installation.html#system-requirements
 
-## Installing LocalGov Drupal locally with composer
+## Installing LocalGov Drupal locally with Composer and Lando
+
+- ***For an alternative way to install locally, please see the guide for [Installing LocalGov Drupal locally with Composer and DDEV](working-with-ddev.md).***
 
 To install LocalGov Drupal locally for testing or development, use the
 [Composer-based project template](https://github.com/localgovdrupal/localgov_project).
@@ -62,9 +64,9 @@ lando composer install
 lando drush si localgov -y
 ```
 
-Note: As you might be running a different version of PHP on your host machine from the 
-version that Lando runs, it is advisable to run composer install from within Lando. 
-This ensures dependencies reflect the PHP version that the webserver is actually running. 
+Note: As you might be running a different version of PHP on your host machine from the
+version that Lando runs, it is advisable to run composer install from within Lando.
+This ensures dependencies reflect the PHP version that the webserver is actually running.
 
 ## Composer notes
 
