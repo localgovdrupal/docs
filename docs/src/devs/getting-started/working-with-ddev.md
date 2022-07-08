@@ -6,6 +6,8 @@ tags:
   - composer
 ---
 
+# Working with DDEV
+
 ## Installing LocalGov Drupal locally with Composer and DDEV.
 
 First of all, you will need to install DDEV on your local machine – please check the requirements (most importantly Docker) for doing so, depending on your OS, and then install by following the appropriate instructions here:
@@ -19,16 +21,16 @@ Next, the assumption is that if you have been working with Drupal already, then 
 [Get Composer](https://getcomposer.org/)
 
 To install LocalGov Drupal locally for testing or development, use the
-[Composer-based project template](https://github.com/localgovdrupal/localgov_project) by running the following command (and changing `PROJECT_NAME` to whatever you’d like your project directory to be called):
+[Composer-based project template](https://github.com/localgovdrupal/localgov_project) by running the following command (and changing `PROJECT-NAME` to whatever you’d like your project directory to be called):
 
 ```bash
-composer create-project localgovdrupal/localgov-project PROJECT_NAME --no-install 
+composer create-project localgovdrupal/localgov-project PROJECT-NAME --no-install 
 ```
 
 Now move into the project directory just created and initialize DDEV for the project:
 
 ```bash
-cd PROJECT_NAME
+cd PROJECT-NAME
 ddev config
 ```
 
@@ -64,6 +66,6 @@ Once the LocalGov Drupal installer has finished running, it will give you a user
 
 Then use the credentials noted above to sign in to your now up-and-running new DDEV/LGD project by navigating to the following address:
 
-***https://PROJECT_NAME.ddev.site/user***
+***https://PROJECT-NAME.ddev.site/user***
 
 *Optional: you can also delete the `.lando.dist.yml` file in the project’s root, as it is redundant when using DDEV instead of Lando.*
