@@ -1,15 +1,15 @@
 ---
 tags:
-  - local development
-  - lando
-  - docker
+- local development
+- lando
+- docker
 ---
 
 # Working with Lando
 
 [Lando documentation](https://docs.lando.dev/)
 
-In the main project we've provided a `.lando.dist.yml` file out of the box to make it easier to get started with the local development setup. Of course you are free to use other alternatives to Lando.
+In the main project we've provided a `.lando.dist.yml` file out of the box to make it easier to get started with the local development setup. Of course, you are free to use other alternatives to Lando (such as DDEV - please see [here](working-with-ddev.md)).
 
 If you've never used Lando before you should read the [basics](https://docs.lando.dev/basics/); essentially it is a wrapper around Docker providing a much more simplified setup.
 
