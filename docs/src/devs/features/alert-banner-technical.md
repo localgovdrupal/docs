@@ -20,6 +20,7 @@ Typical usage scenario:
 Drupal core
 *   Drupal 8: >= 8.8
 *   Drupal 9: >= 9.0
+*   Drupal 10: >= 10.0
 
 
 Drupal modules
@@ -30,7 +31,6 @@ Drupal modules
 * Options (core)
 * User (core)
 * Views (core)
-* Field_group (provided by LocalGovDrupal)
 
 This module does not have any dependencies on the LGD distribution, and can be used on any Drupal site that meets the above requirements.
 
@@ -65,7 +65,7 @@ In the above example we've added an alert type named Covid alert, with the inter
 
 *Note:*
 The structure of the internal key is important. It consists of two parts, separate by a double hyphen (--):
-* `99`: the weight of the alert type (used ????)
+* `99`: the weight of the alert type.
 * `--`
 * `covid`: the alert type's internal identifier (only letters, digits, hyphens, and underscores allowed) which is used as part of the css classes that style the alerts. (learn more in the Theming section)
 
@@ -81,7 +81,7 @@ Banners have one of two statuses:
 
 By default, all live Alert banners are shown together in a single block named Alert banner, which you can place in any theme region at **Administration > Structure > Block layout**. 
 
-If the block contains multiple banners, they are ordered first by modification date, then by weight.
+If the block contains multiple banners, they are ordered first by weight, then by modification date.
 
 See the Advanced Configuration section for what to do when you need more advanced grouping / sorting options for displaying multiple banners.
 
@@ -96,6 +96,7 @@ If you need custom grouping or sorting logic, or if you want to be able to assig
 
 
 * Create one or more block views of (alert) banners
+* Create a block using views
 * Create one or more custom block plugins that use an EntityQuery to fetch and render the desired banners in the desired order.
 
 ### Creating new Banner types
