@@ -18,7 +18,7 @@ Other content types in the LocalGovDrupal distribution can also optionally be li
 
 ## Examples in the wild
 
-* [LocalGov Drupal demo: Adult health and social care](https://localgovdrupal.agile.coop/adult-health-and-social-care)
+* [LocalGov Drupal demo: Adult health and social care](https://demo.localgovdrupal.org/adult-health-and-social-care)
 * [Croydon: Adult health and social care ](https://www.croydon.gov.uk/adult-health-and-social-care)
 * [Lambeth: Bins and recycling](https://beta.lambeth.gov.uk/rubbish-recycling)
 * [Brighton & Hove: Rubbish, recycling and streets](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
@@ -36,7 +36,7 @@ Other content types in the LocalGovDrupal distribution can also optionally be li
 
 Use a Service Landing Page for the homepage of a section. For example:
 
-* [Adult social care (on LGD demo site)](https://localgovdrupal.agile.coop/adult-health-and-social-care)
+* [Adult social care (on LGD demo site)](https://demo.localgovdrupal.org/adult-health-and-social-care)
 * [Children, young people and families (on Croydon)](https://www.croydon.gov.uk/children-young-people-and-families)
 
 ![iScreenshot of Croydon's Children, young people and families Service Landing Page (full description below)](https://user-images.githubusercontent.com/3852805/123272337-906deb00-d4f9-11eb-8661-7307f6423a31.png)
