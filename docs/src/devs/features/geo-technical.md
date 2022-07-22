@@ -41,7 +41,7 @@ The app has a Client ID, and a Client secret. It also has a temporary token. You
 
 ##### Install the ArcGIS Online provider
 
-First add the ArcGIS provider. You can find he [providers list](https://geocoder-php.org/docs/#providers) and [Packagist](https://packagist.org/providers/geocoder-php/provider-implementation) basic installation instructions are also on them. These have related [plugins](https://git.drupalcode.org/project/geocoder/-/tree/8.x-3.x/src/Plugin/Geocoder/Provider) to make them 'automagically' with geocoder.
+First add the ArcGIS provider. You can find the [providers list](https://geocoder-php.org/docs/#providers) and [Packagist](https://packagist.org/providers/geocoder-php/provider-implementation) basic installation instructions are also on them. These have related [plugins](https://git.drupalcode.org/project/geocoder/-/tree/8.x-3.x/src/Plugin/Geocoder/Provider) to make them 'automagically' with geocoder.
 
 So for ArcGIS:
 `
