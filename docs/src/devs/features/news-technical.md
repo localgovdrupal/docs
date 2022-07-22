@@ -172,8 +172,8 @@ The following fields are also indexed to provide faceted search, or view configu
 * Newsroom
 * Title
 
-### Processers
-Entity status, HTML filter, Ignore cae, Stemmer, Stopwords, Tokenizer, Transliteration are enabled on all supported fields. 
+### Processors
+Entity status, HTML filter, Ignore case, Stemmer, Stopwords, Tokenizer, Transliteration are enabled on all supported fields. 
 
 ### Facets
 Facets for Category and Date are provided by default. 
