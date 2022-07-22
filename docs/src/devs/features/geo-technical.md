@@ -19,7 +19,11 @@ The module is included in the LocalGov Drupal distribution. It is a depenency, a
 
 ### Geocoder
 
-One important feature of the module is the ability to lookup addresses, autocomplete them, and find their location. Out of the box the module is configured to use [OpenStreetMap Nominatim](https://nominatim.openstreetmap.org/ui/about.html). Its [very reasonable Terms of Service](https://operations.osmfoundation.org/policies/nominatim/) allow us to make limited queries without requiring you to do more configuration, like registering an API key, so it works for testing. The data is the very flexible [Open Data Commons Open Database Licensed](https://opendatacommons.org/licenses/odbl/). **Why doesn't it find...** In the UK however at the moment OpenStreetMap does lack some information you might expect, like a lot of house numbers for example - contributing to OpenStreetMap helps this. Nominatim as a free service does also only accept a limited number of queries. Because of both these reasons you want to configure another geocoder for use on your production site. 
+One important feature of the module is the ability to lookup addresses, autocomplete them, and find their location. Out of the box the module is configured to use [OpenStreetMap Nominatim](https://nominatim.openstreetmap.org/ui/about.html). Its [very reasonable Terms of Service](https://operations.osmfoundation.org/policies/nominatim/) allow us to make limited queries without requiring you to do more configuration, like registering an API key, so it works for testing. The data is the very flexible [Open Data Commons Open Database Licensed](https://opendatacommons.org/licenses/odbl/).
+
+#### Why doesn't it find...
+
+In the UK however at the moment OpenStreetMap does lack some information you might expect, like a lot of house numbers for example - contributing to OpenStreetMap helps this. Nominatim as a free service does also only accept a limited number of queries. Because of both these reasons you want to configure another geocoder for use on your production site. 
 
 [Ordnance Survey offers Councils access](https://www.ordnancesurvey.co.uk/business-government/partner-member/member) to its [Places API](https://osdatahub.os.uk/docs/places/overview), or GIS departments might well have their preferred systems for your region. 
 
