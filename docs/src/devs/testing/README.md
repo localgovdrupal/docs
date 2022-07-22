@@ -7,7 +7,7 @@ tags:
 
 # Testing expectations
 
-As part of our [Development and contribution processes and standards](https://github.com/localgovdrupal/localgov/blob/master/CONTRIBUTING.md) we state our aim to [cover all new functionlaity with automate tests](
+As part of our [Development and contribution processes and standards](https://github.com/localgovdrupal/localgov/blob/master/CONTRIBUTING.md) we state our aim to [cover all new functionality with automated tests](
 https://github.com/localgovdrupal/localgov/blob/master/CONTRIBUTING.md#automated-tests):
 
 > Developers on this project will embrace the philosophy of using automated
