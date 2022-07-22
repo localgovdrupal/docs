@@ -9,7 +9,7 @@ Below is some background in to the design of LocalGov Drupal so far.
 
 ## Information architecture
 
-LocalGov Drupal ships which a number of predefined content templates known as content types. These have been architected following guidance from gov.uk design systems. 
+LocalGov Drupal ships with a number of predefined content templates known as content types. These have been architected following guidance from gov.uk design systems. 
 
 Local government is responsible for a range of services for people and businesses. Among them are well known functions such as social care, schools, housing and planning and waste collection.
 
@@ -61,4 +61,4 @@ The Frontend Group meets regularly to consider the frontend issues. This group i
 
 ## Drupal terminology
 
-It's hard to get away from [Drupal terminology ](/content/#drupal-terminology), but please let us know if anything in this documenation could be clearer.
+It's hard to get away from [Drupal terminology](/content/#drupal-terminology), but please let us know if anything in this documenation could be clearer.
