@@ -73,7 +73,7 @@ phpunit --filter=myTestName
 
 # phpunit.xml.dist
 
-PHPunit will use the default configuration specified int he
+PHPunit will use the default configuration specified in the
 [phpunit.xml.dist](https://github.com/localgovdrupal/localgov_project/blob/master/phpunit.xml.dist)
 file that comes with the distrubution.
 
