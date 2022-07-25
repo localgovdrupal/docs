@@ -1,7 +1,7 @@
 # Documentation (Wireframes & Design notes)
 
 
-The design of the default theme originally evolved from Croydon Council, which took strong influence from Brighton and Hove City Council and of course, Gov.uk and GDS.
+The design of the default theme originally evolved from Croydon Council, which took strong influence from Brighton and Hove City Council and of course, GOV.UK and GDS.
 
 ## Services
 
