@@ -23,15 +23,13 @@ We also encourage contributions from suppliers supporting councils using LocalGo
 
 ### Technical Slack channel
 
-The #technical-group #frontend slack channels are good places to find out who else is involved or ask for help. [Get in touch](mailto:hello@localgovdrupal.org) to join the slack channel.
+The #technical-group #frontend slack channels are good places to find out who else is involved or ask for help. Email [hello@localgovdrupal.org](hello@localgovdrupal.org) if you'd like to join the LocalGov Drupal Slack community.
 
-### Technical Drop-in (Fortnightly Thursdays)
+### Technical Drop-in (Fortnightly Thursdays) and Merge Mondays (every Monday)
 
-If you want some guidance or help, or just an idea on where to get started come along to the fortnightly Technical Drop-in. Keep an eye out for the details in the [LocalGov Drupal calendar](https://calendar.google.com/calendar/u/0/embed?src=dnkea9ec90vrkdnrmlo1ng3dik@group.calendar.google.com&ctz=Europe/London).
+If you want some guidance or help, or just an idea on where to get started come along to the fortnightly Technical Drop-inon Thursdays at 12.15. Merge Mondays runs weekly from 14.00-15.30 and is an opportunity to review current merge requests and get your work merged in.
 
-### Merge Mondays (every Monday)
-
-Every Monday from 14.00-15.30 there is an opportunity to review current merge requests and get your work merged in. Check out the [LocalGov Drupal calendar](https://calendar.google.com/calendar/u/0/embed?src=dnkea9ec90vrkdnrmlo1ng3dik@group.calendar.google.com&ctz=Europe/London) for the invite.
+Keep an eye out for the details in the [LocalGov Drupal calendar](https://calendar.google.com/calendar/u/0/embed?src=dnkea9ec90vrkdnrmlo1ng3dik@group.calendar.google.com&ctz=Europe/London). Details on how to add it to your own calendar are on [this page](https://localgovdrupal.org/resources/meeting-schedule).
 
 ### Technical Governance
 
