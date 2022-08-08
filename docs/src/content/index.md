@@ -28,7 +28,7 @@ Descriptions of some [components available through the WYSIWYG editor](https://d
 
 ## Content Migration
 
-How best to migrate content from another CMS is one of the most asked questions. To help get you started there is a series of videos on how some councils have managed this [here on our YouTube channel] (https://www.youtube.com/playlist?list=PLibxxY4DUV2q9RHJ58GxT8F1HJxLL38lW) but we also suggest talking to other councils in the #group-content Slack channel, or some of the suppliers who have helped with migrations.   
+How best to migrate content from another CMS is one of the most asked questions. To help get you started there is a series of videos on how some councils have managed this [here on our YouTube channel](https://www.youtube.com/playlist?list=PLibxxY4DUV2q9RHJ58GxT8F1HJxLL38lW) but we also suggest talking to other councils in the #group-content Slack channel, or some of the suppliers who have helped with migrations.   
 
 
 ## Drupal terminology
