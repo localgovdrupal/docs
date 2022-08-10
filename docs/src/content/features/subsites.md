@@ -64,7 +64,7 @@ You can then choose components for each new column.
 Most of the components below can be seen on the [demo site](https://demo.localgovdrupal.org/test-subsite-demo-all-components). 
 
 Simple:
-1. **Text** - a text component with the usual WYSYWIG features
+1. **Text** - a text component with the usual WYSIWYG features
 2. **Image** - an image with optional caption
 3. **Video** - a video with optional title
 4. **Documents** - multiple file upload
