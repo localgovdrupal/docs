@@ -11,7 +11,7 @@ Contents:
 
 ## Anonymous user
 
-* Can view puublished content
+* Can view published content
 
 ## Authenticated user
 
