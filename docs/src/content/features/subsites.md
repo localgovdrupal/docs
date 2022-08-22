@@ -5,13 +5,13 @@
 Subsites are useful if you're creating content that:
 
 * needs to be more visual, with photos and videos
-* you need a more flexible layout
+* needs a more flexible layout
 * needs to market or promote a service
 
 You can create a subsite landing page, with links through to connecting pages, as well as an image banner, photos and videos. It is relatively easy to visually make the whole subsite look different to the rest of the site.
 
 ## Examples in the wild
-- [Bereavement services at Croyon](https://www.croydon.gov.uk/bereavement-services)
+- [Bereavement services at Croydon](https://www.croydon.gov.uk/bereavement-services)
 ![Screenshot of Bereavement services subsite, with yellow banner and images of Croyon crematorium and cemetery](https://user-images.githubusercontent.com/3852805/131334898-ba09acc1-dd98-4975-82dc-198df0f7d991.png)
 
 
@@ -64,7 +64,7 @@ You can then choose components for each new column.
 Most of the components below can be seen on the [demo site](https://demo.localgovdrupal.org/test-subsite-demo-all-components). 
 
 Simple:
-1. **Text** - a text component with the usual WYSYWIG features
+1. **Text** - a text component with the usual WYSIWYG features
 2. **Image** - an image with optional caption
 3. **Video** - a video with optional title
 4. **Documents** - multiple file upload
