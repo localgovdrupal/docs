@@ -65,6 +65,10 @@ module.exports = {
         link: '/design/'
       },
       {
+        text: 'Microsites',
+        link: '/microsites/'
+      },
+      {
         text: 'Contributing',
         link: '/contributing/'
       },
@@ -157,7 +161,7 @@ module.exports = {
             '/content/features/subsites',
             '/content/features/directories',
             '/content/features/workflow',
-            '/content/features/microsites',
+            //'/content/features/microsites',
           ]
         },
         'patterns',
@@ -183,6 +187,37 @@ module.exports = {
         'documentation',
         'research',
         'feature-design',
+      ],
+      '/microsites/': [
+        '',
+        'microsites',
+        'roles',
+        {
+          title: 'Features',
+          path: '/microsites/features/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/microsites/features/appearance',
+            '/microsites/features/editorial',
+            '/microsites/features/pages',
+            '/microsites/features/directories',
+            '/microsites/features/events',
+          ]
+        },
+        {
+          title: 'How-tos',
+          path: '/microsites/how-to/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/microsites/how-to/finding-your-way-around',
+            '/microsites/how-to/adding-users-members',
+            '/microsites/how-to/fancy-layouts',
+            '/microsites/how-to/add-custom-theme',
+
+          ]
+        },
       ],
       '/contributing/': [
         '',

@@ -1,41 +1,38 @@
 # Overview of Features
 
-## Multisite
-
 Multiple microsites served from a single code and database. The sites can live on individual domains, be managed by different teams and have distinct visual identities. 
-
-The microsite controller has oversight of all microsites. 
 
 ## Content
 
-- Pages
-- Events
-- Directories
-- News
+- [Pages](pages.md)
+- [Events](events.md)
+- [Directories](directories.md)
+- [News](news.md)
 - Blogs
 
-## Layout
+## Flexible layouts
 
-- Multicolumn layouts and rich content available on each page type.
-    - One, two or three column layouts, with an option of widths and colour schemes.
+Multicolumn layouts and rich content available on each page type.
 
-  Rich content
+- One, two or three column layouts, with an option of widths and colour schemes.
+- Rich content
     - Accordion
     - Call out box
     ... 
-    ... 
+
+@todo
 
 ## Site appearance
 
-Each microsite can have a distinct visual appearance. This can be set through the Site design UI by a site admin. This allows the sites branding colours, fonts and logos to be set as well as header and footer content.
+Each microsite can have a distinct visual appearance. 
 
-This can be extended by creating a child theme of localgov_microsites_base. 
+The Microsite admin can use the *Site design* user interface (UI) to set up the site's branding: including colours, fonts and logos to be set as well as header and footer content.
 
-## Microsite admin
+For more complex layouts, the site design can be quickly changed by creating a child theme of `localgov_microsites_base`. 
 
-- Control panel to turn on and off features.
-- Set the site homepage, site name and domain.
+## Site settings
 
+The Microsite admin has access to the Site settings panel, where they can install the right set of features for the site. 
 
 ## Technical
 

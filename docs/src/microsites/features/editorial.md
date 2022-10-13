@@ -12,7 +12,11 @@ Content editors may find the new autosave feature useful. When you navigate away
 
 ## Preview
 
+@todo
+
 ### Responsive preview
+
+@todo
 
 ## Choice of admin themes
 

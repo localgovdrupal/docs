@@ -1,4 +1,4 @@
-# Building fancy pages
+# How to build fancy layouts
 
 Most page types have a Layouts and rich content field, which allows for multi-column layouts and many content components. 
 
