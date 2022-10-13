@@ -203,6 +203,11 @@ module.exports = {
             '/microsites/features/pages',
             '/microsites/features/directories',
             '/microsites/features/events',
+            '/microsites/features/news',
+            '/microsites/features/blogs',
+            '/microsites/features/metatags',
+            '/microsites/features/shared-media',
+            '/microsites/features/taxonomy-terms',
           ]
         },
         {
