@@ -173,7 +173,7 @@ $light-blue = #0762B5
     .hero-images
       display flex
       font-size 18px
-      max-width 960px
+      max-width 1170px
       margin 0 auto
       overflow hidden
       overflow-x auto

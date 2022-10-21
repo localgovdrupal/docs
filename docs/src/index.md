@@ -2,11 +2,13 @@
 home: true
 heroImages:
 - image: /drupalgov-mission-discovery_400x400.png
-  altText: LocalGovDrupal Discovery Phase logo
+  altText: LocalGovDrupal Discovery Phase logo - druplicon
 - image: /drupalgov-mission-alpha-v2_400x400.png
-  altText: LocalGovDrupal Alpha Phase logo
+  altText: LocalGovDrupal Alpha Phase logo - cat
 - image: /drupalgov-mission-beta_400x400.png
-- altText: LocalGovDrupal Beta Phase logo
+  altText: LocalGovDrupal Beta Phase logo - dog
+- image: /drupalgov-mission-transform.jpg
+  altText: LocalGovDrupal Transform logo - tree frog
 tagline: LocalGov Drupal documentation 
 githubLink: https://github.com/localgovdrupal/
 githubText: Join us on GitHub
