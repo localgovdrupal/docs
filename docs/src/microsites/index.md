@@ -1,6 +1,13 @@
-# LocalGov Drupal Microsites
+---
+title: Microsites
+---
 
---------------
+<div class="banner">
+  <img src="/LGD-mission-microsites.png" alt="Microsite mission patch" width="250px"/>
+  <h1>LocalGov Drupal Microsites</h1>
+</div>
+
+
 
 **LocalGov Drupal Microsites is currently in development. We expect the Alpha to be released in October 2022, with the Beta delivered in early 2023.**
 
