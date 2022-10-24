@@ -205,7 +205,6 @@ module.exports = {
             '/microsites/features/events',
             '/microsites/features/news',
             '/microsites/features/blogs',
-            '/microsites/features/metatags',
             '/microsites/features/shared-media',
             '/microsites/features/taxonomy-terms',
           ]

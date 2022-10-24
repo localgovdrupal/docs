@@ -1,8 +1,8 @@
 # Pages
 
-Microsites have localgov_pages enabled by default. This is a basic content type to build most pages on the website. 
+Microsites has `localgov_page` enabled by default. This is a basic content type to build most pages on the website. 
 
-From simple text-based content pages, to the site's homepage - the Page will usually create most of the content on the site. 
+The Page content type can create simple text based pages, or highly-designed multi-column, rich-content pages such as a traditional homepage.
 
 <!--@todo add images -->
 

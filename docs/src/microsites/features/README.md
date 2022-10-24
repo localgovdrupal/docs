@@ -38,7 +38,7 @@ The Microsite admin has access to the Site settings panel, where they can instal
 
 Modules in the localgov ecosystem are extended in localgov_microsites_group to make them compatible with group, and add addtional features. For example:
 
-Events: localgov_events is extended in localgov_microsites_group:localgov_microsite_events to 
+Events: `localgov_events` is extended in localgov_microsites_group:localgov_microsite_events to 
 - Enable events as Group content
 - Set the correct permissions
 - Enable the additional banner and rich content fields
