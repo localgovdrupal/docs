@@ -20,6 +20,9 @@ Requirements
 1. Enter the email address, if you want them to be a Microsite admin, check the box. 
 1. Save
 
+![Add microsite invitation, showing the invitee email field, plus the checkbox to make them an admin and a Save button](https://user-images.githubusercontent.com/3852805/197545672-15b3bb43-f0c0-48c3-928f-9128de68488d.png)
+
+
 ### Invitation workflow (new user)
 
 1. [Microsite admin] Send an invite
