@@ -6,6 +6,7 @@ Read [How to log in](/content/how-to/how-to-log-in.html).
 
 ## Control site
 
+Use the control site only for central operations, such as creating and deleting microsites. We do not recommend editing mictosite content etc from the control site, as things can get confusing!
 
 ## Microsite 
 
