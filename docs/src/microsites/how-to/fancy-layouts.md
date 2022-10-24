@@ -1,5 +1,7 @@
 # Create fancy layouts
 
+[[toc]]
+
 Most page types have a Layouts and rich content field, which allows for multi-column layouts and many content components. 
 
 Within this field you may add one or more page sections. This page section can have 1, 2 or 3 columns. This page section can have a background colour, width and padding set to create stand out sections. 
