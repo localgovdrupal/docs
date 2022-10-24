@@ -146,7 +146,7 @@ The options are:
 - Landscape 3x2
 - Landscape 7x3 
 
-@todo - add a link to the cropping section.
+See also: [How to crop images](/content/how-to/how-to-crop-images.md).
 
 You can also **Hide the title on the homepage**.
 

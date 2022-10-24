@@ -1,4 +1,4 @@
-# How to add new editors and admins to the microsite
+# Manage microsite editors and admins
 
 Terms:
 - Drupal user: an account associated with a single person on the control site. 

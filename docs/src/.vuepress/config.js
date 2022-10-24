@@ -215,9 +215,16 @@ module.exports = {
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/microsites/how-to/finding-your-way-around',
-            '/microsites/how-to/adding-users-members',
-            '/microsites/how-to/fancy-layouts',
+            '/microsites/how-to/find-your-way-around',
+
+            '/microsites/how-to/create-fancy-layouts',
+            '/microsites/how-to/add-URLs',
+            '/microsites/how-to/add-microsite-editors',
+            '/microsites/how-to/enable-disable-content',
+            '/microsites/how-to/manage-site-settings',
+            '/microsites/how-to/manage-menus',
+            '/microsites/how-to/create-delete-microsite',
+            '/microsites/how-to/install-update',
             '/microsites/how-to/add-custom-theme',
 
           ]
