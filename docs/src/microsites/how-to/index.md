@@ -1,7 +1,7 @@
 ## Microsite How-tos
 
 - [Log in (not microsite specific)](content/how-to/how-to-log-in.html)
-- [Finding your way around](/find-your-way-around.md) @todo
+- [Finding your way around](/microsites/how-to/find-your-way-around.md) @todo
 
 ## Microsite editors
 - [Manage content] @todo
