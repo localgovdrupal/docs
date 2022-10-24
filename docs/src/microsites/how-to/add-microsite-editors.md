@@ -31,6 +31,10 @@ Requirements
 1. [New user] Receive an email to accept invitation
 1. [New user] Accept invitation on the website via email link
 
+![Drupal notice alerting the new user that they have a pending group invitation](https://user-images.githubusercontent.com/3852805/197547304-27bf00e3-9352-4f17-9bb1-e59e2977a7b7.png)
+
+![The Invitations page showing the pending invitation](https://user-images.githubusercontent.com/3852805/197547861-b4b653e3-7a00-4c5e-933a-fdb0fb64daa9.png)
+
 Note: Microsite members are assigned/unassigned the "Trusted editor" Drupal role automatically.
 
 ### Invitation workflow (exisiting user)
