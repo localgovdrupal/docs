@@ -216,8 +216,7 @@ module.exports = {
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
             '/microsites/how-to/find-your-way-around',
-
-            '/microsites/how-to/create-fancy-layouts',
+            '/microsites/how-to/fancy-layouts',
             '/microsites/how-to/add-URLs',
             '/microsites/how-to/add-microsite-editors',
             '/microsites/how-to/enable-disable-content',
