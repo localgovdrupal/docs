@@ -1,3 +1,9 @@
+---
+title: Appearance
+---
+
+<div class="alpha"><span>Alpha</span> This documentation is a work in progress</div>
+
 # Appearance
 
 Microsite admins have the permission to change the appearance through the user interface (UI). With this and the flexible layout options it is possible to create sites with very differnent look and feel. 

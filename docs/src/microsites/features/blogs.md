@@ -1,3 +1,9 @@
+---
+title: Blogs
+---
+
+<div class="alpha"><span>Alpha</span> This documentation is a work in progress</div>
+
 # Blogs
 
 Use blogs to list your sites blog posts. Blog posts can be categorised by tag and author.
