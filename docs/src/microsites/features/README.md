@@ -21,7 +21,7 @@ Multicolumn layouts and rich content available on each page type.
     - Video etc
     ... 
 
-Read: how to [create fancy layouts](/microsites/how-to/create-fancy-layouts.html)
+Read: how to [create fancy layouts](/microsites/how-to/fancy-layouts.html)
 
 ## Site appearance
 

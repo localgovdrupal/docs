@@ -1,7 +1,7 @@
 ## Microsite How-tos
 
 - [Log in (not microsite specific)](content/how-to/how-to-log-in.html)
-- [Finding your way around](/finding-your-way-around.md) @todo
+- [Finding your way around](/microsites/how-to/find-your-way-around.md)
 
 ## Microsite editors
 - [Manage content] @todo
@@ -16,10 +16,10 @@ See also
 - [Editorial features](/microsites/features/editorial.md)
 
 ## Microsite admins
-- [Managing admins and editors](/microsites/how-to/adding-users-members.md) @todo
+- [Managing admins and editors](/microsites/how-to/add-microsite-editors.md)
 - [Enabling / disabling features](/microsites/how-to/enable-disable-content.md) @todo
-- [Managing site settings](/microsites/how-to/site-settings.md) @todo
-- [Managing menus](/microsites/how-to/add-menus.md) @todo
+- [Managing site settings](/microsites/how-to/manage-site-settings.md) @todo
+- [Managing menus](/microsites/how-to/manage-menus.md) @todo
  
 ## Microsite controllers
 - [Create and delete microsites](/microsites/how-to/create-delete-microsite.md) @todo
