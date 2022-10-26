@@ -1,3 +1,9 @@
+---
+title: News
+---
+
+<div class="alpha"><span>Alpha</span> This documentation is a work in progress</div>
+
 # News
 
 Use news to list your latest news articles. News articles can be categorised, filtered and searched. 

@@ -1,3 +1,9 @@
+---
+title: Editorial features
+---
+
+<div class="alpha"><span>Alpha</span> This documentation is a work in progress</div>
+
 # Editorial features
 
 ## Accessibility checker (localgov_sa11y)

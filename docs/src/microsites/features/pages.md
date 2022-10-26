@@ -1,3 +1,9 @@
+---
+title: Pages
+---
+
+<div class="alpha"><span>Alpha</span> This documentation is a work in progress</div>
+
 # Pages
 
 Microsites has `localgov_page` enabled by default. This is a basic content type to build most pages on the website. 

@@ -1,3 +1,9 @@
+---
+title: Taxonomy vocabularies and terms
+---
+
+<div class="alpha"><span>Alpha</span> This documentation is a work in progress</div>
+
 # Taxonomy vocabularies and terms
 
 Microsites all have the same taxonomy vocabularies, but each site can have a unique set of terms. 

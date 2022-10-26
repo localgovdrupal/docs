@@ -1,3 +1,9 @@
+---
+title: Events
+---
+
+<div class="alpha"><span>Alpha</span> This documentation is a work in progress</div>
+
 # Events
 
 Use events to list your upcoming events. The events can be categorised, filtered and searched. 
