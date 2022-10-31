@@ -7,7 +7,9 @@ heroImages:
   altText: LocalGovDrupal Alpha Phase logo - cat
 - image: /drupalgov-mission-beta_400x400.png
   altText: LocalGovDrupal Beta Phase logo - dog
-- image: /drupalgov-mission-transform.jpg
+- image: /LGD-mission-microsites.png
+  altText: LocalGovDrupal Microsites mission patch
+- image: /LGD-mission-transform.png
   altText: LocalGovDrupal Transform logo - tree frog
 tagline: LocalGov Drupal documentation 
 githubLink: https://github.com/localgovdrupal/

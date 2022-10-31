@@ -374,17 +374,17 @@ $light-blue = #0762B5
         .hero-image
           margin-right 18px
           img
-            width: 250px
-            height: 250px
+            width: 210px
+            height: 210px
         .hero-image-empty
-          width: 250px
-          height: 250px
+          width: 210px
+          height: 210px
           .text
             max-width 180px
         .hero-image-placeholder
-          min-width: 250px
-          max-width: 250px
-          height: 250px
+          min-width: 210px
+          max-width: 210px
+          height: 210px
           &::before
             content ''
             width calc(100% + 8px)
