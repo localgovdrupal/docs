@@ -43,7 +43,7 @@ If you need to add any CSS overides, you can create custom CSS files for these a
 
 Once the new theme is ready, a developer will need to deploy then theme, then enable it through the Appearance UI of the control site. 
 
-Note: Enable this theme, using the "Enable" button only, <strong>not</strong> the "Enable and set as default" button, even if you intend to use it as the default theme for every site.
+**Note**: Enable this theme, using the "Enable" button only, **not** the "Enable and set as default" button, even if you intend to use it as the default theme for every site.
 
 If you _do_ want to use it as the default theme for every site you can then hit the "Set as default" button. This 2-step process is needed to ensure all the blocks from the default theme get transition to the same block regions in your new theme.
 
@@ -54,5 +54,8 @@ When the theme is installed it will be available to Microsite admins in the [Sit
 
 Navigate to the **Site settings** > **Theme override** tab of your microsite. 
 
-In the *Default theme* tab you should be able to select your new theme.
+In the **Default theme** field you should be able to select your new theme.
+
+![Screenshot of the Theme override panel showing the default theme field selecting the New Test Theme](https://user-images.githubusercontent.com/3852805/207631238-0fd29582-5063-4abc-a147-7ff2796dfa60.png)
+
 
