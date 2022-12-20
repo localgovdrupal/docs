@@ -20,10 +20,10 @@ _**Version: 1.0** - 20th December 2022_
 
 1. An organisation can become a **LocalGov Drupal subscriber** by meeting the eligibility criteria and paying a subscription fee to **Open Digital Cooperative Ltd**.
 2. We want to encourage a vibrant, fair, productive culture to which end we reserve the right to terminate subscriptions if organisations are considered to be breach of these terms.
-3. By subscribing to LocalGov Drupal your organisation agrees to the Memorandum of understanding:
+3. By subscribing to LocalGov Drupal your organisation agrees to the Memorandum of Understanding:
 
-      - 3.1. [Supplier MOU ](https://localgovdrupal.org/suppliers/supplier-membership/supplier-mou)
-      - 3.2 [Council MOU](https://localgovdrupal.org/drupal-for-councils/membership#mou)
+      - [Supplier MOU ](https://localgovdrupal.org/suppliers/supplier-membership/supplier-mou)
+      - [Council MOU](https://localgovdrupal.org/drupal-for-councils/membership#mou)
 
 4. By subscribing to LocalGov Drupal your organisation agrees to abide by the [community code of conduct](https://localgovdrupal.org/resources/code-conduct) for Slack and the wider community.
 5. As a subscriber, you may be eligible for membership of Open Digital Cooperative. In line with [Cooperative Principle 1: Voluntary and Open Membership](https://www.ica.coop/en/cooperatives/cooperative-identity), membership is voluntary, so must express interest in becoming a member. 
