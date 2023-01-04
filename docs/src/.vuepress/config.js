@@ -28,7 +28,7 @@ module.exports = {
     ['link', { rel: "shortcut icon", href: "/favicons/favicon.ico"}],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['script', {async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-ETT82J89DV'}],
-    ['script', {}, `"window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-ETT82J89DV');`],
+    ['script', {}, `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-ETT82J89DV');`],
   ],
 
   /**
