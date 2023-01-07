@@ -38,3 +38,11 @@ You can add your images to the `images` folder next to the other folders and the
 ## Known issues
 
 Occasionally when making changes vuepress will not reload, so you have to restart the compiler.
+
+## Maintainers
+
+This project is currently maintained by: 
+
+ - Maria Young https://github.com/msayoung
+ - Finn Lewis https://github.com/finnlewis
+ 
