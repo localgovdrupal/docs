@@ -91,6 +91,7 @@ module.exports = {
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
             '/devs/getting-started/working-with-lando',
+            '/devs/getting-started/working-with-ddev',
           ]
         },
         {
