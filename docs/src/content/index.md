@@ -71,7 +71,7 @@ We're keen to have content designers represented in the design and specification
 
 Email [hello@localgovdrupal.org](hello@localgovdrupal.org) if you'd like to join the LocalGov Drupal Slack community.
 
-There's a channel for #content and occassional meetups of content designers. These are really good places to get help, share learnings or request new features.
+There's a channel for #content and occasional meetups of content designers. These are really good places to get help, share learning or request new features.
 
 ### Report bugs and issues
 
