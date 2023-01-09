@@ -92,7 +92,6 @@ module.exports = {
           children: [
             '/devs/getting-started/working-with-lando',
             '/devs/getting-started/working-with-ddev',
-            '/devs/getting-started/troubleshooting',
           ]
         },
         {
