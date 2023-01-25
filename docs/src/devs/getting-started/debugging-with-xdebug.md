@@ -1,7 +1,7 @@
 ---
 tags:
   - local development
-  = xdebug
+  - xdebug
   - ddev
   - lando
   - docker
