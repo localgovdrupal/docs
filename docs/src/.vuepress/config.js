@@ -93,6 +93,7 @@ module.exports = {
             '/devs/getting-started/working-with-lando',
             '/devs/getting-started/working-with-ddev',
             '/devs/getting-started/debugging-with-xdebug',
+            '/devs/getting-started/working-with-gitpod',
           ]
         },
         {
