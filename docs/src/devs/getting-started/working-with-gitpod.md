@@ -24,7 +24,5 @@ If you later make the site public, make sure you change the username and passwor
 ## Adding demo content
 The LocalGov Drupal demo content showcases a lot of the content types in LocalGov Drupal. Enabling this will make your website look like https://demo.localgovdrupal.org. To do this:
 
-1. Log in to your new LocalGov Drupal website
-2. Navigate to Configure
-3. Tick "LocalGov Demo" (you can enter a few letters in the search box to filter and find it)
-4. Scroll down and click "Install". This will install a lot of the LocalGov Drupal modules as well as some demo content.
+1. Go to the Gitpod window
+2. In the terminal at the bottom of the page, type `ddev drush en localgov_demo`
