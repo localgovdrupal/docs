@@ -73,6 +73,21 @@ have created the project in the MY_PROJECT folder. Lando runs from within the
 MY_PROJECT folder, so it maps that folder to /app from within the appserver
 container.
 
+7. Press the Start Debugging icon to start listening for Xdebug
+
+![image](https://user-images.githubusercontent.com/326588/214638003-307edc98-0a41-4dff-a5e1-ed522662e74a.png)
+
+
+8. Add a breakpoint to your index.php file by clicking to the left of the line numbers of a line with code on.
+
+![image](https://user-images.githubusercontent.com/326588/214638221-b5735376-1d05-4598-bd5e-cf206696365c.png)
+
+9. Load the home page of the site
+
+10. See the script break and provide you with variables and callstack.
+
+![image](https://user-images.githubusercontent.com/326588/214638545-e4ebce7d-0547-44ae-9a5e-1e11f72c27a0.png)
+
 ## DDEV, Xdebug and VSCODE
 
 Xdebug can have a signifant performance hit on PHP requests, so by default we
