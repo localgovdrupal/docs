@@ -10,7 +10,7 @@ Early Designs from the first iteration by Brighton & Hove / Clearleft:
 ### Designs
 * [Service Landing Page aka Service Hub](http://design.brighton-hove.gov.uk/design-examples.php?p=service-hub)
 * [Service Sub-landing Page aka Service Sub Hub](http://design.brighton-hove.gov.uk/design-examples.php?p=service-sub-hub)
-* [Service Topic Page (not surrently part of LGD)](http://design.brighton-hove.gov.uk/design-examples.php?p=service-topic)
+* [Service Topic Page (not currently part of LGD)](http://design.brighton-hove.gov.uk/design-examples.php?p=service-topic)
 
 
 ## News
