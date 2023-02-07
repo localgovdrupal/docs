@@ -7,7 +7,7 @@ There are two main areas of development to consider.
 
 ## Collaborating on Github
 
-We encourage everyone to collaborate on Github to help improve the products, modules and themes we support. 
+We encourage everyone to collaborate on Github to help improve the products, modules and themes we use and support. 
 To help with this, we aim to follow a number of conventions and best practices.
 
 1. [Code of conduct](https://localgovdrupal.org/resources/code-conduct)
@@ -15,14 +15,25 @@ To help with this, we aim to follow a number of conventions and best practices.
 3. [Git branch naming conventions](https://github.com/localgovdrupal/localgov/wiki/Git-branch-naming-conventions)
 4. [Module, project and field naming conventions](https://github.com/localgovdrupal/localgov/wiki/Naming-conventions)
 5. [Reporting security issues](https://github.com/localgovdrupal/localgov/wiki/Security)
-
+6. [Testing branches for pull requests](https://github.com/localgovdrupal/localgov/wiki/Testing-branches-and-PRs)
 
 ## Building and deploying your own site(s)
 
-Since Drupal 8, the Drupal community has benefitted from composer to manage dependencies and configration management to manage the state of a Drupal site. This leads to different approaches to building and deploying your code and confugration and some challenges inherient in doning so consistenly. 
+Since Drupal 8, the Drupal community has benefitted from the use of composer to manage dependencies and configration management to manage the state of a Drupal site. This has led to different approaches to building and deploying code and confugration and some challenges inherient in doning so consistenly. 
 
-[https://www.drupal.org/docs/configuration-management ](https://www.drupal.org/docs/configuration-management
+[Confuguration management in Drupal](https://www.drupal.org/docs/configuration-management)
+[Testing and deploying updates in Drupal]()
 
-Selecting updates 
-https://www.drupal.org/project/config_distro
-https://www.drupal.org/project/config_sync)
+[Todo] 
+
+## Reviewing and selecting updates from a Drupal distribution or project.
+
+Sometimes the LocalGov Drupal distribution will want to make changes in the default configiration that comes when we run the install profile. 
+Where possible, we try not to deploy updates to configuration as we cannot assume that individual installations will have kept the original configuration. On occasions we will want to use update hooks to change active configuration. These changes will be clearly documented in release notes and will aim to avoid making changes to configration that has deviated from the original.
+
+There are also modules that can help with reviewing and accepting configuration changes from upstram distributions and modules.
+
+ - https://www.drupal.org/project/config_distro
+ - https://www.drupal.org/project/config_sync
+
+[Todo] How to use config_distro and config_sync
