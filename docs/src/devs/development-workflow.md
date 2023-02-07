@@ -10,19 +10,19 @@ There are two main areas of development to consider.
 We encourage everyone to collaborate on Github to help improve the products, modules and themes we use and support. 
 To help with this, we aim to follow a number of conventions and best practices.
 
-1. [Code of conduct](https://localgovdrupal.org/resources/code-conduct)
-2. [Contribution guidelines](https://github.com/localgovdrupal/localgov/blob/2.x/CONTRIBUTING.md)
-3. [Git branch naming conventions](https://github.com/localgovdrupal/localgov/wiki/Git-branch-naming-conventions)
-4. [Module, project and field naming conventions](https://github.com/localgovdrupal/localgov/wiki/Naming-conventions)
-5. [Reporting security issues](https://github.com/localgovdrupal/localgov/wiki/Security)
-6. [Testing branches for pull requests](https://github.com/localgovdrupal/localgov/wiki/Testing-branches-and-PRs)
+ - [Code of conduct](https://localgovdrupal.org/resources/code-conduct)
+ - [Contribution guidelines](https://github.com/localgovdrupal/localgov/blob/2.x/CONTRIBUTING.md)
+ - [Git branch naming conventions](https://github.com/localgovdrupal/localgov/wiki/Git-branch-naming-conventions)
+ - [Module, project and field naming conventions](https://github.com/localgovdrupal/localgov/wiki/Naming-conventions)
+ - [Reporting security issues](https://github.com/localgovdrupal/localgov/wiki/Security)
+ - [Testing branches for pull requests](https://github.com/localgovdrupal/localgov/wiki/Testing-branches-and-PRs)
 
 ## Building and deploying your own site(s)
 
 Since Drupal 8, the Drupal community has benefitted from the use of composer to manage dependencies and configration management to manage the state of a Drupal site. This has led to different approaches to building and deploying code and confugration and some challenges inherient in doning so consistenly. 
 
-1. [Confuguration management in Drupal](https://www.drupal.org/docs/configuration-management)
-2. [Todo] Testing and deploying updates in Drupal
+ - [Confuguration management in Drupal](https://www.drupal.org/docs/configuration-management)
+ - [Todo] Testing and deploying updates in Drupal
 
 ## Reviewing and selecting updates from a Drupal distribution or project.
 
