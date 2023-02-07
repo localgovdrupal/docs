@@ -21,10 +21,8 @@ To help with this, we aim to follow a number of conventions and best practices.
 
 Since Drupal 8, the Drupal community has benefitted from the use of composer to manage dependencies and configration management to manage the state of a Drupal site. This has led to different approaches to building and deploying code and confugration and some challenges inherient in doning so consistenly. 
 
-[Confuguration management in Drupal](https://www.drupal.org/docs/configuration-management)
-[Testing and deploying updates in Drupal]()
-
-[Todo] 
+1. [Confuguration management in Drupal](https://www.drupal.org/docs/configuration-management)
+2. [Todo] Testing and deploying updates in Drupal
 
 ## Reviewing and selecting updates from a Drupal distribution or project.
 
