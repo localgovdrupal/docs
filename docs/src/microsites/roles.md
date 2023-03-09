@@ -28,7 +28,9 @@ Note: it is possible to send invitations from the control site, but the emails s
 
 **[Microsite admin]** Once you've received an invitation to join a microsite, you'll need to set up your account if you don't yet have one. You will see a message informing you of where to go to accept the microsite invitation. Once you've accepted this invitation you'll be able to see the Microsite administration items.
 
-**Developers** For managing configuration and other Drupal settings we recommend either doing this as User 1 or creating a Developer role which you assign Adminstrator permissions.
+**Developers** For managing configuration and other Drupal settings we recommend creating a Developer role which you assign Adminstrator permissions. 
+
+**User 1**  We adivse against using user 1 where possible. It can get confusing with group module.
 
 
 ## Technical 
