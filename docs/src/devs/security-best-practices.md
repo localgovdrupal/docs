@@ -257,7 +257,7 @@ restrict certain browser features on your site. This can be a security
 improvement as some features may occasionally have exploitable bugs or
 unexpected behaviours that can impact your site's security.
 
-Unfortunately there is no way to globally all optional features and
+Unfortunately there is no way to globally disable all optional features and
 enable only the ones you want - you must instead explicitly disable
 every feature that you *don't* use. [MDN has a partial list of
 directives](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy#directives).
