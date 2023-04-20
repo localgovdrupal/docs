@@ -146,6 +146,7 @@ module.exports = {
         },
         'issues',
         'development-workflow',
+        'security',
       ],
 
       '/content/': [
