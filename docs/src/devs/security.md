@@ -16,5 +16,6 @@ A penetration test was commissioned by Invuse in early 2023, the full report is 
 
 ### Key recomendations
 
-The report generated some recommendations, which are summarised here.
+The report generated some recommendations, which are summarised in: 
+ - [Best practice guidance when installing and configuring LocalGov Drupal](/devs/security-best-practices).
 
