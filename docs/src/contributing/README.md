@@ -11,7 +11,7 @@ We're very excited to have you interested in this project and there are many ven
 
 2. Start using our project and contribute back
 
-3. [View our public roadmap](https://trello.com/b/6vuzkqZa/localgov-drupal-public-roadmap)
+3. [View our public roadmap](https://github.com/orgs/localgovdrupal/projects/31))
 
 👈 You can also view one of the specific areas from the sidebar.
 
