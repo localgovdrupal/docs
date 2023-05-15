@@ -26,7 +26,12 @@ There is configuration for placing the _Directory channel search_ and _Directory
 
 ## Configuration
 
+### Facets
+
 Channels and Facets can be configured as content as outlined in the [Content Designer's Documentation](/content/features/directories).
+
+The automatically enabled Facets are their own entity type. They are intended for creation and management by content editors on the production site. Adding a facet type will automatically make it available on Directory Channels, and add any values to the Facet block on the page, without any additional site
+building. As such by design they are excluded from configuration export, see [Staging 'Directory facet types'](#staging-directory-facet-types) below. If you want to control the facets for example they are a fixed taxonomy, or imported from elsewhere, using [a Taxonomy with a Directory may be preferable](#adding-a-custom-taxonomy-to-a-directory). 
 
 ### Adding Fields to existing Directory Item types
 
@@ -86,6 +91,12 @@ As an addition, or alternative, to the _Directory Facet_ entity type, you might 
 * Place the Facet Block that is then created.
 
 One reason to do this would be to import controlled vocabularies like [OpenActive](https://www.openactive.io/) or [the LGAs lists](https://standards.esd.org.uk/). There is an experimental module [LocalGov Vocab](https://github.com/localgovdrupal/localgov_vocab) that could help to syncronise these.
+
+### Staging 'Directory facet types'
+
+By default facet types are not exported to configuration and are treated as content an administrator user can create on production. Normally if you want to control Facet types you will be using Taxonomy term. If you want the Facet Types additionally in configuration set:
+`$settings['localgov_directories_stage_site'] = TRUE;`
+They will be then exported with other configuration. Any types that exist in configuration will be imported.
 
 ## Useful links
 
