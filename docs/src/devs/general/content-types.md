@@ -2,12 +2,6 @@
 
 A full list of content types.
 
-Contents:
-
-[[toc]]
-
-## List of content types
-
 | Name | Description | Menu | Simple sitemap |
 | --- | --- |---|---|
 | Directory channel | Main directory landing page. | main | false |
