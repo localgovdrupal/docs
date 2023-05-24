@@ -295,8 +295,6 @@ CSS
 - https://github.com/localgovdrupal/localgov_base/blob/1.x/css/components/service-landing-page.css
 - https://github.com/localgovdrupal/localgov_base/blob/1.x/css/components/service-cta-block.css
 
-And their IE11 counterparts.
-
 
 ## Troubleshooting
 todo
