@@ -144,8 +144,6 @@ module.exports = {
           title: 'Testing',
           path: '/devs/testing/',
         },
-        'issues',
-        'development-workflow',
         'security',
       ],
 
