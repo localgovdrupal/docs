@@ -10,7 +10,7 @@ Below is some background in to the design of LocalGov Drupal so far.
 Information architecture
 ------------------------
 
-LocalGov Drupal ships with a number of [predefined content templates](https://docs.localgovdrupal.org/devs/general/content-types.html) known as content types. These have been architected following guidance from the [GOV.UK Design System](https://design-system.service.gov.uk/).
+LocalGov Drupal ships with a number of [predefined content templates](/devs/general/content-types) known as content types. These have been architected following guidance from the [GOV.UK Design System](https://design-system.service.gov.uk/).
 
 Local government is responsible for a range of services for people and businesses. Among them are well known functions such as social care, schools, housing and planning and waste collection.
 
@@ -23,7 +23,7 @@ Events also exist outside services.
 Wireframes
 ----------
 
-Where wireframes exist, they can be found on the [documentation](https://docs.localgovdrupal.org/design/documentation.html) page.
+Where wireframes exist, they can be found on the [documentation](/design/documentation) page.
 
 Visual design
 -------------
@@ -65,7 +65,7 @@ However it is perfectly possible to create a new design (and theme) from scratch
 Feature design
 --------------
 
-When a new feature is proposed (or backported) we encourage a small working group to carry out a feature design process to ensure that it meets the needs of many. This should be [documented](https://docs.localgovdrupal.org/design/#frontend-working-group) in a place people can refer back to it in the future.
+When a new feature is proposed (or backported) we encourage a small working group to carry out a feature design process to ensure that it meets the needs of many. This should be [documented](/design/#frontend-working-group) in a place people can refer back to it in the future.
 
 We'd love to have more design resources involved in these working groups so please get in touch if you'd like to be involved.
 
@@ -87,4 +87,4 @@ The Frontend Group meets regularly to consider the frontend issues. This group i
 Drupal terminology
 ------------------
 
-It's hard to get away from [Drupal terminology](https://docs.localgovdrupal.org/content/#drupal-terminology), but please let us know if anything in this documenation could be clearer.
+It's hard to get away from [Drupal terminology](/content/#drupal-terminology), but please let us know if anything in this documenation could be clearer.
