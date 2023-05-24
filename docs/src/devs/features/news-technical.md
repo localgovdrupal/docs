@@ -191,7 +191,7 @@ Css is defined in the css directory: https://github.com/localgovdrupal/localgov_
 
 ## Useful links
 - [Git repo](https://github.com/localgovdrupal/localgov_news)
-- [Readme](https://github.com/localgovdrupal/localgov_news/blob/master/README.md)
+- [Readme](https://github.com/localgovdrupal/localgov_news/blob/2.x/README.md)
 - [Issue Queue](https://github.com/localgovdrupal/localgov_news/issues)
 
 
