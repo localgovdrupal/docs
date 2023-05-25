@@ -144,8 +144,16 @@ module.exports = {
           title: 'Testing',
           path: '/devs/testing/',
         },
+        {
+          title: 'Development workflows',
+          path: '/devs/workflows/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/devs/workflows/installing-and-deploying-lgd',
+          ]
+        },
         'issues',
-        'development-workflow',
         'security',
       ],
 
