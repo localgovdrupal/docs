@@ -57,16 +57,15 @@ _**Version: 2.0** - 31st May 2023_
       - vote for board members,
       - attending the AGM,
       - access to the private member-only Slack channel.
-14. Requirements
+15. Requirements
       - Members must agree to the [7 cooperative principles](https://www.ica.coop/en/cooperatives/cooperative-identity/).
       - Members commit to attend general meetings and take an active interest in the operation and development of the cooperative.
       - Respect the confidential nature of the business decisions of the Cooperative.
-15. Termination
-      - If a member organisation stops being eligible (i.e. paying the subscription fee) for membership they are automatically removed as a member, and from member-only channels and documents. 
+16. Termination
+      - If a member organisation stops being eligible (eg. stops paying the subscription fee) for membership they are automatically removed as a member, and from member-only channels and documents. 
       - Any organisation may step down from membership by emailing the membership officer / community manager. 
       - A member may be removed from membership by agreement from the other members - at the AGM - according to the [Articles of Association](https://docs.google.com/document/d/19e3FSNjxPwe-ZCIvZCQjpYa_SwOzg1dB/edit).
-      - Membership process
-16. Membership process: 
+17. Membership process: 
       - on receipt of the subscription fee, the membership officer (Community Lead) will ask if you’d like to become a member and who the designated representative will be.
       - Agree to the Terms & Conditions (as laid out in this document), and the Articles of Association of Open Digital Cooperative.
       - The board of directors will review your application for membership at the next director's meeting (or via some other means if more than 1 month away).
