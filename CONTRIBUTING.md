@@ -2,7 +2,7 @@
 
 Anybody is welcome to contribute to the documentation, right now there aren't any specific processes so just open a PR with the changes and a description and it'll be reviewed.
 
-Please make sure you've read the main [contribution guidelines](https://github.com/localgovdrupal/localgov/blob/master/CONTRIBUTING.md).
+Please make sure you've read the main [contribution guidelines](https://github.com/localgovdrupal/localgov/blob/2.x/CONTRIBUTING.md).
 
 ## How to use docs
 

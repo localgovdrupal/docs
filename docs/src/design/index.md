@@ -1,5 +1,4 @@
-Design
-======
+# Design
 
 LocalGov Drupal is a [Drupal distribution](https://www.drupal.org/project/localgov) that has been developed collaboratively by councils and their suppliers. It aims to deliver default functionality that most local councils need for web publishing.
 
@@ -7,10 +6,9 @@ It will need some design resource to apply a council's brand to the default inst
 
 Below is some background in to the design of LocalGov Drupal so far.
 
-Information architecture
-------------------------
+## Information architecture
 
-LocalGov Drupal ships with a number of [predefined content templates](/devs/general/content-types) known as content types. These have been architected following guidance from the [GOV.UK Design System](https://design-system.service.gov.uk/).
+LocalGov Drupal ships with a number of [predefined content templates](/devs/general/content-types) known as content types. These have been architected following guidance from the [GOV.UK Design System](https://design-system.service.gov.uk/)&nbsp;.
 
 Local government is responsible for a range of services for people and businesses. Among them are well known functions such as social care, schools, housing and planning and waste collection.
 
@@ -20,13 +18,11 @@ Subsites exist outside services and allow for more campaign-like sites, with dif
 
 Events also exist outside services.
 
-Wireframes
-----------
+## Wireframes
 
 Where wireframes exist, they can be found on the [documentation](/design/documentation) page.
 
-Visual design
--------------
+## Visual design
 
 The visual design of the site can be changed subtley or substantially, depending on the needs and resources of a council.
 
@@ -62,15 +58,13 @@ However it is perfectly possible to create a new design (and theme) from scratch
 *   [Westmorland and Furness Council](https://westmorlandandfurness.gov.uk/)
 *   [Wirral Council](https://www.wirral.gov.uk/)
 
-Feature design
---------------
+## Feature design
 
 When a new feature is proposed (or backported) we encourage a small working group to carry out a feature design process to ensure that it meets the needs of many. This should be [documented](/design/#frontend-working-group) in a place people can refer back to it in the future.
 
 We'd love to have more design resources involved in these working groups so please get in touch if you'd like to be involved.
 
-Get involved
-------------
+## Get involved
 
 LocalGov Drupal needs all sorts of designers to help push forward features and issues. We now need more evidence based design based on best practices and existing user research, as well as new ideas that we can test with further user research. If you are a designers in a council using or considering Localgov Drupal please get in touch!
 
@@ -84,7 +78,6 @@ Join the LocalGov Drupal slack channel to ask questions or find other designers 
 
 The Frontend Group meets regularly to consider the frontend issues. This group is selected from active LocalGov Drupal contributors from across Councils and active suppliers.
 
-Drupal terminology
-------------------
+## Drupal terminology
 
 It's hard to get away from [Drupal terminology](/content/#drupal-terminology), but please let us know if anything in this documenation could be clearer.

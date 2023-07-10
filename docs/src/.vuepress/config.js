@@ -153,7 +153,6 @@ module.exports = {
             '/devs/workflows/installing-and-deploying-lgd',
           ]
         },
-        'issues',
         'security',
       ],
 

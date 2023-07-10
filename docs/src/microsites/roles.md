@@ -20,7 +20,7 @@ A person may be a Microsite admin or Microsite editor on one or more microsites.
 
 ## Recommended workflow
 
-**[Microsite controller]** Create the microsite, set the domian.
+**[Microsite controller]** Create the microsite, set the domain.
 Log in to the microsite on the microsite domain. 
 Send invitations to microsite members (editor and admin) from within the microsite. This will ensure that the links they receive in their email will have the correct URLs. 
 
@@ -30,7 +30,7 @@ Note: it is possible to send invitations from the control site, but the emails s
 
 **Developers** For managing configuration and other Drupal settings we recommend creating a Developer role which you assign Adminstrator permissions. 
 
-**User 1**  We adivse against using user 1 where possible. It can get confusing with group module.
+**User 1**  We advise against using user 1 where possible. It can get confusing with group module.
 
 
 ## Technical 
