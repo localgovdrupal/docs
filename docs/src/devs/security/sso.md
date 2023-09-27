@@ -52,7 +52,7 @@ Once you have these values you can enter them in the key and openid connect sett
 
 Azure B2C works similarly to Azure AD, but it is designed for facilitating wider user management (such as citizen login). Configuration of B2C is too large a topic for this guide, however if you are using B2C you can use the B2C login module to connect more easily.
 
-This can be installed using `composer require 'drupal/openid_connect` and enabled as usual. This adds an *Azure B2C* connection type. A client id and client secret are required, with the same details as Azure AD, however rather than providing endpoint URLs you instead provide the name of the B2C tenant and the flow that the login button will invoke.
+This can be installed using `composer require 'drupal/openid_connect_azure_b2c:^1.0'` and enabled as usual. This adds an *Azure B2C* connection type. A client id and client secret are required, with the same details as Azure AD, however rather than providing endpoint URLs you instead provide the name of the B2C tenant and the flow that the login button will invoke.
 
 When setting up the application in B2C, you should enable the email claim and the upsteam IdP token claims, to ensure that a user email address can be determined.
 
