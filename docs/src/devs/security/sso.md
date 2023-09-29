@@ -14,7 +14,7 @@ These modules add support for Facebook, Github, Google, LinkedIn and Okta sign-o
 
 ### Configuration
 
-The openid_connect module adds a new OpenID connect option to the administrator toolbar, under Configuration > People > OpenID Connect. This panel has two sections.
+The openid_connect module adds a new OpenID connect option to the administrator toolbar, under *Configuration > People > OpenID Connect*. This panel has two sections.
 
 The first is the currently active clients, to begin with there will be none present, however options to add new clients are shown above. The second pane is called settings, and controls general configuration across all identity providers.
 
@@ -44,7 +44,7 @@ The only other field required is Client ID, however this won't be available yet,
 
 Now that is created, you can click edit again and copy the Front-channel logout URL and Redirect URL from the page. You will then need to contact the administrators of your AD and provide them with the [setup documentation](https://www.drupal.org/docs/contributed-modules/openid-connect-microsoft-azure-ad/settings-in-azure-portal). The URLs you copied are needed in those instructions. They will also need to pick a validity for a client secret, you should agree this with them, as when it expires you'll need to generate and enter a replacement.
 
-When they're finished, they'll have created a client secret to give to you. You'll also need to ask for the [https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#application-id-client-id](client ID). The system also creates a secret id, but you don't need this, so you can ignore if it's provided to you.
+When they're finished, they'll have created a client secret to give to you. You'll also need to ask for the [client id](https://learn.microsoft.com/en-us/azure/healthcare-apis/register-application#application-id-client-id). The system also creates a secret id, but you don't need this, so you can ignore if it's provided to you.
 
 Once you have these values you can enter them in the key and openid connect settings. Before you test logging in, rebuild the cache using `drush cr`.
 
