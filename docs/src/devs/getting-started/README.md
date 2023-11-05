@@ -42,8 +42,6 @@ You can find more information about Drupal's web server requirements on the
 ### Additional Requirements
 #### Composer
 
-![Composer Dependency Manager](~@images/composer-logo.png)
-
 Quick Installation: Follow the detailed instructions on the [official Composer documentation page](https://getcomposer.org/doc/00-intro.md#globally).
 (Read on for more information on Composer, otherwise go straight to the next step, Docker Desktop.)
 
@@ -57,8 +55,6 @@ There are two ways to install Composer, locally and globally. The latter is usua
 executable installed once, it allows Composer to manage the dependencies of multiple projects present on your machine.
 
 #### Docker Desktop
-
-![Docker Desktop](~@images/docker-logo.png)
 
 Quick Installation: To simply install Docker Desktop, follow the steps outlined on the official documentation page: 
 https://docs.docker.com/desktop/install/mac-install/#system-requirements.
@@ -74,8 +70,6 @@ It takes care of port mappings, file system concerns, and other default settings
 bug fixes and security updates.
 
 #### Lando
-
-![Lando](~@images/lando-logo.png)
 
 Quick Installation: To simply install Lando, follow the steps outlined on the official page here:
 https://docs.lando.dev/getting-started/installation.html.
@@ -181,17 +175,17 @@ lando drush si localgov -y
 
 The output of the command will look something like the following:
 
-![ LocalGov Drupal: drush site install output ](~@images/LGD-lando-drush-site-install)
+![ LocalGov Drupal: drush site install output ](~@images/LGD-lando-drush-site-install.png)
 
 Believe it or not, our new LocalGov Drupal site is ready! Remember those APPSERVER URLs returned by lando start above? 
 You can use any of them, and the returned credentials from the last command, to access your Drupal administrator 
 account on your brand new LGD site on your favourite browser:
 
-![ LocalGov Drupal: Demo site user login page ](~@images/LGD-demo-site-user-login-page)
+![ LocalGov Drupal: Demo site user login page ](~@images/LGD-demo-site-user-login-page.png)
 
 Logging into your admin account lands you on the Drupal content page:
 
-![ LocalGov Drupal: Demo site admin area ](~@images/LGD-demo-site-admin-logged-in)
+![ LocalGov Drupal: Demo site admin area ](~@images/LGD-demo-site-admin-logged-in.png)
 
 Your new LocalGov Drupal site is now up and running locally. 
 From here, you can explore all the beautiful features LGD offers, such as content types, components and many more!
