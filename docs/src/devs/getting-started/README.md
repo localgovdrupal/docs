@@ -13,7 +13,6 @@ Many of us use the Lando file included to run a local docker environment for tes
 prefer [working with DDEV](https://docs.localgovdrupal.org/devs/getting-started/working-with-ddev.html) or running the 
 web servers natively on their host machine.
 
-
 #### PHP
 
 We follow [Drupal's PHP requirements](https://www.drupal.org/docs/system-requirements/php-requirements).
