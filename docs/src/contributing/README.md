@@ -14,8 +14,9 @@ We're always looking for people to contribute and improve LocalGov Drupal. Here 
 
 Every contribution is valuable. If you are not sure where to start then email community@localgovdrupal.org or [book a call with Aaron, our Community Lead](https://cal.com/localgovdrupal-community/aaron-45mins).
 
-## Help us improve our documentation
+## Help us improve our documentation!
 
 Writing and testing our documentation is very helpful to everyone. On every page you will find a link to "Help us improve this page" that takes you to an editable page in markdown, so you can quickly open a pull request (PR) on GitHub to make any changes.
 
 If you want to get setup locally, the [README](https://github.com/localgovdrupal/docs/blob/master/README.md) is the best place to start. Then you can just open a PR with your changes, every PR will get tested and show you a preview automatically.
+
