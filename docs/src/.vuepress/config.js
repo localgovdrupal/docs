@@ -159,7 +159,7 @@ module.exports = {
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
-            '/devs/hosting/hosting',
+            '/devs/hosting/',
           ]
         },
         'security',
