@@ -90,7 +90,7 @@ Default menu: `none`
 :::
 
 ::: details Simple XML Sitemap
-Included: `false`
+Included: `true`
 
 :::
 
@@ -127,7 +127,7 @@ Default menu: `<main>`
 :::
 
 ::: details Simple XML Sitemap
-Included: `false`
+Included: `true`
 
 :::
 

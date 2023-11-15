@@ -163,6 +163,15 @@ module.exports = {
           ]
         },
         'security',
+          title: 'Security',
+          path: '/devs/security/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/devs/security/best-practices',
+            '/devs/security/sso'
+          ]
+        },
       ],
 
       '/content/': [
