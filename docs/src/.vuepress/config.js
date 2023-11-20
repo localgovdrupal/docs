@@ -90,6 +90,7 @@ module.exports = {
           collapsable: true,
           initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
           children: [
+            '/devs/getting-started/drupal-requirements',
             '/devs/getting-started/working-with-lando',
             '/devs/getting-started/working-with-ddev',
             '/devs/getting-started/debugging-with-xdebug',
