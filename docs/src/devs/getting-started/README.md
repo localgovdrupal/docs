@@ -2,55 +2,50 @@
 
 ## Requirements for installing LocalGov Drupal locally for testing and development
 
-### Drupal Requirements
+There are numerous ways of installing and running Drupal locally. No matter the local installation approach you adopt, 
+Composer is a hard requirement in either case.
 
-LocalGov Drupal is built on Drupal and, naturally, the same requirements apply. To install LocalGov Drupal locally you will need the appropriate versions of:
+### Composer Installation
+
+Drupal's Core, modules and themes, are all "packages" and Composer manages these dependencies in a structured and 
+organised manner. To put a Drupal website together, all assets have to be sourced from a dedicated URL and compiled to 
+create a fully functional build. To do that, Composer i.e. Drupal's dependency manager of choice, has to be present on 
+your local system.
+
+There are two ways to install Composer, locally and globally. The latter is usually preferred as, with a single 
+executable installed once, it allows Composer to manage the dependencies of multiple projects present on your machine. 
+To install Composer, follow the detailed instructions on the 
+[official Composer documentation page](https://getcomposer.org/doc/00-intro.md#globally).
+
+### Working with Lando/DDEV Containerized Servers
+
+Many of us use a containerization technology locally for testing and development, such as Lando or DDEV. Both of these
+tools simplify the process of setting up and managing development environments for web projects.
+
+#### Docker Desktop Installation
+
+Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that lets you build, share 
+and run containerized applications and microservices. It provides a straightforward GUI (Graphical User Interface) that 
+lets you manage your containers, applications, and images directly from your machine.
+
+To install Docker Desktop, follow the steps outlined on the
+[official Docker documentation page](https://docs.docker.com/desktop/install/mac-install/#system-requirements).
+
+Make sure you've also installed Composer before moving on to:
+
+- [Working with Lando](/devs/getting-started/working-with-lando.html) or
+- [Working with DDEV](/devs/getting-started/working-with-ddev.html)
+
+
+### Running Local Servers Natively
+
+It's also possible to set up a local server in a more manual way, as some people prefer running the web servers natively
+on their host machine. In that case, you will need to locally install the appropriate versions of:
 - PHP
 - Database server
 - Web server
 
-You can have a more thorough look at the Drupal requirements on [Drupal requirements](https://docs.localgovdrupal.org/devs/getting-started/drupal-requirements.html).
-
-### Working with Lando or DDEV
-
-Many of us use Lando or DDEV locally for testing and development. Both of these tools use containerization technology
-to simplify the process of setting up and managing development environments for web projects.
-Some people prefer running the web servers natively on their host machine.
-
-If you choose to work with Lando or DDEV, make sure you've installed the additional requirements below before moving on
-to [working with Lando](https://docs.localgovdrupal.org/devs/getting-started/working-with-lando.html) or
-[working with DDEV](https://docs.localgovdrupal.org/devs/getting-started/working-with-ddev.html) respectively.
-
-### Additional Requirements
-
-#### Composer
-
-Quick Installation: Follow the detailed instructions on the [official Composer documentation page](https://getcomposer.org/doc/00-intro.md#globally).
-(Read on for more information on Composer, otherwise go straight to the next step, Docker Desktop.)
-
-To install an LGD distribution locally, you'll need to have Composer installed on your local machine. 
-Drupal's Core, its modules and themes as well as contributed modules and themes, are all "packaged" and Composer 
-manages these dependencies in a very structured and organised manner. To put a Drupal website together, all assets 
-have to be sourced from a dedicated URL and compiled to create a fully functional build. Composer, Drupal's dependency 
-manager of choice, does exactly that but it has to be present on your laptop.
-
-There are two ways to install Composer, locally and globally. The latter is usually preferred as, with a single 
-executable installed once, it allows Composer to manage the dependencies of multiple projects present on your machine.
-
-#### Docker Desktop
-
-Quick Installation: To simply install Docker Desktop, follow the steps outlined on the official documentation page: 
-https://docs.docker.com/desktop/install/mac-install/#system-requirements.
-(Read on for more information on Docker Desktop, otherwise go straight to the next step, Lando.)
-
-Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that lets you build, 
-share, and run containerized applications and microservices.
-It provides a straightforward GUI (Graphical User Interface) that lets you manage your containers, applications, and 
-images directly from your machine. You can use Docker Desktop either on its own or as a complementary tool to the CLI.
-
-Docker Desktop reduces the time spent on complex setups so you can focus on writing code.
-It takes care of port mappings, file system concerns, and other default settings, and is regularly updated with 
-bug fixes and security updates.
+You can have a more thorough look on our dedicated page for the [Drupal requirements](/devs/getting-started/drupal-requirements.html).
 
 ## Contributing
 

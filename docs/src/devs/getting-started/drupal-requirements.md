@@ -1,14 +1,13 @@
 ---
 tags:
   - local development
-  - ddev
-  - docker
-  - composer
+  - drupal
+  - php
 ---
 
 # Drupal requirements
 
-#### PHP
+## PHP
 
 We follow [Drupal's PHP requirements](https://www.drupal.org/docs/system-requirements/php-requirements).
 
@@ -17,19 +16,22 @@ for Drupal 10, as well as more stability and predictability in its dependency re
 
 ![Compatible PHP versions for various Drupal versions](~@images/drupal-php-versions.png)
 
-You will also need to have certain PHP extensions enabled ([Drupal PHP extension requirements](https://www.drupal.org/docs/system-requirements/php-requirements#extensions)) including:
+### PHP Extensions
+
+You will also need to have certain PHP extensions enabled including:
 
 - PHP mbstring
 - PHP cURL
 - GD library
 - XML
 
-If you see errors when running `composer require`, double-check your PHP extensions.
+You can find more information about Drupal's PHP extension requirements 
+[here](https://www.drupal.org/docs/system-requirements/php-requirements#extensions))
 
-#### A database server like MySQL
-You can find detailed information about Drupal's database server requirements on the
-[corresponding documentation page](https://www.drupal.org/docs/system-requirements/database-server-requirements))
+## A database server like MySQL
+You can find detailed information about Drupal's database server requirements 
+[here](https://www.drupal.org/docs/system-requirements/database-server-requirements).
 
-#### A web server like Apache2
-You can find more information about Drupal's web server requirements on the
-[corresponding documentation page](https://www.drupal.org/docs/system-requirements/web-server-requirements)
+## A web server like Apache2
+You can find more information about Drupal's web server requirements 
+[here](https://www.drupal.org/docs/system-requirements/web-server-requirements).

@@ -1,31 +1,28 @@
 ---
 tags:
-- local development
-- lando
-- docker
+ - local development
+ - lando
+ - docker
+ - composer
 ---
 
 # Working with Lando
 
-
-#### Lando
-
-Quick Installation: To simply install Lando, follow the steps outlined on the official page here:
-[https://docs.lando.dev/getting-started/installation.html](https://docs.lando.dev/getting-started/installation.html).
-Please also see the Lando requirements section for details of Docker requirements for different operating systems.
-[https://docs.lando.dev/basics/installation.html#system-requirements](https://docs.lando.dev/basics/installation.html#system-requirements)
-(Read on for more information on Lando, otherwise, go straight to the next step.)
+## Lando Installation
 
 Lando is a free, Open Source, cross-platform, local development environment and DevOps tool built on Docker container
-technology. Designed to work with most major languages, frameworks and services, Lando provides an easy way for
-developers of all skill levels to specify simple or complex requirements for their projects, and then quickly
-get to work on them.
-Lando basically allows you to mimic a Cloud-hosting environment locally - it's like having a server on your laptop.
-On a high level, your lando configuration should contain ALL the things you need to run, develop and test your project.
+technology. Lando basically allows you to mimic a Cloud-hosting environment locally - it's like having a server on your 
+laptop. On a high level, your lando configuration should contain ALL the things you need to run, develop and test your 
+project.
 
-## Installing LocalGov Drupal locally with Composer and Lando
+To install Lando, follow the steps outlined on the 
+[official Lando installation page](https://docs.lando.dev/getting-started/installation.html).
 
-Now that we have all the required dependencies in place, we can create our first LocalGov Drupal project locally.
+## LocalGov Drupal local installation, with Composer and Lando
+
+Now that we have all the required dependencies in place (Composer, Docker Desktop and Lando), we can create our first 
+LocalGov Drupal project locally.
+
 Open your Terminal / Command Prompt and switch to an appropriate directory (for example, on Mac OS X, the ~/Sites
 folder is commonly preferred):
 
@@ -33,8 +30,8 @@ folder is commonly preferred):
 cd ~/Sites 
 ```
 
-We are going to use the LGD project template publically available on GitHub,
-https://github.com/localgovdrupal/localgov_project:
+We are going to use the LGD project template publicly available on GitHub:
+[https://github.com/localgovdrupal/localgov_project](https://github.com/localgovdrupal/localgov_project).
 
 ![ LGD project template on GitHub ](~@images/localgov-drupal-github.png)
 
@@ -42,7 +39,7 @@ To build the LGD project locally, we need to run the following Composer command 
 together in a new LGD_DEMO directory (feel free to change the project name to anything else you might prefer):
 
 ```bash
-composer create-project localgovdrupal/localgov-project LGD_DEMO --no-install 
+composer create-project localgovdrupal/localgov-project LGD_DEMO --no-install
 ```
 
 The Terminal output of this command will look something like the following:
@@ -76,37 +73,48 @@ variants (Intel / Silicon):
 
 ![ Lando start: LocalGov Drupal containers ](~@images/LGD-lando-start-complete-docker-containers.png)
 
-Now it's time to bring in all the Composer packages for this project
-(this can take a while as the command downloads all the necessary packages from their corresponding repositories).
-As you might be running a different version of PHP on your host machine from the version that Lando runs,
-it is advisable to run composer install from within Lando. This ensures dependencies reflect the PHP version that
-the webserver is actually running:
+Now it's time to bring in all the Composer packages for this project (this can take a while as the command downloads 
+all the necessary packages from their corresponding repositories). As you might be running a different version of PHP 
+on your host machine from the version that Lando runs, it is advisable to run `composer install` from within Lando. 
+This ensures dependencies reflect the PHP version that the webserver is actually running:
 
 ```bash
 lando composer install
 ```
 
-Below, we are presenting the main phases of the composer install process (we're only showing part of the output).
-You can read more about how Composer actually manages and installs dependencies on the Composer documentation page:
-https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies.
+Below, we are presenting the main phases of the `lando composer install` process (you can read more about how Composer 
+actually manages and installs dependencies on the 
+[corresponding Composer documentation page](https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies)).
 
-1. Locking dependencies to their defined versions:
-   ![ LocalGov Drupal: Composer install output - 1 ](~@images/LGD-lando-composer-install-1.png)
+### 1. Locking dependencies to their defined versions
 
-2. Downloading the locked dependencies:
-   ![ LocalGov Drupal: Composer install output - 2 ](~@images/LGD-lando-composer-install-2.png)
+![ LocalGov Drupal: Composer install output - 1 ](~@images/LGD-lando-composer-install-1.png)
 
-3. Installing the downloaded dependencies:
-   ![ LocalGov Drupal: Composer install output - 3 ](~@images/LGD-lando-composer-install-3.png)
+### 2. Downloading the locked dependencies
 
-4. Applying patches (these have also been pre-defined in the LGD Composer template):
-   ![ LocalGov Drupal: Composer install output - 4 ](~@images/LGD-lando-composer-install-4.png)
+![ LocalGov Drupal: Composer install output - 2 ](~@images/LGD-lando-composer-install-2.png)
 
-5. Scafoolding files (which is a fancy name for putting certain key Drupal files and their contents in place):
-   ![ LocalGov Drupal: Composer install output - 5 ](~@images/LGD-lando-composer-install-5.png)
+### 3. Installing the downloaded dependencies
 
-After the composer install process has been completed, we can finally install our LGD site locally using the
-site install drush command (for more on drush, Drupal's magic scripting tool, see https://www.drush.org):
+![ LocalGov Drupal: Composer install output - 3 ](~@images/LGD-lando-composer-install-3.png)
+
+### 4. Applying patches
+
+(These have also been pre-defined in the LGD Composer template.)
+
+![ LocalGov Drupal: Composer install output - 4 ](~@images/LGD-lando-composer-install-4.png)
+
+### 5. Scaffolding files
+
+(Scaffolding is a fancy name for putting certain key Drupal files and their contents in place).
+
+![ LocalGov Drupal: Composer install output - 5 ](~@images/LGD-lando-composer-install-5.png)
+
+### Site Installation with Drush
+
+After the `composer install` process has been completed, we can finally install our LGD site locally using the
+`drush site install` command (for more on drush, Drupal's magic scripting tool, see 
+[https://www.drush.org](https://www.drush.org)):
 
 ```bash
 lando drush si localgov -y
@@ -165,8 +173,6 @@ For example, to install the project run:
 ```bash
 COMPOSER_MEMORY_LIMIT=-1 composer create-project --stability dev localgovdrupal/localgov-project MY_PROJECT
 ```
-
-[Lando documentation](https://docs.lando.dev/)
 
 In the main project we've provided a `.lando.dist.yml` file out of the box to make it easier to get started with the local development setup. Of course, you are free to use other alternatives to Lando (such as DDEV - please see [here](working-with-ddev.md)).
 
