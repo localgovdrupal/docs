@@ -1,19 +1,81 @@
 ---
 tags:
   - local development
-  - ddev
+  - DDEV
   - docker
   - composer
 ---
 
 # Working with DDEV
 
-# DDEV Installation
+## DDEV Installation
 
-First of all, you will need to install DDEV locally by following the 
-[official DDEV documentation steps](https://ddev.com/get-started/).
+DDEV is an open-source tool for launching local web development environments in minutes. These environments can be 
+extended, version controlled, and shared, so you can take advantage of a Docker workflow without Docker experience or 
+bespoke configuration. Projects can be changed, powered down, or removed as easily as they’re started.
+
+The [official DDEV requirements page](https://ddev.readthedocs.io/en/latest/) offers detailed information on the 
+prerequisites that should be in place but, generally speaking, here's a list of minimum requirements for DDEV:
+- Recent OS version
+- RAM: 8GB
+- Storage: 256GB
+
+There are multiple ways of installing DDEV locally, mainly depending on your Operating System. Make sure you go through 
+the [official DDEV installation page](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/) if your 
+OS is not covered below.
+
+### Installing DDEV on Mac OS
+#### DDEV on Mac OS using Homebrew
+
+Homebrew is a popular package manager for Mac OS and Linux - it basically brings packages into your machine in an 
+organised manner. It controls and manages their dependencies and versions (similar to Composer). 
+To install Homebrew locally:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+With Homebrew in place, run the following to install DDEV:
+
+```bash
+brew install ddev/ddev/ddev
+```
+
+You can confirm that DDEV is in place by checking its installed version:
+
+```bash
+ddev -v
+```
+
+#### DDEV on Mac OS using Curl
+
+To download and run the install script, run the following in your Terminal:
+
+```bash
+curl -fsSL https://ddev.com/install.sh | bash
+```
+
+### Installing DDEV on Windows
+You can install DDEV on Windows in three ways:
+- Using WSL2 with Docker inside
+- Using WSL2 with Docker Desktop
+- Installing directly on traditional Windows with an installer
+
+DDEV strongly recommends using WSL2. While its Linux experience may be new for some Windows users, it’s worth the 
+performance benefit and common experience of working with Ubuntu and Bash. You can follow the 
+[official DDEV Windows installation steps](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/#wsl2-docker-desktop-install-script) 
+to install DDEV using WSL2 with Docker Desktop.
+
+### Installing DDEV on Linux
+
+You can use Homebrew or the curl install script in most instances, as described in the Mac OS installation instructions 
+above. On the [official DDEV Linux installation page](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/#linux, 
+there are more installation ways listed for some Linux and Ubuntu distributions.
 
 ## Installing LocalGov Drupal locally with Composer and DDEV.
+
+If you haven't yet installed Composer and Docker Desktop, see [Getting Started](/devs/getting-started/) for instructions
+on how to install these requirements.
 
 Now that we have all the required dependencies in place (Composer, Docker Desktop and DDEV), we can create our first
 LocalGov Drupal project locally.

@@ -20,6 +20,9 @@ To install Lando, follow the steps outlined on the
 
 ## LocalGov Drupal local installation, with Composer and Lando
 
+If you haven't yet installed Composer and Docker Desktop, see [Getting Started](/devs/getting-started/) for instructions 
+on how to install these requirements.
+
 Now that we have all the required dependencies in place (Composer, Docker Desktop and Lando), we can create our first 
 LocalGov Drupal project locally.
 
