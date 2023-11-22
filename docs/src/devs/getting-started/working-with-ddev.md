@@ -25,6 +25,7 @@ the [official DDEV installation page](https://ddev.readthedocs.io/en/latest/user
 OS is not covered below.
 
 ### Installing DDEV on Mac OS
+
 #### DDEV on Mac OS using Homebrew
 
 Homebrew is a popular package manager for Mac OS and Linux - it basically brings packages into your machine in an 
@@ -194,17 +195,20 @@ ddev drush si localgov -y
 
 The output of the command will look something like the following:
 
-![ ddev drush site install output ](~@images/LGD-ddev-drush-site-install)
+![ ddev drush site install output ](~@images/LGD-ddev-drush-site-install.png)
 
 Our new LocalGov Drupal site is now up and running locally! Remember those two project URLs returned by `ddev start` 
 above? You can use either one of them, and the credentials returned from the last command, to access your Drupal 
 administrator account on your brand new LGD site on your favourite browser:
 
-![ DDEV local LGD website loaded ](~@images/LGD-ddev-demo-site-user-login-page)
+![ DDEV local LGD website loaded ](~@images/LGD-ddev-demo-site-user-login-page.png)
 
 Logging into your admin account will land you on the Drupal content page:
 
-![ DDEV local LGD admin logged in ](~@images/LGD-ddev-demo-site-admin-logged-in)
+![ DDEV local LGD admin logged in ](~@images/LGD-ddev-demo-site-admin-logged-in.png)
 
 Your brand new LocalGov Drupal site is now up and running locally with DDEV. From here, you can explore all the unique 
 features that come with LGD out of the box and start building your new Council website!
+
+_Optional: You can delete the .lando.dist.yml file in the project’s root, as it is redundant when using DDEV
+instead of Lando._
