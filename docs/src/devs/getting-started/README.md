@@ -3,7 +3,7 @@
 ## Requirements for installing LocalGov Drupal locally for testing and development
 
 There are numerous ways of installing and running Drupal locally. No matter the local installation approach you adopt, 
-Composer is a hard requirement in either case.
+Composer is required.
 
 ### Composer Installation
 
@@ -20,7 +20,8 @@ To install Composer, follow the detailed instructions on the
 ### Working with Lando/DDEV Containerized Servers
 
 Many of us use a containerization technology locally for testing and development, such as Lando or DDEV. Both of these
-tools simplify the process of setting up and managing development environments for web projects.
+tools simplify the process of setting up and managing development environments for web projects. To use LGD locally with 
+either Lando or DDEV, you'll need to have Docker Desktop installed first.
 
 #### Docker Desktop Installation
 
@@ -31,7 +32,7 @@ lets you manage your containers, applications, and images directly from your mac
 To install Docker Desktop, follow the steps outlined on the
 [official Docker documentation page](https://docs.docker.com/desktop/install/mac-install/#system-requirements).
 
-Make sure you've also installed Composer before moving on to:
+With Docker Desktop (and Composer) in place, you can now move on to:
 
 - [Working with Lando](/devs/getting-started/working-with-lando.html) or
 - [Working with DDEV](/devs/getting-started/working-with-ddev.html)
@@ -49,7 +50,7 @@ You can have a more thorough look on our dedicated page for the [Drupal requirem
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for current contribution guidelines.
+See [Contributing](/contributing/) for current contribution guidelines.
 
 ## Issue tracking
 

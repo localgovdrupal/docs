@@ -8,7 +8,7 @@ tags:
 
 # Working with DDEV
 
-## DDEV Installation
+## DDEV-Prerequisites
 
 DDEV is an open-source tool for launching local web development environments in minutes. These environments can be 
 extended, version controlled, and shared, so you can take advantage of a Docker workflow without Docker experience or 
@@ -20,13 +20,16 @@ prerequisites that should be in place but, generally speaking, here's a list of 
 - RAM: 8GB
 - Storage: 256GB
 
+_Optional: You can delete the .lando.dist.yml file in the project’s root, as it is redundant when using DDEV
+instead of Lando._
+
 There are multiple ways of installing DDEV locally, mainly depending on your Operating System. Make sure you go through 
 the [official DDEV installation page](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/) if your 
 OS is not covered below.
 
-### Installing DDEV on Mac OS
+## Installing DDEV on Mac OS
 
-#### DDEV on Mac OS using Homebrew
+### DDEV on Mac OS using Homebrew
 
 Homebrew is a popular package manager for Mac OS and Linux - it basically brings packages into your machine in an 
 organised manner. It controls and manages their dependencies and versions (similar to Composer). 
@@ -48,7 +51,7 @@ You can confirm that DDEV is in place by checking its installed version:
 ddev -v
 ```
 
-#### DDEV on Mac OS using Curl
+### DDEV on Mac OS using Curl
 
 To download and run the install script, run the following in your Terminal:
 
@@ -56,7 +59,7 @@ To download and run the install script, run the following in your Terminal:
 curl -fsSL https://ddev.com/install.sh | bash
 ```
 
-### Installing DDEV on Windows
+## Installing DDEV on Windows
 You can install DDEV on Windows in three ways:
 - Using WSL2 with Docker inside
 - Using WSL2 with Docker Desktop
@@ -67,7 +70,7 @@ performance benefit and common experience of working with Ubuntu and Bash. You c
 [official DDEV Windows installation steps](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/#wsl2-docker-desktop-install-script) 
 to install DDEV using WSL2 with Docker Desktop.
 
-### Installing DDEV on Linux
+## Installing DDEV on Linux
 
 You can use Homebrew or the curl install script in most instances, as described in the Mac OS installation instructions 
 above. On the [official DDEV Linux installation page](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/#linux, 
@@ -88,7 +91,7 @@ folder is usually preferred):
 cd ~/Sites
 ```
 
-### Creating the Project
+### 1. Creating the Project
 Similarly to our Lando installation guide, we are going to use the LocalGov Drupal project template publicly available 
 on [GitHub](https://github.com/localgovdrupal/localgov_project):
 
@@ -111,7 +114,7 @@ Switch to the LGD_DEMO directory by running:
 cd MY_PROJECT
 ```
 
-### The DDEV Part
+### 2. The DDEV Part
 
 Then, we need to initialise our DDEV project:
 
@@ -121,9 +124,9 @@ ddev config
 
 As you can see in the screenshot below, DDEV is suggesting default values for the following:
 
-- Project name (suggested default: _locagov_)
-- Docroot location (suggested default: _web_)
-- Project Type (suggested default: _drupal9_)
+- _Project name_ (suggested default: _locagov_)
+- _Docroot location_ (suggested default: _web_)
+- _Project type_ (suggested default: _drupal9_)
 
 We complete the initialisation by hitting 'Enter' in all three suggestions so the default value is selected. The output 
 of the command should look like the following:
@@ -169,7 +172,7 @@ following:
 
 ![ Docker Desktop: ddev containers ](~@images/LDG-ddev-docker-desktop-containers.png)
 
-### The composer install Part
+### 3. The composer install Part
 
 Now it's time to pull in all the Composer dependencies for this project:
 
@@ -184,7 +187,7 @@ output in our
 Upon re-running the same command, the Terminal should naturally inform us that there is Nothing to _install, update or 
 remove_.
 
-### Building the Site with Drush
+### 4. Building the Site with Drush
 
 We can now finally install our site using the site install drush command (for more on drush, Drupal's popular scripting 
 tool, see [https://www.drush.org](https://www.drush.org):
@@ -209,6 +212,3 @@ Logging into your admin account will land you on the Drupal content page:
 
 Your brand new LocalGov Drupal site is now up and running locally with DDEV. From here, you can explore all the unique 
 features that come with LGD out of the box and start building your new Council website!
-
-_Optional: You can delete the .lando.dist.yml file in the project’s root, as it is redundant when using DDEV
-instead of Lando._
