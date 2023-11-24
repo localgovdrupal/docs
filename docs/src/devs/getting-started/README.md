@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 ## Requirements for installing LocalGov Drupal locally for testing and development
 
@@ -67,7 +67,7 @@ on their host machine. In that case, you will need to locally install the approp
 - Database server
 - Web server
 
-You can have a more thorough look on our dedicated page for the [Drupal requirements](/devs/getting-started/drupal-requirements.html).
+You can have a more thorough look on our dedicated page for the [Drupal Requirements](/devs/getting-started/drupal-requirements.html).
 
 ## Contributing
 
