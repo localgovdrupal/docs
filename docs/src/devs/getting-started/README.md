@@ -10,13 +10,19 @@ That way, you're able to _rehearse_ and test the code changes you're applying on
 to a web-based server environment.
 
 There are two main approaches to local development:
-- Using your machine's native technologies (e.g. PHP, web and database servers). Some operating systems come with some of 
-the required tools pre-installed out of the box and, most of the time, you'll have to manually install the remaining ones.
-This approach generally requires more time spent on maintaining and updating every technology separately as well as 
-making sure that all the moving parts continuously work well together.
-- Using a containerized approach i.e. a tool such as Lando or DDEV that "packages" all the required technologies for you 
-and simulates a server environment. This approach is more automated and requires less manual work as the tool takes care 
-of every component's version updates and compatibility is guaranteed.
+
+**1. Using your machine's native technologies:**
+
+Some operating systems come with some of the required tools pre-installed out of the box and (e.g. PHP, web and database 
+servers). Most of the time, you'll have to manually install the remaining ones. This approach generally requires more 
+time spent on maintaining and updating every technology separately as well as making sure that all the moving parts 
+continuously work well together. 
+
+**2. Using a containerized approach:** 
+
+i.e. a tool such as Lando or DDEV that "packages" all the required technologies for you and simulates a server environment. 
+This approach is more automated and requires less manual work as the tool takes care of every component's version updates 
+and compatibility is guaranteed.
 
 No matter the local installation approach you adopt, Composer is required.
 
