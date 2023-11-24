@@ -5,7 +5,7 @@ tags:
   - php
 ---
 
-# Drupal requirements
+# Drupal Requirements
 
 This page describes the minimum requirements that need to be honoured on any environment Drupal is set up on, locally or 
 in the Cloud (e.g. development or production environments).
