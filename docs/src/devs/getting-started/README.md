@@ -2,8 +2,23 @@
 
 ## Requirements for installing LocalGov Drupal locally for testing and development
 
-There are numerous ways of installing and running Drupal locally. No matter the local installation approach you adopt, 
-Composer is required.
+There are numerous ways of installing and running Drupal _locally_. Local development is an essential part of every web 
+development workflow and it involves using your machine (a laptop for example) to maintain a stable development environment 
+that closely matches a real-life web server environment commonly available on the Cloud.
+
+That way, you're able to _rehearse_ and test the code changes you're applying on your local system before deploying them 
+to a web-based server environment.
+
+There are two main approaches to local development:
+- Using your machine's native technologies (e.g. PHP, web and database servers). Some operating systems come with some of 
+the required tools pre-installed out of the box and, most of the time, you'll have to manually install the remaining ones.
+This approach generally requires more time spent on maintaining and updating every technology separately as well as 
+making sure that all the moving parts continuously work well together.
+- Using a containerized approach i.e. a tool such as Lando or DDEV that "packages" all the required technologies for you 
+and simulates a server environment. This approach is more automated and requires less manual work as the tool takes care 
+of every component's version updates and compatibility is guaranteed.
+
+No matter the local installation approach you adopt, Composer is required.
 
 ### Composer Installation
 
