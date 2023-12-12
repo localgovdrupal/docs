@@ -73,7 +73,7 @@ You can have a more thorough look on our dedicated page for the [Drupal Requirem
 
 See [Contributing](/contributing/) for current contribution guidelines.
 
-## Issue tracking
+## Issue Tracking
 
 In the early development stages, most issues will be tracked in this repository
 <https://github.com/localgovdrupal/localgov/issues>.
@@ -82,11 +82,11 @@ Development issues relating to specific projects or module should be tracked in
 the project repository. In the future we might set up a separate repository for
 centralised issue tracking of bug reports for end users.
 
-### Coding standards resources
+### Coding Standards Resources
 
 * [Drupal coding standards](https://www.drupal.org/docs/develop/standards)
 
-### Testing resources
+### Testing Resources
 
 * [PHPUnit documentation](https://phpunit.readthedocs.io/en/7.5/)
 * [Drupal 8 PHPUnit documentation](https://www.drupal.org/docs/8/testing/phpunit-in-drupal-8)
