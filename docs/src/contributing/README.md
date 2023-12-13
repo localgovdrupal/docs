@@ -29,7 +29,7 @@ which allows people to mention you in issues, assign issues to yourself and affo
 ### Steps to setup and connect your Github account
 
   1. Register for Github account at https://github.com/signup
-  2. Choose a nice username (it makes things easier if your username resembles you name to some extent, for other people to know who you are on Github)
+  2. Choose a nice username (it makes things easier if your username resembles your name to some extent, for other people to know who you are on Github)
   3. Verify your email address
   4. Skip the intro steps (unless you want to create an organisation).
   5. Let us know your new username on Slack, by email or in a new issue at [https://github.com/localgovdrupal/localgov/issues](https://github.com/localgovdrupal/localgov/issues)
@@ -39,20 +39,20 @@ which allows people to mention you in issues, assign issues to yourself and affo
 
 Having an account on Drupal.org is useful for many reasons. 
 
-1. It allows you to post and reply to issues in issue queues.
+1. It allows you to post and reply to issues in issue queues on Drupal.org.
 2. You can create an organisation page to promote your organisation's involvement in Drupal and Drupal projects.
 3. You can link your personal user account to your organisation page and to issues and contributions you make.
 4. It allows us to promote the organisations and people that support the LocalGov Drupal project.
 
 The main LocalGov Drupal project is posted at [https://www.drupal.org/project/localgov](https://www.drupal.org/project/localgov). 
 We would like to list all subscribing councils and suppliers on the LocalGov Drupal project page to demonstrate the support and encourage more organisations and people to get involved. 
-To do this, you will need to have a personal account on Drupal.org and and organisation page. 
+To do this, you will need to have a personal account on Drupal.org and an organisation page. 
 
 ## Steps to create a Drupal.org account and an organisation page
 
 1. Create a drupal.org account at https://www.drupal.org/user/register.
 2. Verify your email address.
-3. Ask an existing user to very you are not a spammer. See https://www.drupal.org/drupalorg/docs/user-accounts/become-a-confirmed-user (probably quickest to ask one of us on Slack to go your new user page and click 'confirm').
+3. Ask an existing user to verify you are not a spammer. See https://www.drupal.org/drupalorg/docs/user-accounts/become-a-confirmed-user (probably quickest to ask one of us on Slack to visit your new user page and click 'confirm').
 4. Create an organization page at https://www.drupal.org/node/add/organization.
 5. Let one the maintainers know and we can add you to the list of supporting organisations on drupal.org/project/localgov. It might be quickest to mention this on Slack or create an issue at https://www.drupal.org/project/issues/localgov.
 6. One of the maintainers can add the new organisation to the list of supporting organisations on the project page.
