@@ -5,7 +5,7 @@ tags:
   - php
 ---
 
-# Drupal Requirements
+# Drupal requirements
 
 This page describes the minimum requirements that need to be honoured on any environment Drupal is set up on, locally or 
 in the Cloud (e.g. development or production environments).
@@ -23,7 +23,7 @@ for Drupal 10, as well as more stability and predictability in its dependency re
 
 ![Compatible PHP versions for various Drupal versions](~@images/drupal-php-versions.png)
 
-### PHP Extensions
+### PHP extensions
 
 You will also need to have certain PHP extensions enabled including:
 

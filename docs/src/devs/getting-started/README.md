@@ -1,4 +1,4 @@
-# Getting Started
+# Getting started
 
 ## Requirements for installing LocalGov Drupal locally for testing and development
 
@@ -26,7 +26,7 @@ and compatibility is guaranteed.
 
 No matter the local installation approach you adopt, Composer is required.
 
-### Composer Installation
+### Composer installation
 
 Drupal's Core, modules and themes, are all "packages" and Composer manages these dependencies in a structured and 
 organised manner. To put a Drupal website together, all assets have to be sourced from a dedicated URL and compiled to 
@@ -38,13 +38,13 @@ executable installed once, it allows Composer to manage the dependencies of mult
 To install Composer, follow the detailed instructions on the 
 [official Composer documentation page](https://getcomposer.org/doc/00-intro.md#globally).
 
-### Working with Lando/DDEV Containerized Servers
+### Working with Lando/DDEV containerized servers
 
 Many of us use a containerization technology locally for testing and development, such as Lando or DDEV. Both of these
 tools simplify the process of setting up and managing development environments for web projects. To use LGD locally with 
 either Lando or DDEV, you'll need to have Docker Desktop installed first.
 
-#### Docker Desktop Installation
+#### Docker Desktop installation
 
 Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that lets you build, share 
 and run containerized applications and microservices. It provides a straightforward GUI (Graphical User Interface) that 
@@ -59,7 +59,7 @@ With Docker Desktop (and Composer) in place, you can now move on to:
 - [Working with DDEV](/devs/getting-started/working-with-ddev.html)
 
 
-### Running Local Servers Natively
+### Running local servers natively
 
 It's also possible to set up a local server in a more manual way, as some people prefer running the web servers natively
 on their host machine. In that case, you will need to locally install the appropriate versions of:
@@ -73,7 +73,7 @@ You can have a more thorough look on our dedicated page for the [Drupal Requirem
 
 See [Contributing](/contributing/) for current contribution guidelines.
 
-## Issue Tracking
+## Issue tracking
 
 In the early development stages, most issues will be tracked in this repository
 <https://github.com/localgovdrupal/localgov/issues>.
@@ -82,11 +82,11 @@ Development issues relating to specific projects or module should be tracked in
 the project repository. In the future we might set up a separate repository for
 centralised issue tracking of bug reports for end users.
 
-### Coding Standards Resources
+### Coding standards resources
 
 * [Drupal coding standards](https://www.drupal.org/docs/develop/standards)
 
-### Testing Resources
+### Testing resources
 
 * [PHPUnit documentation](https://phpunit.readthedocs.io/en/7.5/)
 * [Drupal 8 PHPUnit documentation](https://www.drupal.org/docs/8/testing/phpunit-in-drupal-8)
