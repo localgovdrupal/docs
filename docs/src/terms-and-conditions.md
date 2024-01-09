@@ -39,9 +39,9 @@ _**Version: 2.0** - 31st May 2023_
 9. Term
     -  The subscription fees are based on a 12 month cycle. 
 10. Payment terms: 
-    - Invoices are due upon receipt. You will receive an invoice upon signing with payment instructions. Full payment is required before subscriber benefits are activated.
+    - Invoices are due upon receipt. You will receive an invoice upon signing with payment instructions. Full payment is required before subscriber benefits are activated. If a renewal payment is late we reserve the right to remove marketing materials from all our channels.
 11. Automatic renewal
-    - The LocalGov Drupal subscription shall be renewed automatically for succeeding terms of one year unless either party gives notice to the other at least sixty (60) days prior to the expiration of any term of its intention not to renew.
+    - The LocalGov Drupal subscription shall be renewed automatically for succeeding terms of one year unless either party gives notice to the other at least sixty (60) days prior to the expiration of any term of its intention not to renew. 
 12. Termination: 
     - Organisations can terminate their subscription at any time with sixty (60) days notice. 
 
