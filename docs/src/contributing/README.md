@@ -32,7 +32,7 @@ which allows people to mention you in issues, assign issues to yourself and affo
   2. Choose a nice username (it makes things easier if your username resembles your name to some extent, for other people to know who you are on Github)
   3. Verify your email address
   4. Skip the intro steps (unless you want to create an organisation).
-  5. Let us know your new username on Slack, by email or in a new issue at [https://github.com/localgovdrupal/localgov/issues](https://github.com/localgovdrupal/localgov/issues)
+  5. Let us know your new username on Slack in #group-technical, by email or in a new issue at [https://github.com/localgovdrupal/localgov/issues](https://github.com/localgovdrupal/localgov/issues)
   6. One of the maintainers will add you to the https://github.com/localgovdrupal/localgov organisation.
 
 ## Create a Drupal.org account and an organisation
@@ -54,7 +54,7 @@ To do this, you will need to have a personal account on Drupal.org and an organi
 2. Verify your email address.
 3. Ask an existing user to verify you are not a spammer. See https://www.drupal.org/drupalorg/docs/user-accounts/become-a-confirmed-user (probably quickest to ask one of us on Slack to visit your new user page and click 'confirm').
 4. Create an organization page at https://www.drupal.org/node/add/organization.
-5. Let one the maintainers know and we can add you to the list of supporting organisations on drupal.org/project/localgov. It might be quickest to mention this on Slack or create an issue at https://www.drupal.org/project/issues/localgov.
+5. Let one the maintainers know and we can add you to the list of supporting organisations on drupal.org/project/localgov. Either ask on Slack in #group-technical or create an issue at https://www.drupal.org/project/issues/localgov.
 6. One of the maintainers can add the new organisation to the list of supporting organisations on the project page.
 7. Edit your personal user account and under the 'work' tab you can select your organization to link your user to the organisation page.
 8. Ask other people from your organisation to create accounts and link them up to your organisation too.
