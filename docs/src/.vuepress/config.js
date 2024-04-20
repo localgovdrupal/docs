@@ -162,7 +162,7 @@ module.exports = {
             '/devs/hosting/',
           ]
         },
-        'security',
+        {
           title: 'Security',
           path: '/devs/security/',
           collapsable: true,
