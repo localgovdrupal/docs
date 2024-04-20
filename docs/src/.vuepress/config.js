@@ -155,6 +155,15 @@ module.exports = {
           ]
         },
         {
+          title: 'Hosting',
+          path: '/devs/hosting/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/devs/hosting/',
+          ]
+        },
+        {
           title: 'Security',
           path: '/devs/security/',
           collapsable: true,
