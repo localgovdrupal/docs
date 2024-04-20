@@ -23,7 +23,7 @@ for Drupal 10, as well as more stability and predictability in its dependency re
 
 ![Compatible PHP versions for various Drupal versions](~@images/drupal-php-versions.png)
 
-### PHP Extensions
+### PHP extensions
 
 You will also need to have certain PHP extensions enabled including:
 
