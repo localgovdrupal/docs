@@ -74,10 +74,6 @@ We also encourage contributions from suppliers supporting councils using LocalGo
 
 Join the LocalGov Drupal slack channel to ask questions or find other designers to work with. Email [hello@localgovdrupal.org](mailto:hello@localgovdrupal.org) to join.
 
-### Frontend Working Group
-
-The Frontend Group meets regularly to consider the frontend issues. This group is selected from active LocalGov Drupal contributors from across Councils and active suppliers.
-
 ## Drupal terminology
 
 It's hard to get away from [Drupal terminology](/content/#drupal-terminology), but please let us know if anything in this documenation could be clearer.
