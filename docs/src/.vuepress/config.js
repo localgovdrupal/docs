@@ -173,6 +173,16 @@ module.exports = {
             '/devs/security/sso'
           ]
         },
+        {
+          title: 'Quality standards',
+          path: '/devs/quality-standards/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/devs/quality-standards/documentation',
+            '/devs/quality-standards/accessibility'
+          ]
+        },
       ],
 
       '/content/': [
@@ -247,7 +257,7 @@ module.exports = {
           children: [
             '/microsites/how-to/find-your-way-around',
             '/microsites/how-to/fancy-layouts',
-            '/microsites/how-to/add-URLs',
+            '/microsites/how-to/domain-aliases',
             '/microsites/how-to/add-microsite-editors',
             '/microsites/how-to/enable-disable-content',
             '/microsites/how-to/manage-site-settings',
