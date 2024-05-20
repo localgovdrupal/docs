@@ -164,6 +164,15 @@ module.exports = {
           ]
         },
         {
+          title: 'Release statuses',
+          path: '/devs/release-statuses/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/devs/release-statuses/',
+          ]
+        },
+        {
           title: 'Security',
           path: '/devs/security/',
           collapsable: true,
