@@ -25,5 +25,4 @@ Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/co
 
 ## 5. JavaScript is keyboard-usable
 
-Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-conforms-to-wcag-21-and-atag-20)
-
+Please see more info on [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-conforms-to-wcag-21-and-atag-20)
