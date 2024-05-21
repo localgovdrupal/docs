@@ -6,11 +6,11 @@ context where it is a legal requirement, and rightly so.
 Before recommending a project for use with LopcalGov Drupal, project maintainers
 should confirm the following.
 
-## 1. Conforms to WCAG 2.1 and ATAG 2.0
+## 1. Conforms to WCAG 2.2 (AA) and ATAG 2.0
 
 Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-conforms-to-wcag-21-and-atag-20)
 
-## 2. HTML structure meets WCAG 2.1
+## 2. HTML structure meets WCAG 2.2 (AA)
 
 Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-conforms-to-wcag-21-and-atag-20)
 
