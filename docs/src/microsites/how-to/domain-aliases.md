@@ -2,7 +2,7 @@
 
 [[toc]]
 
-Often we will need multiple different domains to resolve ti a single microsite group.
+Often we will need multiple different domains to resolve to a single microsite group.
 
 For example, in our demo microsite https://site3.demo.microsites.localgovdrupal.org/ the primary domain for the microsite is set to site3.demo.microsites.localgovdrupal.org.
 
