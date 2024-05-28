@@ -18,4 +18,4 @@ Where applicable, a README.md file is in the root of the project or module.
  - Troubleshooting & FAQ (optional)
  - Maintainers (optional)
 
-For furthter reference, plase see [README.md template guidelines on drupal.org](https://www.drupal.org/docs/develop/managing-a-drupalorg-theme-module-or-distribution-project/documenting-your-project/readmemd-template)
+For further reference, please see [README.md template guidelines on drupal.org](https://www.drupal.org/docs/develop/managing-a-drupalorg-theme-module-or-distribution-project/documenting-your-project/readmemd-template)
