@@ -43,6 +43,7 @@ module.exports = {
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last updated',
     docsRepo: 'https://github.com/localgovdrupal/docs',
+    docsBranch: 'main',
     docsDir: 'docs/src',
     displayAllHeaders: false,
     sidebarDepth: 1,
