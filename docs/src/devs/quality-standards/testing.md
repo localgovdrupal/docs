@@ -18,7 +18,7 @@ See [https://github.com/localgovdrupal/localgov_project/actions](https://github.
 
 ## 2. Add new automated tests
 
-Add new tests to cover any new functionlaity
+Add new tests to cover any new functionlality
 
 
 For furthter reference, please see [recomendations for testing on drupal.org.](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/testing)
