@@ -231,6 +231,7 @@ module.exports = {
             '/content/how-to/how-to-media-library',
             '/content/how-to/how-to-manage-menus',
             '/content/how-to/how-to-tag-content',
+            '/content/how-to/how-to-archive-ua-data',
           ]
         },
       ],
