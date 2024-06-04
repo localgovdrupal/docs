@@ -49,7 +49,7 @@ be useful to test out new modules or updates to existing modules.
 The best way to enable the module is in the terminal with drush.
 
 ```
-drush en lcoalgov_demo
+drush en localgov_demo -y
 ```
 
 ## 4. Install a new module
