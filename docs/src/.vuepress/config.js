@@ -195,6 +195,16 @@ module.exports = {
             '/devs/quality-standards/testing'
           ]
         },
+
+        {
+          title: 'How-tos',
+          path: '/devs/how-to/',
+          collapsable: true,
+          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          children: [
+            '/devs/how-to/how-to-test-modules-with-gitpod',
+          ]
+        },
       ],
 
       '/content/': [
