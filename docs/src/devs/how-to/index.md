@@ -1,6 +1,6 @@
 # How-to guides
 
-Often you don't know what you don't know!
+Often you don't know what you don't know! Seriously!
 
 A simple how-to guide can be very useful to step you through the process of
 doing something new. We're trying to write lots of simple how-to guides for
