@@ -29,4 +29,4 @@ The LocalGov Drupal demo content showcases a lot of the content types in LocalGo
 
 ## Installing modules and testing branches
 
-Our how to guides include step by step instructions for [installing new Drupal modules](/devs/how-to/how-to-test-modules-with-gitpod.html#_4-install-a-new-module) and [testing LGD work in progress)[/devs/how-to/how-to-test-modules-with-gitpod.html#_5-testing-branches-from-github].
+Our how to guides include step by step instructions for [installing new Drupal modules](/devs/how-to/how-to-test-modules-with-gitpod.html#_4-install-a-new-module) and [testing LGD work in progress)(/devs/how-to/how-to-test-modules-with-gitpod.html#_5-testing-branches-from-github).
