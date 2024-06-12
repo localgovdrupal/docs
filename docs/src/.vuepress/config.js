@@ -78,6 +78,10 @@ module.exports = {
         link: '/accessibility/'
       },
       {
+        text: 'Governance',
+        link: '/governance/'
+      },
+      {
         text: 'Main site',
         link: 'https://localgovdrupal.org'
       },
@@ -305,6 +309,11 @@ module.exports = {
         'tools',
         'testing',
         'tests',
+      ],
+
+      '/governance/': [
+        '',
+        'technical-group-overview',
       ],
     }
   },
