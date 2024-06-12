@@ -21,12 +21,13 @@ It includes high level data for Jan 2021 to the end of 2023, such as:
 
 
 ## Step 1 - install the Google Analytics Add-On:
-Create a new Google Spreadsheet (or open an existing one).
-From the menu bar choose: Add-ons > Get Add-ons…
-Find the Google Analytics Add-on from the add-ons gallery and select it.
-From the add-on description page, click the "+" in the top right corner to add this add-on to your spreadsheet.
-A dialog should pop up requesting your permission for the add-on to access your Google Analytics data. Click "Accept".
-The add-on is now installed. A "Google Analytics" submenu should now appear in the Add-ons menu.
+* Sign in to your Google Drive / Docs 
+* Create a new Google Spreadsheet (or open an existing one).
+* From the menu bar choose: Add-ons > Get Add-ons…
+* Find the Google Analytics Add-on from the add-ons gallery and select it.
+* From the add-on description page, click the "+" in the top right corner to add this add-on to your spreadsheet.
+* A dialog should pop up requesting your permission for the add-on to access your Google Analytics data. Click "Accept".
+* The add-on is now installed. A "Google Analytics" submenu should now appear in the Add-ons menu.
 
 
 ## Step 2 - download the template
