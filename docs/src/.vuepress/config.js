@@ -313,7 +313,7 @@ module.exports = {
 
       '/governance/': [
         '',
-        'contributor-agreement'
+        'contributor-agreement',
         'technical-group-overview',
       ],
     }
