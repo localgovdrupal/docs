@@ -46,7 +46,7 @@ Time commitment:  suggested minimum 2 hours / week
  - Stephen Cox(Agile Collective)
  - Ekes (Kester) (ekes)
  - Andy Broomfield (Brighton & Hove City Council)
- - Mark Conroy (Annertech)
+ - Mark Conroy (mark.ie)
  - Harry Barnard (TPX Impact)
 
 
