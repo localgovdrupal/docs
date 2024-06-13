@@ -1,3 +1,3 @@
 # New Feature
 
-A lovely description of the feature. 
+A lovely description of the feature!
