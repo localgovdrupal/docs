@@ -227,7 +227,7 @@ module.exports = {
             '/content/features/subsites',
             '/content/features/directories',
             '/content/features/workflow',
-            //'/content/features/microsites',
+            '/content/features/elections',
           ]
         },
         'patterns',
