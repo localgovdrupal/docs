@@ -2,7 +2,7 @@
 
 Let's make the documentation great for developers and content designers alike.
 
-Before recommending a project for use with LopcalGov Drupal, project maintainers
+Before recommending a project for use with LocalGov Drupal, project maintainers
 should confirm the following.
 
 ## 1. README.md file for projects / modules
