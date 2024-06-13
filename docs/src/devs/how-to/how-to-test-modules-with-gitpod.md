@@ -118,8 +118,25 @@ The first part is the standard composer require command for the localgov_core
 ```
 composer require localgovdrupal/localgov_core
 ```
+Here's a few other examples:
 
-Next we want to specify the branch.
+```
+composer require localgovdrupal/localgov_elections_reporting
+```
+
+```
+composer require localgovdrupal/localgov_publications
+```
+
+```
+composer require localgovdrupal/localgov_subsites_extras
+```
+Back to our localgov_core example.
+
+```
+composer require localgovdrupal/localgov_core
+```
+Next we may want to specify the branch.
 
 The branch is named `feature/718-content-tabs-weights-core-module`
 
