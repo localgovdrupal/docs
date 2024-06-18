@@ -314,6 +314,7 @@ module.exports = {
       '/governance/': [
         '',
         'contributor-agreement',
+        'code-of-conduct',
         'technical-group-overview',
       ],
     }
