@@ -215,3 +215,17 @@ And enable the localgov_demo module again.
 drush en localgov_demo -y
 ```
 
+If you're not seeing what you expect, try the following commands:
+
+This forces an update to the latest version of the code.
+
+```
+composer update
+```
+
+This clears the cache.
+
+```
+drush cr
+```
+
