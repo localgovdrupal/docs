@@ -1,4 +1,4 @@
-# Quality standard: Documentation
+# Quality standard: Documentation 
 
 Let's make the documentation great for developers and content designers alike.
 
