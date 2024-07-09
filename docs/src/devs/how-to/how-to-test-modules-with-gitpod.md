@@ -230,7 +230,7 @@ drush cr
 Uninstall a module
 
 ```
-composer remove
+drush pm:uninstall localgov_elections
 ```
 
 ```
