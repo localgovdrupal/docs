@@ -121,7 +121,11 @@ composer require localgovdrupal/localgov_core
 Here's a few other examples:
 
 ```
-composer require localgovdrupal/localgov_elections_reporting
+composer require localgovdrupal/localgov_elections
+```
+
+```
+composer require localgovdrupal/localgov_elections:1.0.0-beta2
 ```
 
 ```
@@ -213,5 +217,23 @@ And enable the localgov_demo module again.
 
 ```
 drush en localgov_demo -y
+```
+
+### Other useful commands
+
+Clear the cache
+
+```
+drush cr
+```
+
+Uninstall a module
+
+```
+drush pm:uninstall localgov_elections
+```
+
+```
+composer remove localgovdrupal/localgov_elections
 ```
 
