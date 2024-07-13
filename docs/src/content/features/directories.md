@@ -53,7 +53,9 @@ As an editor, Channels give you the flexibility to compose a Directory made up o
 
 ### Directory Items
 
-Directory Items are pieces of content, and pages, in their own right but also a member of 1 or more Directory Channels. For example, a _School_ content type could allow editors to publish detailed information on individual schools and belong to the _Secondary schools_ Channel. LocalGov Drupal comes with some generic Directory Item types which can be used as-is or can be extended to meet your needs:
+Directory Items are pieces of content, and pages, in their own right but also a member of 1 or more Directory Channels. For example, a _School_ content type could allow editors to publish detailed information on individual schools and belong to the _Secondary schools_ Channel. 
+
+LocalGov Drupal comes with some generic Directory Item types which can be used as-is or can be extended to meet your needs.
 
 | Type      | Uses |
 | ----------- | ----------- |
@@ -63,21 +65,21 @@ Directory Items are pieces of content, and pages, in their own right but also a 
 
 Alternatively, LocalGov Directories provides site-builders with a toolkit to create bespoke Directory Item types without having to write any code. More information about customizing Directory Items can be found in the [Directories Technical documentation](/devs/features/directories-technical).
 
-As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb (as described above). Items may also belong to multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but will include the Item in it's list and do still impact the available Facets (as described below).
+As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb (as described above). Items may also belong to multiple _Other_ Channel. These additional Channels do not influence the URL or breadcrumb, but will include the Item in its list, and do still impact the available Facets (as described below).
 
-In order to allow users to filter Directory Items by Directory Facets, Items must be 'tagged' with the appropriate Facets. When creating\editing an Item, the available Facets is determined by the Channels it belongs to. For example, consider the following Channels:
+In order to allow users to filter Directory Items by Directory Facets, Items must be 'tagged' with the appropriate Facets. When creating or editing an Item, the available Facets are determined by the Channels they belong to. For example, consider the following Channels:
 
 **Sports facilities**
 
 * Facet types: Sports, Location
-* Content types: Sports venue
+* Content types: Sports venue 
 
 **Secondary schools**
 
 * Facet types: Age, Location
 * Content types: School
 
-When creating\editing _Sports venue_ Directory Items _Sports_ and _Location_ facets can be selected while with _Schools_ the _Age_ and _Location_ facets will be available.  
+When creating or editing _Sports venue_ Directory Items _Sports_ and _Location_ facets can be selected while with _Schools_ the _Age_ and _Location_ facets will be available.  
 
 ## How-to
 
@@ -119,8 +121,8 @@ From here, click the _Add directory facets_ button and repeat the process until 
 
 | Age      | Location |
 | ----------- | ----------- |
-| 11-16 years      | North Somewhere       |
-| 11-18 year   | South Somewhere        |
+| 11-16 years      | North Scarfolk       |
+| 11-18 year   | South Scarfolk        |
 
 #### The Channel
 
