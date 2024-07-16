@@ -1,4 +1,4 @@
-# Admin theme
+# Admin theme (Deprecated)
 
 ## Deprecated
 
