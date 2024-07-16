@@ -221,6 +221,14 @@ drush en localgov_demo -y
 
 ### Other useful commands
 
+If you're not seeing what you expect, try the following commands:
+
+This forces an update to the latest version of the code.
+
+```
+composer update
+```
+
 Clear the cache
 
 ```
