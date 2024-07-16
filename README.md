@@ -26,4 +26,3 @@ This project is currently maintained by:
 
  - Maria Young https://github.com/msayoung
  - Finn Lewis https://github.com/finnlewis
- - Michael Wignall https://github.com/MichaelDCR
