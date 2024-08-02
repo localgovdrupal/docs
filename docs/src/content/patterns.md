@@ -2,9 +2,6 @@
 
 Below are some components available through the WYSIWYG editor. 
 
-You may also like to take a look at the [Pattern Library created by Brighton & Hove City Council](https://design.brighton-hove.gov.uk/index.php?p=welcome), which illustrates how the implement many of the features. 
-
-
 ## Stand out content
 
 ### Alerts
