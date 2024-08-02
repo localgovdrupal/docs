@@ -126,7 +126,7 @@ As you can see in the screenshot below, DDEV is suggesting default values for th
 
 - _Project name_ (suggested default: _locagov_)
 - _Docroot location_ (suggested default: _web_)
-- _Project type_ (suggested default: _drupal9_)
+- _Project type_ (suggested default: _drupal10_)
 
 We complete the initialisation by hitting 'Enter' in all three suggestions so the default value is selected. The output 
 of the command should look like the following:
