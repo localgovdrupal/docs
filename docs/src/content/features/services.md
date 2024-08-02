@@ -63,7 +63,7 @@ Engage with the service team to understand what the top tasks are within a secti
 Tasks can be tagged as either "Action" or "Information" - these may display differently depending on how your theme is set up.
 
 ![Screenshot of the LGD demo site "Adult and social care" Service Landing Page, showing three common task links - 2 blue information links and 1 green action link](https://user-images.githubusercontent.com/3852805/123274826-c2804c80-d4fb-11eb-844b-d4c09a5a00f8.png)
-Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a green background.
+Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a blue background.
 
 ## Service Sub-landing Pages
 
