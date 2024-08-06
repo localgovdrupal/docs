@@ -24,7 +24,7 @@ The feature contains the following content types:
 * **Service Landing page** - the top level section for each service.
 * **Service Sub-landing page** - detail and links to specific pages within a service.
 * **Service Page** - the basic page that can be placed in a service, and on a Service Sub-landing page.
-* **Service Status** - an optional additional type for providing updates about a the status of a service.
+* **Service Status** - an optional additional type for providing updates about the status of a service.
 
 Other content types in the LocalGov Drupal distribution can also optionally be linked into service sections and referenced from Service Sub-landing pages.
 
