@@ -1,6 +1,6 @@
 # Governance
 
-LocalGov Drupal is an open source Drupal distribuition that delivers a better
+LocalGov Drupal is an open source Drupal distribution that delivers a better
 digital experience for citizens, improves service outcomes, and saves money.
 
 Our councils have followed the Local Digital Declaration to develop a shared
@@ -41,7 +41,7 @@ The product group is responsible for:
 ## Open Digital Cooperative
 
 In 2023 we started Open Digital Cooperative, a non-profit cooperative company
-to help ensuure the financial susteinability of the software and community.
+to help ensure the financial sustainability of the software and community.
 
 The Open Digital Cooperative board is responsible for:
 
