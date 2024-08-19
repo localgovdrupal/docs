@@ -228,6 +228,7 @@ module.exports = {
             '/content/features/directories',
             '/content/features/workflow',
             '/content/features/elections',
+            '/content/features/publications'
           ]
         },
         'patterns',
