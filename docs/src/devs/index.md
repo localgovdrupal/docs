@@ -6,7 +6,7 @@ It will need some development resource to get it installed, configured for an in
 
 Many councils extend the default functionality with custom development for their sites. We encourage all councils and development teams to extend with re-use in mind and to contibute code and experience back to the project to allow other councils to benefit.
 
-It is this spririt of collaboration, shared functionality and peer learning that is making LocalGov Drupal so valuable to all councils and developers involved.
+It is this spirit of collaboration, shared functionality and peer learning that is making LocalGov Drupal so valuable to all councils and developers involved.
 
 ## Quick links
 
