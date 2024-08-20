@@ -23,7 +23,7 @@ We also encourage contributions from suppliers supporting councils using LocalGo
 
 ### Technical Slack channel
 
-The #technical-group #frontend slack channels are good places to find out who else is involved or ask for help. Email [hello@localgovdrupal.org](hello@localgovdrupal.org) if you'd like to join the LocalGov Drupal Slack community.
+The #technical-group #frontend slack channels are good places to find out who else is involved or ask for help. Email <a href="mailto:hello@localgovdrupal.org">hello@localgovdrupal.org</a> if you'd like to join the LocalGov Drupal Slack community.
 
 ### Technical Drop-in (Fortnightly Thursdays) and Merge Mondays (every Monday)
 
