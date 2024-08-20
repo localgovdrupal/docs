@@ -317,6 +317,7 @@ module.exports = {
         'contributor-agreement',
         'code-of-conduct',
         'technical-group-overview',
+        'patch-maintenance-policy',
       ],
     }
   },
