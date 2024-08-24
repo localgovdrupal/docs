@@ -1,0 +1,26 @@
+/**
+ * Custom palette here.
+ */
+
+:root {
+    --colour-brand-primary: #ffe146;
+    --colour-black: rgb(11, 12, 12);
+    --vp-navbar-c-bg: var(--colour-brand-primary);
+    --vp-c-accent: var(--colour-black);
+    --external-link-c-icon: var(--colour-black);
+}
+
+code {
+    color: #FFFFFF;
+}
+
+[data-theme="dark"] {
+    --vp-navbar-c-bg: unset;
+    --vp-c-accent: var(--colour-brand-primary);
+    --vp-c-text-accent: var(--colour-brand-primary);
+    --external-link-c-icon: rgb(173, 186, 199);
+}
+
+// responsive breakpoints
+$MQNarrow: 1300px !default;
+$MQMobile: 1220px !default;

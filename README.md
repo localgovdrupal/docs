@@ -28,3 +28,4 @@ This project is currently maintained by:
  - Finn Lewis https://github.com/finnlewis
  - Michael Wignall https://github.com/MichaelDCR
  - Joeri Poesen https://github.com/jpoesen
+ - Lee Mills https://github.com/millnut

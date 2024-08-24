@@ -1,21 +1,22 @@
-const path = require('path');
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
+import { nprogressPlugin } from '@vuepress/plugin-nprogress'
+import { getDirname, path } from 'vuepress/utils'
+import { childTheme } from './theme'
 
-module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
+const __dirname = getDirname(import.meta.url)
+
+export default defineUserConfig({
   title: 'LocalGov Drupal Docs',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
   description: 'LocalGov Drupal is an open source collaboration between UK councils and Drupal developers.',
 
   port: 49728,
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
     ['meta', { name: 'theme-color', content: '#0762B5' }],
@@ -33,12 +34,9 @@ module.exports = {
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
-  themeConfig: {
+  theme: childTheme({
     repo: 'https://github.com/localgovdrupal/localgov',
-    docsDir: '',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     lastUpdated: 'Last updated',
@@ -48,7 +46,7 @@ module.exports = {
     displayAllHeaders: false,
     sidebarDepth: 1,
     smoothScroll: false,
-    nav: [
+    navbar: [
       {
         text: 'Overview',
         link: '/overview'
@@ -90,10 +88,9 @@ module.exports = {
       '/devs/': [
         '',
         {
-          title: 'Getting started',
-          path: '/devs/getting-started/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Getting started',
+          link: '/devs/getting-started/',
+          collapsible: true,
           children: [
             '/devs/getting-started/drupal-requirements',
             '/devs/getting-started/working-with-lando',
@@ -103,10 +100,9 @@ module.exports = {
           ]
         },
         {
-          title: 'General configuration',
-          path: '/devs/general/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'General configuration',
+          link: '/devs/general/',
+          collapsible: true,
           children: [
             '/devs/general/content-types',
             '/devs/general/custom-modules',
@@ -118,10 +114,9 @@ module.exports = {
           ]
         },
         {
-          title: 'Features',
-          path: '/devs/features/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Features',
+          link: '/devs/features/',
+          collapsible: true,
           children: [
             '/devs/features/services-technical',
             '/devs/features/alert-banner-technical',
@@ -133,11 +128,9 @@ module.exports = {
           ]
         },
         {
-          title: 'Theme',
-
-          path: '/devs/theme/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Theme',
+          link: '/devs/theme/',
+          collapsible: true,
           children: [
             '/devs/theme/',
             '/devs/theme/regions',
@@ -147,51 +140,46 @@ module.exports = {
           ]
         },
         {
-          title: 'Testing',
-          path: '/devs/testing/',
+          text: 'Testing',
+          link: '/devs/testing/',
         },
         {
-          title: 'Development workflows',
-          path: '/devs/workflows/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Development workflows',
+          link: '/devs/workflows/',
+          collapsible: true,
           children: [
             '/devs/workflows/installing-and-deploying-lgd',
           ]
         },
         {
-          title: 'Hosting',
-          path: '/devs/hosting/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Hosting',
+          link: '/devs/hosting/',
+          collapsible: true,
           children: [
             '/devs/hosting/',
           ]
         },
         {
-          title: 'Release statuses',
-          path: '/devs/release-statuses/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Release statuses',
+          link: '/devs/release-statuses/',
+          collapsible: true,
           children: [
             '/devs/release-statuses/',
           ]
         },
         {
-          title: 'Security',
-          path: '/devs/security/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Security',
+          link: '/devs/security/',
+          collapsible: true,
           children: [
             '/devs/security/best-practices',
             '/devs/security/sso'
           ]
         },
         {
-          title: 'Quality standards',
-          path: '/devs/quality-standards/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Quality standards',
+          link: '/devs/quality-standards/',
+          collapsible: true,
           children: [
 
             '/devs/quality-standards/accessibility',
@@ -201,10 +189,9 @@ module.exports = {
         },
 
         {
-          title: 'How-tos',
-          path: '/devs/how-to/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'How-tos',
+          link: '/devs/how-to/',
+          collapsible: true,
           children: [
             '/devs/how-to/how-to-test-modules-with-gitpod',
           ]
@@ -214,10 +201,9 @@ module.exports = {
       '/content/': [
         '',
         {
-          title: 'Features',
-          path: '/content/features/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Features',
+          link: '/content/features/',
+          collapsible: true,
           children: [
             '/content/features/services',
             '/content/features/alert-banner',
@@ -233,10 +219,9 @@ module.exports = {
         },
         'patterns',
         {
-          title: 'How-tos',
-          path: '/content/how-to/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'How-tos',
+          link: '/content/how-to/',
+          collapsible: true,
           children: [
             '/content/how-to/how-to-log-in',
             '/content/how-to/how-to-github',
@@ -261,10 +246,9 @@ module.exports = {
         'microsites',
         'roles',
         {
-          title: 'Features',
-          path: '/microsites/features/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'Features',
+          link: '/microsites/features/',
+          collapsible: true,
           children: [
             '/microsites/features/appearance',
             '/microsites/features/editorial',
@@ -278,10 +262,9 @@ module.exports = {
           ]
         },
         {
-          title: 'How-tos',
-          path: '/microsites/how-to/',
-          collapsable: true,
-          initialOpenGroupIndex: -1, // optional, defaults to 0, defines the index of initially opened subgroup
+          text: 'How-tos',
+          link: '/microsites/how-to/',
+          collapsible: true,
           children: [
             '/microsites/how-to/find-your-way-around',
             '/microsites/how-to/fancy-layouts',
@@ -320,22 +303,33 @@ module.exports = {
         'patch-maintenance-policy',
       ],
     }
-  },
+  }),
 
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/plugin/
-   */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    '@vuepress/plugin-nprogress',
+    registerComponentsPlugin({
+      components: {
+        Posts: path.resolve(__dirname, './components/Posts.vue'),
+      },
+    }),
+    backToTopPlugin(),
+    mediumZoomPlugin(),
+    nprogressPlugin(),
   ],
 
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@images': path.resolve(__dirname, '../images')
-      }
-    }
-  }
-}
+  bundler: viteBundler(),
+
+  // We get blog data this way as it's more performant.
+  onPrepared: async (app) => {
+    const blogData = app.pages.filter(
+      (p) => 
+        p.filePathRelative && 
+        p.filePathRelative.startsWith('blog') &&
+        !p.filePathRelative.includes('README.md')
+    )
+    .sort(
+      (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
+    );
+    await app.writeTemp('blog-data.js', `export default ${JSON.stringify(blogData)}`)
+  },
+
+})
