@@ -3,7 +3,7 @@
 name: localgovdocs # Insert the project name here in the format [client][project], i.e. ethimain.
 services:
   node:
-    type: 'node:18'
+    type: 'node:20'
     overrides:
       ports:
         - '49728:49728'
