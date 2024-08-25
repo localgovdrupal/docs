@@ -714,6 +714,14 @@
   dependencies:
     chokidar "^3.6.0"
 
+"@vuepress/plugin-search@^2.0.0-rc.42":
+  version "2.0.0-rc.42"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-2.0.0-rc.42.tgz#e62ea7013c09946cfbddc83e8221602312743b2d"
+  integrity sha512-VUvvonRIGemR8AUo/8WrpaI8X7WaKkmfz6DtiQ+FYSaTzg/ZpLcm6dIxY/NJR50rdEl4T9KS8gVnsarMdzxHQw==
+  dependencies:
+    chokidar "^3.6.0"
+    vue "^3.4.38"
+
 "@vuepress/plugin-seo@2.0.0-rc.42":
   version "2.0.0-rc.42"
   resolved "https://registry.yarnpkg.com/@vuepress/plugin-seo/-/plugin-seo-2.0.0-rc.42.tgz#a2627cc584adf62fedadd74fd660c32d3089cfbb"

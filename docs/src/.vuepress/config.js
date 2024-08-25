@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { searchPlugin } from '@vuepress/plugin-search'
 import { getDirname, path } from 'vuepress/utils'
 import { childTheme } from './theme'
 
@@ -308,6 +309,7 @@ export default defineUserConfig({
         Posts: path.resolve(__dirname, './components/Posts.vue'),
       },
     }),
+    searchPlugin({}),
   ],
 
   bundler: viteBundler(),
