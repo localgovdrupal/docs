@@ -1,9 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
-import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
-import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
-import { nprogressPlugin } from '@vuepress/plugin-nprogress'
 import { getDirname, path } from 'vuepress/utils'
 import { childTheme } from './theme'
 
@@ -311,9 +308,6 @@ export default defineUserConfig({
         Posts: path.resolve(__dirname, './components/Posts.vue'),
       },
     }),
-    backToTopPlugin(),
-    mediumZoomPlugin(),
-    nprogressPlugin(),
   ],
 
   bundler: viteBundler(),
