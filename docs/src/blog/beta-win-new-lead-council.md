@@ -9,7 +9,7 @@ canonicalUrl: "https://localgovdrupal.org/blog/beta-win-new-lead-council.html"
 
 # Beta win and new lead council
 
-![Code sharing illustration](~@images/codesharing.jpg)
+![Code sharing illustration](../images/codesharing.jpg)
 
 The last few months on LocalGov Drupal have been action-packed, and an update is long overdue.
 

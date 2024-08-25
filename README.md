@@ -14,7 +14,7 @@ The repository for the documentation sitting at https://docs.localgovdrupal.org/
 
 ## Adding images
 
-You can add your images to the `images` folder next to the other folders and then you can reference these by using `![Alt text here](~@images/image.png)`.
+You can add your images to the `images` folder next to the other folders and then you can reference these by using `![Alt text here](../images/image.png)`.
 
 ## Known issues
 

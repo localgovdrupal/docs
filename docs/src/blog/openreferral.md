@@ -13,7 +13,7 @@ LocalGov Drupal facilitates councils working together to share the best practice
 
 Directories are a core part of the LocalGov Drupal distribution. Developed as an advanced and flexible system to meet the diverse needs of different users and types of listings. They provide filterable, searchable, directories for all sorts of things: schools, libraries, leisure facilities, other services, but also quite different information about permits, or conservation areas. Topics to filter by can be attached, or developed, as required makes sense for the content. If items have an address, or cover an area, that can also be mapped.
 
-![Screenshot of Croydon's LocalGov Drupal Directory of Secondary Schools with map and filters visible](~@images/croydon-secondary-schools-directory.png)
+![Screenshot of Croydon's LocalGov Drupal Directory of Secondary Schools with map and filters visible](../images/croydon-secondary-schools-directory.png)
 
 Being able to browse, filter and search, information in an accessible website is a great feature. However, there are so many more places these resources could be useful. Councils have huge amounts of this data, why should it only be found on their website? By also supplying this content in a format that machines can read it becomes possible to be used in many more ways. For example: organisations working with a particular community can provide information about services for their audience available across councils boundaries; developers can make apps targeting different groups: front-line workers, partners or end users with specific interests. Why lock the information into one directory, no matter how good it is, when we can share it?
 
@@ -23,7 +23,7 @@ There are more open standards that can help too. These can work with the Directo
 
 ## The challenge
 Open Referral works because it has a clear standard way of presenting the information. LocalGov Drupal's directories work because they provide a framework for site builders and content designers to present their different directories information flexibly.
-![Overview Entity Relationship Diagram of the extended Open Referral UK standard](~@images/LGA_ApplicationProfileBasicEntityRelationshipDiagram.png)
+![Overview Entity Relationship Diagram of the extended Open Referral UK standard](../images/LGA_ApplicationProfileBasicEntityRelationshipDiagram.png)
 Where the Standard has just one Service class and just one Organization class each with specified fields and relationships. A LocalGov Drupal directory can have multiple entities, each representing a different type of organisation, it's for the content designer knowing their data and their end users to decide what fields are available. By default the distribution ships with an simple entry and a venue directory entry type, but sites builders have already created much more rich entities for their different directories from Schools, and Family Information Services, to Car Parks and Conservation Areas.
 
 The standard does largely match up with the LocalGov Drupal data model, there are entities for taxonomy, locations, services, organizations, it doesn't exactly, the concept of the link_taxonomy for example exists in Open Referral and doesn't have any equivalent in Drupal. Schedules and Reviews are also not yet in the standard LocalGov Drupal directories, although they are a desired feature for the future, and some councils have already extended directories to encompass.
@@ -40,7 +40,7 @@ The first go at outputting compliant json that validates proved to be straightfo
 
 Yay JSON:
 
-![Some example directory entries mapped as services in Open Referral](~@images/basic-services-json.png)
+![Some example directory entries mapped as services in Open Referral](../images/basic-services-json.png)
 
 It's limitations are already apparent. Open Referral allows drilling down into related entities, and it allows for this differently per entity per where it is in the list. As more endpoints are made, and more mappings are going to be required depending on if the entity is for example in an organisation list, or referenced from a service, it's going to get complicated very quickly. That complexity could be overcome, by using a similar pattern of recursive calls, just as the Symfony normalizer does; why not use the normalizer then?
 
@@ -88,7 +88,7 @@ Building our own configuration to control specific normalization for an Open Ref
 ## Introducing the LocalGov Open Referral module
 The bit where we go right into the code. There are many parts, but each in itself isn't that large.
 
-![LocalGov Drupal Open Referral directory tree](~@images/localgov_openreferral-tree.png)
+![LocalGov Drupal Open Referral directory tree](../images/localgov_openreferral-tree.png)
 
 To meet the first requirement to iterate through the entities, their fields, and referenced entities, and output compliant Open Referral JSON some custom normalizers are used. Before the normalizer can target creating output we have to do something to announce that this is a request for Open Referral formatted data. To do that we announce a new encoding format.
 
@@ -252,7 +252,7 @@ So we need to index the Open Referral identifier to filter by it.
 
 Within Directories we also have two types of categorisation entities that both map to Open Referral taxonomy. The first we've already discussed is ideal for controlled vocabularies, where the directory is configured to index specific fields with specific vocabularies, and facet blocks are added by the site builder as required. The vocabularies, and the facet configuration, and the index are all configuration. The second type of categorisation are a different, simple entity, that by default is configured such that its entity type does not export to configuration. This entity is intended for content designers to make vocabularies without having to involve site builders. They can add or remove vocabularies as desired, which vocabularies can be used is configured on the Directory content type. Despite how they are displayed to the content designer and the end user they are internally stored in a single field, and a single facet, not configuration involved.
 
-![Search API index with property fields in the General section including Aggregated field and our Open Referral ones](~@images/search-api-index-config.png)
+![Search API index with property fields in the General section including Aggregated field and our Open Referral ones](../images/search-api-index-config.png)
 
 Search API is great when you are indexing content from multiple sources for a single filter. Just use the **Aggregated Field**. Select the 'Union' option and select the fields, or rather don't select the fields in this case, because they are several entities deep and the user interface doesn't support this, export the configuration and edit the YML to drill down
 
@@ -302,11 +302,11 @@ Taxonomy terms are imported, and have their defined identifier stored in an extr
 
 These imported entities can then be updated, or new ones created in the UI. An improvement here would be to automatically populate some of the fields, if there is just one URL field on a Service entity it's probably for the URL, if there's a body chances are it's a description, an entity reference for to a LocalGov Geo entity of the type Address, service_at_locations; but not always, the directory entries often have a contact for the service or venue generally and for an individual for example. There are many text fields we don't, _yet_, have on a directory entry, but it would be easy for a site builder to add them.
 
-![Mapping configuration edit page](~@images/mapping-config-entity-edit.png)
+![Mapping configuration edit page](../images/mapping-config-entity-edit.png)
 
 ## Success
 With all those moving parts we have an extensible way of getting the flexible LocalGov Directories output into Open Referral Standard compliant output. The configuration can be automated further, new entities for Reviews and Opening Times can be straightforwardly added, and different configurations can be accommodated. 
 
 And it validates.
 
-![Open Referral UK validator page](~@images/validates.png)
+![Open Referral UK validator page](../images/validates.png)
