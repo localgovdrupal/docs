@@ -15,7 +15,7 @@ code {
 }
 
 [data-theme="dark"] {
-    --vp-navbar-c-bg: unset;
+    --vp-navbar-c-bg: var(--vp-c-bg);
     --vp-c-accent: var(--colour-brand-primary);
     --vp-c-text-accent: var(--colour-brand-primary);
     --external-link-c-icon: rgb(173, 186, 199);

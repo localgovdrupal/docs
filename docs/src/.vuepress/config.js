@@ -50,32 +50,42 @@ export default defineUserConfig({
         link: '/overview'
       },
       {
-        text: 'Developers',
-        link: '/devs/'
+        text: 'Getting Started',
+        children: [
+          {
+            text: 'Developers',
+            link: '/devs/'
+          },
+          {
+            text: 'Content designers',
+            link: '/content/'
+          },
+          {
+            text: 'Designers',
+            link: '/design/'
+          },
+        ]
       },
       {
-        text: 'Content designers',
-        link: '/content/'
-      },
-      {
-        text: 'Designers',
-        link: '/design/'
+        text: 'Resources',
+        children: [
+          {
+            text: 'Contributing',
+            link: '/contributing/'
+          },
+          {
+            text: 'Accessibility',
+            link: '/accessibility/'
+          },
+          {
+            text: 'Governance',
+            link: '/governance/'
+          },
+        ]
       },
       {
         text: 'Microsites',
         link: '/microsites/'
-      },
-      {
-        text: 'Contributing',
-        link: '/contributing/'
-      },
-      {
-        text: 'Accessibility',
-        link: '/accessibility/'
-      },
-      {
-        text: 'Governance',
-        link: '/governance/'
       },
       {
         text: 'Main site',
