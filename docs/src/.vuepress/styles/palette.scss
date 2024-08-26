@@ -10,8 +10,10 @@
     --external-link-c-icon: var(--colour-black);
 }
 
-code {
-    color: #FFFFFF;
+pre {
+    code {
+        color: #FFFFFF;
+    }
 }
 
 [data-theme="dark"] {
