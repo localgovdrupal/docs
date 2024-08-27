@@ -21,7 +21,7 @@ We follow [Drupal's PHP requirements](https://www.drupal.org/docs/system-require
 Drupal 10 uses Symfony 6, which requires PHP 8.1. Requiring PHP 8.1 helps Drupal provide a longer support lifetime
 for Drupal 10, as well as more stability and predictability in its dependency requirements.
 
-![Compatible PHP versions for various Drupal versions](~@images/drupal-php-versions.png)
+![Compatible PHP versions for various Drupal versions](../../images/drupal-php-versions.png)
 
 ### PHP extensions
 

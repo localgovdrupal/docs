@@ -61,7 +61,7 @@ The chances are your Information Architecture won't exactly map to the default D
 
 Once you have made a [Content Type and added the fields you require](https://www.drupal.org/docs/user_guide/en/content-structure-chapter.html) you need to add the fields to include it in a Directory:
 
-![Add field form selecting the existing field Entity Reference: localgov_directory_channels](~@images/directories-technical--add-directory-field.png)
+![Add field form selecting the existing field Entity Reference: localgov_directory_channels](../../images/directories-technical--add-directory-field.png)
 
 The essential field is the _Directory channels_ (`localgov_directory_channels`) which uses the 'Reference Method' _LocalGov: Directories channels selection_. Adding this field will also automatically add the content type to the _Directories_ search index.
 
@@ -75,7 +75,7 @@ It is best to also configure the Display view for the search index, see *Directo
 
 In the Web services Open Referral section you will find existing mappings from Drupal Entity Bundles (for example Node Content Types) to Open Referral Types (for example Service). Here you can also **+ Add Open Referral Mapping**. 
 
-![Add open referral mapping](~@images/directories-technical--add-openreferral-map.png)
+![Add open referral mapping](../../images/directories-technical--add-openreferral-map.png)
 
 Once you have selected the Entity Type (probably Node), the Bundle (the Content Type you are adding) and the [Open Referral Type](http://docs.openreferral.org/en/latest/hsds/logical_model/) (probably an Organisation or a Service) you can pre-populate the mappings with the **Populate mappings** button. This will make a best guess of the mappings. So if, for example, you have an entity reference restricted to something that is already mapped to an Open Referral location type on something to be a Service it will make it a `service_at_location`. The mapping might miss fields, you will then need to add the manually. Note: To validate Services _must_ reference an Organisation.
 

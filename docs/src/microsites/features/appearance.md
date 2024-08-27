@@ -84,9 +84,6 @@ The preheader region appears before the header. It shows the sitewide search if 
 - Constrained content and full width background: the content is constrained to the width of the page, while the background is full width
 - Constrained content and background: both the background and content are constrained and centered
 
-![Illustration showing the three options described above.](/microsites/images/preheaderWidth.png)
-
-
 ## Header content
 
 **Colours**: background, text, link and hover colours can be set here. By default these inherit Accent 1 / Accent 1 contrast. 

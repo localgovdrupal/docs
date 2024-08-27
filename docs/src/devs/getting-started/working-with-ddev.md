@@ -95,7 +95,7 @@ cd ~/Sites
 Similarly to our Lando installation guide, we are going to use the LocalGov Drupal project template publicly available 
 on [GitHub](https://github.com/localgovdrupal/localgov_project):
 
-![ LGD project template on GitHub ](~@images/localgov-drupal-github.png)
+![ LGD project template on GitHub ](../../images/localgov-drupal-github.png)
 
 To build the LGD project locally, we need to run the following Composer command and bring all the required packages
 together in a new LGD_DEMO directory (feel free to change the project name to anything else you might prefer):
@@ -106,7 +106,7 @@ composer create-project localgovdrupal/localgov-project LGD_DEMO --no-install
 
 The Terminal output of this command will look something like the following:
 
-![ LocalGov Drupal: Composer command output ](~@images/LGD-Composer-project-build-terminal-output.png)
+![ LocalGov Drupal: Composer command output ](../../images/LGD-Composer-project-build-terminal-output.png)
 
 Switch to the LGD_DEMO directory by running:
 
@@ -131,7 +131,7 @@ As you can see in the screenshot below, DDEV is suggesting default values for th
 We complete the initialisation by hitting 'Enter' in all three suggestions so the default value is selected. The output 
 of the command should look like the following:
 
-![ LocalGov Drupal: ddev config output ](~@images/LDG-ddev-config.png)
+![ LocalGov Drupal: ddev config output ](../../images/LDG-ddev-config.png)
 
 Then, fire up DDEV:
 
@@ -141,11 +141,11 @@ ddev start
 
 Initially, the required resources are pulled in:
 
-![ LocalGov Drupal: ddev start Terminal output 1 ](~@images/LDG-ddev-start-1.png)
+![ LocalGov Drupal: ddev start Terminal output 1 ](../../images/LDG-ddev-start-1.png)
 
 Following that, the containers start running:
 
-![ LocalGov Drupal: ddev start Terminal output 2 ](~@images/LDG-ddev-start-2.png)
+![ LocalGov Drupal: ddev start Terminal output 2 ](../../images/LDG-ddev-start-2.png)
 
 Every time ddev starts, the project URLs are included in the output. In our case, we have selected _localgov_ as the 
 name of our project and, as a result, _https://localgov.ddev.site_ will be the first URL we can access our project on. 
@@ -170,7 +170,7 @@ repositories is required). The output of this command lists all the SSH keys our
 The Docker dashboard, with all our LGD demo project's DDEV containers up and running, should look something like the 
 following:
 
-![ Docker Desktop: ddev containers ](~@images/LDG-ddev-docker-desktop-containers.png)
+![ Docker Desktop: ddev containers ](../../images/LDG-ddev-docker-desktop-containers.png)
 
 ### 3. The composer install Part
 
@@ -198,17 +198,17 @@ ddev drush si localgov -y
 
 The output of the command will look something like the following:
 
-![ ddev drush site install output ](~@images/LGD-ddev-drush-site-install.png)
+![ ddev drush site install output ](../../images/LGD-ddev-drush-site-install.png)
 
 Our new LocalGov Drupal site is now up and running locally! Remember those two project URLs returned by `ddev start` 
 above? You can use either one of them, and the credentials returned from the last command, to access your Drupal 
 administrator account on your brand new LGD site on your favourite browser:
 
-![ DDEV local LGD website loaded ](~@images/LGD-ddev-demo-site-user-login-page.png)
+![ DDEV local LGD website loaded ](../../images/LGD-ddev-demo-site-user-login-page.png)
 
 Logging into your admin account will land you on the Drupal content page:
 
-![ DDEV local LGD admin logged in ](~@images/LGD-ddev-demo-site-admin-logged-in.png)
+![ DDEV local LGD admin logged in ](../../images/LGD-ddev-demo-site-admin-logged-in.png)
 
 Your brand new LocalGov Drupal site is now up and running locally with DDEV. From here, you can explore all the unique 
 features that come with LGD out of the box and start building your new Council website!

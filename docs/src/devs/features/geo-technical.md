@@ -35,7 +35,7 @@ LocalGov Geo uses the [Drupal Geocoder module](https://drupal.org/project/geocod
 
 To be allowed to store Geocode results you will need a paid account with permission to do so. You then create an 'oAuth 2.0' app. Logging into you ArcGIS account you will see something like:
 
-![ArcGIS Online add auth 2.0 app](~@images/geo-technical--enabling-geocoder-02-provider-arcgis-oauth.png)
+![ArcGIS Online add auth 2.0 app](../../images/geo-technical--enabling-geocoder-02-provider-arcgis-oauth.png)
 
 The app has a Client ID, and a Client secret. It also has a temporary token. You don't need this as Drupal Geocoder will generate them when required.
 
@@ -54,37 +54,37 @@ Visit **Home > Administration > Configuration > System > Geocoder configuration 
 
 **NOTE: If you don't see your new plugin** immediately after clearing caches there's an [autoloader caching bug](https://www.drupal.org/project/geocoder/issues/3153678) - you could try the patch, restart apache, or install another module, they will all make it appear.
 
-![Select the Arc GIS Online Token plugin](~@images/geo-technical--enabling-geocoder-01-provider-select-add.png)
+![Select the Arc GIS Online Token plugin](../../images/geo-technical--enabling-geocoder-01-provider-select-add.png)
 
 The [Arc GIS Online Token plugin (patch)](https://www.drupal.org/project/geocoder/issues/3179963) is the provider that permits you to store geocoder results. Once you have added the new provider plugin you will get the configuration page
 
-![Input the user name and password you got from ArcGIS](~@images/geo-technical--enabling-geocoder-03-configure-arcgistoken.png)
+![Input the user name and password you got from ArcGIS](../../images/geo-technical--enabling-geocoder-03-configure-arcgistoken.png)
 
 ### Configure LocalGov Geo to use your new provider
 
 Installed geocoders are found at **Administration > Structure > Geo Type > Address > Manage form display**. Configure the form address element to use the new Geocoder. You can have more than one geocoder, and order them if you want.
 
-![Address field autocomplete widget settings with Arc GIS Online Token enabled](~@images/geo-technical--enabling-geocoder-04-configure-form.png)
+![Address field autocomplete widget settings with Arc GIS Online Token enabled](../../images/geo-technical--enabling-geocoder-04-configure-form.png)
 
 ### Add a location to a content type
 
 To the content type an existing `localgov_location` entity reference field.
 
-![Administration > Structure > Content Types > content type > Manage Fields > Add field dialogue](~@images/geo-technical--configure-field-01-add-field.png)
+![Administration > Structure > Content Types > content type > Manage Fields > Add field dialogue](../../images/geo-technical--configure-field-01-add-field.png)
 
 This field can then be configured to reference Addresses and/or Areas.
 
-![Field settings dialogue selecting just address bundle](~@images/geo-technical--configure-field-02-field-settings.png)
+![Field settings dialogue selecting just address bundle](../../images/geo-technical--configure-field-02-field-settings.png)
 
 To get the full power of the location field you should use the 'Geo Entity Browser'.
 
 Switch to 'Entity Browser' widget.
 
-![Drop down selecting the Entity Browser for the widget for Location field](~@images/geo-technical--configure-field-03-choose-entity-browser.png)
+![Drop down selecting the Entity Browser for the widget for Location field](../../images/geo-technical--configure-field-03-choose-entity-browser.png)
 
 Select the cog (right) to change the settings and save:
 
-![Entity Browser settings open for Location field](~@images/geo-technical--configure-field-04-entity-browser-settings.png)
+![Entity Browser settings open for Location field](../../images/geo-technical--configure-field-04-entity-browser-settings.png)
 
 ## Upgrading
 

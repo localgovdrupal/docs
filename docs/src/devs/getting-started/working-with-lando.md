@@ -36,7 +36,7 @@ cd ~/Sites
 We are going to use the LGD project template publicly available on GitHub:
 [https://github.com/localgovdrupal/localgov_project](https://github.com/localgovdrupal/localgov_project).
 
-![ LGD project template on GitHub ](~@images/localgov-drupal-github.png)
+![ LGD project template on GitHub ](../../images/localgov-drupal-github.png)
 
 To build the LGD project locally, we need to run the following Composer command and bring all the required packages
 together in a new LGD_DEMO directory (feel free to change the project name to anything else you might prefer):
@@ -47,7 +47,7 @@ composer create-project localgovdrupal/localgov-project LGD_DEMO --no-install
 
 The Terminal output of this command will look something like the following:
 
-![ LocalGov Drupal: Composer command output ](~@images/LGD-Composer-project-build-terminal-output.png)
+![ LocalGov Drupal: Composer command output ](../../images/LGD-Composer-project-build-terminal-output.png)
 
 Switch to the LGD_DEMO directory by running:
 
@@ -63,18 +63,18 @@ lando start
 
 The Terminal output of this command will look something like the following:
 
-![ LocalGov Drupal: Lando start command output ](~@images/LGD-lando-start-1.png)
+![ LocalGov Drupal: Lando start command output ](../../images/LGD-lando-start-1.png)
 
 When the process of building Lando is complete, a list of useful details is presented, including the services installed
 in the corresponding Docker containers as well as their corresponding URLs:
 
-![ LocalGov Drupal: Lando start command output end ](~@images/LGD-lando-start-2.png)
+![ LocalGov Drupal: Lando start command output end ](../../images/LGD-lando-start-2.png)
 
 The Docker dashboard, with all our LGD demo project's containers up and running, should look something like the
 following - keep in mind that some variations are possible due to Operating System differences or even Mac chip
 variants (Intel / Silicon):
 
-![ Lando start: LocalGov Drupal containers ](~@images/LGD-lando-start-complete-docker-containers.png)
+![ Lando start: LocalGov Drupal containers ](../../images/LGD-lando-start-complete-docker-containers.png)
 
 Now it's time to bring in all the Composer packages for this project (this can take a while as the command downloads 
 all the necessary packages from their corresponding repositories). As you might be running a different version of PHP 
@@ -91,27 +91,27 @@ actually manages and installs dependencies on the
 
 ### 1. Locking dependencies to their defined versions
 
-![ LocalGov Drupal: Composer install output - 1 ](~@images/LGD-lando-composer-install-1.png)
+![ LocalGov Drupal: Composer install output - 1 ](../../images/LGD-lando-composer-install-1.png)
 
 ### 2. Downloading the locked dependencies
 
-![ LocalGov Drupal: Composer install output - 2 ](~@images/LGD-lando-composer-install-2.png)
+![ LocalGov Drupal: Composer install output - 2 ](../../images/LGD-lando-composer-install-2.png)
 
 ### 3. Installing the downloaded dependencies
 
-![ LocalGov Drupal: Composer install output - 3 ](~@images/LGD-lando-composer-install-3.png)
+![ LocalGov Drupal: Composer install output - 3 ](../../images/LGD-lando-composer-install-3.png)
 
 ### 4. Applying patches
 
 (These have also been pre-defined in the LGD Composer template.)
 
-![ LocalGov Drupal: Composer install output - 4 ](~@images/LGD-lando-composer-install-4.png)
+![ LocalGov Drupal: Composer install output - 4 ](../../images/LGD-lando-composer-install-4.png)
 
 ### 5. Scaffolding files
 
 (Scaffolding is a fancy name for putting certain key Drupal files and their contents in place).
 
-![ LocalGov Drupal: Composer install output - 5 ](~@images/LGD-lando-composer-install-5.png)
+![ LocalGov Drupal: Composer install output - 5 ](../../images/LGD-lando-composer-install-5.png)
 
 ### Site Installation with Drush
 
@@ -125,17 +125,17 @@ lando drush si localgov -y
 
 The output of the command will look something like the following:
 
-![ LocalGov Drupal: drush site install output ](~@images/LGD-lando-drush-site-install.png)
+![ LocalGov Drupal: drush site install output ](../../images/LGD-lando-drush-site-install.png)
 
 Believe it or not, our new LocalGov Drupal site is ready! Remember those APPSERVER URLs returned by lando start above?
 You can use any of them, and the returned credentials from the last command, to access your Drupal administrator
 account on your brand new LGD site on your favourite browser:
 
-![ LocalGov Drupal: Demo site user login page ](~@images/LGD-demo-site-user-login-page.png)
+![ LocalGov Drupal: Demo site user login page ](../../images/LGD-demo-site-user-login-page.png)
 
 Logging into your admin account lands you on the Drupal content page:
 
-![ LocalGov Drupal: Demo site admin area ](~@images/LGD-demo-site-admin-logged-in.png)
+![ LocalGov Drupal: Demo site admin area ](../../images/LGD-demo-site-admin-logged-in.png)
 
 Your new LocalGov Drupal site is now up and running locally.
 From here, you can explore all the beautiful features LGD offers, such as content types, components and many more!
