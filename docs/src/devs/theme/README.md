@@ -61,10 +61,3 @@ To make sure we follow Drupal's CSS coding standards (without having to think ab
 
 Simply run `npm install` to get the necessary packages, then run `npm start` to scan the files and fix any issues.
 
-## IE11 Fallbacks
-
-Within the [css directories](https://github.com/localgovdrupal/localgov_base/tree/1.x/css/components) there are files with the naming convention of .ie11.css . These define the fallback for IE11 (which does not support css variables). This means that by default all sites using this theme will look the same in IE11.
-
-If you wish to support IE11 in a sub-theme, you can simply copy these files and add your own overrides.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tcEjNBvQFiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

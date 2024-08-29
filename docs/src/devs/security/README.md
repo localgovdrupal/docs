@@ -4,7 +4,7 @@ The security of your LocalGov Drupal website should be given due consideration b
 
 Keeping abreast of Drupal security advisories is important. See [https://www.drupal.org/security]([url](https://www.drupal.org/security)) 
 
-To subscribe to Drupal security emails:, log in to Drupal.org, go to your user profile page and subscribe to the security newsletter on the Edit » My newsletters tab.
+To subscribe to Drupal security emails: log in to Drupal.org, go to your user profile page and subscribe to the security newsletter on the Edit » My newsletters tab.
 
 There are also a number of Drupal modules and best practice configurations to help increase the security of your Drupal site.
 
@@ -17,5 +17,5 @@ A penetration test was commissioned by Invuse in early 2023, the full report is 
 ### Key recomendations
 
 The report generated some recommendations, which are summarised in: 
- - [Best practice guidance when installing and configuring LocalGov Drupal](/devs/security-best-practices).
+ - [Best practice guidance when installing and configuring LocalGov Drupal](/devs/security/best-practices).
 

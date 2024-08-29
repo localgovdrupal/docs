@@ -25,7 +25,7 @@ Here are steps to get debugging in Lando.
 The .lando.local.yml can override any of the settings defined in the default
 `.lando.dist.yml` that we include with the LocalGov Drupal project.
 
-If you don't already have one, create a `.lando.local.ym'` in the root of your
+If you don't already have one, create a `.lando.local.yml` in the root of your
 project and make sure it contains the following:
 
 ``` bash

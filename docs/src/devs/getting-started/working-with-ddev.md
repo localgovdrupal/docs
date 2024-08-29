@@ -1,71 +1,214 @@
 ---
 tags:
   - local development
-  - ddev
+  - DDEV
   - docker
   - composer
 ---
 
 # Working with DDEV
 
-## Installing LocalGov Drupal locally with Composer and DDEV.
+## DDEV-Prerequisites
 
-First of all, you will need to install DDEV on your local machine – please check the requirements (most importantly Docker) for doing so, depending on your OS, and then install by following the appropriate instructions here:
+DDEV is an open-source tool for launching local web development environments in minutes. These environments can be 
+extended, version controlled, and shared, so you can take advantage of a Docker workflow without Docker experience or 
+bespoke configuration. Projects can be changed, powered down, or removed as easily as they’re started.
 
-[DDEV installation - short version](https://ddev.com/get-started/)
+The [official DDEV requirements page](https://ddev.readthedocs.io/en/latest/) offers detailed information on the 
+prerequisites that should be in place but, generally speaking, here's a list of minimum requirements for DDEV:
+- Recent OS version
+- RAM: 8GB
+- Storage: 256GB
 
-[DDEV installation - long version](https://ddev.readthedocs.io/en/latest/)
+_Optional: You can delete the .lando.dist.yml file in the project’s root, as it is redundant when using DDEV
+instead of Lando._
 
-Next, the assumption is that if you have been working with Drupal already, then you will already have Composer installed, but just in case:
+There are multiple ways of installing DDEV locally, mainly depending on your Operating System. Make sure you go through 
+the [official DDEV installation page](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/) if your 
+OS is not covered below.
 
-[Get Composer](https://getcomposer.org/)
+## Installing DDEV on Mac OS
 
-To install LocalGov Drupal locally for testing or development, use the
-[Composer-based project template](https://github.com/localgovdrupal/localgov_project) by running the following command (and changing `PROJECT-NAME` to whatever you’d like your project directory to be called):
+### DDEV on Mac OS using Homebrew
+
+Homebrew is a popular package manager for Mac OS and Linux - it basically brings packages into your machine in an 
+organised manner. It controls and manages their dependencies and versions (similar to Composer). 
+To install Homebrew locally:
 
 ```bash
-composer create-project localgovdrupal/localgov-project PROJECT-NAME --no-install 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Now move into the project directory just created and initialize DDEV for the project:
+With Homebrew in place, run the following to install DDEV:
 
 ```bash
-cd PROJECT-NAME
+brew install ddev/ddev/ddev
+```
+
+You can confirm that DDEV is in place by checking its installed version:
+
+```bash
+ddev -v
+```
+
+### DDEV on Mac OS using Curl
+
+To download and run the install script, run the following in your Terminal:
+
+```bash
+curl -fsSL https://ddev.com/install.sh | bash
+```
+
+## Installing DDEV on Windows
+You can install DDEV on Windows in three ways:
+- Using WSL2 with Docker inside
+- Using WSL2 with Docker Desktop
+- Installing directly on traditional Windows with an installer
+
+DDEV strongly recommends using WSL2. While its Linux experience may be new for some Windows users, it’s worth the 
+performance benefit and common experience of working with Ubuntu and Bash. You can follow the 
+[official DDEV Windows installation steps](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/#wsl2-docker-desktop-install-script) 
+to install DDEV using WSL2 with Docker Desktop.
+
+## Installing DDEV on Linux
+
+You can use Homebrew or the curl install script in most instances, as described in the Mac OS installation instructions 
+above. On the [official DDEV Linux installation page](https://ddev.readthedocs.io/en/latest/users/install/ddev-installation/#linux, 
+there are more installation ways listed for some Linux and Ubuntu distributions.
+
+## Installing LocalGov Drupal locally with Composer and DDEV
+
+If you haven't yet installed Composer and Docker Desktop, see [Getting Started](/devs/getting-started/) for instructions
+on how to install these requirements.
+
+Now that we have all the required dependencies in place (Composer, Docker Desktop and DDEV), we can create our first
+LocalGov Drupal project locally.
+
+Open your Command Prompt/Terminal/Shell and switch to an appropriate directory (for example, on Mac OS X, the ~/Sites 
+folder is usually preferred):
+
+```bash
+cd ~/Sites
+```
+
+### 1. Creating the Project
+Similarly to our Lando installation guide, we are going to use the LocalGov Drupal project template publicly available 
+on [GitHub](https://github.com/localgovdrupal/localgov_project):
+
+![ LGD project template on GitHub ](../../images/localgov-drupal-github.png)
+
+To build the LGD project locally, we need to run the following Composer command and bring all the required packages
+together in a new LGD_DEMO directory (feel free to change the project name to anything else you might prefer):
+
+```bash
+composer create-project localgovdrupal/localgov-project LGD_DEMO --no-install
+```
+
+The Terminal output of this command will look something like the following:
+
+![ LocalGov Drupal: Composer command output ](../../images/LGD-Composer-project-build-terminal-output.png)
+
+Switch to the LGD_DEMO directory by running:
+
+```bash
+cd MY_PROJECT
+```
+
+### 2. The DDEV Part
+
+Then, we need to initialise our DDEV project:
+
+```bash
 ddev config
 ```
 
-Running `ddev config` will prompt you for answers to three questions:
+As you can see in the screenshot below, DDEV is suggesting default values for the following:
 
- - **What’s the site name?**
- -- *Hit enter to accept default*
- - **What’s the location of the docroot?**
- -- *Hit enter to accept default*
- - **What type of project is it? Such as Drupal, PHP, WordPress, etc.**
- -- *Hit enter to accept default*
+- _Project name_ (suggested default: _locagov_)
+- _Docroot location_ (suggested default: _web_)
+- _Project type_ (suggested default: _drupal10_)
 
-*&nbsp;&nbsp;&nbsp; NB// Normally, DDEV should be able to figure out the answers to all three of these and input them by default, meaning you can just hit ‘enter, enter, enter’ to speed up the initialization, though if really necessary you can overwrite any as you wish.* \
-*&nbsp;&nbsp;&nbsp; However, as installing LocalGovDrupal itself is done in two parts (the `composer` command above and the `ddev composer/drush` commands below), the eventual docroot and type of the project will not be known to DDEV at this stage as they don’t actually exist yet, so `ddev config` will need to be run again later, as can be seen further down in these instructions.* \
-*&nbsp;&nbsp;&nbsp; While just hitting ‘enter, enter, enter’ is fine both times, you may notice this first time through that the defaults DDEV sets seem wrong, as it will choose the current directory for the docroot and a standard PHP project for the type. This is perfectly fine (and in fact is best left alone), so long as the second time through running `ddev config` below you ensure that docroot is entered as ‘web’ and that the project type corresponds to the latest major version of Drupal (at the time of writing, Drupal 9, so in this case, ‘drupal9’ would be entered) – by the point of that second running of `ddev config`, DDEV should automatically recognize these as new defaults, meaning hitting ‘enter, enter, enter’ is fine again then.*
+We complete the initialisation by hitting 'Enter' in all three suggestions so the default value is selected. The output 
+of the command should look like the following:
 
-Once DDEV has initialized, it may be that you want to run `ddev auth ssh` in order to configure SSH access inside the DDEV container (for example, to connect the project to online repositories that require such access).
+![ LocalGov Drupal: ddev config output ](../../images/LDG-ddev-config.png)
 
-At this stage you’re ready to finish installing LocalGov Drupal:
+Then, fire up DDEV:
+
+```bash
+ddev start
+```
+
+Initially, the required resources are pulled in:
+
+![ LocalGov Drupal: ddev start Terminal output 1 ](../../images/LDG-ddev-start-1.png)
+
+Following that, the containers start running:
+
+![ LocalGov Drupal: ddev start Terminal output 2 ](../../images/LDG-ddev-start-2.png)
+
+Every time ddev starts, the project URLs are included in the output. In our case, we have selected _localgov_ as the 
+name of our project and, as a result, _https://localgov.ddev.site_ will be the first URL we can access our project on. 
+The second URL, _https://127.0.0.1:65175_, uses our machine's localhost IP and an available port allocated to our ddev 
+project. Both URLs can be used to access our project on our browser.
+
+At any point (when you're done for the day, for example), you can stop the project and remove its memory usage by running:
+
+```bash
+ddev stop
+```
+
+Once DDEV has been initialised, you might also want to run:
+
+```bash
+ddev auth ssh
+```
+
+in order to enable your SSH keys for this project (this is useful for SSH authentication in case access to remote 
+repositories is required). The output of this command lists all the SSH keys our container has been made aware of.
+
+The Docker dashboard, with all our LGD demo project's DDEV containers up and running, should look something like the 
+following:
+
+![ Docker Desktop: ddev containers ](../../images/LDG-ddev-docker-desktop-containers.png)
+
+### 3. The composer install Part
+
+Now it's time to pull in all the Composer dependencies for this project:
 
 ```bash
 ddev composer install
-ddev config
 ```
-Don't forget to hit ‘enter, enter, enter’ here again to accept the defaults suggested by `ddev config`, as mentioned in the *NB* above. Then: 
+
+If it's the first time running composer install, this process can take a while because all the project's dependencies 
+need to be brought in from their repositories. We have already covered the various stages of this Composer command's 
+output in our 
+[LGD Lando installation guide](/devs/getting-started/working-with-lando.html#localgov-drupal-local-installation-with-composer-and-lando). 
+Upon re-running the same command, the Terminal should naturally inform us that there is Nothing to _install, update or 
+remove_.
+
+### 4. Building the Site with Drush
+
+We can now finally install our site using the site install drush command (for more on drush, Drupal's popular scripting 
+tool, see [https://www.drush.org](https://www.drush.org):
+
 ```bash
 ddev drush si localgov -y
 ```
 
-Note: As you might be running a different version of PHP on your host machine from the version that DDEV runs, it is advisable to run `composer install` and `drush` commands from within DDEV. This ensures dependencies reflect the PHP version that the webserver is actually running.
+The output of the command will look something like the following:
 
-Once the LocalGov Drupal installer has finished running, it will give you a username and password. Make a note of these and then start the containers for the project by running `ddev start` (you can later stop them again, unsurprisingly, by running `ddev stop`).
+![ ddev drush site install output ](../../images/LGD-ddev-drush-site-install.png)
 
-Then use the credentials noted above to sign in to your now up-and-running new DDEV/LGD project by navigating to the following address:
+Our new LocalGov Drupal site is now up and running locally! Remember those two project URLs returned by `ddev start` 
+above? You can use either one of them, and the credentials returned from the last command, to access your Drupal 
+administrator account on your brand new LGD site on your favourite browser:
 
-***https://PROJECT-NAME.ddev.site/user***
+![ DDEV local LGD website loaded ](../../images/LGD-ddev-demo-site-user-login-page.png)
 
-*Optional: you can also delete the `.lando.dist.yml` file in the project’s root, as it is redundant when using DDEV instead of Lando.*
+Logging into your admin account will land you on the Drupal content page:
+
+![ DDEV local LGD admin logged in ](../../images/LGD-ddev-demo-site-admin-logged-in.png)
+
+Your brand new LocalGov Drupal site is now up and running locally with DDEV. From here, you can explore all the unique 
+features that come with LGD out of the box and start building your new Council website!

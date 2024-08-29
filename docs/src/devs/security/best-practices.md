@@ -1,4 +1,4 @@
-# Best Practice guidance when installing and configuring LocalGov Drupal
+# Best practice guidance
 
 ## Introduction
 

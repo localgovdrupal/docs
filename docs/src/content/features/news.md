@@ -26,7 +26,7 @@ If multiple Newsrooms are created the News Editor will be given the option to ch
 Image description: The Brighton and Hove Newsroom shows three promoted News Articles, with blocks promoting the Newsletter. Below the Latest articles with a sidebar allowing Search, or browsing by category.
 
 ![London Councils Newsroom, description below](https://user-images.githubusercontent.com/3852805/124796475-1c93ff80-df49-11eb-99d5-922dc7165b24.png)
-Image description: London Councils have used the News room for their Press Releases. This screenshot showing three features News Articles, the Latest News Articles and a Contact our Media Team block in the sidebar .
+Image description: London Councils have used the News room for their Press Releases. This screenshot showing three featured News Articles, the Latest News Articles and a Contact our Media Team block in the sidebar .
 
 
 ## News Article
@@ -71,7 +71,7 @@ You may add an additional Newsroom - for example if you wanted a section within 
 
 When you create a new Newsroom, there will be an additional field shown on the News Article to determine which Newsroom a News Article belongs to. 
 
-![The Newsroom field, disolaying Select a value, with the help text Which newsroom does this news article appear in.](https://user-images.githubusercontent.com/3852805/124797813-9c6e9980-df4a-11eb-9811-bc1cd9412062.png)
+![The Newsroom field, displaying Select a value, with the help text Which newsroom does this news article appear in.](https://user-images.githubusercontent.com/3852805/124797813-9c6e9980-df4a-11eb-9811-bc1cd9412062.png)
 
 ## Featuring News Articles
 
@@ -81,7 +81,7 @@ Either
 1. Visit the Newsroom, and use the link fields to reference the appropriate News Article. This will also also you to order the articles. 
 2. Check the "Promote on newsroom" checkbox on the edit form of the News Article. If there is already the maximum number of promoted news items the last will be removed to make space.
 
-Features News Articles will not appear in the general list of News Articles. 
+Featured News Articles will not appear in the general list of News Articles. 
 
 ![Promote on newsroom checkbox - unchecked - with the helptext Add to promoted news in the newsroom. If there is already the maximum number of promoted news items the last will be removed to make space.](https://user-images.githubusercontent.com/3852805/124797795-95478b80-df4a-11eb-824d-c988b82bccf1.png)
 
