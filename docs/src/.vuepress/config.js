@@ -1,6 +1,5 @@
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
-import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { searchPlugin } from '@vuepress/plugin-search'
 import { getDirname, path } from 'vuepress/utils'
 import { childTheme } from './theme'
@@ -314,28 +313,9 @@ export default defineUserConfig({
   }),
 
   plugins: [
-    registerComponentsPlugin({
-      components: {
-        Posts: path.resolve(__dirname, './components/Posts.vue'),
-      },
-    }),
     searchPlugin({}),
   ],
 
   bundler: viteBundler(),
-
-  // We get blog data this way as it's more performant.
-  onPrepared: async (app) => {
-    const blogData = app.pages.filter(
-      (p) => 
-        p.filePathRelative && 
-        p.filePathRelative.startsWith('blog') &&
-        !p.filePathRelative.includes('README.md')
-    )
-    .sort(
-      (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-    );
-    await app.writeTemp('blog-data.js', `export default ${JSON.stringify(blogData)}`)
-  },
 
 })
