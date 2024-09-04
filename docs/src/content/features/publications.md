@@ -17,7 +17,7 @@ It is also possible to create a single page publication with inline navigation
 between headings.
 
 
-## Using Localgov Publications
+## Using LocalGov Publications
 
 See the video below for a demonstration of how to manage publication content.
 
