@@ -309,6 +309,7 @@ export default defineUserConfig({
         'code-of-conduct',
         'technical-group-overview',
         'patch-maintenance-policy',
+        'new-features-policy',
       ],
     }
   }),
@@ -327,8 +328,8 @@ export default defineUserConfig({
   // We get blog data this way as it's more performant.
   onPrepared: async (app) => {
     const blogData = app.pages.filter(
-      (p) => 
-        p.filePathRelative && 
+      (p) =>
+        p.filePathRelative &&
         p.filePathRelative.startsWith('blog') &&
         !p.filePathRelative.includes('README.md')
     )
