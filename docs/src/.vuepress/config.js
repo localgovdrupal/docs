@@ -165,6 +165,7 @@ export default defineUserConfig({
           collapsible: true,
           children: [
             '/devs/hosting/',
+            '/devs/hosting/azure-hosting',
           ]
         },
         {
