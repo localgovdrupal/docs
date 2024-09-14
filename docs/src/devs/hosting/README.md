@@ -38,7 +38,7 @@ and the public can access and interact with the content and funcionality.
 
 Councils hosting with LocalGov Drupal use a range of providors and hosting
 technologies and we are not in a position to recommend one over another.
-It might be usful to talk with other councils about their experience hosting
+We'd recommend talking to other councils about their experience hosting
 LocalGov Drupal.
 
 ### Croydon Council
@@ -55,4 +55,4 @@ public facing site.
 ### How does your council host LocalGov Drupal?
 
 Please feel free to edit this page and add details of the hosting setup at your
-counicl, it is useful for new councils to see the range of approaches.
+council, it is useful for new councils to see the range of approaches.
