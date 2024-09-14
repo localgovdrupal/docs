@@ -319,18 +319,4 @@ export default defineUserConfig({
 
   bundler: viteBundler(),
 
-  // We get blog data this way as it's more performant.
-  onPrepared: async (app) => {
-    const blogData = app.pages.filter(
-      (p) =>
-        p.filePathRelative &&
-        p.filePathRelative.startsWith('blog') &&
-        !p.filePathRelative.includes('README.md')
-    )
-    .sort(
-      (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
-    );
-    await app.writeTemp('blog-data.js', `export default ${JSON.stringify(blogData)}`)
-  },
-
 })
