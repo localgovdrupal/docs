@@ -223,7 +223,7 @@ export default defineUserConfig({
             '/content/features/workflow',
             '/content/features/elections',
             '/content/features/publications'
-            'content/features/subsites-extras'
+            '/content/features/subsites-extras'
           ]
         },
         'patterns',
