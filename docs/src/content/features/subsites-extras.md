@@ -32,7 +32,7 @@ One current limitation is that the code currently assumes that the theme field i
 
 There's currently no UI to set these options, but you can change them by editing the `localgov_subsites_extras.settings` config in your site's exported config, then importing, or overriding it in `settings.php` like this:
 
-```
+```php
 $config['localgov_subsites_extras.settings'] = [
   'subsite_types' => ['localgov_subsites_overview'],
   'theme_field' => 'localgov_subsites_theme',
