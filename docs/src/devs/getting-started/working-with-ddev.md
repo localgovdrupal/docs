@@ -152,6 +152,8 @@ name of our project and, as a result, _https://localgov.ddev.site_ will be the f
 The second URL, _https://127.0.0.1:65175_, uses our machine's localhost IP and an available port allocated to our ddev 
 project. Both URLs can be used to access our project on our browser.
 
+**Note**: The project will not be accessible via those URLs until you have run `composer install` in Step 3 below.
+
 At any point (when you're done for the day, for example), you can stop the project and remove its memory usage by running:
 
 ```bash
