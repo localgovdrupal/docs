@@ -28,12 +28,12 @@ of our users want this feature?
 
 2. Are there known ways to mitigate any adverse behaviours that this new feature might present to existing sites?
 
-4. Can the feature be disabled after installation without any dependency
+3. Can the feature be disabled after installation without any dependency
 problems?
 
-5. Does the product group want to prioritise this feature?
+4. Does the product group want to prioritise this feature?
 
-6. Will this enhancement be communicated to users with an existing installation?
+5. Will this enhancement be communicated to users with an existing installation?
 (e.g. release notes / README.md / drupal_set_message )
 
 If questions 1-4 are all answered with a "yes", this is a candidate to be
