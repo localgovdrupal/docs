@@ -2,7 +2,7 @@
 
 This policy was discussed and agreed in May 2023 and is intended to act as a
 guide to assessing new functionality to be included in LocalGov Drupal. There
-are notes on the original discussion and proposal in a [Goole Doc](https://docs.google.com/document/d/1OCs3W7WFGtDNpL0U-6lhT6pQpOf2RydjtpkAMOrUeI4/edit).
+are notes on the original discussion and proposal in a [Google Doc](https://docs.google.com/document/d/1OCs3W7WFGtDNpL0U-6lhT6pQpOf2RydjtpkAMOrUeI4/edit).
 
 ## Background
 
@@ -26,8 +26,7 @@ Drupal, we would like to answer these questions:
 1. Does more than one council want this feature? / Do a significant proportion
 of our users want this feature?
 
-2. Will adding this feature adversely affect one or more councils, and are there
-any known way to mitigate any adverse behaviours?
+2. Are there known ways to mitigate any adverse behaviours that this new feature might present to existing sites?
 
 3. Can the feature be disabled after installation without any dependency
 problems?
