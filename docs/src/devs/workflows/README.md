@@ -28,7 +28,7 @@ Useful backgound reading:
  - [Deployment Workflows for Drupal](https://drupalize.me/topic/deployment-workflows)
 
 For an example on how to install LocalGov Drupal and deploy changes to a development site:
- -  [Installing and deploying a LocalGov Drupal site](/workflows/installing-and-deploying-lgd)
+ -  [Installing and deploying a LocalGov Drupal site] DEAD LINK
 
 ## Reviewing and selecting updates from a Drupal distribution or project.
 
