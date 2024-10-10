@@ -311,6 +311,7 @@ export default defineUserConfig({
         'technical-group-overview',
         'patch-maintenance-policy',
         'new-features-policy',
+        'branch-naming-conventions',
       ],
     }
   }),
