@@ -48,9 +48,13 @@ current latest release of the localgov profile.
 Sometimes we have a patch required for one version of Drupal that is not needed
 for a more recent version.
 
-In this case, we aim to support the latest version of Drupal core (or
-contributed project, module, theme) and remove any patches that have been
-merged into the upstream codebase.
+In this case, we aim to support the latest version of Drupal core that we are
+currently able to support (or contributed project, module, theme) and remove
+any patches that have been merged into the upstream codebase.
+
+At the time of writing, we are supporting Drupal 10 and unable to support Drupal
+11 just yet, so we are targetting Drupal 10.3.6, the latest version of Drupal 
+core.
 
 For example, we relied on a patch for Drupal core in our localgov profile.
 
