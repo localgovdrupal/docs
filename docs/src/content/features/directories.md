@@ -62,10 +62,10 @@ Directory Items are pieces of content, and pages, in their own right but also a 
 
 LocalGov Drupal comes with some generic Directory Item types which can be used as-is or can be extended to meet your needs:
 
-| Type      | Uses |
+| Type      | Uses | Example
 | ----------- | ----------- |
-| Page      | General purpose.        |
-| Venue  | Sports facilities; parks. Provides location integration. |
+| Page      | General purpose.        | [Directory Pages] (https://demo.localgovdrupal.org/adult-health-and-social-care/money-employment-and-training-directory)
+| Venue  | Sports facilities; parks. Provides location integration. | 
 | Organisation | Libraries; Schools; Provides location integration.  |
 
 Alternatively, LocalGov Directories provides site-builders with a toolkit to create bespoke Directory Item types without having to write any code. More information about customizing Directory Items can be found in the [Directories Technical documentation](/devs/features/directories-technical).
