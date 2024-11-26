@@ -1,6 +1,6 @@
 # LocalGov Drupal Subscriber and Member terms and conditions
 
-_**Version: 2.0** - 31st May 2023_
+_**Version: 2.1** - 20th November 2024_
 
 ## Definitions
 
@@ -43,8 +43,10 @@ _**Version: 2.0** - 31st May 2023_
 11. Automatic renewal
     - The LocalGov Drupal subscription shall be renewed automatically for succeeding terms of one year unless either party gives notice to the other at least sixty (60) days prior to the expiration of any term of its intention not to renew. 
 12. Termination: 
-    - Organisations can terminate their subscription at any time with sixty (60) days notice. 
-
+    - Organisations can terminate their subscription at any time with sixty (60) days notice.
+13. Transparency:
+    - We are a transparent organisation. Where possible we publish information regarding our finances for the benefit of our members, subscribers and other stakeholders. This includes detailed breakdowns of income and expenditure.
+    
 ## Membership
 
 13. Eligibility
