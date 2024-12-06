@@ -50,7 +50,7 @@ There are also often cases where Facets will be mutually exclusive such the maxi
 
 Directory Channels are the way to display your directory. A Directory Channel is the the page where users will be presented with a list of Directory Items with a free text search box or to filter by Facets. 
 
-Directory Channels automatically provide a logical information architecture. For example, consider a Directory Channel with a URL of `/schools/find-a-school/secondary-schools` and a breadcrumb of `Schools > Find a school > Secondary schools`; each Directory Item will then have a URL and breadcrumb based on it's _Primary Channel_, e.g.  _Scarfolk High School_ would have the URL `/schools/find-a-school/secondary-schools/scarfolk-high-school` and breadcrumb `Schools > Find a school > Secondary schools > Scarfolk High School`.
+Directory Channels automatically provide a logical information architecture. For example, consider a Directory Channel with a URL of `/schools/find-a-school/secondary-schools` and a breadcrumb of `Schools > Find a school > Secondary schools`; each Directory Item will then have a URL and breadcrumb based on its _Primary Channel_, e.g.  _Scarfolk High School_ would have the URL `/schools/find-a-school/secondary-schools/scarfolk-high-school` and breadcrumb `Schools > Find a school > Secondary schools > Scarfolk High School`.
 
 As an editor, Channels give you the flexibility to compose a Directory made up of 1 or more types of Directory Item which can be filtered by 1 or more Directory Facet types.
 
@@ -70,7 +70,7 @@ LocalGov Drupal comes with some generic Directory Item types which can be used a
 
 Alternatively, LocalGov Directories provides site-builders with a toolkit to create bespoke Directory Item types without having to write any code. More information about customizing Directory Items can be found in the [Directories Technical documentation](/devs/features/directories-technical).
 
-As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb (as described above). Items may also belong to multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but will include the Item in it's list and do still impact the available Facets (as described below).
+As a minimum a Directory Item must belong to a _Primary_ Channel, and this can be any Channel which accepts Directory Items of that type e.g. School. The _Primary_ Channel is required as it is the basis for the inferred URL and breadcrumb (as described above). Items may also belong to multiple _Other_ Channels, these additional Channels do not influence the URL or breadcrumb but will include the Item in its list and do still impact the available Facets (as described below).
 
 In order to allow users to filter Directory Items by Directory Facets, Items must be 'tagged' with the appropriate Facets. When creating\editing an Item, the available Facets is determined by the Channels it belongs to. For example, consider the following Channels:
 
