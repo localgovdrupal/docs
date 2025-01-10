@@ -15,7 +15,6 @@ Early Designs from the first iteration by Brighton & Hove / Clearleft:
 
 ## News
 
-- [Wireframes](https://design.penpot.app/#/view/54c29d80-c3a6-11eb-8557-f55ab9adbb41/54c29d81-c3a6-11eb-8557-f55ab9adbb41?token=0nX9G2IJzlaOpfaIGGatSg&index=0)
 - [Feature Design notes](https://miro.com/app/board/o9J_lHm9M2s=/?moveToWidget=3074457359569856449&cot=14)
 
 ## Subsites
