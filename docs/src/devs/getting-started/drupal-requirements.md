@@ -35,6 +35,13 @@ You will also need to have certain PHP extensions enabled including:
 You can find more information about Drupal's PHP extension requirements 
 [here](https://www.drupal.org/docs/system-requirements/php-requirements#extensions))
 
+### PHP-FPM
+
+Localgov drupal can be run using PHP-FPM. Please note that when using for development the default configuration will output all of Drupal's cache tags for that page as http headers. This can cause the site to crash if there are many headers. It can be resolved by turning these off in:
+`/web/sites/development.services.yml`
+and setting
+`http.response.debug_cacheability_header: false`.
+
 ## A database server like MySQL
 You can find detailed information about Drupal's database server requirements 
 [here](https://www.drupal.org/docs/system-requirements/database-server-requirements).
