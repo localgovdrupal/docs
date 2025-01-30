@@ -63,25 +63,20 @@ A common workflow may be:
     1. _Publishes_ it,
     2. Suggests some amendments and returns it to _Draft_.
 
-### Draft
+### Viewing content
 
-When content is in the _Draft_ state it will appear in the "Moderated content" admin screen.
+<img width="1099" alt="Screenshot 2025-01-30 at 15 50 14" src="https://github.com/user-attachments/assets/7a505e5d-926f-4b07-9206-5eaaaab0dfea" />
 
-Visit **Admin > Content > Moderated content**
+Content is shown under four tabs according to its state:
 
-### Needs Review
+- The "Overview" tab includes all content you have permission to view or edit
 
-When content is in the _Needs Review_ state it will appear in the "Approvals dashboard".
+- "Approve" shows content waiting for you to check and publish
 
-Visit **Admin > Content > Approvals dashboard**
+- "Review" shows content that has reached its expiry date
 
-![image](https://user-images.githubusercontent.com/3852805/136770538-e216ef58-d9e0-43ac-a1df-b18d35e07745.png)
+- "Unpublished" shows content that's not live on your site, in a _Draft_, _Needs Review_ or _Archived_ state
 
-If you have the permission to edit the content you will see the Edit button.
-
-When viewing a new (unpublished) revision of a piece of content, you will see a form at the top of the content which allows you to publish (or not).
-
-![image](https://user-images.githubusercontent.com/3852805/136771222-66460351-f23c-4d86-a37d-27d4adfea4e7.png)
 
 ### Creating a new draft of Published content
 
@@ -204,10 +199,10 @@ If you toggle this button to true you can set the date that the next review is d
 
 ![image](https://user-images.githubusercontent.com/3852805/136772751-cfc3a0d6-cb19-4149-9630-895058390024.png)
 
-When the next review is due, a revision of the content will appear in the "Needs Review" dashboard. The (unreviewed) content will remain published.
+When the next review is due, a revision of the content will appear under the "Review" tab. The (unreviewed) content will remain published unless you decide to remove it.
 
-Visit **Admin > Content > Needs review**
+Visit **Admin > Content > Review**
 
-![image](https://user-images.githubusercontent.com/3852805/136771578-c8e8927f-b355-456f-b9e0-0176a589aca8.png)
+<img width="1109" alt="Screenshot 2025-01-30 at 15 57 10" src="https://github.com/user-attachments/assets/c246ef26-3289-48f4-8392-12edf4091ebe" />
 
 * Review date and Scheduled transitions are part of the LocalGov Workflows submodule LocalGov Review Date. If these features are not available talk to your site administrator.
