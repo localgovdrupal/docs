@@ -117,6 +117,19 @@ Depending on your permissions, you may also be able to generate a Preview link. 
 
 The preview can be viewed by anyone with the link, so caution should be taken when sharing unpublished content.
 
+#### Sharing a Preview Link for multiple pages
+
+It's now possible to create a single link for a Guide, Step by Step and Subsite, so you don't have to send individual links to each pages. Go to an overview page then click on 'Preview Link' and you should see the child pages have been automatically added. 
+
+If you don't see this happening:
+
+- update [localgov](https://github.com/localgovdrupal/localgov) and code for each content format: [Guides](https://github.com/localgovdrupal/localgov_guides), [Step by Step](https://github.com/localgovdrupal/localgov_step_by_step) and [Subsites](https://github.com/localgovdrupal/localgov_subsites)
+- when logged in, go to Config > Content Authoring > Preview Link settings and turn 'Multiple entities' on
+- if neither work, ask your developer or post a message in #group-content and we'll help
+
+Previewing multiple pages at once doesn't work in Directories or on Service pages yet. We're working on this and will keep you posted.
+
+
 ## Scheduling content*
 
 If you want to publish or unpublish content on a particular date you can use Scheduled transitions to line them up in advance. 
