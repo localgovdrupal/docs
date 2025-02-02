@@ -239,6 +239,7 @@ export default defineUserConfig({
             '/content/how-to/how-to-crop-images',
             '/content/how-to/how-to-media-library',
             '/content/how-to/how-to-manage-menus',
+            '/content/how-to/how-to-devolve-publishing.md',
             '/content/how-to/how-to-tag-content',
             '/content/how-to/how-to-archive-ua-data',
           ]
