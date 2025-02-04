@@ -1,32 +1,30 @@
 # Step by step
 
-## When to use a step-by-step page
+[[toc]]
 
-Step-by-step pages are useful if you're creating content where the user has to follow a process.
+## When to use step by step pages
 
-This could include
+Step by step pages are useful where the user has to follow a process. This could include:
 
 * registering for something
 * applying for something
 * renewing something
 * resetting a password
 
-**Examples**
-Examples include:
+Examples could be registering for a civil partnership, registering a death or help signing in to My Account.
 
-* converting civil partnership
-* registering a death
-* help signing in to My Account
-
-## How-to: add a Step by Step
+Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IhmC2BjHdps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Step-by-step landing page
 
-Before the steps on a landing page, you should avoid having too much copy as it pushes the steps further down the page making them hard to find, especially on mobile devices.
+## Editing tips
 
-You should only include no more than 3 to 4 sentences, or an alert box – if there is something you need to warn users about or there's information that is out of the usual way of doing things.
+### On step-by-step landing pages
 
-## Step-by-step titles
+Avoid having too much copy on step-by-step landing pages, as it pushes the steps further down the page making them hard to find, especially on mobile devices.
+
+Include no more than 3 to 4 sentences, or an alert box – if there is something you need to warn users about or there's information that is out of the usual way of doing things.
+
+## On step-by-step titles
 You should include 'step by step' in the title of your page. This makes it clear to the user that this is a process to follow.
