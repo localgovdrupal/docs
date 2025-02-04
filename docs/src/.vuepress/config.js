@@ -238,9 +238,9 @@ export default defineUserConfig({
             '/content/how-to/how-to-wysiwyg-styles',
             '/content/how-to/how-to-crop-images',
             '/content/how-to/how-to-media-library',
-            '/content/how-to/how-to-check-where-media-is-used.md',
+            '/content/how-to/how-to-check-where-media-is-used',
             '/content/how-to/how-to-manage-menus',
-            '/content/how-to/how-to-devolve-publishing.md',
+            '/content/how-to/how-to-devolve-publishing',
             '/content/how-to/how-to-tag-content',
             '/content/how-to/how-to-archive-ua-data',
           ]
