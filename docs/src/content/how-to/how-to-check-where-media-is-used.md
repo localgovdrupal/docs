@@ -12,4 +12,4 @@ Clicking on any of the page links will take you to that page, allowing you to ed
 
 ### Not working for you?
 
-This feature is provided by the Entity Usage module which is included with LGD. If it's not appearing for you, ensure your site is up to date. Please post in #group-technical if you're having further issues.
+This feature is provided by the [Entity Usage](https://www.drupal.org/project/entity_usage) module which is included with LGD. If it's not appearing for you, ensure your site is up to date. Please post in #group-technical if you're having further issues.
