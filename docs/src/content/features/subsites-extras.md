@@ -1,12 +1,26 @@
-# Subsites Extras 
+# Subsites extras 
 
-Subsites Extras lets you create menu-driven subsites in your LGD site. 
+## When to use Subsite extras
+
+This module allows you to create menu-driven subsites in your LGD site. This is an optional part of LGD, so please ask your developer to [install it](https://github.com/localgovdrupal/localgov_subsites_extras).
 
 The menu defines the structure of the subsite, and also lets you use Drupal's standard menu blocks and tools to display the subsite's navigation and manage the hierarchy of the pages within it.
 
-You can find this module at [https://github.com/localgovdrupal/localgov_subsites_extras](https://github.com/localgovdrupal/localgov_subsites_extras).
+### Video guide
 
-## Basic usage
+Rupert gave us a [demo at our monthly Community Meetup in June 2024](https://youtu.be/rCREsyceNBw?si=VStYnJHetCs0Mpmf&t=1355).
+ 
+Also see [Mark Conroy's blog post about Subsites Extras.](https://mark.ie/blog/using-the-localgov-drupal-subsites-extras-module/)
+
+## Examples in the wild 
+
+* [Black History Month, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/celebrating-hf/celebrating-our-history/black-history-365)
+* [Business Connects, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/business/business-connects)
+* [Pest Control Services, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/pest-control-services)
+* [Fostering, Essex County Council](https://www.essex.gov.uk/children-young-people-and-families/fostering)
+* [Fostering, London Borough of Haringey](https://new.haringey.gov.uk/children-young-people-families/childrens-social-care/fostering)
+
+## Getting started
 
 1. Install and enable the module.
 2. Add a subsite overview page. Choose a theme, and choose to create a menu link in the subsites menu. Save the page.
@@ -24,7 +38,7 @@ You can find this module at [https://github.com/localgovdrupal/localgov_subsites
 {% endif %}
 ```
 
-## Advanced usage
+## Advanced use
 
 By default, this module will work with the content types and fields provided by localgov_subsites. It doesn't have to though. You can use any content type you like as a subsite homepage, and any field you like to determine the colour scheme. 
 
@@ -39,23 +53,7 @@ $config['localgov_subsites_extras.settings'] = [
 ];
 ```
 
-## Video demo
+## Thanks
 
-Rupert gave us a [demo at our monthly Community Meetup in June 2024](https://youtu.be/rCREsyceNBw?si=VStYnJHetCs0Mpmf&t=1355).
- 
-And also check out [Mark Conroy's blog on Subsites Extras.](https://mark.ie/blog/using-the-localgov-drupal-subsites-extras-module/)
-
-
-## Examples in the wild 
-
-* [https://www.lbhf.gov.uk/celebrating-hf/celebrating-our-history/black-history-365](https://www.lbhf.gov.uk/celebrating-hf/celebrating-our-history/black-history-365)
-* [https://www.lbhf.gov.uk/business/business-connects](https://www.lbhf.gov.uk/business/business-connects)
-* [https://www.lbhf.gov.uk/pest-control-services](https://www.lbhf.gov.uk/pest-control-services)
-* [https://www.essex.gov.uk/children-young-people-and-families/fostering](https://www.essex.gov.uk/children-young-people-and-families/fostering)
-* [https://www.essex.gov.uk/fostering](https://www.essex.gov.uk/fostering)
-* [https://new.haringey.gov.uk/children-young-people-families/childrens-social-care/fostering](https://new.haringey.gov.uk/children-young-people-families/childrens-social-care/fostering)
-
-
-## Made with love
-
-Originally developed by [Chicken](https://wearechicken.co.uk/) for Hammersmith & Fulham and made into a LGD module by funding from Essex.
+- [Chicken](https://wearechicken.co.uk/) for developing this with the London Borough of Hammersmith & Fulham
+- Essex County Council for funding an LGD module for use by everyone
