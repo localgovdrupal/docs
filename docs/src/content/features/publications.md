@@ -1,28 +1,28 @@
 # Publications
 
-The LocalGov Publications module is on Github here:
+[[toc]]
 
-[https://github.com/localgovdrupal/localgov_publications](https://github.com/localgovdrupal/localgov_publications)
+## When to use Publications
 
-This module provides publication content types and configuration for the
-LocalGov Drupal distribution.
+This module provides Publications pages, ab accessible and responsive HTML format to reduce the need for PDF files. This is an optional part of LGD, so please ask your developer to [install it](https://github.com/localgovdrupal/localgov_publications).
 
-The intention is to encourage councils to publish publications in a more
-accessible and responsive HTML format rather than in PDF files.
+### Video guide
 
-We use Drupal's book module to provide navigation between hierarchically related
-pages of a publication.
-
-It is also possible to create a single page publication with inline navigation
-between headings.
-
-
-## Using LocalGov Publications
-
-See the video below for a demonstration of how to manage publication content.
+Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E_0_YojAiGs?si=xyxbQeTnKZDXLaOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Examples in the wild
+
+See an example publication on [our demo site](https://demo.localgovdrupal.org/publications/publications-cover-page-demo-content). 
+
+The following publications have been created by our councils already (feel free to add yours to the list!):
+- [Wirral Council's Tax explainer](https://www.wirral.gov.uk/council-tax/council-tax-explained)
+- [Bracknell Forest's co-production framework](https://www.bracknell-forest.gov.uk/council-and-democracy/strategies-plans-and-policies/co-production-framework)
+- [West Linsey's Countil Tax guide](https://www.west-lindsey.gov.uk/council-tax-council-bills/what-council-tax/council-tax-guide)
+- [Bracknell Forest's Council plan overview report
+](https://www.bracknell-forest.gov.uk/council-and-democracy/strategies-plans-and-policies/service-planning-and-performance/council-plan-overview-report)
+- [Bracknell Forest's Holiday activities and food programme annual report](https://www.bracknell-forest.gov.uk/schools-and-learning/schools/holiday-activities-and-food-programme/annual-report)
 
 ## How to use publications
 
@@ -52,19 +52,8 @@ If you don’t have a menu in the sidebar after installing you need to place two
 Place both into the sidebar of choice (sidebar first) and hide or rename the title for each block and ensure the content type settings are set to the publication content type. 
 
 
-## Example publications in the wild
+## Thanks
 
-You will find an example publication on our demo site here: https://demo.localgovdrupal.org/publications/publications-cover-page-demo-content. 
+- [Chicken](https://wearechicken.co.uk/) for developing this with the London Borough of Hammersmith & Fulham
+- Inspiration from Annertech and Redcar & Cleveland
 
-And the following publications have been created by our councils already (feel free to add yours to the list!):
-- [Wirral Council's Tax explainer](https://www.wirral.gov.uk/council-tax/council-tax-explained)
-- [Bracknell Forest's co-production framework](https://www.bracknell-forest.gov.uk/council-and-democracy/strategies-plans-and-policies/co-production-framework)
-- [West Linsey's Countil Tax guide](https://www.west-lindsey.gov.uk/council-tax-council-bills/what-council-tax/council-tax-guide)
-- [Bracknell Forest's Council plan overview report
-](https://www.bracknell-forest.gov.uk/council-and-democracy/strategies-plans-and-policies/service-planning-and-performance/council-plan-overview-report)
-- [Bracknell Forest's Holiday activities and food programme annual report](https://www.bracknell-forest.gov.uk/schools-and-learning/schools/holiday-activities-and-food-programme/annual-report)
-
-
-## Made with love
-
-Originally developed by [Chicken](https://wearechicken.co.uk/) for LBHF (inspiration from Annertech and Redcar & Cleveland)
