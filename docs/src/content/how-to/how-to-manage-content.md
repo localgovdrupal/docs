@@ -1,21 +1,28 @@
-# Managing content
+# How to manage content
+
+Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HN3o_12TYW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Drupal distiguishes between configuraion and content. Content is generally not exportable from one site to another, whereas configuration is.
+## View your content
 
-## How to find content
+See all the content you have permission to view and edit:
 
-Visit the Content Overview by:
-* **Admin menu > Content**
-* Visit **yourdomain.gov.uk/admin/content**
+* Either click **Admin menu > Content**
+* Or visit **yourdomain.gov.uk/admin/content**
 
-This screen shows a tabbed interface defaulting to the Content pane. The other tabs allow you to see other kinds of content eg:
-* Media,
-* Facets, ... (todo)
+This screen defaults to showing the 'Content overview' tab. Depending on your permissions, you may also be able to see the following tabs:
 
-The pane displays a table, with each row showing an item of content, with metadata displayed. You can sort the table by most of the table headings: Last updated date, Author, Published status.
+* Blocks
+* Media
+* Alert banners
+* Directory facets
+* Locations
+* Page components
+* Scheduling
 
-You will see an Edit button in the Actions column for content that you have the permission to edit.
+The 'Content overview' tab shows a list of content and its metadata (for example content type, author, status and last updated date).
 
-You can use the filters above the table to filter down the list of content.
+You can search and filter the list. An Edit button will appear by the content you have permission to edit.
+
+
