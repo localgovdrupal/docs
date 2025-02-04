@@ -1,6 +1,6 @@
 # Elections
 
-Our new [elections module](https://github.com/localgovdrupal/localgov_elections) provides the following features:
+The [elections module](https://github.com/localgovdrupal/localgov_elections) provides the following features:
 
 * First past the post single seat per electoral area elections
 * 'All-out' and not 'all-out' (e.g. halves or thirds) elections
