@@ -1,12 +1,18 @@
 # Directories
 
-Contents:
-
 [[toc]]
 
-## Introduction
+## When to use Directories
 
-Directories provide a way for editors to present content as a list which can be searched and filtered by end-users. They are a part of the LocalGovDrupal distribution.
+Directories provide a way to present content as a list which can be searched and filtered by your users. They are best used when:
+
+* You have a type of content with a large volume of variations. Car parks, sports facilities, or parks are good examples
+* Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
+* Your content is related to a specific geographical location which is relevant to users
+
+Please see this video guide by content designer Ben Hills-Jones.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FnpFlQyYdO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Examples in the wild
 These examples may have code and themes that are different to the LocalGov Drupal core. 
@@ -18,17 +24,8 @@ These examples may have code and themes that are different to the LocalGov Drupa
 
 * [Github issue queue](https://github.com/localgovdrupal/localgov_directories/issues)
 
-## When to use Directories
 
-* You have a type of content with a large volume of variations. Car parks, sports facilities, or parks are good examples.
-* Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
-* Your content is related to a specific geographical location which is relevant to users.
-
-## Video: Creating Directories
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FnpFlQyYdO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Concepts
+## Essential concepts
 
 ### Directory Facets
 
