@@ -10,6 +10,8 @@ Directories provide a way to present content as a list which can be searched and
 * Users are looking for content based on their needs and these can be described as a series of attributes such as _price range_ or _sports catered for_.
 * Your content is related to a specific geographical location which is relevant to users
 
+### Video guide 
+
 Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FnpFlQyYdO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
