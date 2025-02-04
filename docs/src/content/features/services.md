@@ -63,7 +63,7 @@ Tasks can be tagged as either "Action" or "Information" - these may display diff
 ![Screenshot of the LGD demo site "Adult and social care" Service Landing Page, showing three common task links - 2 blue information links and 1 green action link](https://user-images.githubusercontent.com/3852805/123274826-c2804c80-d4fb-11eb-844b-d4c09a5a00f8.png)
 Image caption: in the screenshot from the LGD demo site, the action links have a green background and the information links have a blue background.
 
-## Service sub-landing Pages
+## Service sub-landing pages
 
 Service sub-landing Pages are index pages that link out to other pages. They usually sit a level below a service landing Page. Think of them as chapters of a book, giving the user the option to browse everything in that section.
 
@@ -83,7 +83,7 @@ They automatically pull in the title and the summary of the page they're linking
 ![Screenshot of Lambeth Councils Births Service Sub-landing Page - description below](https://user-images.githubusercontent.com/3852805/123276043-bea0fa00-d4fc-11eb-80fb-0cf85b4e86da.png)
 Image description: Lambeth Council's Births Service Sub-landing Page. They show the title, summary and the sub-pages, without a summary.
 
-## Service Pages
+## Service pages
 
 Service pages are the most commonly used type of page on your site. They're useful if you're creating content that:
 
