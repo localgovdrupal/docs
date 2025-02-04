@@ -215,15 +215,15 @@ export default defineUserConfig({
           children: [
             '/content/features/services',
             '/content/features/alert-banner',
-            '/content/features/news',
-            '/content/features/step-by-step',
-            '/content/features/guide',
-            '/content/features/subsites',
             '/content/features/directories',
-            '/content/features/workflow',
             '/content/features/elections',
+            '/content/features/guide',
+            '/content/features/news',
             '/content/features/publications',
+            '/content/features/step-by-step',
+            '/content/features/subsites',
             '/content/features/subsites-extras'
+            '/content/features/workflow',
           ]
         },
         'patterns',
