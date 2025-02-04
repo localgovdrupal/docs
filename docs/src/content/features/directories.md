@@ -22,10 +22,6 @@ These examples may have code and themes that are different to the LocalGov Drupa
 * [Croydon: Secondary schools](https://www.croydon.gov.uk/schools-and-education/schools/find-school-near-you/secondary-schools)
 * [Lambeth: Libraries](https://beta.lambeth.gov.uk/libraries-0)
 
-## How to log issues
-
-* [Github issue queue](https://github.com/localgovdrupal/localgov_directories/issues)
-
 
 ## Essential concepts
 
