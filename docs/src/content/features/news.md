@@ -2,18 +2,18 @@
 
 [[toc]]
 
-## Introduction
-Provides the pages and navigation for presenting News Articles. An optional part of the LocalGov Drupal distribution.
+## When to use News
 
-## Overview
-When you enable this feature you will get:
+This module provides the pages and navigation for presenting news articles. This is an optional part of LGD, so please ask your developer to [install it](https://github.com/localgovdrupal/localgov_news).
+
+When you enable News you will get:
 * **News Article** content type
 * **Newsroom** content type
 * News editor role
 
-A single Newsroom is created on installation, which will list all News Articles by default. There will be up to three “featured” News Articles listed at the top of the page. 
+A single 'Newsroom' is created on installation, which will list all News Articles by default. There will be up to three “featured” News Articles listed at the top of the page. 
 
-The Newsroom page will display a search and filters block, allowing end-users to filter the list of news by date and category.
+The Newsroom page will display a search and filters block, allowing end users to filter the list of news by date and category.
 
 If multiple Newsrooms are created the News Editor will be given the option to choose to associate a News Article with a single Newsroom. 
 
