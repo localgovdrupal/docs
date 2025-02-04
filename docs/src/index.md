@@ -27,7 +27,7 @@ LocalGov Drupal is an open source publishing platform that delivers a better dig
 
 Here you can find all the documentation for LocalGov Drupal, from installation to configuration, theming and using the content types.
 
-## Quick links 
+## Get started
 
 [overview of features →](/overview.html)
 
@@ -37,4 +37,4 @@ Here you can find all the documentation for LocalGov Drupal, from installation t
 
 [how to contribute →](/contributing/)
 
-We try to keep it completely up to date but if you find something missing, or have some documentation that you think should be added, let us know at [hello@localgovdrupal.org](mailto:hello@localgovdrupal.org).
+We try to keep this info completely up to date, but if you find something missing, or have some documentation that you think should be added, let us know at [hello@localgovdrupal.org](mailto:hello@localgovdrupal.org).
