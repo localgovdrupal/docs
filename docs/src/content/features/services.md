@@ -13,6 +13,8 @@ The Services module provides a host of features for explaining services and poli
 
 Other content types in the LocalGovDrupal distribution can also optionally be linked into service sections and referenced from sub-landing pages.
 
+### Video guide 
+
 Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iIe74boCjII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
