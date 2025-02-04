@@ -222,7 +222,7 @@ export default defineUserConfig({
             '/content/features/publications',
             '/content/features/step-by-step',
             '/content/features/subsites',
-            '/content/features/subsites-extras'
+            '/content/features/subsites-extras',
             '/content/features/workflow',
           ]
         },
