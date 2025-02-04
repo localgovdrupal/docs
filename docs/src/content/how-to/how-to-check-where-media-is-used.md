@@ -1,4 +1,4 @@
-## How to check where media is used
+# How to check where media is used
 
 Every media item now includes a 'Usage' tab.
 
