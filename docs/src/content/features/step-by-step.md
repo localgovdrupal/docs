@@ -26,6 +26,6 @@ Avoid having too much copy on step by step landing pages, as it pushes the steps
 
 Include no more than 3 to 4 sentences, or an alert box – if there is something you need to warn users about or there's information that is out of the usual way of doing things.
 
-## On step by step titles
+### On step by step titles
 
 It's good practice to include 'step by step' in the title of your page. This makes it clear to the user that this is a process to follow.
