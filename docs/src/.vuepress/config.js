@@ -73,6 +73,10 @@ export default defineUserConfig({
             link: '/contributing/'
           },
           {
+            text: 'Credits System',
+            link: '/credits-system/'
+          },
+          {
             text: 'Accessibility',
             link: '/accessibility/'
           },
