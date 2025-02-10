@@ -22,7 +22,7 @@ Below, we have listed many of the ways you can contribute, but there will be oth
 
 We apply a custom weighting based on our own assessment and priorities, but these will be subject to regular review and discussion (see more below).
 
-| Contribution | Description | Credits |
+| Contribution type | Description | Credits |
 | ----- | :---- | ----- |
 | **Community participation** |  |  |
 | **Attendance, speaking or facilitation**   | We will credit anyone who attends, presents or facilitates at an LGD meetup or event | 1 |
@@ -43,12 +43,12 @@ We apply a custom weighting based on our own assessment and priorities, but thes
 | **Reviewing pull requests (QA)** | Reviewing and approving code contributions from the community.  | 1 |
 | **Module Maintenance** | Ensuring any module is up-to-date with latest security releases or Drupal versions. | 1 |
 | **Priority**  |  |  |
-| **Migrating an LGD module to drupal.org** | **Any work related to migrating an LGD module to drupal.org** | **10** |
+| **Migrating an LGD module to drupal.org** | Any work related to migrating an LGD module to drupal.org | **10** |
 | **Financial support** |  |  |
 | **Event sponsorship** | Sponsors of any LGD event will receive additional credits for their sponsorship | 5 |
 | **New council subscriber** | Persuading  a new council to become a subscriber | 5 |
 
-## **How to get credits**
+## How to get credits
 
 You will need an individual user account and an organisation on drupal.org to get credits. 
 
@@ -80,13 +80,9 @@ Once you set this, the default values will stay for future comments; if you have
 
 If you need to modify the attribution you made, you can do so by editing the attribution with your comment. However, once the overall issue credit has been assigned by a maintainer, it can no longer be edited.
 
-## 
-
 ### How do we credit someone who has contributed to paid LGD core time?
 
 As above, make sure the customer is “LocalGov Drupal” NOT the organisation.
-
-## 
 
 ### Which projects / modules can I get credits for?
 
@@ -133,9 +129,7 @@ Credit criteria and weightings will be reviewed at:
 - Quarterly contributions team review  
 - Other regular meetings (product group, tech gov, content team) review
 
-### 
-
-## **Guidelines for granting credits**
+## Guidelines for granting credits
 
 We follow the [guidelines set out by the Drupal Association](https://www.drupal.org/about/core/policies/maintainers/how-is-credit-granted-for-drupal-core-issues) for granting issues credits:
 
@@ -150,7 +144,7 @@ We follow the [guidelines set out by the Drupal Association](https://www.drupal.
 Their guidance also covers examples of what does and does not constitute a creditable contribution.   
 We know this focuses primarily on different types of code contributions and are working on more guidance for non-code contributions.
 
-## **Evaluation of Contributions**
+## Evaluation of Contributions
 
 To ensure that all contributions are valuable and beneficial to the LocalGov Drupal project, we evaluate each contribution based on predefined criteria. These criteria ensure contributions meet the project’s standards and requirements.
 
@@ -162,12 +156,12 @@ The purpose of any contribution should be to provide value to the project:
 * **Meet quality standards**: code contributions must adhere to the quality standards set by LocalGov Drupal, ensuring they are well-documented, tested, and maintainable.  
 * **Can be vouched for by people within the community**: contributions, such as code or design changes, may require approval from the technical governance group or the relevant working group before being accepted.
 
-## **Abuse of the Contribution Credit system**
+## Abuse of the Contribution Credit system
 
 We follow the guidelines set out by the Drupal Association in assessing any abuse of the credit system. See [Abuse of the Contribution Credit system | Marketplace guidelines](https://www.drupal.org/drupalorg/docs/marketplace/abuse-of-the-contribution-credit-system).  
 We also plan to develop our own guidance as the system evolves.
 
-## **Roles and Responsibilities**
+## Roles and Responsibilities
 
 * **Community Lead**: oversees the subscriptions and contribution process, provides support to contributors, and oversees any issues or disputes.  
 * **Technical Lead**: together with the Technical Governance Group, reviews and approves technical contributions, ensuring they meet quality and technical standards.  
