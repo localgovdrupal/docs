@@ -19,6 +19,14 @@ Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IhmC2BjHdps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Examples in the wild
+
+[Croydon: Get married or form a civil partnership](https://www.croydon.gov.uk/births-deaths-marriages-and-citizenship/marriage-and-civil-partnerships/get-married-or-form-civil-partnership-step-step)
+
+[Southwark: Apply for planning permission](https://www.southwark.gov.uk/planning-environment-and-building-control/planning/step-by-step/apply-planning-permission)
+
+[Dumfries & Galloway: Apply for a building warrant](https://www.dumfriesandgalloway.gov.uk/planning-building/building-regulations/step-by-step/apply-building-warrant-step-step)
+
 
 ## Editing tips
 
