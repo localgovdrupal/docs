@@ -65,7 +65,7 @@ A common workflow may be:
 
 ### Viewing content
 
-<img width="1099" alt="Screenshot 2025-01-30 at 15 50 14" src="https://github.com/user-attachments/assets/7a505e5d-926f-4b07-9206-5eaaaab0dfea" />
+![Content sub menu showing Overview, Approve, Review and Unpublished views](https://github.com/user-attachments/assets/7a505e5d-926f-4b07-9206-5eaaaab0dfea)
 
 Content is shown under four tabs according to its state:
 
@@ -84,13 +84,13 @@ When we edit a piece of published content and save it as _Draft_ or _Needs Revie
 
 The **Latest version** tab will show the new revision, whereas the View tab will allow you to see the current _Published_ version.
 
-![image](https://user-images.githubusercontent.com/3852805/136771107-70ed6ed6-c79a-45bb-b41e-ee4adbb2177c.png)
+![Menu with 'latest version' button selected](https://user-images.githubusercontent.com/3852805/136771107-70ed6ed6-c79a-45bb-b41e-ee4adbb2177c.png)
 
 ## Revision log
 
 You can leave a comment in the Revision log to describe what is being changed in any given edit.
 
-![image](https://user-images.githubusercontent.com/3852805/136771305-195cef7c-e2d6-415f-86a0-04abffa5391e.png)
+![Sidebar showing 'revision log' field](https://user-images.githubusercontent.com/3852805/136771305-195cef7c-e2d6-415f-86a0-04abffa5391e.png)
 
 You can view all revisions of the content by visiting the Revisions log. You can compare versions, and restore a previous version if necessary.
 
@@ -100,7 +100,7 @@ You can view all revisions of the content by visiting the Revisions log. You can
 
 At the top of the edit page, next to your account settings there is a button ("Layout preview") which allows you to preview how the content will look across a number of devices.
 
-![image](https://user-images.githubusercontent.com/3852805/136771397-660c4ec2-7d7d-4a9d-9aea-cd837a0d65a1.png)
+!['Responsive preview' button](https://user-images.githubusercontent.com/3852805/136771397-660c4ec2-7d7d-4a9d-9aea-cd837a0d65a1.png)
 
 If you don't see this button talk to the site administrator.
 
@@ -108,7 +108,7 @@ If you don't see this button talk to the site administrator.
 
 Depending on your permissions, you may also be able to generate a Preview link. This allows you to share a draft of a piece of content with another person for 1 week.
 
-![image](https://user-images.githubusercontent.com/3852805/136771480-9d863bf0-f0a5-4a39-9582-a5c8d8292860.png)
+![Menu with 'preview link' button selected](https://user-images.githubusercontent.com/3852805/136771480-9d863bf0-f0a5-4a39-9582-a5c8d8292860.png)
 
 The preview can be viewed by anyone with the link, so caution should be taken when sharing unpublished content.
 
@@ -197,12 +197,12 @@ When you make an edit you can choose whether to classify it as a "Content review
 
 If you toggle this button to true you can set the date that the next review is due.
 
-![image](https://user-images.githubusercontent.com/3852805/136772751-cfc3a0d6-cb19-4149-9630-895058390024.png)
+![Sidebar showing 'content reviewed' toggle](https://user-images.githubusercontent.com/3852805/136772751-cfc3a0d6-cb19-4149-9630-895058390024.png)
 
 When the next review is due, a revision of the content will appear under the "Review" tab. The (unreviewed) content will remain published unless you decide to remove it.
 
 Visit **Admin > Content > Review**
 
-<img width="1109" alt="Screenshot 2025-01-30 at 15 57 10" src="https://github.com/user-attachments/assets/c246ef26-3289-48f4-8392-12edf4091ebe" />
+!['Review content' view](https://github.com/user-attachments/assets/c246ef26-3289-48f4-8392-12edf4091ebe)
 
 * Review date and Scheduled transitions are part of the LocalGov Workflows submodule LocalGov Review Date. If these features are not available talk to your site administrator.
