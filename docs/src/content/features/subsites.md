@@ -11,14 +11,10 @@ Subsites are useful if you're creating content that:
 You can create a subsite landing page, with links through to connecting pages, as well as an image banner, photos and videos. It is relatively easy to visually make the whole subsite look different to the rest of the site.
 
 ## Examples in the wild
-- [Bereavement services at Croydon](https://www.croydon.gov.uk/bereavement-services)
-![Screenshot of Bereavement services subsite, with yellow banner and images of Croyon crematorium and cemetery](https://user-images.githubusercontent.com/3852805/131334898-ba09acc1-dd98-4975-82dc-198df0f7d991.png)
 
+[Croydon: Bereavement services](https://www.croydon.gov.uk/bereavement-services)
 
-
-- [Fostering at Lambeth](https://beta.lambeth.gov.uk/fostering) 
-![Screenshot of Fostering Subsite, with pink and purple banner with stylised words "Be the difference" and multicolumn layout](https://user-images.githubusercontent.com/3852805/131335090-a7b782c6-6cbd-4976-ade3-1b3033a14fa8.png)
-
+[Lambeth: Fostering](https://beta.lambeth.gov.uk/fostering) 
 
 
 ## How to log issues
