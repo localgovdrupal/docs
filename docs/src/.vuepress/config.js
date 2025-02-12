@@ -74,7 +74,7 @@ export default defineUserConfig({
           },
           {
             text: 'Credits System',
-            link: '/contributing/credits-system/'
+            link: '/contributing/credits-system'
           },
           {
             text: 'Accessibility',
