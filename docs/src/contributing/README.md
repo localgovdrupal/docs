@@ -28,7 +28,7 @@ which allows people to mention you in issues, assign issues to yourself and affo
 
 ### Steps to setup and connect your Github account
 
-  1. Register for Github account at https://github.com/signup
+  1. Register for Github account at [https://github.com/signup](https://github.com/signup)
   2. Choose a nice username (it makes things easier if your username resembles your name to some extent, for other people to know who you are on Github)
   3. Verify your email address
   4. Skip the intro steps (unless you want to create an organisation).
@@ -39,10 +39,10 @@ which allows people to mention you in issues, assign issues to yourself and affo
 
 Having an account on Drupal.org is useful for many reasons. 
 
-1. It allows you to post and reply to issues in issue queues on Drupal.org.
-2. You can create an organisation page to promote your organisation's involvement in Drupal and Drupal projects.
-3. You can link your personal user account to your organisation page and to issues and contributions you make.
-4. It allows us to promote the organisations and people that support the LocalGov Drupal project.
+1. It allows you to post and reply to issues in issue queues on Drupal.org
+2. You can create an organisation page to promote your organisation's involvement in Drupal and Drupal projects
+3. You can link your personal user account to your organisation page and to issues and contributions you make
+4. It allows us to promote the organisations and people that support the LocalGov Drupal project
 
 The main LocalGov Drupal project is posted at [https://www.drupal.org/project/localgov](https://www.drupal.org/project/localgov). 
 We would like to list all subscribing councils and suppliers on the LocalGov Drupal project page to demonstrate the support and encourage more organisations and people to get involved. 
@@ -50,14 +50,14 @@ To do this, you will need to have a personal account on Drupal.org and an organi
 
 ## Steps to create a Drupal.org account and an organisation page
 
-1. Create a drupal.org account at https://www.drupal.org/user/register.
-2. Verify your email address.
-3. Ask an existing user to verify you are not a spammer. See https://www.drupal.org/drupalorg/docs/user-accounts/become-a-confirmed-user (probably quickest to ask one of us on Slack to visit your new user page and click 'confirm').
-4. Create an organization page at https://www.drupal.org/node/add/organization.
-5. Let one the maintainers know and we can add you to the list of supporting organisations on drupal.org/project/localgov. Either ask on Slack in #group-technical or create an issue at https://www.drupal.org/project/issues/localgov.
-6. One of the maintainers can add the new organisation to the list of supporting organisations on the project page.
-7. Edit your personal user account and under the 'work' tab you can select your organization to link your user to the organisation page.
-8. Ask other people from your organisation to create accounts and link them up to your organisation too.
+1. Create a drupal.org account at [https://www.drupal.org/user/register](https://www.drupal.org/user/register)
+2. Verify your email address
+3. Ask an existing user to verify you are not a spammer. See [https://www.drupal.org/drupalorg/docs/user-accounts/become-a-confirmed-user](https://www.drupal.org/drupalorg/docs/user-accounts/become-a-confirmed-user) (probably quickest to ask one of us on Slack to visit your new user page and click 'confirm')
+4. Create an organisation page at [https://www.drupal.org/node/add/organization](https://www.drupal.org/node/add/organization)
+6. Let one the maintainers know and we can add you to the list of supporting organisations on drupal.org/project/localgov. Either ask on Slack in #group-technical or create an issue at [https://www.drupal.org/project/issues/localgov](https://www.drupal.org/project/issues/localgov)
+7. One of the maintainers can add the new organisation to the list of supporting organisations on the project page.
+8. Edit your personal user account and under the 'work' tab you can select your organization to link your user to the organisation page.
+9. Ask other people from your organisation to create accounts and link them up to your organisation too.
 
 If you have any questions about this, please get in touch on Slack, email or via the issue queues.
 
