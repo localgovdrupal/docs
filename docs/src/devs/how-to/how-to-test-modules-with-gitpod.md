@@ -13,15 +13,15 @@ testing pull requests.
 
 ## 1. Sign into Gitpod with your Github account
 
-Go to https://gitpod.io/.
+Go to [https://gitpod.io/](https://gitpod.io/).
 
 Click "Continue with Github" to log in with your Github account.
 
 ## 2. Start LocalGov Drupal in Gitpod
 
-Go to https://github.com/localgovdrupal/localgov_project?tab=readme-ov-file#spin-up-localgov-drupal-with
+Go to [https://github.com/localgovdrupal/localgov_project?tab=readme-ov-file#spin-up-localgov-drupal-with](https://github.com/localgovdrupal/localgov_project?tab=readme-ov-file#spin-up-localgov-drupal-with)
 
-Click the "Open in Gitpod" link to go to https://gitpod.io/#https://github.com/localgovdrupal/localgov_project
+Click the "Open in Gitpod" link to go to [https://gitpod.io/#https://github.com/localgovdrupal/localgov_project](https://gitpod.io/#https://github.com/localgovdrupal/localgov_project)
 
 Accept the defaults and click "Continue".
 
@@ -57,7 +57,7 @@ drush en localgov_demo -y
 We use the command line and composer to install modules.
 
 For example, to install the Google Tag module, we can visit the project page at
-https://www.drupal.org/project/google_tag
+[https://www.drupal.org/project/google_tag](https://www.drupal.org/project/google_tag)
 
 Copy the command to install with composer for the release we want to install.
 
@@ -83,11 +83,11 @@ It is very useful to be able to test a branch from Github.
 We often have a pull request, asking to merge a feature branch into the main
 working branch. For example let's look at this one:
 
-https://github.com/localgovdrupal/localgov_core/pull/226
+[https://github.com/localgovdrupal/localgov_core/pull/226](https://github.com/localgovdrupal/localgov_core/pull/226)
 
 This is (was) requesting to merge this branch:
 
-https://github.com/localgovdrupal/localgov_core/tree/feature/718-content-tabs-weights-core-module
+[https://github.com/localgovdrupal/localgov_core/tree/feature/718-content-tabs-weights-core-module](https://github.com/localgovdrupal/localgov_core/tree/feature/718-content-tabs-weights-core-module)
 
 So to test this, we need to install localgov_core as this branch.
 
