@@ -1,6 +1,6 @@
 # Workflow
 
-<TOC />
+<TOC :include-level="[2, 2]" />
 
 ## When to use Workflow
 
