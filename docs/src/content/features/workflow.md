@@ -2,16 +2,21 @@
 
 [[toc]]
 
+## When to use Workflow
+
+This [LocalGov Workflow module](https://github.com/localgovdrupal/localgov_workflows) provides roles, content moderation, an approvals view, preview links, scheduled publishing and service contacts. This module is included in LocalGov Drupal, but is not switched on. Talk to your developer about enabling it.
+
+### Video guide
+Please see this video guide by content designer Ben Hills-Jones.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Essential concepts
 
 * **Role**: A named set of permissions that can be applied to a user account. Depending on your role and your site's custom configuration, you may not be able to do all the actions on this page.
 * **Revision**: Drupal lets you create a new revision every time a piece of content is updated. This allows you to track how the piece of content has changed over time on your site. [Read more on drupal.org](https://www.drupal.org/docs/administering-a-drupal-site/node-revisions). One version will be the **current revision**, indicating which version is available to logged out users.
 * **State**: A revision can exist in one of a number of states (Draft, Needs review, Published, Archived). If the current revision is Published it is available to logged out users.
 * **Transitions**: Moving the current revision from one state to another is called a transitition. We can do this manaully by setting the state when we save a piece of content, or we can schedule a time for it to happen automatically.
-
-## Video introduction to workflows
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Roles
 
