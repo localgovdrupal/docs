@@ -1,6 +1,6 @@
 # Workflow
 
-[[toc]]
+<TOC />
 
 ## When to use Workflow
 
