@@ -8,7 +8,11 @@ The [elections module](https://github.com/localgovdrupal/localgov_elections) pro
 * Extensible boundary source provider for electoral areas and geo data
 * Social media posting of results (currently Twitter / X)
 
-See detailed [installation instructions](https://github.com/localgovdrupal/localgov_elections/blob/1.x/README.md) and a [step by step guide to setting up elections](https://github.com/localgovdrupal/localgov_elections/blob/1.x/docs/index.md).
+This is an optional part of LGD, so please ask your developer to [install it](https://github.com/localgovdrupal/localgov_elections/blob/1.x/README.md).
+
+## How to create an election
+
+See this [step by step guide](https://github.com/localgovdrupal/localgov_elections/blob/1.x/docs/index.md).
 
 ## Thanks
 
