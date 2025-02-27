@@ -144,3 +144,8 @@ main.vp-page {
     }
   }
 }
+
+.theme-default-content img {
+  border: 1px solid var(--vp-c-text);
+  margin-block: 1rem;
+}
