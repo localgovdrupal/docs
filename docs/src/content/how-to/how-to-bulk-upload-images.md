@@ -4,7 +4,7 @@ In February 2025 we included the 'Simple Media Bulk Upload' module with LocalGov
 
 To switch it on:
 
-- In your site, go to the 'Extend' tab and search for 'Bulk'
+- In your site, click on the 'Extend' tab and search for 'bulk'
 
 ![Install Simple Bulk Media Upload](https://github.com/user-attachments/assets/6cf05d18-2185-4a93-97f7-da90cecc0023)
 
