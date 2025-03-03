@@ -21,6 +21,14 @@ Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nwk-hXkDanc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+## Examples in the wild
+
+[Dumfries & Galloway: Funded early learning and childcare](https://www.dumfriesandgalloway.gov.uk/schools-learning/early-learning-childcare/funded-early-learning-childcare)
+
+[Woking: Health and safety at work](https://beta.woking.gov.uk/business-licences-permits/health-safety-work)
+
+
 ## Layout options
 
 In February 2025 we included two new site wide layout options for guides:
