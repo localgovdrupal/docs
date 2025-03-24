@@ -111,7 +111,7 @@ If you don't see this button talk to the site administrator.
 
 ### Preview Link
 
-Depending on your permissions, you may also be able to generate a Preview link. This allows you to share a draft of a piece of content with another person for 1 week.
+Depending on your permissions, you can also generate a Preview link. This allows you to share a draft of a piece of content with another person for time you specify.
 
 ![Menu with 'preview link' button selected](https://user-images.githubusercontent.com/3852805/136771480-9d863bf0-f0a5-4a39-9582-a5c8d8292860.png)
 
