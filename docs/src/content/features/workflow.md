@@ -109,7 +109,7 @@ At the top of the edit page, next to your account settings there is a button ("L
 
 If you don't see this button talk to the site administrator.
 
-### Preview Link
+### Preview link
 
 Depending on your permissions, you can also generate a Preview link. This allows you to share a draft of a piece of content with another person for time you specify.
 
@@ -117,9 +117,9 @@ Depending on your permissions, you can also generate a Preview link. This allows
 
 The preview can be viewed by anyone with the link, so caution should be taken when sharing unpublished content.
 
-#### Sharing a Preview Link for multiple pages
+#### Sharing a Preview link for multiple pages
 
-It's now possible to create a single link for a Guide, Step by Step and Subsite, so you don't have to send individual links to each pages. Go to an overview page then click on 'Preview Link' and you should see the child pages have been automatically added. 
+It's now possible to create a single link for a Guide, Step by Step and Subsite, so you don't have to send individual links to each pages. Go to an overview page then click on 'Preview link' and you should see the child pages have been automatically added. 
 
 If you don't see this happening:
 
