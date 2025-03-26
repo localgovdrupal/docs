@@ -4,10 +4,10 @@ It is a primary goal of the project to ensure that the LocalGov Drupal modules a
 This documentation provides guidance for developers, and a recommended process for testing accessibility.
 
 ## Applicable guidelines
-The [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/).
+The [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/).
 
 ### Target conformance level
-All public facing content and functionality should meet or exceed WCAG 2.1 level AA.
+All public facing content and functionality should meet or exceed WCAG 2.2 level AA.
 
 The project also has a target for the administration interface to meet or exceed level AA, but accepts this may not be feasible for some time.
 
@@ -18,6 +18,3 @@ Accessibility is the responsibility of all contributors:
 - All development should be carried out with accessibility in mind.
 - An accessibility review should be carried out for any release featuring new or amended functionality.
 - If you need help please raise an issue on Github in the relevant issue queue.
-
-## Contact us for help
-Feel free to contact us on Twitter: [@localgovdrupal](https://twitter.com/LocalGovDrupal)
