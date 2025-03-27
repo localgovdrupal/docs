@@ -131,7 +131,7 @@ Previewing multiple pages at once doesn't work in Directories or on Subsite page
 
 #### Setting the Preview link expiry time
 
-You can now decide how long a preview link will continue working. It's a single value for all links, rather than a different value for each link you send.
+You can now decide how long a preview link will continue working. It's a single value for all preview links you send, rather than a different value for each one.
 
 To set the expiry time:
 
