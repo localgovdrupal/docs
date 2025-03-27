@@ -127,7 +127,23 @@ If you don't see this happening:
 - when logged in, go to Config > Content Authoring > Preview Link settings and turn 'Multiple entities' on
 - if neither work, ask your developer or post a message in #group-content and we'll help
 
-Previewing multiple pages at once doesn't work in Directories or on Service pages yet. We're working on this and will keep you posted.
+Previewing multiple pages at once doesn't work in Directories or on Subsite pages yet. We're working on this and will keep you posted.
+
+#### Setting the Preview link expiry time
+
+You can now decide how long a preview link will continue working. It's a single value for all links, rather than a different value for each link you send.
+
+To set the expiry time:
+
+- go to Configuration > Preview link settings
+- scroll to the foot of the page and you'll see this field
+
+  
+
+![Preview link expiry time field](https://github.com/user-attachments/assets/5a3507f2-ac8c-4bfc-9495-d126147dd90a)
+
+- Enter the number of days you would like the preview link to last
+- Click 'Save configuration'
 
 
 ## Scheduling content*
