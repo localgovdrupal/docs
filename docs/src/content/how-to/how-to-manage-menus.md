@@ -7,7 +7,7 @@
 Visit the Menu Overview by:
 
 - navigating via Admin > Structure > Menus
-- visit yourdomain.gov.uk/admin/structure/menus
+- visit yourdomain.gov.uk/admin/structure/menu
 
 This page shows a table of all the menus in use in the website, with a description of each and an Edit Menu button for each row. If you don't see an Edit Menu button it means you don't have permission to edit the menu.
 
