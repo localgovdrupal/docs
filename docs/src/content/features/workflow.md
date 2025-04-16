@@ -6,12 +6,24 @@
 
 This [LocalGov Workflow module](https://github.com/localgovdrupal/localgov_workflows) provides roles, content moderation, an approvals view, preview links, scheduled publishing and service contacts. This module is included in LocalGov Drupal, but is not switched on. Talk to your developer about enabling it.
 
+
 #### Video guide
 Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Essential concepts
+#### Checking if Workflow is enabled
+
+There's an easy way to check if Workflow is enabled on your site. If you see a'Published' toggle and a 'Save' button, Workflow is not enabled.
+
+![Workflow not enabled](https://github.com/user-attachments/assets/aaac5b81-61a6-4666-bcc9-448313abf2a2)
+
+If you see a 'Current state' drop down menu in the sidebar, Workflow is enabled. Click 'Save' to save the page in the selected state.
+
+![Workflow enabled](https://github.com/user-attachments/assets/4d86e5de-b604-4fba-a44a-f0a11a7fc493)
+
+
+## Workflow concepts
 
 * **Role**: A named set of permissions that can be applied to a user account. Depending on your role and your site's custom configuration, you may not be able to do all the actions on this page.
 * **Revision**: Drupal lets you create a new revision every time a piece of content is updated. This allows you to track how the piece of content has changed over time on your site. [Read more on drupal.org](https://www.drupal.org/docs/administering-a-drupal-site/node-revisions). One version will be the **current revision**, indicating which version is available to logged out users.
