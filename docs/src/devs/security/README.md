@@ -2,7 +2,7 @@
 
 The security of your LocalGov Drupal website should be given due consideration before launch.
 
-Keeping abreast of Drupal security advisories is important. See [https://www.drupal.org/security]([url](https://www.drupal.org/security)) 
+Keeping abreast of Drupal security advisories is important. See ([https://www.drupal.org/security](https://www.drupal.org/security)
 
 To subscribe to Drupal security emails: log in to Drupal.org, go to your user profile page and subscribe to the security newsletter on the Edit » My newsletters tab.
 
