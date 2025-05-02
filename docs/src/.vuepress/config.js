@@ -240,6 +240,7 @@ export default defineUserConfig({
             '/content/how-to/how-to-github',
             '/content/how-to/how-to-manage-content',
             '/content/how-to/how-to-wysiwyg-styles',
+            '/content/how-to/how-to-set-character-limits',
             '/content/how-to/how-to-crop-images',
             '/content/how-to/how-to-media-library',
             '/content/how-to/how-to-bulk-upload-images',
