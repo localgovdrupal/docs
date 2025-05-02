@@ -1,12 +1,13 @@
 # How to set character limits
 
-The [Textfield Counter](https://www.drupal.org/project/textfield_counter) module provides the following features:
+Our new character limits feature provides the following:
 
 * setting the number of characters in the title and summary fields 
 * setting the content formats the limits apply to
 * a display showing the number of characters remaining (it's not a hard limit, you can go over it if you wish)
 
-This module is included in LocalGov Drupal, but is not switched on. Talk to your developer about enabling it.
+This is an optional part of LGD, so please ask your developer to [install it](https://github.com/localgovdrupal/localgov/releases/tag/3.1.2).
+
 
 ## How to use it
 
