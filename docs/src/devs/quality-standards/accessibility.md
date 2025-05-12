@@ -3,7 +3,7 @@
 Accessibility is important for all users, especially in the public sector
 context where it is a legal requirement, and rightly so.
 
-Before recommending a project for use with LopcalGov Drupal, project maintainers
+Before recommending a project for use with LocalGov Drupal, project maintainers
 should confirm the following.
 
 ## 1. Conforms to WCAG 2.2 (AA) and ATAG 2.0
