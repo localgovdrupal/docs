@@ -158,11 +158,11 @@ To set the expiry time:
 - Click 'Save configuration'
 
 
-## Scheduling content
+## Scheduled publishing
+
+'Scheduling' allows you to publish or unpublish content at a specific date and time, so you don't have to stay up late! 
 
 This needs a submodule called  'LocalGov Review Date'. It's included in LocalGov Drupal, but is not switched on - talk to your developer about enabling it.
-
-If you want to publish or unpublish content on a particular date you can use Scheduling to line them up in advance. 
 
 ### How to publish content on a specific date
 
