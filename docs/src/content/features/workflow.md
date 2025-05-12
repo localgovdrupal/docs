@@ -158,69 +158,76 @@ To set the expiry time:
 - Click 'Save configuration'
 
 
-## Scheduling content*
+## Scheduling content
 
-If you want to publish or unpublish content on a particular date you can use Scheduled transitions to line them up in advance. 
+This needs a submodule called  'LocalGov Review Date'. It's included in LocalGov Drupal, but is not switched on - talk to your developer about enabling it.
 
-### How to schedule transitions
+If you want to publish or unpublish content on a particular date you can use Scheduling to line them up in advance. 
 
-#### How to publish content on a specific date
+### How to publish content on a specific date
 
 1. Create a piece of content and leave it in either "Draft" or "Needs review"
-3. Click the Scheduled transition tab
-1. Click "Add Scheduled transition" button
-4. Leave the "latest revision" revision selected
-5. Select Publish option from the Execute transition dropdown
-6. Set the date and time that you change the state
-7. Press the Schedule transition button
+2. Click the 'Scheduling' tab
+3. Click 'Add Schedule' button
+4. Leave the 'latest revision' revision selected
+5. On the 'Execute transition dropdown' select the 'Publish' option
+6. Set the date and time you want
+7. Click the 'Schedule' button when done
+
+![Add a schedule to publish content](https://github.com/user-attachments/assets/407f1f41-185a-4611-bc2a-28cb998120c6)
 
 #### How to unpublish content on a specific date
 
 1. Create a piece of content and Publish it
-3. Click the Scheduled transition tab
-1. Click "Add Scheduled transition" button
-4. Leave the "latest revision" revision selected
-5. Select Archive option from the Execute transition dropdown
-6. Set the date and time that you change the state
-7. Press the Schedule transition button
+2. Click the 'Scheduling' tab
+3. Click 'Add Schedule' button
+4. Leave the 'latest revision' revision selected
+5. On the 'Execute transition dropdown' select the 'Archive' option
+6. Set the date and time you want
+7. Click the 'Schedule' button when done
+
+![Add a schedule to unpublish content](https://github.com/user-attachments/assets/91c2eed4-e0af-49a4-b9f5-8472e1e38b04)
+
 
 #### How to publish a new version of a piece of published content on a specific date
 
 1. Create the two versions
-    1. Create a piece of content and Publish it 
-    1. Edit the content to create the new version and save it as Draft or Needs Review
-3. Create a transtion to unpublish the first version
-    1. Click the Scheduled transition tab
-    1. Click "Add Scheduled transition" button
-    4. Select the currently published revision
-    5. Select Archive option from the Execute transition dropdown
-    6. Set the date and time that you change the state
-    7. Press the Schedule transition button
+* Create a piece of content and publish it 
+* Edit the content to create the new version and save it as Draft or Needs Review
+  
+2. Create a transtion to unpublish the first version
+* Click the 'Scheduling' tab
+* Click 'Add Schedule' button
+* Select the currently published revision
+* On the 'Execute transition dropdown' select the 'Archive' option
+* Set the date and time you want
+* Click the 'Schedule' button when done
+
 3. Create a transtion to publish the second version
-    1. Click "Add Scheduled transition" button
-    4. Select the version that you want pulished in the future
-    5. Select Publish option from the Execute transition dropdown
-    6. Set the date and time that you change the state
-    7. Press the Schedule transition button
+* Click 'Add Schedule' button
+* Select the version that you want published in the future
+* On the 'Execute transition dropdown' select the 'Publish' option
+* Set the date and time you want
+* Click the 'Schedule' button when done
 
-### Manage all scheduled transitions
+### Manage all scheduled content
 
-To see / manage the list of currently scheduled to change state
+To see and manage all current scheduled content, click on Content > Scheduling. Here you can review, delete or reschedule any of the transitions.
 
-Visit **Admin > Content > Scheduled Transitions**
+![Scheduling option in the main menu](https://github.com/user-attachments/assets/9d7f6445-ad4e-493f-891d-b4cde21cac66)
 
-Here you can review, delete or reschedule any of the transitions.
+## Review date
 
-## Review date*
+This needs a submodule called  'LocalGov Review Date'. It's included in LocalGov Drupal, but is not switched on - talk to your developer about enabling it.
 
-Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the **Review Date** feature.
+Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the 'Review date' feature.
 
 ### An example workflow for Review date
 
 1. On publishing a piece of content we set a default review date of 1 year
-4. A year passes and the review due date passes
-5. A revision of the content appears in the "Needs Review" dashboard
-6. An editor does a thorough review and publishes the reviewed content, with a new review date of 1 year.
+2. A year passes and the review due date passes
+3. A revision of the content appears in the "Needs Review" dashboard
+4. An editor does a thorough review and publishes the reviewed content, with a new review date of 1 year.
 
 ### Managing the Review date
 
@@ -232,10 +239,8 @@ If you toggle this button to true you can set the date that the next review is d
 
 ![Sidebar showing 'content reviewed' toggle](https://user-images.githubusercontent.com/3852805/136772751-cfc3a0d6-cb19-4149-9630-895058390024.png)
 
-When the next review is due, a revision of the content will appear under the "Review" tab. The (unreviewed) content will remain published unless you decide to remove it.
-
-Visit **Admin > Content > Review**
+When the next review is due, a revision of the content will appear under the 'Review' tab. The (unreviewed) content will remain published unless you decide to remove it.
 
 !['Review content' view](https://github.com/user-attachments/assets/c246ef26-3289-48f4-8392-12edf4091ebe)
 
-* Review date and Scheduled transitions are part of the LocalGov Workflows submodule LocalGov Review Date. If these features are not available talk to your site administrator.
+
