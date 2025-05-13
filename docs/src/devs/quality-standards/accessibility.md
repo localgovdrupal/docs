@@ -16,13 +16,12 @@ Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/co
 
 ## 3. Test color has sufficient contrast
 
-Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-conforms-to-wcag-21-and-atag-20)
-cal
+Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-test-color-has-sufficient-contrast)
 
 ## 4. Form fields are labeled
 
-Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-conforms-to-wcag-21-and-atag-20)
+Please see [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-form-fields-are-labeled)
 
 ## 5. JavaScript is keyboard-usable
 
-Please see more info on [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-conforms-to-wcag-21-and-atag-20)
+Please see more info on [drupal.org core gates](https://www.drupal.org/about/core/policies/core-change-policies/core-gates/accessibility#s-javascript-is-keyboard-usable)
