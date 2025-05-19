@@ -1,9 +1,5 @@
 # Step by step
 
-[[toc]]
-
-## When to use step by step pages
-
 Step by step pages are useful where the user has to follow a process. This could include:
 
 * registering for something
@@ -13,13 +9,7 @@ Step by step pages are useful where the user has to follow a process. This could
 
 Examples could be registering for a civil partnership, registering a death or help signing in to My Account.
 
-### Video guide 
-
-Please see this video guide by content designer Ben Hills-Jones.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IhmC2BjHdps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Examples in the wild
+### Examples in the wild
 
 [Croydon: Get married or form a civil partnership](https://www.croydon.gov.uk/births-deaths-marriages-and-citizenship/marriage-and-civil-partnerships/get-married-or-form-civil-partnership-step-step)
 
@@ -27,6 +17,11 @@ Please see this video guide by content designer Ben Hills-Jones.
 
 [Dumfries & Galloway: Apply for a building warrant](https://www.dumfriesandgalloway.gov.uk/planning-building/building-regulations/step-by-step/apply-building-warrant-step-step)
 
+### How to use
+
+Please see this video guide by content designer Ben Hills-Jones.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IhmC2BjHdps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Editing tips
 
