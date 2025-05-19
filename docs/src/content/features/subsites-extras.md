@@ -1,6 +1,6 @@
 # Subsites extras 
 
-## When to use Subsite extras
+## When to use
 
 This module allows you to create menu-driven subsites in your LGD site. This is an optional part of LGD, so please ask your developer to [install it](https://github.com/localgovdrupal/localgov_subsites_extras).
 
@@ -14,7 +14,7 @@ The menu defines the structure of the subsite, and also lets you use Drupal's st
 * [Fostering, Essex County Council](https://www.essex.gov.uk/children-young-people-and-families/fostering)
 * [Fostering, London Borough of Haringey](https://new.haringey.gov.uk/children-young-people-families/childrens-social-care/fostering)
 
-## How to use Subsites
+## How to use
 
 ### Video guide
 
