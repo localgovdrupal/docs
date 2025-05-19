@@ -1,25 +1,15 @@
 # Services
 
-[[toc]]
+The 'Services' module provides a range of content types to show the services and policies you provide. These include:
 
-## When to use Services
+* 'Service landing page' - the top level section for each service
+* 'Service sub-landing page' - detail and links to specific pages within a service
+* 'Service page' - the basic page that can be placed in a service, and on a Service Sub-landing Page
+* 'Service status' - an optional additional type for providing updates about a the status of a service
 
-The Services module provides a host of features for explaining services and policies provided by your organisation. These include:
+Other LocalGov Drupal content types such as Guides, Directories and Step by step pages can also be linked from service landing and sub-landing pages.
 
-* **Service landing page** - the top level section for each service
-* **Service sub-anding page** - detail and links to specific pages within a service
-* **Service page** - the basic page that can be placed in a service, and on a Service Sub-landing Page
-* **Service status** - an optional additional type for providing updates about a the status of a service
-
-Other content types in the LocalGovDrupal distribution can also optionally be linked into service sections and referenced from sub-landing pages.
-
-### Video guide 
-
-Please see this video guide by content designer Ben Hills-Jones.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iIe74boCjII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Examples in the wild
+### Examples in the wild
 
 * [LocalGov Drupal demo: Adult health and social care](https://demo.localgovdrupal.org/adult-health-and-social-care)
 * [Croydon: Adult health and social care ](https://www.croydon.gov.uk/adult-health-and-social-care)
@@ -29,6 +19,11 @@ Please see this video guide by content designer Ben Hills-Jones.
 ![Brighton's Rubbish service page - see link above](https://user-images.githubusercontent.com/3852805/123297371-6b847280-d50f-11eb-8ac0-275c17103d4a.png)
 ![Croydon's Adult Health service page - see link above](https://user-images.githubusercontent.com/3852805/123297547-8fe04f00-d50f-11eb-8441-c14c62548d3b.png)
 
+## How to use
+
+Please see this video guide by content designer Ben Hills-Jones.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iIe74boCjII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Service landing pages
 
