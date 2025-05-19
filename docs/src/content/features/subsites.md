@@ -89,6 +89,34 @@ Only available on Subsite Page
 
 Note most items allow the content editor to set the heading level per component, to allow for appropriate heading nesting. 
 
-## Wireframes
+### Wireframes
 
 [Subsite wireframes](https://www.figma.com/file/WkubIZ0JtHpPIAiO5DoQ9B/LGD-subsite-components?node-id=0%3A1)
+
+## Subsites extras 
+
+The 'Subsites extra' module allows you menu-driven subsites in your LGD site. 
+
+The menu defines the structure of the subsite, and also lets you use Drupal's standard menu blocks and tools to display the subsite's navigation and manage the hierarchy of the pages within it.
+
+To use this you need [LocalGov Subsites Extras](https://github.com/localgovdrupal/localgov_subsites_extras) which is an optional part of LocalGov Drupal. Talk to your developer about installing it.
+
+### Examples in the wild 
+
+* [Black History Month, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/celebrating-hf/celebrating-our-history/black-history-365)
+* [Business Connects, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/business/business-connects)
+* [Pest Control Services, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/pest-control-services)
+* [Fostering, Essex County Council](https://www.essex.gov.uk/children-young-people-and-families/fostering)
+* [Fostering, London Borough of Haringey](https://new.haringey.gov.uk/children-young-people-families/childrens-social-care/fostering)
+
+### How to use
+
+Rupert gave us a [demo at our monthly Community Meetup in June 2024](https://youtu.be/rCREsyceNBw?si=VStYnJHetCs0Mpmf&t=1355).
+ 
+Also see [Mark Conroy's blog post about Subsites Extras.](https://mark.ie/blog/using-the-localgov-drupal-subsites-extras-module/)
+
+### Thanks
+
+- [Chicken](https://wearechicken.co.uk/) for developing this with the London Borough of Hammersmith & Fulham
+- Essex County Council for funding an LGD module for use by everyone
+
