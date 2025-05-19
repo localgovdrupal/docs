@@ -227,7 +227,7 @@ Content should be reviewed regularly to ensure that it is relevant and up to dat
 3. A revision of the content appears in the "Needs Review" dashboard
 4. An editor does a thorough review and publishes the reviewed content, with a new review date of 1 year.
 
-### Managing the Review date
+### Set the Review date
 
 When you create or edit a piece of content you will see the Review date panel in the sidebar.
 
@@ -250,11 +250,40 @@ This feature allows you to:
 
 To use this you need the 'LocalGov Workflow Notifications' and 'LocalGov Review Date' which are included in LocalGov Drupal, but not switched on. Talk to your developer about enabling them.
 
-### How to use Service contacts
+### How to use
 
 Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgdzxpDF9Ww?si=nCtLiO7EYRUSf-PF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+#### Adding a service contact
+
+1. Click on 'Content' in the main menu and then 'Service contacts'
+2. Click on 'Add service contact'
+3. Either add a Drupal user (start typing their username) or add a name and email address
+4. Notifications (by email) default to on, but you can turn them off if you like
+5. Add notes if you wish
+
+#### Attach a service contact to any page
+
+1. Navigate to the page and click 'Edit'
+2. In the right hand panel, look for 'Service contacts'
+3. Start typing their name
+4. Click 'Remove' if a contact is no longer needed
+5. Set the review date [as described above](https://docs.localgovdrupal.org/content/features/workflow.html#managing-the-review-date)
+
+When the review date is reached, an email will be sent to all the Service contacts listed on that page.
+
+#### Possible upgrades
+
+We're thinking about:
+
+* Importing service contacts and associating them with content, maybe via a spreadsheet upload
+* Creating groups of service contacts to cover holidays and people moving on
+* Assigning groups of urls to a pages to a service contact so it's quicker to manage. The interface would be similar to [content access by path](https://docs.localgovdrupal.org/content/how-to/how-to-devolve-publishing.html)
+* Allowing service contacts to comment or make changes in Drupal rather than replying by email
+
+If you like any of these ideas please get in touch!
 
 
 
