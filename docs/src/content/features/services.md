@@ -1,5 +1,7 @@
 # Services
 
+[[toc]]
+
 The 'Services' module provides a range of content types to show the services and policies you provide. These include:
 
 * Service landing page - the top level section for each service
