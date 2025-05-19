@@ -243,4 +243,27 @@ When the next review is due, a revision of the content will appear under the 'Re
 
 !['Review content' view](https://github.com/user-attachments/assets/c246ef26-3289-48f4-8392-12edf4091ebe)
 
+## Service contacts
+
+This feature allows you to:
+
+* assign 'owners' or 'subject matter experts' to content to save you capturing this information in a spreadsheet or elsewhere
+* automatically email them when content needs to be reviewed
+
+To use this you need the 'LocalGov Workflow Notifications' and 'LocalGov Review Date' which are included in LocalGov Drupal, but not switched on. Talk to your developer about enabling them.
+
+## How to use Service contacts
+
+Please see this video guide by content designer Ben Hills-Jones.
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qgdzxpDF9Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
 
