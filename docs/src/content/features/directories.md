@@ -79,7 +79,7 @@ In order to allow users to filter Directory Items by Directory Facets, Items mus
 
 When creating\editing _Sports venue_ Directory Items _Sports_ and _Location_ facets can be selected while with _Schools_ the _Age_ and _Location_ facets will be available.  
 
-## How to create a sample directory
+## Creating a sample directory
 
 In this guide we'll step through the process to create a Directory of secondary schools using features which come out-of-the-box with LocalGov Drupal.
 
