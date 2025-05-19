@@ -1,8 +1,8 @@
 # Publications
 
-This module provides Publications pages, an accessible and responsive HTML format to reduce the need for PDF files. 
+Publications are an accessible and responsive HTML format which reduces the need for PDF files. 
 
-This is an optional part of LGD, so please ask your developer to [install it](https://github.com/localgovdrupal/localgov_publications).
+To use them you need [LocalGov Publications](https://github.com/localgovdrupal/localgov_publications) which is an optional part of LocalGov Drupal. Talk to your developer about installing it.
 
 ### Examples in the wild
 
