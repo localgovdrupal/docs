@@ -1,4 +1,4 @@
-# Content designers, editors & content managers
+# Content designers, editors and content managers
 
 This section is specifically to help content designers, content managers and editors to get up and running with a LocalGov Drupal site.
 
@@ -6,7 +6,8 @@ We've consulted content designers and site editors along the way as we've design
 
 The following pages explain how the features work out-of-the-box, from a content designer or editor point of view. We recommend that you copy and extend them with your own in-house styles to make a full styleguide.
 
-## Content Design / Editor Starter Pack
+## Starter pack
+
 There is a starter pack [which you can download here](https://docs.google.com/document/d/1VL3EHizQMujGPoDjGPq_-FYcCl44vYqmKM9bVV1OQPM/edit) use a reference guide to basic tasks. 
 
 ## Video series
@@ -21,14 +22,14 @@ We've put together a series of How-to videos which are here in the documentation
 Descriptions of the [features of LocalGov Drupal](https://docs.localgovdrupal.org/content/features/) that are useful for content editors and content designers, with guidance on what the feature is designed for, and how it was intended to be used. 
 
 
-## Patterns & Components
+## Patterns and Components
 
 Descriptions of some [components available through the WYSIWYG editor](https://docs.localgovdrupal.org/content/patterns.html)
 
 
-## Content Migration
+## Content migration
 
-How best to migrate content from another CMS is one of the most asked questions. To help get you started there is a series of videos on how some councils have managed this [here on our YouTube channel](https://www.youtube.com/playlist?list=PLibxxY4DUV2q9RHJ58GxT8F1HJxLL38lW) but we suggest talking to other councils in the #group-content Slack channel, or to some of the suppliers who have helped with migrations.   
+How best to migrate content from another CMS is one of our most asked questions. To help get you started there is a series of videos on how some councils have managed this [here on our YouTube channel](https://www.youtube.com/playlist?list=PLibxxY4DUV2q9RHJ58GxT8F1HJxLL38lW) but we suggest talking to other councils in the #group-content Slack channel, or to some of the suppliers who have helped with migrations.   
 
 
 ## Drupal terminology
@@ -61,9 +62,9 @@ See [Drupal's glossary](https://www.drupal.org/docs/user_guide/en/glossary.html)
 
 
 
-## How to get involved
+## Get involved
 
-### Working Groups
+### Working groups
 
 We're keen to have content designers represented in the design and specification of new features. Please get in touch if you want to be involved.
 
