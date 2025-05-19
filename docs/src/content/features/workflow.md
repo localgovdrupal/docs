@@ -1,18 +1,16 @@
 # Workflow
 
-[[toc]]
+Workflow provides roles, content moderation, an approvals view, preview links, scheduled publishing and service contacts. 
 
-## When to use Workflow
+To use them you need [LocalGov Workflow](https://github.com/localgovdrupal/localgov_workflows) which is included in LocalGov Drupal, but not switched on. Talk to your developer about enabling it.
 
-This [LocalGov Workflow module](https://github.com/localgovdrupal/localgov_workflows) provides roles, content moderation, an approvals view, preview links, scheduled publishing and service contacts. This module is included in LocalGov Drupal, but is not switched on. Talk to your developer about enabling it.
+## How to use
 
-
-#### Video guide
 Please see this video guide by content designer Ben Hills-Jones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Checking if Workflow is enabled
+### Checking if Workflow is enabled
 
 There's an easy way to check if Workflow is enabled on your site. If you see a'Published' toggle and a 'Save' button, Workflow is not enabled.
 
