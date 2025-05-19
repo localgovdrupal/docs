@@ -252,11 +252,11 @@ This feature allows you to:
 
 To use this you need the 'LocalGov Workflow Notifications' and 'LocalGov Review Date' which are included in LocalGov Drupal, but not switched on. Talk to your developer about enabling them.
 
-## How to use Service contacts
+### How to use Service contacts
 
 Please see this video guide by content designer Ben Hills-Jones.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=qgdzxpDF9Ww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qgdzxpDF9Ww?si=nCtLiO7EYRUSf-PF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
