@@ -162,7 +162,7 @@ To set the expiry time:
 
 'Scheduling' allows you to publish or unpublish content at a specific date and time, so you don't have to stay up late! 
 
-This needs a submodule called  'LocalGov Review Date'. It's included in LocalGov Drupal, but is not switched on - talk to your developer about enabling it.
+This needs a submodule called  'LocalGov Review Date' which is included in LocalGov Drupal, but is not switched on. Talk to your developer about enabling it.
 
 ### How to publish content on a specific date
 
@@ -218,9 +218,10 @@ To see and manage all current scheduled content, click on Content > Scheduling. 
 
 ## Review date
 
-This needs a submodule called  'LocalGov Review Date'. It's included in LocalGov Drupal, but is not switched on - talk to your developer about enabling it.
+The 'Review Date' feature allows you to schedule reviews so your content is relevant and up to date.
 
-Content should be reviewed regularly to ensure that it is relevant and up to date. We can track these reviews using the 'Review date' feature.
+This needs a submodule called  'LocalGov Review Date' which is included in LocalGov Drupal, but is not switched on. Talk to your developer about enabling it.
+
 
 ### An example workflow for Review date
 
