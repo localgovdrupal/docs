@@ -9,7 +9,7 @@ Step by step pages are useful where the user has to follow a process. This could
 
 Examples could be registering for a civil partnership, registering a death or help signing in to My Account.
 
-## Examples in the wild
+### Examples in the wild
 
 [Croydon: Get married or form a civil partnership](https://www.croydon.gov.uk/births-deaths-marriages-and-citizenship/marriage-and-civil-partnerships/get-married-or-form-civil-partnership-step-step)
 
@@ -17,7 +17,7 @@ Examples could be registering for a civil partnership, registering a death or he
 
 [Dumfries & Galloway: Apply for a building warrant](https://www.dumfriesandgalloway.gov.uk/planning-building/building-regulations/step-by-step/apply-building-warrant-step-step)
 
-### How to use
+## How to use
 
 Please see this video guide by content designer Ben Hills-Jones.
 
