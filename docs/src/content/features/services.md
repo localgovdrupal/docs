@@ -2,10 +2,10 @@
 
 The 'Services' module provides a range of content types to show the services and policies you provide. These include:
 
-* 'Service landing page' - the top level section for each service
-* 'Service sub-landing page' - detail and links to specific pages within a service
-* 'Service page' - the basic page that can be placed in a service, and on a Service Sub-landing Page
-* 'Service status' - an optional additional type for providing updates about a the status of a service
+* Service landing page - the top level section for each service
+* Service sub-landing page - detail and links to specific pages within a service
+* Service page - the basic page that can be placed in a service, and on a Service Sub-landing Page
+* Service status - an optional additional type for providing updates about a the status of a service
 
 Other LocalGov Drupal content types such as Guides, Directories and Step by step pages can also be linked from service landing and sub-landing pages.
 
