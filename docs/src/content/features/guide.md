@@ -1,33 +1,29 @@
 # Guide
 
-[[toc]]
+Guide pages are useful when you want to group together a collection of connected pages, where there's no set process to be followed.
 
-## When to use Guides
+They are useful if you want to give someone a range of information on one subject. The user can use the 'Next' button to move through the guide.
 
-Guide pages are useful when you want to group together a collection of connected pages. If there's content that's relative to the user completing a task, but it doesn't follow a strict process, you should use the guide format. 
-
-They are useful if you want to give someone a range of information on one subject. The user can use the 'Next' button to move through the guide. However, they do not need to read every page in order, like in a [step by step](/content/features/step-by-step.html).
-
-Examples include:
+Typical uses include:
 
 * types of animal welfare licences
 * changing a birth record
 * coroners
 * sheltered housing
 
-### Video guide
+If you want to group together pages where there is a set process - applying for a permit, for example - then use [Step by step pages](https://docs.localgovdrupal.org/content/features/step-by-step.html) instead.
 
-Please see this video guide by content designer Ben Hills-Jones.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nwk-hXkDanc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## Examples in the wild
+### Examples in the wild
 
 [Dumfries & Galloway: Funded early learning and childcare](https://www.dumfriesandgalloway.gov.uk/schools-learning/early-learning-childcare/funded-early-learning-childcare)
 
 [Woking: Health and safety at work](https://beta.woking.gov.uk/business-licences-permits/health-safety-work)
 
+## How to use
+
+Please see this video guide by content designer Ben Hills-Jones.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nwk-hXkDanc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Layout options
 
