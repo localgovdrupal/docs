@@ -16,9 +16,6 @@ Other LocalGov Drupal content types such as Guides, Directories and Step by step
 * [Lambeth: Bins and recycling](https://beta.lambeth.gov.uk/rubbish-recycling)
 * [Brighton & Hove: Rubbish, recycling and streets](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
 
-![Brighton's Rubbish service page - see link above](https://user-images.githubusercontent.com/3852805/123297371-6b847280-d50f-11eb-8ac0-275c17103d4a.png)
-![Croydon's Adult Health service page - see link above](https://user-images.githubusercontent.com/3852805/123297547-8fe04f00-d50f-11eb-8441-c14c62548d3b.png)
-
 ## How to use
 
 Please see this video guide by content designer Ben Hills-Jones.
@@ -119,12 +116,10 @@ The related topics can be suppressed by checking the 'Hide the related topics pa
 Service status allow you to give updates about the status of the relevant service. You can position these around your site so users will see them as they engaged with a particular service.
 
 ![Screenshot of Brighton's Rubbish & Waste Service Landing Page, with 2 status shown below a title Service updates](https://user-images.githubusercontent.com/3852805/123281746-d75fde80-d501-11eb-8408-232d35a98c40.png)
-Source: [Brighton](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets)
 
 A list of service statuses also appears on the URL service-path/update:
 
 ![Screenshot of Brighton's Rubbish & Waste Service Status updates, showing 4 updates with the most recent first](https://user-images.githubusercontent.com/3852805/123282093-1d1ca700-d502-11eb-8077-f820eba2fb30.png)
-Source: [Brighton](https://www.brighton-hove.gov.uk/rubbish-recycling-and-streets/update)
 
 ### When to use a service status
 
