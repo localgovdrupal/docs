@@ -15,13 +15,12 @@ The 'Services' module provides a range of content types to show the services and
 - [Services - Design notes](/design/documentation.html#services)
 - [Services - Research notes](/design/research.html#services)
 
-## Alert banners
+## Directories
 
-Alert banners display urgent information across your whole site, or a selection of pages.
+Directories provide a way to present lists of similar content which can be searched and filtered by your users.
 
-- [How to use Alert banners](/content/features/alert-banner.md)
-- [Alert banners - Technical](/devs/features/alert-banner-technical.md)
-- [Alert banners - Design notes](/design/documentation.html#alert-banners)
+- [How to use Directories](/content/features/directories.md)
+- [Directories - Technical](/devs/features/directories-technical.md)
 
 ## Step by step
 
@@ -44,12 +43,13 @@ The 'News' module provides content types and navigation for presenting news arti
 - [News - Design notes](/design/documentation.html#news)
 - [News - Research notes](/design/research.html#news)
 
-## Directories
+## Alert banners
 
-Directories provide a way to present lists of similar content which can be searched and filtered by your users.
+Alert banners display urgent information across your whole site, or a selection of pages.
 
-- [How to use Directories](/content/features/directories.md)
-- [Directories - Technical](/devs/features/directories-technical.md)
+- [How to use Alert banners](/content/features/alert-banner.md)
+- [Alert banners - Technical](/devs/features/alert-banner-technical.md)
+- [Alert banners - Design notes](/design/documentation.html#alert-banners)
 
 ## Location Geo
 
