@@ -103,11 +103,16 @@ To use this you need [LocalGov Subsites Extras](https://github.com/localgovdrupa
 
 ### Examples in the wild 
 
+* [Better Places, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/transport-and-roads/better-places)
 * [Black History Month, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/celebrating-hf/celebrating-our-history/black-history-365)
 * [Business Connects, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/business/business-connects)
+* [Cost of living support, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/cost-living-support)
+* [Holiday Activities, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/holiday-activities-and-food-programme)
+* [Jobs in Adult Social Care, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/jobs-adult-social-care)
 * [Pest Control Services, London Borough of Hammersmith & Fulham](https://www.lbhf.gov.uk/pest-control-services)
 * [Fostering, Essex County Council](https://www.essex.gov.uk/children-young-people-and-families/fostering)
 * [Fostering, London Borough of Haringey](https://new.haringey.gov.uk/children-young-people-families/childrens-social-care/fostering)
+* [Gretna Registration Office, Dumfries & Galloway Council](https://www.dumfriesandgalloway.gov.uk/gretna-registration-office)
 
 ### How to use
 
