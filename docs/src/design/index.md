@@ -18,7 +18,10 @@ Subsites exist outside services and allow for more campaign-like sites, with dif
 
 Events also exist outside services.
 
-## Wireframes
+## Design systems
+
+Some councils have developed their own design systems and made them open access for other councils to make use of:
+- [Southwark's Design System in Figma](https://www.figma.com/community/file/1387072265514780981/southwark-council-localgov-design-system-v1-0) 
 
 Where wireframes exist, they can be found on the [documentation](/design/documentation) page.
 
