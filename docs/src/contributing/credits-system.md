@@ -52,7 +52,7 @@ We apply a custom weighting based on our own assessment and priorities, but thes
 
 You will need an individual user account and an organisation on drupal.org to get credits. 
 
-* To register for a user account on Drupal.org:  [https://www.drupal.org/user/register?destination=user/regsiter](https://www.drupal.org/user/register?destination=user/regsiter)   
+* To register for a user account on Drupal.org:  [https://www.drupal.org/user/register?destination=user/register](https://www.drupal.org/user/register?destination=user/register)   
 * To add an organisation: [https://www.drupal.org/node/add/organization](https://www.drupal.org/node/add/organization) 
 
 (You can follow the guidance on [Getting credit for work on issues](https://www.drupal.org/docs/develop/issues/fields-and-other-parts-of-an-issue/getting-credit-for-work-on-issues#s-setting-up-to-credit-an-organization) page to do this.)
