@@ -111,7 +111,7 @@ The Terminal output of this command will look something like the following:
 Switch to the LGD_DEMO directory by running:
 
 ```bash
-cd MY_PROJECT
+cd LGD_DEMO
 ```
 
 ### 2. The DDEV Part
