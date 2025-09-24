@@ -248,6 +248,7 @@ export default defineUserConfig({
             '/content/how-to/how-to-devolve-publishing',
             '/content/how-to/how-to-tag-content',
             '/content/how-to/how-to-archive-ua-data',
+            '/content/how-to/how-to-migrate-content-from-existing-sites',
           ]
         },
       ],
