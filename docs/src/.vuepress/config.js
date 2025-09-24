@@ -136,6 +136,7 @@ export default defineUserConfig({
             '/devs/features/geo-technical',
             '/devs/features/subsites',
             '/devs/features/workflows',
+            '/devs/features/search',
           ]
         },
         {
