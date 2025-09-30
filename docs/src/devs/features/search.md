@@ -4,11 +4,7 @@
 
 ## Introduction
 
-A default installation of LocalGov Drupal comes with the optional localgov_search module.
-
-See https://github.com/localgovdrupal/localgov_search
-
-This installs and configures the Search API module for a default sitewide search.
+A default installation of LocalGov Drupal comes with the optional [localgov_search module](https://github.com/localgovdrupal/localgov_search). This installs and configures the Search API module for a default sitewide search.
 
 The sitewide search indexes all content on the site and provides a search page (at /search) and a search block that is placed in the site header by default.
 
