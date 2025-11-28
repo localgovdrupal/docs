@@ -53,7 +53,7 @@ cd localgov
 Then, we need to initialise our DDEV project:
 
 ```bash
-ddev config --project-type=drupal10 --docroot=web
+ddev config --project-type=drupal10 --php-version=8.3 --docroot=web
 ddev start
 ```
 
