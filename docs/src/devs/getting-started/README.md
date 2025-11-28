@@ -33,7 +33,9 @@ create a fully functional build. To do that, Composer i.e. Drupal's dependency m
 your local system.
 
 There are two ways to install Composer, locally and globally. The latter is usually preferred as, with a single 
-executable installed once, it allows Composer to manage the dependencies of multiple projects present on your machine. 
+executable installed once, it allows Composer to manage the dependencies of multiple projects present on your machine.
+
+Composer is included in DDEV and Lando.
 
 ### Working with Lando/DDEV containerized servers
 
