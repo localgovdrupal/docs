@@ -125,7 +125,7 @@ on [GitHub](https://github.com/localgovdrupal/localgov_project) and [Drupal.org]
 To build the LocalGov Drupal project locally, we use Composer to bring all the required packages together:
 
 ```bash
-ddev composer create localgovdrupal/localgov-project
+ddev composer create-project localgovdrupal/localgov-project
 ```
 
 All Composer packages for this project will be downloaded. This can take a while, as the command downloads all the
