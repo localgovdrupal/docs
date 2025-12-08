@@ -179,7 +179,7 @@ To log in to your Drupal administrator account on your brand new LocalGov Drupal
 to create a one time login link for the admin user:
 
 ```bash
-ddev drush user:login
+ddev launch $(ddev drush user:login)
 ```
 
 Alternatively, open https://localgov.ddev.site/ and manually enter the credentials returned from the
