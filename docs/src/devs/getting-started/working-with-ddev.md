@@ -38,7 +38,7 @@ LocalGov Drupal project locally.
 Switch to an appropriate directory (for example the `~/Sites` folder on macOS) via the command line:
 
 ```bash
-cd ~/Sites
+cd ~/sites
 ```
 
 ### 1. Setting up DDEV
