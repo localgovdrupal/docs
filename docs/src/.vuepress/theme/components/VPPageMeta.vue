@@ -1,15 +1,13 @@
 <script setup lang="ts">
-import VPEditIcon from '@theme/VPEditIcon.vue'
-import { useContributors } from '@theme/useContributors'
-import { useEditLink } from '@theme/useEditLink'
-import { useLastUpdated } from '@theme/useLastUpdated'
-import { useThemeLocaleData } from '@theme/useThemeData'
+import VPEditIcon from '@vuepress/theme-default/lib/client/components/VPEditIcon.vue'
+import { useEditLink } from '@vuepress/theme-default/lib/client/composables/useEditLink.js'
+import { useLastUpdated } from '@vuepress/plugin-git/client'
+import { useThemeLocaleData } from '@vuepress/plugin-theme-data/client'
 import { AutoLink } from 'vuepress/client'
 
 const themeLocale = useThemeLocaleData()
 const editLink = useEditLink()
 const lastUpdated = useLastUpdated()
-const contributors = useContributors()
 </script>
 
 <template>
@@ -24,9 +22,9 @@ const contributors = useContributors()
 
     <div class="vp-meta-item git-info">
       <div v-if="lastUpdated" class="vp-meta-item last-updated">
-        <span class="meta-item-label">{{ themeLocale.lastUpdatedText }}: </span>
+        <span class="meta-item-label">{{ themeLocale.lastUpdatedText ?? 'Last Updated' }}: </span>
         <ClientOnly>
-          <span class="meta-item-info">{{ lastUpdated }}</span>
+          <time class="meta-item-info" :datetime="lastUpdated.iso" data-allow-mismatch>{{ lastUpdated.text }}</time>
         </ClientOnly>
       </div>
     </div>
