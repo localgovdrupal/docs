@@ -1,38 +1,37 @@
-# **Creating meaningful KPIs for your council website**
+# **How to create meaningful KPIs**
 
-This page aims to provide some helpful guidance for creating KPIs for your council website. It’s based on a talk that XXXX and XXXX gave at the Community Meetup in XXXX 2025.
+This page aims to provide some helpful guidance for creating KPIs for your council website. It’s based on a talk that Jamie Garrett and Nichole Sickel from Invuse  gave LocalGov Drupal Week 2025.
 
 Measuring success is about more than just counting page views. It’s about understanding if your website is actually helping residents get things done—whether that’s paying for parking, reporting a missed bin, or finding care information.
 
 This guide helps councils move beyond "vanity metrics" to create meaningful Key Performance Indicators (KPIs) that prove the value of your work and drive continuous improvement.
 
-## **What makes a KPI meaningful?**
+## What makes a KPI meaningful?
 
 A meaningful KPI tells you if your service is working for residents and staff. It connects a user need to a measurable outcome.
 
 To set a good KPI, you first need to define what "good" looks like.
 
-* **Success Criteria:** The outcome you want (e.g., "Residents can report a missed bin easily without needing to call us").
+* **Success Criteria:** The outcome you want (e.g. "Residents can report a missed bin easily without needing to call us").
 
-* **KPI:** The metric that proves it (e.g., "Reduce average time to complete the missed bin form to under 2 minutes").
+* **KPI:** The metric that proves it (e.g. "Reduce average time to complete the missed bin form to under 2 minutes").
+  
+* **Meaningful Outcome:** The result (e.g. "Time reduced by 53%, resulting in fewer support calls").
 
-* **Meaningful Outcome:** The result (e.g., "Time reduced by 53%, resulting in fewer support calls").
-
-## **Avoid the common traps**
+## Avoid the common traps
 
 * **Don't measure activity over impact:** Knowing you have 10,000 page views doesn't tell you if anyone found what they needed.
 
-* **Don't set too many:** Aim for **8–12 focused KPIs** rather than 30\. If you measure everything, you measure nothing.
+* **Don't set too many:** Aim for –12 focused KPIs rather than 30. If you measure everything, you measure nothing.
 
 * **Don't set and forget:** Every KPI must have an owner and an action attached to it. If the number drops, who fixes it?
 
----
 
-## **A framework for setting KPIs**
+## A framework for setting KPIs
 
 We recommend a "funnel" approach to prioritize what you measure. You can't fix everything at once, so focus on the areas that cost your council the most time and money.
 
-1. **Corporate Strategy:** Start with your council's top goals (e.g., "Reduce cost to serve" or "Improve digital inclusion").
+1. **Corporate Strategy:** Start with your council's top goals (e.g. "Reduce cost to serve" or "Improve digital inclusion").
 
 2. **User Behavior:** Look at your analytics. Which pages have the highest traffic but high drop-off rates?
 
@@ -42,51 +41,50 @@ We recommend a "funnel" approach to prioritize what you measure. You can't fix e
 
 5. **SME Validation:** Check with the service managers. Does the data match their reality?
 
-## **Use a scoring matrix**
+
+## Use a scoring matrix
 
 Rate your potential KPIs against these factors to find your top priorities. A journey with high call volumes (Volume), high avoidable contact (Failure Demand), and high manual processing time (Cost to Serve) should be your top priority.
 
----
 
-## **The KPI Lifecycle**
+## The KPI Lifecycle
 
 Your KPIs should evolve as your project moves from discovery to live.
 
-## **Discovery & Alpha**
+### Discovery & Alpha
 
 * **Goal:** Establish a baseline. You can't prove success if you don't know where you started.
 
 * **Action:** Measure current time-on-task, completion rates, and call volumes for key journeys.
 
-## **Beta**
+### Beta
 
 * **Goal:** Validate and refine.
 
 * **Action:** Test your new service with real users. Compare this early data against your discovery baseline. Are people faster? Are they making fewer errors?
 
-## **Live & Continuous Improvement**
+### Live & Continuous Improvement
 
 * **Goal:** Monitor impact and optimize.
 
 * **Action:** Track your KPIs monthly or quarterly. If performance dips, investigate immediately. Use this data to decide what to build or fix next.
 
----
 
-## **Examples from the LocalGov Drupal community**
+## Examples from the LocalGov Drupal community
 
 Here is how other councils have used this approach to prove success.
 
 | Council | Challenge | KPI Strategy | Outcome |
 | :---- | :---- | :---- | :---- |
-| **Essex County Council** | Users struggled to find information on the Schools InfoLink site. | Focused on reducing content volume and journey times. | **21%** reduction in page count. **38%** faster journey times. **66%** improvement in accessibility compliance. |
-| **Woking Borough Council** | High frustration and negative user sentiment. | Measured "self-reported positive experience" via surveys. | Positive ratings **doubled** (27% to 60%). Negative ratings dropped to **0%**. |
-| **Haringey Council** | Complex forms were causing drop-offs. | Targeted specific high-volume transactions. | **2m 34s** saved per missed bin report. **2m 08s** saved per council tax band search. |
+| **Essex County Council** | Users struggled to find information on the Schools InfoLink site. | Focused on reducing content volume and journey times. | 21% reduction in page count. 38% faster journey times. 66% improvement in accessibility compliance. |
+| **Woking Borough Council** | High frustration and negative user sentiment. | Measured "self-reported positive experience" via surveys. | Positive ratings doubled (27% to 60%). Negative ratings dropped to 0%. |
+| **Haringey Council** | Complex forms were causing drop-offs. | Targeted specific high-volume transactions. | 2m 34s saved per missed bin report. 2m 08s saved per council tax band search. |
 
-## **5 types of KPIs to consider**
+## 5 types of KPIs to consider
 
 Don't just look at analytics. A balanced scorecard includes:
 
-1. **User Experience:** Time on task, task success rate, ease of use (e.g., System Usability Scale).
+1. **User Experience:** Time on task, task success rate, ease of use (e.g. System Usability Scale).
 
 2. **Content Effectiveness:** Reading age (aim for age 9), search success rates, content freshness.
 
@@ -96,7 +94,7 @@ Don't just look at analytics. A balanced scorecard includes:
 
 5. **Technical Performance:** Page load speed, uptime, carbon footprint per page view.
 
-## **Tools you can use**
+## Tools you can use
 
 You don't need expensive new software to start measuring.
 
@@ -110,8 +108,8 @@ You don't need expensive new software to start measuring.
 
 ## Credit
 
-This guidance is based on a webinar that Jamie Garrett and Nichole Sickel from Invuse delivered as part of LocalGov Drupal Week 2025\. 
+This guidance is based on a webinar that Jamie Garrett and Nichole Sickel from Invuse delivered as part of LocalGov Drupal Week 2025. 
 
-You can watch the full video here: [https://youtu.be/fD8oW\_vmaJ8](https://youtu.be/fD8oW_vmaJ8) 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fD8oW_vmaJ8?si=3Kf3OhmL64WOmtLf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Here is the [slide deck](https://drive.google.com/file/d/1y9B1khzxvHNrnjR1MXS71UgEjIJyFwj1/view). 
