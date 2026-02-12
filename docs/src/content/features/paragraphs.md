@@ -21,9 +21,52 @@ We'll add to this section once we've finished our review of the UX.
 
 ## Paragraph types
 
-Here's a [detailed list](https://docs.google.com/document/d/1OJ6lA_8tzHyKWOdpz3hGGIpB-2f9o5JcTn837Whfr5c/edit?usp=sharing).
+Here's the [complete list](https://docs.google.com/document/d/1OJ6lA_8tzHyKWOdpz3hGGIpB-2f9o5JcTn837Whfr5c/edit?usp=sharing).
 
 Thanks to [Big Blue Door](https://www.bigbluedoor.net/) for sharing this.
+
+### Accordion
+
+Element that allows users to show and hide sections of content on a web page to save space and reduce scrolling
+A typical example of this would be an “FAQ” page.
+
+#### Machine name
+
+localgov_accordion
+
+#### Fields
+
+Title
+
+Display show/ hide all (Yes/No) 
+
+Allow multiple open panes (Yes/No)
+
+Heading level*
+
+Ability to add multiple panes, each with:
+
+* Title*
+* Heading level*
+* Description*
+
+### Accordion pane
+
+A single accordion pane (one single expandable item). Unlikely to be used in isolation, it will be added as part of an Accordion
+
+#### Machine name
+
+localgov_accordion_pane
+
+#### Fields
+
+Title*
+Heading level*
+Description*
+
+#### Images of accordion and accordion pane
+
+<img width="1177" height="391" alt="Screenshot 2026-02-12 at 14 31 53" src="https://github.com/user-attachments/assets/f5b20083-eb45-4a6d-aa43-bbb9064ae62a" />
 
 
 <!-- ## How to use
