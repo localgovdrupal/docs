@@ -54,17 +54,17 @@ Ability to add multiple panes, each with:
 
 A single accordion pane (one single expandable item). Unlikely to be used in isolation, it will be added as part of an Accordion
 
-#### Machine name
+**Machine name**
 
 localgov_accordion_pane
 
-#### Fields
+**Fields**
 
 Title*
 Heading level*
 Description*
 
-#### Images of accordion and accordion pane
+**Images of accordion and accordion pane**
 
 <img width="1177" height="391" alt="Screenshot 2026-02-12 at 14 31 53" src="https://github.com/user-attachments/assets/f5b20083-eb45-4a6d-aa43-bbb9064ae62a" />
 
