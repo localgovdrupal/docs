@@ -1,6 +1,6 @@
 # **Creating meaningful KPIs for your council website**
 
-This page aims to prov ide some helpful guidance for creating KPIs for your council website. It’s based on a talk that XXXX and XXXX gave at the Community Meetup in XXXX 2025\.
+This page aims to provide some helpful guidance for creating KPIs for your council website. It’s based on a talk that XXXX and XXXX gave at the Community Meetup in XXXX 2025.
 
 Measuring success is about more than just counting page views. It’s about understanding if your website is actually helping residents get things done—whether that’s paying for parking, reporting a missed bin, or finding care information.
 
