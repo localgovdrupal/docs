@@ -21,9 +21,7 @@ We'll add to this section once we've finished our review of the UX.
 
 ## Paragraph types
 
-Here's the [complete list](https://docs.google.com/document/d/1OJ6lA_8tzHyKWOdpz3hGGIpB-2f9o5JcTn837Whfr5c/edit?usp=sharing).
-
-Thanks to [Big Blue Door](https://www.bigbluedoor.net/) for sharing this.
+Here's the [complete list](https://docs.google.com/document/d/1OJ6lA_8tzHyKWOdpz3hGGIpB-2f9o5JcTn837Whfr5c/edit?usp=sharing). Thanks to [Big Blue Door](https://www.bigbluedoor.net/) for sharing this.
 
 ### Accordion
 
@@ -92,6 +90,55 @@ localgov_banner_secondary
 * Image*
 
 <img width="949" height="421" alt="Screenshot 2026-02-12 at 14 55 02" src="https://github.com/user-attachments/assets/56c83ecf-9f07-45f6-84dc-ee33783e9126" />
+
+
+### Block view
+
+TBC: paragraph to add a listing (Drupal “View”)to a page (eg. events block, news listing etc)
+
+**Machine name**
+
+localgov_block_view
+
+**Fields**
+
+*Block view / display*
+
+
+### Box link
+
+A button element which can be added with or without an image. Can be used on its own or as part of a “Box links listing”
+
+**Machine name**
+
+localgov_box_link
+
+**Fields**
+
+* Image
+* Link / link text
+* Open in a new window (Yes/No)
+
+
+### Box links listing
+
+A grid / listing of buttons, each with or without an image
+
+**Machine name**
+
+localgov_box_links_listing
+
+**Fields**
+
+* Title
+* Heading level
+* Box listing theme (Grid / Boxes)
+* Ability to add multiple box links, each with Image, Link / link text, Open in a new window (Yes/No)
+
+**Image of Box link and Box links listing**
+
+<img width="419" height="150" alt="Screenshot 2026-02-12 at 15 11 04" src="https://github.com/user-attachments/assets/c38542b8-6c90-4d9d-82cc-b0980c2055d7" />
+
 
 -------
 ### 
