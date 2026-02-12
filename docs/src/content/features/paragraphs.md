@@ -36,19 +36,11 @@ localgov_accordion
 
 **Fields**
 
-Title
-
-Display show/ hide all (Yes/No) 
-
-Allow multiple open panes (Yes/No)
-
-Heading level*
-
-Ability to add multiple panes, each with:
-
-* Title*
+* Title
+* Display show/ hide all (Yes/No) 
+* Allow multiple open panes (Yes/No)
 * Heading level*
-* Description*
+* Ability to add multiple panes, each with Title*, Heading level*, Description*
 
 ### Accordion pane
 
@@ -60,9 +52,9 @@ localgov_accordion_pane
 
 **Fields**
 
-Title*
-Heading level*
-Description*
+* Title*
+* Heading level*
+* Description*
 
 **Images of accordion and accordion pane**
 
@@ -78,11 +70,11 @@ localgov_banner_primary
 
 **Fields**
 
-Image*
-Title*
-Text*
-Logo
-URL
+* Image*
+* Title*
+* Text*
+* Logo
+* URL
 
 <img width="1209" height="449" alt="Screenshot 2026-02-12 at 14 52 47" src="https://github.com/user-attachments/assets/203c47a2-94c8-4046-885f-f3d4acf8bf14" />
 
@@ -97,7 +89,7 @@ localgov_banner_secondary
 
 **Fields**
 
-Image*
+* Image*
 
 <img width="949" height="421" alt="Screenshot 2026-02-12 at 14 55 02" src="https://github.com/user-attachments/assets/56c83ecf-9f07-45f6-84dc-ee33783e9126" />
 
