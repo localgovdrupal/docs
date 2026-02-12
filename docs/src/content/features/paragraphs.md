@@ -15,6 +15,17 @@ Paragraphs are being overhauled as part of our 2025/ 2026 'Refresh' mission. Thi
 * allowing pargraphs to be added to more places around your site
 * tidying up the list of paragraphs and making it clear what each is used for. Over time some lesser used paragraphs may be deprecated
 
+## How to use
+
+We'll add to this section once we've finished our review of the UX.
+
+## Paragraph types
+
+Here's a [detailed list](https://docs.google.com/document/d/1OJ6lA_8tzHyKWOdpz3hGGIpB-2f9o5JcTn837Whfr5c/edit?usp=sharing).
+
+Thanks to [Big Blue Door](https://www.bigbluedoor.net/) for sharing this.
+
+
 <!-- ## How to use
 
 Please see this video guide by content designer Ben Hills-Jones.
