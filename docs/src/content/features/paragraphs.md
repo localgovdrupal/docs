@@ -30,11 +30,11 @@ Thanks to [Big Blue Door](https://www.bigbluedoor.net/) for sharing this.
 Element that allows users to show and hide sections of content on a web page to save space and reduce scrolling
 A typical example of this would be an “FAQ” page.
 
-#### Machine name
+**Machine name**
 
 localgov_accordion
 
-#### Fields
+**Fields**
 
 Title
 
