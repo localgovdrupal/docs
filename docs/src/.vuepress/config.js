@@ -251,6 +251,7 @@ export default defineUserConfig({
             '/content/how-to/how-to-tag-content',
             '/content/how-to/how-to-archive-ua-data',
             '/content/how-to/how-to-migrate-content-from-existing-sites',
+            '/content/how-to/how-to-create-meaningful-kpis',
           ]
         },
       ],
