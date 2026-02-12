@@ -228,6 +228,7 @@ export default defineUserConfig({
             '/content/features/step-by-step',
             '/content/features/subsites',
             '/content/features/workflow',
+            '/content/features/paragraphs',
           ]
         },
         'patterns',
