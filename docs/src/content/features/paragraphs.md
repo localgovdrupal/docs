@@ -1,12 +1,21 @@
 # Paragraphs
 
-this page will be about paragraphs
+Paragraphs allow editors to pre-defined blocks of content to be added to pages around your LocalGov Drupal site.
 
-## Ignore all of this - it's placeholder text
+Many paragraph types of are available out of the box (including an accordion, contact details, document, image and video).
 
-To use them you need [LocalGov Workflow](https://github.com/localgovdrupal/localgov_workflows) which is included in LocalGov Drupal, but not switched on. Talk to your developer about enabling it.
+It's also easy to create a library of 'reusable paragraphs' - this allows you to change content once centrally, and all instances of the paragraph update automatically. This is ideal for contact details such as phone numbers and addresses of council venues.
 
-## How to use
+## Dev work in progress
+
+Paragraphs are being overhauled as part of our 2025/ 2026 'Refresh' mission. This includes:
+
+* removing references to 'Page Components' which has been used as an alterative name for this feature
+* improving the UX for adding and editing paragraphs
+* allowing pargraphs to be added to more places around your site
+* tidying up the list of paragraphs and making it clear what each is used for. Over time some lesser used paragraphs may be deprecated
+
+<!-- ## How to use
 
 Please see this video guide by content designer Ben Hills-Jones.
 
@@ -17,3 +26,5 @@ Please see this video guide by content designer Ben Hills-Jones.
 There's an easy way to check if Workflow is enabled on your site. If you see a'Published' toggle and a 'Save' button, Workflow is not enabled.
 
 ![Workflow not enabled](https://github.com/user-attachments/assets/aaac5b81-61a6-4666-bcc9-448313abf2a2)
+
+-->
