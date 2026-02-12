@@ -1,10 +1,10 @@
 # Paragraphs
 
-Paragraphs allow editors to pre-defined blocks of content to be added to pages around your LocalGov Drupal site.
+Paragraphs allow editors to create pre-defined blocks of content to be added to pages around your LocalGov Drupal site.
 
-Many paragraph types of are available out of the box (including an accordion, contact details, document, image and video).
+Many paragraph types are available out of the box (including an accordion, contact details, document, image and video).
 
-It's also easy to create a library of 'reusable paragraphs' - this allows you to change content once centrally, and all instances of the paragraph update automatically. This is ideal for contact details such as phone numbers and addresses of council venues.
+It's also easy to create a library of 'reusable paragraphs' - this allows you to change content once centrally, and all instances of the paragraph dotted around your site update automatically. This is ideal for contact details such as phone numbers and addresses of council venues.
 
 ## Dev work in progress
 
@@ -68,17 +68,43 @@ Description*
 
 <img width="1177" height="391" alt="Screenshot 2026-02-12 at 14 31 53" src="https://github.com/user-attachments/assets/f5b20083-eb45-4a6d-aa43-bbb9064ae62a" />
 
+### Banner primary
 
-<!-- ## How to use
+Wider width promotional block to promote a specific image, content or call to action
 
-Please see this video guide by content designer Ben Hills-Jones.
+**Machine name**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLibxxY4DUV2pf70Py14VEbOeQUtgPXKAn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+localgov_banner_primary
 
-### Checking if Workflow is enabled
+**Fields**
 
-There's an easy way to check if Workflow is enabled on your site. If you see a'Published' toggle and a 'Save' button, Workflow is not enabled.
+Image*
+Title*
+Text*
+Logo
+URL
 
-![Workflow not enabled](https://github.com/user-attachments/assets/aaac5b81-61a6-4666-bcc9-448313abf2a2)
+<img width="1209" height="449" alt="Screenshot 2026-02-12 at 14 52 47" src="https://github.com/user-attachments/assets/203c47a2-94c8-4046-885f-f3d4acf8bf14" />
 
--->
+
+### Banner secondary
+
+Banner image
+
+**Machine name**
+
+localgov_banner_secondary
+
+**Fields**
+
+Image*
+
+<img width="949" height="421" alt="Screenshot 2026-02-12 at 14 55 02" src="https://github.com/user-attachments/assets/56c83ecf-9f07-45f6-84dc-ee33783e9126" />
+
+-------
+### 
+
+**Machine name**
+
+**Fields**
+
