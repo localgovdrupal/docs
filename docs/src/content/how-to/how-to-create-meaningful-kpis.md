@@ -1,6 +1,13 @@
 # **How to create meaningful KPIs**
 
-This page aims to provide some helpful guidance for creating KPIs for your council website. It’s based on a talk that Jamie Garrett and Nichole Sickel from Invuse  gave LocalGov Drupal Week 2025.
+## Introduction
+
+This guidance is based on a webinar delivered by Jamie Garrett and Nichole Sickel from Invuse during LocalGov Drupal Week 2025. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fD8oW_vmaJ8?si=3Kf3OhmL64WOmtLf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Here is the [slide deck](https://drive.google.com/file/d/1y9B1khzxvHNrnjR1MXS71UgEjIJyFwj1/view) from the session. 
 
 Measuring success is about more than just counting page views. It’s about understanding if your website is actually helping residents get things done—whether that’s paying for parking, reporting a missed bin, or finding care information.
 
@@ -22,7 +29,7 @@ To set a good KPI, you first need to define what "good" looks like.
 
 * **Don't measure activity over impact:** Knowing you have 10,000 page views doesn't tell you if anyone found what they needed.
 
-* **Don't set too many:** Aim for –12 focused KPIs rather than 30. If you measure everything, you measure nothing.
+* **Don't set too many:** Aim for 12 focused KPIs for the whole site rather than 30. If you measure everything, you measure nothing.
 
 * **Don't set and forget:** Every KPI must have an owner and an action attached to it. If the number drops, who fixes it?
 
@@ -105,11 +112,3 @@ You don't need expensive new software to start measuring.
 * **User Testing:** Optimal Workshop, UX Tweak, or just testing with residents in a library.
 
 * **Visualization:** Power BI or Looker Studio to create a simple dashboard for stakeholders.
-
-## Credit
-
-This guidance is based on a webinar that Jamie Garrett and Nichole Sickel from Invuse delivered as part of LocalGov Drupal Week 2025. 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fD8oW_vmaJ8?si=3Kf3OhmL64WOmtLf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-Here is the [slide deck](https://drive.google.com/file/d/1y9B1khzxvHNrnjR1MXS71UgEjIJyFwj1/view). 
