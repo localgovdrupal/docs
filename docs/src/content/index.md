@@ -21,6 +21,9 @@ We've put together a series of How-to videos which are here in the documentation
 
 Descriptions of the [features of LocalGov Drupal](https://docs.localgovdrupal.org/content/features/) that are useful for content editors and content designers, with guidance on what the feature is designed for, and how it was intended to be used. 
 
+## Content types
+
+An overview of the [different content types provided by LocalGov Drupal](/content/features/content-types.md).
 
 ## Patterns and Components
 
