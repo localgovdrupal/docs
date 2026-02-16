@@ -187,7 +187,7 @@ export default defineUserConfig({
           children: [
             '/devs/security/best-practices',
             '/devs/security/sso',
-            '/devs/security/passwordless-login',
+            '/devs/security/passwordless',
           ]
         },
         {
