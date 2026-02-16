@@ -186,7 +186,8 @@ export default defineUserConfig({
           collapsible: true,
           children: [
             '/devs/security/best-practices',
-            '/devs/security/sso'
+            '/devs/security/sso',
+            '/devs/security/passwordless-login',
           ]
         },
         {
