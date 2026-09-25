@@ -90,6 +90,10 @@ export default defineUserConfig({
         text: 'Microsites',
         link: '/microsites/'
       },
+            {
+        text: 'Intranets',
+        link: '/intranets/'
+      },
       {
         text: 'Main site',
         link: 'https://localgovdrupal.org'
@@ -301,6 +305,11 @@ export default defineUserConfig({
           ]
         },
       ],
+      '/intranets/': [
+        '',
+        'access-control',
+      ],
+
       '/contributing/': [
         '',
         'development',
