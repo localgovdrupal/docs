@@ -7,33 +7,16 @@ tags:
 
 We're always looking for people to contribute and improve LocalGov Drupal. Here are some easy ways to get involved:
 
-- **Developers:** contribute code, issue reports, bugfixes, test pull requests and documentation. Make sure you read the [contribution guidelines](https://github.com/localgovdrupal/localgov/blob/2.x/CONTRIBUTING.md). If you'd like to get involved then [check out the issue queue on Github](https://github.com/localgovdrupal/localgov/issues) or [View our public roadmap](https://github.com/orgs/localgovdrupal/projects/31).  
-- **Front-end developers and designers:** join our #group-frontend channel on Slack and [log frontend issues in Github](https://github.com/localgovdrupal/localgov/issues/new) 
-- **Content designers:** Join our regular [Content Group Meetups](https://lu.ma/session-5beph1ql8l2jytwhmzix), the best place to get help and support.
-- **Service designers:** Join our #group-user-research channel on Slack and share your user research and documentation with us. We collate these for other councils to benefit from.
+- **Developers:** contribute code, issue reports, bugfixes, test pull requests and documentation. If you'd like to get involved then [check out the issue queue on drupal.org](https://git.drupalcode.org/project/localgov/-/work_items?sort=created_date&state=opened&first_page_size=100) or [View our public roadmap](https://localgovdrupal.org/products/product-roadmap).  
+- **Front-end developers:** join our #group-frontend channel on Slack. 
+- **Content designers:** Join our regular [Content Group Meetups](https://luma.com/localgovdrupal), the best place to get help and support.
+- **User researchers:** Join our #group-user-research channel on Slack and share your user research and documentation with us. We collate these for other councils to benefit from.
 
-Every contribution is valuable. If you are not sure where to start then email community@localgovdrupal.org or [book a call with Aaron, our Community Lead](https://cal.com/localgovdrupal-community/aaron-45mins).
+Every contribution is valuable. If you are not sure where to start then email community@localgovdrupal.org or message Aaron, our Community Lead on Slack.
 
 ## Help us improve our documentation!
 
 Writing and testing our documentation is very helpful to everyone. On every page you will find a link to "Help us improve this page" that takes you to an editable page on Github in markdown, so you can quickly open a pull request (PR) on GitHub to make any changes.
-
-If you want to get setup locally, the [README](https://github.com/localgovdrupal/docs/blob/master/README.md) is the best place to start. Then open a PR with your changes, every PR will get tested and show you a preview automatically.
-
-## Create a Github account and connect to the LocalGov Drupal organisation 
-
-If you don't already have a GitHub account, this is a great place to start. 
-Once you have a Github account we can add you to the LocalGov Drupal organisation on Github, 
-which allows people to mention you in issues, assign issues to yourself and affords you more functionality on github.com.
-
-### Steps to setup and connect your Github account
-
-  1. Register for Github account at [https://github.com/signup](https://github.com/signup)
-  2. Choose a nice username (it makes things easier if your username resembles your name to some extent, for other people to know who you are on Github)
-  3. Verify your email address
-  4. Skip the intro steps (unless you want to create an organisation).
-  5. Let us know your new username on Slack in #group-technical, by email or in a new issue at [https://github.com/localgovdrupal/localgov/issues](https://github.com/localgovdrupal/localgov/issues)
-  6. One of the maintainers will add you to the https://github.com/localgovdrupal/localgov organisation.
 
 ## Create a Drupal.org account and an organisation
 
@@ -60,6 +43,3 @@ To do this, you will need to have a personal account on Drupal.org and an organi
 9. Ask other people from your organisation to create accounts and link them up to your organisation too.
 
 If you have any questions about this, please get in touch on Slack, email or via the issue queues.
-
-  
-
